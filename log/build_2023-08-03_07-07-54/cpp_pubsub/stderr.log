@@ -1,0 +1,68 @@
+[01m[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:[m[K In member function ‘[01m[Kvoid PathTimeGraph::Init(const std::vector<std::vector<double> >&, const std::vector<PathPoint>&, double, double, double, double, const std::array<double, 3>&)[m[K’:
+[01m[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:20:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<double> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+   20 |         for (int i = 0; [01;35m[Ki < dynamic_obstacle_sl.size()[m[K; i++)
+      |                         [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:26:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kcout[m[K’ was not declared in this scope
+   26 |             [01;31m[Kcout[m[K << "obs_s: " << obs_s << " obs_l:" << obs_l << " obs_heading:" << obs_heading << " obs_velocity: " << obs_velocity << endl;
+      |             [01;31m[K^~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:2:1:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::cout[m[K’ is defined in header ‘[01m[K<iostream>[m[K’; did you forget to ‘[01m[K#include <iostream>[m[K’?
+    1 | #include "path_time_graph.hpp"
+  +++ |+[32m[K#include <iostream>[m[K
+    2 | 
+[01m[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:26:136:[m[K [01;31m[Kerror: [m[K‘[01m[Kendl[m[K’ was not declared in this scope
+   26 |             cout << "obs_s: " << obs_s << " obs_l:" << obs_l << " obs_heading:" << obs_heading << " obs_velocity: " << obs_velocity << [01;31m[Kendl[m[K;
+      |                                                                                                                                        [01;31m[K^~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:2:1:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::endl[m[K’ is defined in header ‘[01m[K<ostream>[m[K’; did you forget to ‘[01m[K#include <ostream>[m[K’?
+    1 | #include "path_time_graph.hpp"
+  +++ |+[32m[K#include <ostream>[m[K
+    2 | 
+[01m[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:106:23:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K-Wunused-value[m[K]
+  106 |                 [01;35m[Kst.su == predicte_s[m[K;
+      |                 [01;35m[K~~~~~~^~~~~~~~~~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:119:23:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K-Wunused-value[m[K]
+  119 |                 [01;35m[Kst.sl == predicte_s[m[K;
+      |                 [01;35m[K~~~~~~^~~~~~~~~~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:5:102:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreferenceline[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+    5 | void PathTimeGraph::Init(const vector<vector<double>> &dynamic_obstacle_sl, [01;35m[Kconst vector<PathPoint> &referenceline[m[K,
+      |                                                                             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:7:70:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kinit_d[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+    7 |                          const double t_end, [01;35m[Kconst array<double, 3> &init_d[m[K)
+      |                                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:[m[K In member function ‘[01m[Kvoid PathTimeGraph::Init(const std::vector<std::vector<double> >&, const std::vector<PathPoint>&, double, double, double, double, const std::array<double, 3>&)[m[K’:
+[01m[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:20:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<double> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+   20 |         for (int i = 0; [01;35m[Ki < dynamic_obstacle_sl.size()[m[K; i++)
+      |                         [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:26:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kcout[m[K’ was not declared in this scope
+   26 |             [01;31m[Kcout[m[K << "obs_s: " << obs_s << " obs_l:" << obs_l << " obs_heading:" << obs_heading << " obs_velocity: " << obs_velocity << endl;
+      |             [01;31m[K^~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:2:1:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::cout[m[K’ is defined in header ‘[01m[K<iostream>[m[K’; did you forget to ‘[01m[K#include <iostream>[m[K’?
+    1 | #include "path_time_graph.hpp"
+  +++ |+[32m[K#include <iostream>[m[K
+    2 | 
+[01m[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:26:136:[m[K [01;31m[Kerror: [m[K‘[01m[Kendl[m[K’ was not declared in this scope
+   26 |             cout << "obs_s: " << obs_s << " obs_l:" << obs_l << " obs_heading:" << obs_heading << " obs_velocity: " << obs_velocity << [01;31m[Kendl[m[K;
+      |                                                                                                                                        [01;31m[K^~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:2:1:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::endl[m[K’ is defined in header ‘[01m[K<ostream>[m[K’; did you forget to ‘[01m[K#include <ostream>[m[K’?
+    1 | #include "path_time_graph.hpp"
+  +++ |+[32m[K#include <ostream>[m[K
+    2 | 
+[01m[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:106:23:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K-Wunused-value[m[K]
+  106 |                 [01;35m[Kst.su == predicte_s[m[K;
+      |                 [01;35m[K~~~~~~^~~~~~~~~~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:119:23:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K-Wunused-value[m[K]
+  119 |                 [01;35m[Kst.sl == predicte_s[m[K;
+      |                 [01;35m[K~~~~~~^~~~~~~~~~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:5:102:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreferenceline[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+    5 | void PathTimeGraph::Init(const vector<vector<double>> &dynamic_obstacle_sl, [01;35m[Kconst vector<PathPoint> &referenceline[m[K,
+      |                                                                             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:7:70:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kinit_d[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+    7 |                          const double t_end, [01;35m[Kconst array<double, 3> &init_d[m[K)
+      |                                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+make[2]: *** [CMakeFiles/planner.dir/build.make:245: CMakeFiles/planner.dir/src/path_time_graph.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/cpp_pubsub.dir/build.make:232: CMakeFiles/cpp_pubsub.dir/src/path_time_graph.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/planner.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/cpp_pubsub.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

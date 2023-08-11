@@ -1,0 +1,14 @@
+[01m[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:[m[K In member function ‘[01m[Kvoid Manage_Planner::planner()[m[K’:
+[01m[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:172:12:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kv_upper[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+  172 |     double [01;35m[Kv_upper[m[K; // 道路限速
+      |            [01;35m[K^~~~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:[m[K In member function ‘[01m[Kvoid Manage_Planner::planner()[m[K’:
+[01m[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:172:12:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kv_upper[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+  172 |     double [01;35m[Kv_upper[m[K; // 道路限速
+      |            [01;35m[K^~~~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:189:83:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstop_point[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+  189 |         lon_end_conditions = [01;35m[Kendconditionsampler.SampleLonEndConditionsForStopping(stop_point)[m[K;
+      |                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:189:83:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstop_point[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+  189 |         lon_end_conditions = [01;35m[Kendconditionsampler.SampleLonEndConditionsForStopping(stop_point)[m[K;
+      |                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K

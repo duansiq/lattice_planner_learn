@@ -1,0 +1,35 @@
+[01m[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:[m[K In constructor ‘[01m[KManage_Planner::Manage_Planner()[m[K’:
+[01m[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:2:32:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KEndConditionSampler::EndConditionSampler()[m[K’
+    2 | Manage_Planner::Manage_Planner([01;31m[K)[m[K {}
+      |                                [01;31m[K^[m[K
+In file included from [01m[K/root/planner_ws/src/cpp_pubsub/include/manager.hpp:24[m[K,
+                 from [01m[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:1[m[K:
+[01m[K/root/planner_ws/src/cpp_pubsub/include/end_condition_sampler.hpp:15:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KEndConditionSampler::EndConditionSampler(const std::array<double, 3>&, const std::array<double, 3>&)[m[K’
+   15 |     [01;36m[KEndConditionSampler[m[K(
+      |     [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/include/end_condition_sampler.hpp:15:5:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 0 provided
+[01m[K/root/planner_ws/src/cpp_pubsub/include/end_condition_sampler.hpp:11:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr EndConditionSampler::EndConditionSampler(const EndConditionSampler&)[m[K’
+   11 | class [01;36m[KEndConditionSampler[m[K
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/include/end_condition_sampler.hpp:11:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[01m[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:[m[K In constructor ‘[01m[KManage_Planner::Manage_Planner()[m[K’:
+[01m[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:2:32:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KEndConditionSampler::EndConditionSampler()[m[K’
+    2 | Manage_Planner::Manage_Planner([01;31m[K)[m[K {}
+      |                                [01;31m[K^[m[K
+In file included from [01m[K/root/planner_ws/src/cpp_pubsub/include/manager.hpp:24[m[K,
+                 from [01m[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:1[m[K:
+[01m[K/root/planner_ws/src/cpp_pubsub/include/end_condition_sampler.hpp:15:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KEndConditionSampler::EndConditionSampler(const std::array<double, 3>&, const std::array<double, 3>&)[m[K’
+   15 |     [01;36m[KEndConditionSampler[m[K(
+      |     [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/include/end_condition_sampler.hpp:15:5:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 0 provided
+[01m[K/root/planner_ws/src/cpp_pubsub/include/end_condition_sampler.hpp:11:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr EndConditionSampler::EndConditionSampler(const EndConditionSampler&)[m[K’
+   11 | class [01;36m[KEndConditionSampler[m[K
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/include/end_condition_sampler.hpp:11:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+make[2]: *** [CMakeFiles/planner.dir/build.make:89: CMakeFiles/planner.dir/src/manager.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/cpp_pubsub.dir/build.make:76: CMakeFiles/cpp_pubsub.dir/src/manager.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/cpp_pubsub.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/planner.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

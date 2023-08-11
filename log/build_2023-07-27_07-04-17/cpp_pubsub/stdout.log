@@ -1,0 +1,3 @@
+[35m[1mScanning dependencies of target cpp_pubsub[0m
+[  3%] [32mBuilding CXX object CMakeFiles/cpp_pubsub.dir/src/feasible_region.cpp.o[0m
+[ 53%] Built target planner

@@ -1,0 +1,51 @@
+[01m[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:[m[K In constructor ‘[01m[KFeasibleRegion::FeasibleRegion(const std::array<double, 3>&)[m[K’:
+[01m[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:7:55:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static data member ‘[01m[KConstans::FLAGS_longitudinal_acceleration_lower_bound[m[K’
+    7 |    static  const double max_deceleration = -Constans::[01;31m[KFLAGS_longitudinal_acceleration_lower_bound[m[K;
+      |                                                       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/root/planner_ws/src/cpp_pubsub/include/feasible_region.hpp:4[m[K,
+                 from [01m[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:1[m[K:
+[01m[K/root/planner_ws/src/cpp_pubsub/include/constans.hpp:11:18:[m[K [01;36m[Knote: [m[Kdeclared here
+   11 |     const double [01;36m[KFLAGS_longitudinal_acceleration_lower_bound[m[K = 0;
+      |                  [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:[m[K At global scope:
+[01m[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:12:33:[m[K [01;31m[Kerror: [m[Kdefinition of implicitly-declared ‘[01m[KFeasibleRegion::~FeasibleRegion()[m[K’
+   12 | FeasibleRegion::~FeasibleRegion([01;31m[K)[m[K
+      |                                 [01;31m[K^[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:[m[K In member function ‘[01m[Kdouble FeasibleRegion::SUpper(double) const[m[K’:
+[01m[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:17:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+   17 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:15:44:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kt[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   15 | double FeasibleRegion::SUpper([01;35m[Kconst double t[m[K) const
+      |                               [01;35m[K~~~~~~~~~~~~~^[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:[m[K In member function ‘[01m[Kdouble FeasibleRegion::SLower(double) const[m[K’:
+[01m[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:21:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+   21 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:19:44:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kt[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   19 | double FeasibleRegion::SLower([01;35m[Kconst double t[m[K) const
+      |                               [01;35m[K~~~~~~~~~~~~~^[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:[m[K In member function ‘[01m[Kdouble FeasibleRegion::VUpper(double) const[m[K’:
+[01m[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:25:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+   25 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:23:44:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kt[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   23 | double FeasibleRegion::VUpper([01;35m[Kconst double t[m[K) const
+      |                               [01;35m[K~~~~~~~~~~~~~^[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:[m[K In member function ‘[01m[Kdouble FeasibleRegion::VLower(double) const[m[K’:
+[01m[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:29:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+   29 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:27:44:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kt[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   27 | double FeasibleRegion::VLower([01;35m[Kconst double t[m[K) const
+      |                               [01;35m[K~~~~~~~~~~~~~^[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:[m[K In member function ‘[01m[Kdouble FeasibleRegion::TLower(double) const[m[K’:
+[01m[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:33:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+   33 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:31:44:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ks[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   31 | double FeasibleRegion::TLower([01;35m[Kconst double s[m[K) const
+      |                               [01;35m[K~~~~~~~~~~~~~^[m[K
+make[2]: *** [CMakeFiles/cpp_pubsub.dir/build.make:219: CMakeFiles/cpp_pubsub.dir/src/feasible_region.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/cpp_pubsub.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

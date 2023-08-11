@@ -1,0 +1,8 @@
+[01m[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:[m[K In member function ‘[01m[Kstd::vector<PathPoint> Manage_Planner::ToDiscretizedReferenceLine(const std::vector<PathPoint>&, const TrajectoryPoint&)[m[K’:
+[01m[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:9:123:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kplanning_init_point[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+    9 | vector<PathPoint> Manage_Planner::ToDiscretizedReferenceLine(const vector<PathPoint> &ref_points , [01;35m[Kconst TrajectoryPoint& planning_init_point[m[K)
+      |                                                                                                    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:[m[K In member function ‘[01m[Kstd::vector<PathPoint> Manage_Planner::ToDiscretizedReferenceLine(const std::vector<PathPoint>&, const TrajectoryPoint&)[m[K’:
+[01m[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:9:123:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kplanning_init_point[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+    9 | vector<PathPoint> Manage_Planner::ToDiscretizedReferenceLine(const vector<PathPoint> &ref_points , [01;35m[Kconst TrajectoryPoint& planning_init_point[m[K)
+      |                                                                                                    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~[m[K

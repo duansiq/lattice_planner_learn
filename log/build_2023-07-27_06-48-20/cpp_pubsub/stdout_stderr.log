@@ -1,0 +1,26 @@
+[35m[1mScanning dependencies of target cpp_pubsub[0m
+[35m[1mScanning dependencies of target planner[0m
+[  3%] [32mBuilding CXX object CMakeFiles/cpp_pubsub.dir/src/manager.cpp.o[0m
+[  7%] [32mBuilding CXX object CMakeFiles/planner.dir/src/manager.cpp.o[0m
+[01m[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:[m[K In member function ‘[01m[Kvoid Manage_Planner::planner()[m[K’:
+[01m[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:189:84:[m[K [01;31m[Kerror: [m[K‘[01m[Kstop_point[m[K’ was not declared in this scope; did you mean ‘[01m[Kstop_point_s[m[K’?
+  189 |         lon_end_conditions = endconditionsampler.SampleLonEndConditionsForStopping([01;31m[Kstop_point[m[K);
+      |                                                                                    [01;31m[K^~~~~~~~~~[m[K
+      |                                                                                    [32m[Kstop_point_s[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:188:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kstop_point_s[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  188 |         double [01;35m[Kstop_point_s[m[K=10;
+      |                [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:[m[K In member function ‘[01m[Kvoid Manage_Planner::planner()[m[K’:
+[01m[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:189:84:[m[K [01;31m[Kerror: [m[K‘[01m[Kstop_point[m[K’ was not declared in this scope; did you mean ‘[01m[Kstop_point_s[m[K’?
+  189 |         lon_end_conditions = endconditionsampler.SampleLonEndConditionsForStopping([01;31m[Kstop_point[m[K);
+      |                                                                                    [01;31m[K^~~~~~~~~~[m[K
+      |                                                                                    [32m[Kstop_point_s[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:188:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kstop_point_s[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  188 |         double [01;35m[Kstop_point_s[m[K=10;
+      |                [01;35m[K^~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/cpp_pubsub.dir/build.make:76: CMakeFiles/cpp_pubsub.dir/src/manager.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/cpp_pubsub.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/planner.dir/build.make:89: CMakeFiles/planner.dir/src/manager.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/planner.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

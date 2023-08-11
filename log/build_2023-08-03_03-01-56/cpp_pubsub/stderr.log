@@ -1,0 +1,60 @@
+[01m[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:[m[K In member function ‘[01m[Kvoid PathTimeGraph::Init(const std::vector<std::vector<double> >&, const std::vector<PathPoint>&, double, double, double, double, const std::array<double, 3>&)[m[K’:
+[01m[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:20:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<double> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+   20 |         for (int i = 0; [01;35m[Ki < dynamic_obstacle_sl.size()[m[K; i++)
+      |                         [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:24:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kobs_heading[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   24 |             double [01;35m[Kobs_heading[m[K = dynamic_obstacle_sl[i][2];
+      |                    [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:25:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kobs_velocity[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   25 |             double [01;35m[Kobs_velocity[m[K = dynamic_obstacle_sl[i][3];
+      |                    [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:81:23:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K-Wunused-value[m[K]
+   81 |                 [01;35m[Kst.su == predicte_s[m[K;
+      |                 [01;35m[K~~~~~~^~~~~~~~~~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:94:23:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K-Wunused-value[m[K]
+   94 |                 [01;35m[Kst.sl == predicte_s[m[K;
+      |                 [01;35m[K~~~~~~^~~~~~~~~~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:5:102:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreferenceline[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+    5 | void PathTimeGraph::Init(const vector<vector<double>> &dynamic_obstacle_sl, [01;35m[Kconst vector<PathPoint> &referenceline[m[K,
+      |                                                                             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:7:70:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kinit_d[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+    7 |                          const double t_end, [01;35m[Kconst array<double, 3> &init_d[m[K)
+      |                                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:[m[K In member function ‘[01m[Kvoid PathTimeGraph::Init(const std::vector<std::vector<double> >&, const std::vector<PathPoint>&, double, double, double, double, const std::array<double, 3>&)[m[K’:
+[01m[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:20:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<double> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+   20 |         for (int i = 0; [01;35m[Ki < dynamic_obstacle_sl.size()[m[K; i++)
+      |                         [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:24:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kobs_heading[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   24 |             double [01;35m[Kobs_heading[m[K = dynamic_obstacle_sl[i][2];
+      |                    [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:25:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kobs_velocity[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   25 |             double [01;35m[Kobs_velocity[m[K = dynamic_obstacle_sl[i][3];
+      |                    [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:81:23:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K-Wunused-value[m[K]
+   81 |                 [01;35m[Kst.su == predicte_s[m[K;
+      |                 [01;35m[K~~~~~~^~~~~~~~~~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:94:23:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K-Wunused-value[m[K]
+   94 |                 [01;35m[Kst.sl == predicte_s[m[K;
+      |                 [01;35m[K~~~~~~^~~~~~~~~~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:5:102:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreferenceline[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+    5 | void PathTimeGraph::Init(const vector<vector<double>> &dynamic_obstacle_sl, [01;35m[Kconst vector<PathPoint> &referenceline[m[K,
+      |                                                                             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:7:70:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kinit_d[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+    7 |                          const double t_end, [01;35m[Kconst array<double, 3> &init_d[m[K)
+      |                                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:[m[K In member function ‘[01m[Kstd::vector<std::pair<std::vector<double>, double> > EndConditionSampler::SampleLonEndConditionsForLaneChange(int) const[m[K’:
+[01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:115:68:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KLC_mode[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  115 | EndConditionSampler::SampleLonEndConditionsForLaneChange([01;35m[Kconst int LC_mode[m[K) const
+      |                                                          [01;35m[K~~~~~~~~~~^~~~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:[m[K In member function ‘[01m[Kstd::vector<std::pair<std::vector<double>, double> > EndConditionSampler::SampleLonEndConditionsForLaneChange(int) const[m[K’:
+[01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:115:68:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KLC_mode[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  115 | EndConditionSampler::SampleLonEndConditionsForLaneChange([01;35m[Kconst int LC_mode[m[K) const
+      |                                                          [01;35m[K~~~~~~~~~~^~~~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:[m[K In member function ‘[01m[Kvoid Manage_Planner::planner()[m[K’:
+[01m[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:207:85:[m[K [01;35m[Kwarning: [m[K‘[01m[KLC_mode[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+  207 |         lon_end_conditions = [01;35m[Kendconditionsampler.SampleLonEndConditionsForLaneChange(LC_mode)[m[K;
+      |                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:[m[K In member function ‘[01m[Kvoid Manage_Planner::planner()[m[K’:
+[01m[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:207:85:[m[K [01;35m[Kwarning: [m[K‘[01m[KLC_mode[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+  207 |         lon_end_conditions = [01;35m[Kendconditionsampler.SampleLonEndConditionsForLaneChange(LC_mode)[m[K;
+      |                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K

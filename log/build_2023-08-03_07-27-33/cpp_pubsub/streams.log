@@ -1,0 +1,85 @@
+[0.023s] Invoking command in '/root/planner_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /root/planner_ws/build/cpp_pubsub -- -j12 -l12
+[0.057s] [35m[1mScanning dependencies of target cpp_pubsub[0m
+[0.057s] [35m[1mScanning dependencies of target planner[0m
+[0.089s] [  6%] [32mBuilding CXX object CMakeFiles/cpp_pubsub.dir/src/manager.cpp.o[0m
+[0.089s] [  6%] [32mBuilding CXX object CMakeFiles/cpp_pubsub.dir/src/path_time_graph.cpp.o[0m
+[0.091s] [  9%] [32mBuilding CXX object CMakeFiles/planner.dir/src/manager.cpp.o[0m
+[0.091s] [ 12%] [32mBuilding CXX object CMakeFiles/planner.dir/src/path_time_graph.cpp.o[0m
+[0.317s] [01m[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:[m[K In member function ‘[01m[Kvoid PathTimeGraph::Init(const std::vector<std::vector<double> >&, const std::vector<PathPoint>&, double, double, double, double, const std::array<double, 3>&, const std::array<double, 3>&)[m[K’:
+[0.318s] [01m[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:21:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<double> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[0.318s]    21 |         for (int i = 0; [01;35m[Ki < dynamic_obstacle_sl.size()[m[K; i++)
+[0.318s]       |                         [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.322s] [01m[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:5:102:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreferenceline[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.322s]     5 | void PathTimeGraph::Init(const vector<vector<double>> &dynamic_obstacle_sl, [01;35m[Kconst vector<PathPoint> &referenceline[m[K,
+[0.322s]       |                                                                             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[0.322s] [01m[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:7:70:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kinit_d[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.322s]     7 |                          const double t_end, [01;35m[Kconst array<double, 3> &init_d[m[K,const array<double, 3> &init_s)
+[0.322s]       |                                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[0.338s] [01m[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:[m[K In member function ‘[01m[Kvoid PathTimeGraph::Init(const std::vector<std::vector<double> >&, const std::vector<PathPoint>&, double, double, double, double, const std::array<double, 3>&, const std::array<double, 3>&)[m[K’:
+[0.338s] [01m[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:21:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<double> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[0.338s]    21 |         for (int i = 0; [01;35m[Ki < dynamic_obstacle_sl.size()[m[K; i++)
+[0.338s]       |                         [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.341s] [01m[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:5:102:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreferenceline[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.341s]     5 | void PathTimeGraph::Init(const vector<vector<double>> &dynamic_obstacle_sl, [01;35m[Kconst vector<PathPoint> &referenceline[m[K,
+[0.342s]       |                                                                             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[0.342s] [01m[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:7:70:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kinit_d[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.342s]     7 |                          const double t_end, [01;35m[Kconst array<double, 3> &init_d[m[K,const array<double, 3> &init_s)
+[0.342s]       |                                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[2.187s] [ 16%] [32m[1mLinking CXX shared library libcpp_pubsub.so[0m
+[2.195s] [ 19%] [32m[1mLinking CXX executable planner[0m
+[2.306s] [ 58%] Built target cpp_pubsub
+[2.385s] [100%] Built target planner
+[2.395s] Invoked command in '/root/planner_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /root/planner_ws/build/cpp_pubsub -- -j12 -l12
+[2.449s] Invoking command in '/root/planner_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /root/planner_ws/build/cpp_pubsub
+[2.455s] -- Install configuration: ""
+[2.455s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/include
+[2.455s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/STBoundaryPoint.hpp
+[2.455s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/cartesian_frenet_converter.hpp
+[2.455s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/collisionchecker.hpp
+[2.455s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/latpath1d.hpp
+[2.455s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/end_condition_sampler.hpp
+[2.456s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/constans.hpp
+[2.456s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/trajectory_evaluator.hpp
+[2.456s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/obstacle.hpp
+[2.456s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/path_time_graph.hpp
+[2.456s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/liner_interpolation.hpp
+[2.456s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/Trajectory1dGenerator.hpp
+[2.456s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/lonspeed1d.hpp
+[2.456s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/matplotlibcpp.h
+[2.456s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/obs.hpp
+[2.457s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/referenceline.hpp
+[2.457s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/manager.hpp
+[2.457s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/plotfigure.hpp
+[2.457s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/pathpoint.hpp
+[2.457s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/constraint_checker1d.hpp
+[2.457s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/feasible_region.hpp
+[2.457s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/path_matcher.hpp
+[2.458s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/SLPoint.hpp
+[2.458s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/test.hpp
+[2.458s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/STpoint.hpp
+[2.458s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/TrajectoryPoint.hpp
+[2.458s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/environment/library_path.sh
+[2.458s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/environment/library_path.dsv
+[2.459s] -- Installing: /root/planner_ws/install/cpp_pubsub/lib/libcpp_pubsub.so
+[2.459s] -- Set runtime path of "/root/planner_ws/install/cpp_pubsub/lib/libcpp_pubsub.so" to ""
+[2.459s] -- Installing: /root/planner_ws/install/cpp_pubsub/lib/cpp_pubsub/planner
+[2.459s] -- Set runtime path of "/root/planner_ws/install/cpp_pubsub/lib/cpp_pubsub/planner" to ""
+[2.459s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[2.459s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[2.460s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[2.460s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[2.460s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[2.460s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[2.461s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[2.462s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[2.463s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[2.463s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[2.464s] -- Installing: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[2.464s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[2.464s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.464s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.464s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/ament_cmake_export_libraries-extras.cmake
+[2.465s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[2.465s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[2.465s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[2.465s] Invoked command in '/root/planner_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /root/planner_ws/build/cpp_pubsub

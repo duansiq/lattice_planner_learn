@@ -1,0 +1,137 @@
+[0.021s] Invoking command in '/root/planner_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /root/planner_ws/build/cpp_pubsub -- -j12 -l12
+[0.053s] [35m[1mScanning dependencies of target cpp_pubsub[0m
+[0.054s] [35m[1mScanning dependencies of target planner[0m
+[0.078s] [  3%] [32mBuilding CXX object CMakeFiles/cpp_pubsub.dir/src/manager.cpp.o[0m
+[0.079s] [ 10%] [32mBuilding CXX object CMakeFiles/cpp_pubsub.dir/src/end_condition_sampler.cpp.o[0m
+[0.079s] [ 10%] [32mBuilding CXX object CMakeFiles/cpp_pubsub.dir/src/trajectory_evaluator.cpp.o[0m
+[0.079s] [ 13%] [32mBuilding CXX object CMakeFiles/cpp_pubsub.dir/src/collisionchecker.cpp.o[0m
+[0.079s] [ 17%] [32mBuilding CXX object CMakeFiles/cpp_pubsub.dir/src/constraint_checker1d.cpp.o[0m
+[0.080s] [ 20%] [32mBuilding CXX object CMakeFiles/cpp_pubsub.dir/src/feasible_region.cpp.o[0m
+[0.087s] [ 24%] [32mBuilding CXX object CMakeFiles/planner.dir/src/publisher.cpp.o[0m
+[0.088s] [ 27%] [32mBuilding CXX object CMakeFiles/planner.dir/src/manager.cpp.o[0m
+[0.088s] [ 31%] [32mBuilding CXX object CMakeFiles/planner.dir/src/trajectory_evaluator.cpp.o[0m
+[0.089s] [ 34%] [32mBuilding CXX object CMakeFiles/planner.dir/src/constraint_checker1d.cpp.o[0m
+[0.089s] [ 37%] [32mBuilding CXX object CMakeFiles/planner.dir/src/collisionchecker.cpp.o[0m
+[0.097s] [ 41%] [32mBuilding CXX object CMakeFiles/planner.dir/src/end_condition_sampler.cpp.o[0m
+[0.433s] [01m[K/root/planner_ws/src/cpp_pubsub/src/collisionchecker.cpp:[m[K In member function ‘[01m[Kbool Collision_Checker::InCollision(const std::vector<std::vector<double> >&, const LATpath&, double, double, const std::array<double, 3>&)[m[K’:
+[0.433s] [01m[K/root/planner_ws/src/cpp_pubsub/src/collisionchecker.cpp:19:17:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kpointnum[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[0.433s]    19 |             int [01;35m[Kpointnum[m[K = 30;
+[0.433s]       |                 [01;35m[K^~~~~~~~[m[K
+[0.433s] [01m[K/root/planner_ws/src/cpp_pubsub/src/collisionchecker.cpp:5:74:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kobs_length[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.434s]     5 |                                     const double obs_width, [01;35m[Kconst double obs_length[m[K, const std::array<double, 3> &init_s)
+[0.434s]       |                                                             [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[0.434s] [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:[m[K In member function ‘[01m[Kstd::vector<std::pair<std::vector<double>, double> > EndConditionSampler::SampleLonEndConditionsForStopping(double) const[m[K’:
+[0.434s] [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:92:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+[0.434s]    92 | [01;35m[K}[m[K
+[0.434s]       | [01;35m[K^[m[K
+[0.434s] [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:90:69:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kref_stop_point[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.434s]    90 | EndConditionSampler::SampleLonEndConditionsForStopping([01;35m[Kconst double ref_stop_point[m[K) const
+[0.434s]       |                                                        [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[0.434s] [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:[m[K In member function ‘[01m[Kstd::vector<std::pair<std::vector<double>, double> > EndConditionSampler::SampleLonEndConditionsForLaneChange() const[m[K’:
+[0.435s] [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:97:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+[0.435s]    97 | [01;35m[K}[m[K
+[0.435s]       | [01;35m[K^[m[K
+[0.449s] [01m[K/root/planner_ws/src/cpp_pubsub/src/trajectory_evaluator.cpp:[m[K In member function ‘[01m[Kvoid Trajectory_Evaluator::TrajectoryEvaluator(const std::array<double, 3>&, const std::vector<LONspeed>&, const std::vector<LATpath>&, const std::vector<PathPoint>&)[m[K’:
+[0.449s] [01m[K/root/planner_ws/src/cpp_pubsub/src/trajectory_evaluator.cpp:9:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Klon_trajectories[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.449s]     9 |     [01;35m[Kconst std::vector<LONspeed> &lon_trajectories[m[K,
+[0.449s]       |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[0.450s] [01m[K/root/planner_ws/src/cpp_pubsub/src/trajectory_evaluator.cpp:11:35:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreference_line[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.450s]    11 |     [01;35m[Kconst std::vector<PathPoint> &reference_line[m[K)
+[0.450s]       |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[0.452s] [01m[K/root/planner_ws/src/cpp_pubsub/src/trajectory_evaluator.cpp:[m[K In member function ‘[01m[Kdouble Trajectory_Evaluator::LatComfortCost(const std::vector<double>&, const LATpath&) const[m[K’:
+[0.452s] [01m[K/root/planner_ws/src/cpp_pubsub/src/trajectory_evaluator.cpp:44:60:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Klat_trajectory[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.452s]    44 |                                             [01;35m[Kconst LATpath &lat_trajectory[m[K) const
+[0.452s]       |                                             [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[0.454s] [01m[K/root/planner_ws/src/cpp_pubsub/src/trajectory_evaluator.cpp:[m[K In member function ‘[01m[Kdouble Trajectory_Evaluator::LatOffsetCost(const LATpath&, const std::vector<double>&) const[m[K’:
+[0.454s] [01m[K/root/planner_ws/src/cpp_pubsub/src/trajectory_evaluator.cpp:62:20:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Klat_trajectory[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.454s]    62 |     [01;35m[Kconst LATpath &lat_trajectory[m[K,
+[0.454s]       |     [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[0.464s] [ 44%] [32mBuilding CXX object CMakeFiles/planner.dir/src/feasible_region.cpp.o[0m
+[0.499s] [01m[K/root/planner_ws/src/cpp_pubsub/src/trajectory_evaluator.cpp:[m[K In member function ‘[01m[Kvoid Trajectory_Evaluator::TrajectoryEvaluator(const std::array<double, 3>&, const std::vector<LONspeed>&, const std::vector<LATpath>&, const std::vector<PathPoint>&)[m[K’:
+[0.499s] [01m[K/root/planner_ws/src/cpp_pubsub/src/trajectory_evaluator.cpp:9:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Klon_trajectories[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.499s]     9 |     [01;35m[Kconst std::vector<LONspeed> &lon_trajectories[m[K,
+[0.499s]       |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[0.499s] [01m[K/root/planner_ws/src/cpp_pubsub/src/trajectory_evaluator.cpp:11:35:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreference_line[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.499s]    11 |     [01;35m[Kconst std::vector<PathPoint> &reference_line[m[K)
+[0.499s]       |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[0.500s] [01m[K/root/planner_ws/src/cpp_pubsub/src/trajectory_evaluator.cpp:[m[K In member function ‘[01m[Kdouble Trajectory_Evaluator::LatComfortCost(const std::vector<double>&, const LATpath&) const[m[K’:
+[0.500s] [01m[K/root/planner_ws/src/cpp_pubsub/src/trajectory_evaluator.cpp:44:60:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Klat_trajectory[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.500s]    44 |                                             [01;35m[Kconst LATpath &lat_trajectory[m[K) const
+[0.500s]       |                                             [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[0.500s] [01m[K/root/planner_ws/src/cpp_pubsub/src/trajectory_evaluator.cpp:[m[K In member function ‘[01m[Kdouble Trajectory_Evaluator::LatOffsetCost(const LATpath&, const std::vector<double>&) const[m[K’:
+[0.500s] [01m[K/root/planner_ws/src/cpp_pubsub/src/trajectory_evaluator.cpp:62:20:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Klat_trajectory[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.501s]    62 |     [01;35m[Kconst LATpath &lat_trajectory[m[K,
+[0.501s]       |     [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[0.514s] [01m[K/root/planner_ws/src/cpp_pubsub/src/collisionchecker.cpp:[m[K In member function ‘[01m[Kbool Collision_Checker::InCollision(const std::vector<std::vector<double> >&, const LATpath&, double, double, const std::array<double, 3>&)[m[K’:
+[0.515s] [01m[K/root/planner_ws/src/cpp_pubsub/src/collisionchecker.cpp:19:17:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kpointnum[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[0.515s]    19 |             int [01;35m[Kpointnum[m[K = 30;
+[0.518s]       |                 [01;35m[K^~~~~~~~[m[K
+[0.518s] [01m[K/root/planner_ws/src/cpp_pubsub/src/collisionchecker.cpp:5:74:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kobs_length[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.518s]     5 |                                     const double obs_width, [01;35m[Kconst double obs_length[m[K, const std::array<double, 3> &init_s)
+[0.518s]       |                                                             [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[0.545s] [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:[m[K In member function ‘[01m[Kstd::vector<std::pair<std::vector<double>, double> > EndConditionSampler::SampleLonEndConditionsForStopping(double) const[m[K’:
+[0.545s] [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:92:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+[0.546s]    92 | [01;35m[K}[m[K
+[0.546s]       | [01;35m[K^[m[K
+[0.546s] [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:90:69:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kref_stop_point[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.546s]    90 | EndConditionSampler::SampleLonEndConditionsForStopping([01;35m[Kconst double ref_stop_point[m[K) const
+[0.546s]       |                                                        [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[0.546s] [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:[m[K In member function ‘[01m[Kstd::vector<std::pair<std::vector<double>, double> > EndConditionSampler::SampleLonEndConditionsForLaneChange() const[m[K’:
+[0.546s] [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:97:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+[0.546s]    97 | [01;35m[K}[m[K
+[0.546s]       | [01;35m[K^[m[K
+[2.431s] [ 48%] [32m[1mLinking CXX shared library libcpp_pubsub.so[0m
+[2.531s] [ 72%] Built target cpp_pubsub
+[3.873s] [ 75%] [32m[1mLinking CXX executable planner[0m
+[4.047s] [100%] Built target planner
+[4.058s] Invoked command in '/root/planner_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /root/planner_ws/build/cpp_pubsub -- -j12 -l12
+[4.104s] Invoking command in '/root/planner_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /root/planner_ws/build/cpp_pubsub
+[4.109s] -- Install configuration: ""
+[4.109s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/include
+[4.109s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/cartesian_frenet_converter.hpp
+[4.109s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/collisionchecker.hpp
+[4.110s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/latpath1d.hpp
+[4.110s] -- Installing: /root/planner_ws/install/cpp_pubsub/include/end_condition_sampler.hpp
+[4.110s] -- Installing: /root/planner_ws/install/cpp_pubsub/include/constans.hpp
+[4.110s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/trajectory_evaluator.hpp
+[4.110s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/obstacle.hpp
+[4.110s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/liner_interpolation.hpp
+[4.110s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/Trajectory1dGenerator.hpp
+[4.110s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/lonspeed1d.hpp
+[4.110s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/matplotlibcpp.h
+[4.110s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/referenceline.hpp
+[4.110s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/manager.hpp
+[4.110s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/plotfigure.hpp
+[4.110s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/pathpoint.hpp
+[4.111s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/constraint_checker1d.hpp
+[4.111s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/feasible_region.hpp
+[4.111s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/path_matcher.hpp
+[4.111s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/SLPoint.hpp
+[4.111s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/test.hpp
+[4.111s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/STpoint.hpp
+[4.111s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/TrajectoryPoint.hpp
+[4.111s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/environment/library_path.sh
+[4.111s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/environment/library_path.dsv
+[4.111s] -- Installing: /root/planner_ws/install/cpp_pubsub/lib/libcpp_pubsub.so
+[4.111s] -- Set runtime path of "/root/planner_ws/install/cpp_pubsub/lib/libcpp_pubsub.so" to ""
+[4.111s] -- Installing: /root/planner_ws/install/cpp_pubsub/lib/cpp_pubsub/planner
+[4.112s] -- Set runtime path of "/root/planner_ws/install/cpp_pubsub/lib/cpp_pubsub/planner" to ""
+[4.112s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[4.112s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[4.112s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[4.113s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[4.113s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[4.113s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[4.113s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[4.113s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[4.113s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[4.113s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[4.113s] -- Installing: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[4.114s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[4.114s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.114s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.115s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/ament_cmake_export_libraries-extras.cmake
+[4.115s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[4.115s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[4.115s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[4.117s] Invoked command in '/root/planner_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /root/planner_ws/build/cpp_pubsub

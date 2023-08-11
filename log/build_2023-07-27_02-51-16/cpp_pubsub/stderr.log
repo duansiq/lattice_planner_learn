@@ -1,0 +1,36 @@
+[01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:[m[K In member function ‘[01m[Kstd::vector<std::pair<std::array<double, 3>, double> > EndConditionSampler::SampleLonEndConditionsForCruising(double) const[m[K’:
+[01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:29:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+   29 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:26:69:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kref_cruise_speed[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   26 | EndConditionSampler::SampleLonEndConditionsForCruising([01;35m[Kconst double ref_cruise_speed[m[K) const
+      |                                                        [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:[m[K In member function ‘[01m[Kstd::vector<std::pair<std::array<double, 3>, double> > EndConditionSampler::SampleLonEndConditionsForStopping(double) const[m[K’:
+[01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:35:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+   35 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:32:69:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kref_stop_point[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   32 | EndConditionSampler::SampleLonEndConditionsForStopping([01;35m[Kconst double ref_stop_point[m[K) const
+      |                                                        [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:[m[K In member function ‘[01m[Kstd::vector<std::pair<std::array<double, 3>, double> > EndConditionSampler::SampleLonEndConditionsForLaneChange() const[m[K’:
+[01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:41:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+   41 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:[m[K In member function ‘[01m[Kstd::vector<std::pair<std::array<double, 3>, double> > EndConditionSampler::SampleLonEndConditionsForCruising(double) const[m[K’:
+[01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:29:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+   29 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:26:69:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kref_cruise_speed[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   26 | EndConditionSampler::SampleLonEndConditionsForCruising([01;35m[Kconst double ref_cruise_speed[m[K) const
+      |                                                        [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:[m[K In member function ‘[01m[Kstd::vector<std::pair<std::array<double, 3>, double> > EndConditionSampler::SampleLonEndConditionsForStopping(double) const[m[K’:
+[01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:35:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+   35 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:32:69:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kref_stop_point[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   32 | EndConditionSampler::SampleLonEndConditionsForStopping([01;35m[Kconst double ref_stop_point[m[K) const
+      |                                                        [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:[m[K In member function ‘[01m[Kstd::vector<std::pair<std::array<double, 3>, double> > EndConditionSampler::SampleLonEndConditionsForLaneChange() const[m[K’:
+[01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:41:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+   41 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K

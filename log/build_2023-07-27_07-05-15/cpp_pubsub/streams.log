@@ -1,0 +1,96 @@
+[0.022s] Invoking command in '/root/planner_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /root/planner_ws/build/cpp_pubsub -- -j12 -l12
+[0.053s] [35m[1mScanning dependencies of target cpp_pubsub[0m
+[0.069s] [  3%] [32mBuilding CXX object CMakeFiles/cpp_pubsub.dir/src/feasible_region.cpp.o[0m
+[0.071s] [ 53%] Built target planner
+[0.158s] [01m[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:[m[K In constructor ‘[01m[KFeasibleRegion::FeasibleRegion(const std::array<double, 3>&)[m[K’:
+[0.158s] [01m[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:6:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kv[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[0.158s]     6 |     double [01;35m[Kv[m[K = init_s[1];
+[0.158s]       |            [01;35m[K^[m[K
+[0.158s] [01m[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:[m[K In member function ‘[01m[Kdouble FeasibleRegion::SUpper(double) const[m[K’:
+[0.158s] [01m[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:15:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+[0.158s]    15 | [01;35m[K}[m[K
+[0.158s]       | [01;35m[K^[m[K
+[0.158s] [01m[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:13:44:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kt[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.158s]    13 | double FeasibleRegion::SUpper([01;35m[Kconst double t[m[K) const
+[0.158s]       |                               [01;35m[K~~~~~~~~~~~~~^[m[K
+[0.158s] [01m[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:[m[K In member function ‘[01m[Kdouble FeasibleRegion::SLower(double) const[m[K’:
+[0.158s] [01m[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:19:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+[0.158s]    19 | [01;35m[K}[m[K
+[0.158s]       | [01;35m[K^[m[K
+[0.159s] [01m[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:17:44:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kt[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.159s]    17 | double FeasibleRegion::SLower([01;35m[Kconst double t[m[K) const
+[0.159s]       |                               [01;35m[K~~~~~~~~~~~~~^[m[K
+[0.159s] [01m[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:[m[K In member function ‘[01m[Kdouble FeasibleRegion::VUpper(double) const[m[K’:
+[0.159s] [01m[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:23:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+[0.159s]    23 | [01;35m[K}[m[K
+[0.159s]       | [01;35m[K^[m[K
+[0.159s] [01m[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:21:44:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kt[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.159s]    21 | double FeasibleRegion::VUpper([01;35m[Kconst double t[m[K) const
+[0.159s]       |                               [01;35m[K~~~~~~~~~~~~~^[m[K
+[0.159s] [01m[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:[m[K In member function ‘[01m[Kdouble FeasibleRegion::VLower(double) const[m[K’:
+[0.159s] [01m[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:27:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+[0.159s]    27 | [01;35m[K}[m[K
+[0.159s]       | [01;35m[K^[m[K
+[0.159s] [01m[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:25:44:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kt[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.159s]    25 | double FeasibleRegion::VLower([01;35m[Kconst double t[m[K) const
+[0.159s]       |                               [01;35m[K~~~~~~~~~~~~~^[m[K
+[0.159s] [01m[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:[m[K In member function ‘[01m[Kdouble FeasibleRegion::TLower(double) const[m[K’:
+[0.159s] [01m[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:31:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+[0.160s]    31 | [01;35m[K}[m[K
+[0.160s]       | [01;35m[K^[m[K
+[0.160s] [01m[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:29:44:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ks[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.160s]    29 | double FeasibleRegion::TLower([01;35m[Kconst double s[m[K) const
+[0.160s]       |                               [01;35m[K~~~~~~~~~~~~~^[m[K
+[0.191s] [ 57%] [32m[1mLinking CXX shared library libcpp_pubsub.so[0m
+[0.285s] [100%] Built target cpp_pubsub
+[0.294s] Invoked command in '/root/planner_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /root/planner_ws/build/cpp_pubsub -- -j12 -l12
+[0.345s] Invoking command in '/root/planner_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /root/planner_ws/build/cpp_pubsub
+[0.351s] -- Install configuration: ""
+[0.352s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/include
+[0.352s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/cartesian_frenet_converter.hpp
+[0.352s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/collisionchecker.hpp
+[0.352s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/latpath1d.hpp
+[0.352s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/end_condition_sampler.hpp
+[0.352s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/constans.hpp
+[0.352s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/trajectory_evaluator.hpp
+[0.353s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/obstacle.hpp
+[0.353s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/liner_interpolation.hpp
+[0.353s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/Trajectory1dGenerator.hpp
+[0.353s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/lonspeed1d.hpp
+[0.353s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/matplotlibcpp.h
+[0.353s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/referenceline.hpp
+[0.353s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/manager.hpp
+[0.353s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/plotfigure.hpp
+[0.353s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/pathpoint.hpp
+[0.354s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/constraint_checker1d.hpp
+[0.354s] -- Installing: /root/planner_ws/install/cpp_pubsub/include/feasible_region.hpp
+[0.354s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/path_matcher.hpp
+[0.354s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/SLPoint.hpp
+[0.354s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/test.hpp
+[0.354s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/STpoint.hpp
+[0.354s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/TrajectoryPoint.hpp
+[0.354s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/environment/library_path.sh
+[0.355s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/environment/library_path.dsv
+[0.355s] -- Installing: /root/planner_ws/install/cpp_pubsub/lib/libcpp_pubsub.so
+[0.355s] -- Set runtime path of "/root/planner_ws/install/cpp_pubsub/lib/libcpp_pubsub.so" to ""
+[0.355s] -- Installing: /root/planner_ws/install/cpp_pubsub/lib/cpp_pubsub/planner
+[0.355s] -- Set runtime path of "/root/planner_ws/install/cpp_pubsub/lib/cpp_pubsub/planner" to ""
+[0.355s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[0.355s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[0.356s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[0.356s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[0.356s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[0.356s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[0.356s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[0.356s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[0.356s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[0.357s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[0.357s] -- Installing: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[0.357s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[0.357s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.357s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.357s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/ament_cmake_export_libraries-extras.cmake
+[0.358s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[0.358s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[0.358s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[0.361s] Invoked command in '/root/planner_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /root/planner_ws/build/cpp_pubsub

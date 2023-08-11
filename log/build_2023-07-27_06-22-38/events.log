@@ -1,0 +1,614 @@
+[0.000000] (-) TimerEvent: {}
+[0.000245] (cpp_pubsub) JobQueued: {'identifier': 'cpp_pubsub', 'dependencies': OrderedDict()}
+[0.000756] (cpp_pubsub) JobStarted: {'identifier': 'cpp_pubsub'}
+[0.014540] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'cmake'}
+[0.015233] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'build'}
+[0.016047] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/planner_ws/build/cpp_pubsub', '--', '-j12', '-l12'], 'cwd': '/root/planner_ws/build/cpp_pubsub', 'env': OrderedDict([('HOSTNAME', '44664d8c3ea7'), ('GIT_ASKPASS', '/root/.vscode-server/bin/b380da4ef1ee00e224a15c1d4d9793e27c2b6302/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/root/.vscode-server/bin/b380da4ef1ee00e224a15c1d4d9793e27c2b6302/bin/helpers/browser.sh'), ('HOME', '/root'), ('TERM_PROGRAM_VERSION', '1.79.0'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-649d74c9-f598-4441-a04f-56bc1cb4da32.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/b380da4ef1ee00e224a15c1d4d9793e27c2b6302/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/b380da4ef1ee00e224a15c1d4d9793e27c2b6302/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('ROS_DISTRO', 'foxy'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-9b105f66-cdba-4df0-82d4-9184e5601c87.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/root/.vscode-server/bin/b380da4ef1ee00e224a15c1d4d9793e27c2b6302/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-9b105f66-cdba-4df0-82d4-9184e5601c87.sock","/tmp/.X11-unix/X9","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':9'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-7677d3e828.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-9b105f66-cdba-4df0-82d4-9184e5601c87.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X9'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/root/planner_ws/build/cpp_pubsub'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.041509] (cpp_pubsub) StdoutLine: {'line': b'-- Found ament_cmake_auto: 0.9.11 (/opt/ros/foxy/share/ament_cmake_auto/cmake)\n'}
+[0.058497] (cpp_pubsub) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.099780] (-) TimerEvent: {}
+[0.200149] (-) TimerEvent: {}
+[0.257048] (cpp_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.259468] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.300353] (-) TimerEvent: {}
+[0.360421] (cpp_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.398109] (cpp_pubsub) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.399108] (cpp_pubsub) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.400480] (-) TimerEvent: {}
+[0.500858] (-) TimerEvent: {}
+[0.601395] (-) TimerEvent: {}
+[0.624293] (cpp_pubsub) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.645134] (cpp_pubsub) StdoutLine: {'line': b'-- Generating done\n'}
+[0.646453] (cpp_pubsub) StdoutLine: {'line': b'-- Build files have been written to: /root/planner_ws/build/cpp_pubsub\n'}
+[0.677990] (cpp_pubsub) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target cpp_pubsub\x1b[0m\n'}
+[0.680972] (cpp_pubsub) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target planner\x1b[0m\n'}
+[0.701560] (-) TimerEvent: {}
+[0.705997] (cpp_pubsub) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object CMakeFiles/cpp_pubsub.dir/src/end_condition_sampler.cpp.o\x1b[0m\n'}
+[0.706230] (cpp_pubsub) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object CMakeFiles/cpp_pubsub.dir/src/Trajectory1dGenerator.cpp.o\x1b[0m\n'}
+[0.707152] (cpp_pubsub) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object CMakeFiles/cpp_pubsub.dir/src/manager.cpp.o\x1b[0m\n'}
+[0.707458] (cpp_pubsub) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/cpp_pubsub.dir/src/feasible_region.cpp.o\x1b[0m\n'}
+[0.718466] (cpp_pubsub) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding CXX object CMakeFiles/planner.dir/src/Trajectory1dGenerator.cpp.o\x1b[0m\n'}
+[0.718789] (cpp_pubsub) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/planner.dir/src/manager.cpp.o\x1b[0m\n'}
+[0.720839] (cpp_pubsub) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/planner.dir/src/end_condition_sampler.cpp.o\x1b[0m\n'}
+[0.721221] (cpp_pubsub) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/planner.dir/src/publisher.cpp.o\x1b[0m\n'}
+[0.801712] (-) TimerEvent: {}
+[0.894580] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kdouble FeasibleRegion::SUpper(double) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[0.894894] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:12:1:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kno return statement in function returning non-void [\x1b[01;35m\x1b[K-Wreturn-type\x1b[m\x1b[K]\n'}
+[0.894996] (cpp_pubsub) StderrLine: {'line': b'   12 | \x1b[01;35m\x1b[K}\x1b[m\x1b[K\n'}
+[0.895071] (cpp_pubsub) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[0.895142] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:10:44:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kt\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[0.895247] (cpp_pubsub) StderrLine: {'line': b'   10 | double FeasibleRegion::SUpper(\x1b[01;35m\x1b[Kconst double t\x1b[m\x1b[K) const\n'}
+[0.895335] (cpp_pubsub) StderrLine: {'line': b'      |                               \x1b[01;35m\x1b[K~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[0.895412] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kdouble FeasibleRegion::SLower(double) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[0.895504] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:16:1:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kno return statement in function returning non-void [\x1b[01;35m\x1b[K-Wreturn-type\x1b[m\x1b[K]\n'}
+[0.895588] (cpp_pubsub) StderrLine: {'line': b'   16 | \x1b[01;35m\x1b[K}\x1b[m\x1b[K\n'}
+[0.895692] (cpp_pubsub) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[0.895783] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:14:44:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kt\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[0.895868] (cpp_pubsub) StderrLine: {'line': b'   14 | double FeasibleRegion::SLower(\x1b[01;35m\x1b[Kconst double t\x1b[m\x1b[K) const\n'}
+[0.895963] (cpp_pubsub) StderrLine: {'line': b'      |                               \x1b[01;35m\x1b[K~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[0.896091] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kdouble FeasibleRegion::VUpper(double) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[0.896178] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:20:1:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kno return statement in function returning non-void [\x1b[01;35m\x1b[K-Wreturn-type\x1b[m\x1b[K]\n'}
+[0.896264] (cpp_pubsub) StderrLine: {'line': b'   20 | \x1b[01;35m\x1b[K}\x1b[m\x1b[K\n'}
+[0.896371] (cpp_pubsub) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[0.896455] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:18:44:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kt\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[0.896540] (cpp_pubsub) StderrLine: {'line': b'   18 | double FeasibleRegion::VUpper(\x1b[01;35m\x1b[Kconst double t\x1b[m\x1b[K) const\n'}
+[0.896642] (cpp_pubsub) StderrLine: {'line': b'      |                               \x1b[01;35m\x1b[K~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[0.896754] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kdouble FeasibleRegion::VLower(double) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[0.896842] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:24:1:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kno return statement in function returning non-void [\x1b[01;35m\x1b[K-Wreturn-type\x1b[m\x1b[K]\n'}
+[0.896925] (cpp_pubsub) StderrLine: {'line': b'   24 | \x1b[01;35m\x1b[K}\x1b[m\x1b[K\n'}
+[0.897038] (cpp_pubsub) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[0.897124] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:22:44:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kt\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[0.897233] (cpp_pubsub) StderrLine: {'line': b'   22 | double FeasibleRegion::VLower(\x1b[01;35m\x1b[Kconst double t\x1b[m\x1b[K) const\n'}
+[0.897324] (cpp_pubsub) StderrLine: {'line': b'      |                               \x1b[01;35m\x1b[K~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[0.897406] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kdouble FeasibleRegion::TLower(double) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[0.897517] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:28:1:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kno return statement in function returning non-void [\x1b[01;35m\x1b[K-Wreturn-type\x1b[m\x1b[K]\n'}
+[0.897610] (cpp_pubsub) StderrLine: {'line': b'   28 | \x1b[01;35m\x1b[K}\x1b[m\x1b[K\n'}
+[0.897686] (cpp_pubsub) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[0.897789] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:26:44:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ks\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[0.897860] (cpp_pubsub) StderrLine: {'line': b'   26 | double FeasibleRegion::TLower(\x1b[01;35m\x1b[Kconst double s\x1b[m\x1b[K) const\n'}
+[0.897935] (cpp_pubsub) StderrLine: {'line': b'      |                               \x1b[01;35m\x1b[K~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[0.901860] (-) TimerEvent: {}
+[0.974759] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<std::pair<std::array<double, 3>, double> > EndConditionSampler::SampleLonEndConditionsForCruising(double) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[0.974999] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:41:1:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kno return statement in function returning non-void [\x1b[01;35m\x1b[K-Wreturn-type\x1b[m\x1b[K]\n'}
+[0.975152] (cpp_pubsub) StderrLine: {'line': b'   41 | \x1b[01;35m\x1b[K}\x1b[m\x1b[K\n'}
+[0.975246] (cpp_pubsub) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[0.975336] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<std::pair<std::array<double, 3>, double> > EndConditionSampler::SampleLonEndConditionsForStopping(double) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[0.975417] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:46:1:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kno return statement in function returning non-void [\x1b[01;35m\x1b[K-Wreturn-type\x1b[m\x1b[K]\n'}
+[0.975530] (cpp_pubsub) StderrLine: {'line': b'   46 | \x1b[01;35m\x1b[K}\x1b[m\x1b[K\n'}
+[0.975608] (cpp_pubsub) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[0.975684] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:44:69:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kref_stop_point\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[0.975765] (cpp_pubsub) StderrLine: {'line': b'   44 | EndConditionSampler::SampleLonEndConditionsForStopping(\x1b[01;35m\x1b[Kconst double ref_stop_point\x1b[m\x1b[K) const\n'}
+[0.975844] (cpp_pubsub) StderrLine: {'line': b'      |                                                        \x1b[01;35m\x1b[K~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.975940] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<std::pair<std::array<double, 3>, double> > EndConditionSampler::SampleLonEndConditionsForLaneChange() const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[0.976027] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:51:1:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kno return statement in function returning non-void [\x1b[01;35m\x1b[K-Wreturn-type\x1b[m\x1b[K]\n'}
+[0.976109] (cpp_pubsub) StderrLine: {'line': b'   51 | \x1b[01;35m\x1b[K}\x1b[m\x1b[K\n'}
+[0.976227] (cpp_pubsub) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[0.993795] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<std::pair<std::array<double, 3>, double> > EndConditionSampler::SampleLonEndConditionsForCruising(double) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[0.994094] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:41:1:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kno return statement in function returning non-void [\x1b[01;35m\x1b[K-Wreturn-type\x1b[m\x1b[K]\n'}
+[0.994220] (cpp_pubsub) StderrLine: {'line': b'   41 | \x1b[01;35m\x1b[K}\x1b[m\x1b[K\n'}
+[0.994316] (cpp_pubsub) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[0.994400] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<std::pair<std::array<double, 3>, double> > EndConditionSampler::SampleLonEndConditionsForStopping(double) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[0.994480] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:46:1:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kno return statement in function returning non-void [\x1b[01;35m\x1b[K-Wreturn-type\x1b[m\x1b[K]\n'}
+[0.994564] (cpp_pubsub) StderrLine: {'line': b'   46 | \x1b[01;35m\x1b[K}\x1b[m\x1b[K\n'}
+[0.994645] (cpp_pubsub) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[0.994717] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:44:69:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kref_stop_point\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[0.994801] (cpp_pubsub) StderrLine: {'line': b'   44 | EndConditionSampler::SampleLonEndConditionsForStopping(\x1b[01;35m\x1b[Kconst double ref_stop_point\x1b[m\x1b[K) const\n'}
+[0.994909] (cpp_pubsub) StderrLine: {'line': b'      |                                                        \x1b[01;35m\x1b[K~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.994991] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<std::pair<std::array<double, 3>, double> > EndConditionSampler::SampleLonEndConditionsForLaneChange() const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[0.995073] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:51:1:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kno return statement in function returning non-void [\x1b[01;35m\x1b[K-Wreturn-type\x1b[m\x1b[K]\n'}
+[0.995155] (cpp_pubsub) StderrLine: {'line': b'   51 | \x1b[01;35m\x1b[K}\x1b[m\x1b[K\n'}
+[0.995232] (cpp_pubsub) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[1.002044] (-) TimerEvent: {}
+[1.102481] (-) TimerEvent: {}
+[1.124555] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/Trajectory1dGenerator.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Trajectory1dGenerator::GenerateLongitudinalTrajectoryBundle(double, std::vector<LONspeed>&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.125172] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/Trajectory1dGenerator.cpp:64:73:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktargetspeed\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[1.125454] (cpp_pubsub) StderrLine: {'line': b'   64 | void Trajectory1dGenerator::GenerateLongitudinalTrajectoryBundle(\x1b[01;35m\x1b[Kdouble targetspeed\x1b[m\x1b[K,\n'}
+[1.125588] (cpp_pubsub) StderrLine: {'line': b'      |                                                                  \x1b[01;35m\x1b[K~~~~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.125756] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/Trajectory1dGenerator.cpp:65:84:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kptr_lon_trajectory_bundle\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[1.125929] (cpp_pubsub) StderrLine: {'line': b'   65 |                                                                  \x1b[01;35m\x1b[Kvector<LONspeed> &ptr_lon_trajectory_bundle\x1b[m\x1b[K)\n'}
+[1.126072] (cpp_pubsub) StderrLine: {'line': b'      |                                                                  \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.142933] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/Trajectory1dGenerator.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Trajectory1dGenerator::GenerateLongitudinalTrajectoryBundle(double, std::vector<LONspeed>&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.143221] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/Trajectory1dGenerator.cpp:64:73:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktargetspeed\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[1.143355] (cpp_pubsub) StderrLine: {'line': b'   64 | void Trajectory1dGenerator::GenerateLongitudinalTrajectoryBundle(\x1b[01;35m\x1b[Kdouble targetspeed\x1b[m\x1b[K,\n'}
+[1.143463] (cpp_pubsub) StderrLine: {'line': b'      |                                                                  \x1b[01;35m\x1b[K~~~~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.143552] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/Trajectory1dGenerator.cpp:65:84:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kptr_lon_trajectory_bundle\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[1.143632] (cpp_pubsub) StderrLine: {'line': b'   65 |                                                                  \x1b[01;35m\x1b[Kvector<LONspeed> &ptr_lon_trajectory_bundle\x1b[m\x1b[K)\n'}
+[1.143766] (cpp_pubsub) StderrLine: {'line': b'      |                                                                  \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.202678] (-) TimerEvent: {}
+[1.303226] (-) TimerEvent: {}
+[1.403577] (-) TimerEvent: {}
+[1.504088] (-) TimerEvent: {}
+[1.604498] (-) TimerEvent: {}
+[1.704879] (-) TimerEvent: {}
+[1.805245] (-) TimerEvent: {}
+[1.905589] (-) TimerEvent: {}
+[2.006032] (-) TimerEvent: {}
+[2.106477] (-) TimerEvent: {}
+[2.118750] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Manage_Planner::planner()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.118988] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:197:42:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kconflicting declaration \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<std::pair<std::vector<double, std::allocator<double> >, double> > lon_end_conditions\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.119055] (cpp_pubsub) StderrLine: {'line': b'  197 |     vector<pair<vector<double>, double>> \x1b[01;31m\x1b[Klon_end_conditions\x1b[m\x1b[K;\n'}
+[2.119110] (cpp_pubsub) StderrLine: {'line': b'      |                                          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.119198] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:165:44:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprevious declaration as \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<std::pair<std::array<double, 3>, double> > lon_end_conditions\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.119288] (cpp_pubsub) StderrLine: {'line': b'  165 |     vector<pair<array<double, 3>, double>> \x1b[01;36m\x1b[Klon_end_conditions\x1b[m\x1b[K;\n'}
+[2.119424] (cpp_pubsub) StderrLine: {'line': b'      |                                            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.135576] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Manage_Planner::planner()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.135790] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:197:42:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kconflicting declaration \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<std::pair<std::vector<double, std::allocator<double> >, double> > lon_end_conditions\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.135856] (cpp_pubsub) StderrLine: {'line': b'  197 |     vector<pair<vector<double>, double>> \x1b[01;31m\x1b[Klon_end_conditions\x1b[m\x1b[K;\n'}
+[2.135908] (cpp_pubsub) StderrLine: {'line': b'      |                                          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.135958] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:165:44:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprevious declaration as \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<std::pair<std::array<double, 3>, double> > lon_end_conditions\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.136010] (cpp_pubsub) StderrLine: {'line': b'  165 |     vector<pair<array<double, 3>, double>> \x1b[01;36m\x1b[Klon_end_conditions\x1b[m\x1b[K;\n'}
+[2.136058] (cpp_pubsub) StderrLine: {'line': b'      |                                            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.206642] (-) TimerEvent: {}
+[2.307020] (-) TimerEvent: {}
+[2.365601] (cpp_pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/9/bits/c++allocator.h:33\x1b[m\x1b[K,\n'}
+[2.367180] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/bits/allocator.h:46\x1b[m\x1b[K,\n'}
+[2.367429] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/vector:64\x1b[m\x1b[K,\n'}
+[2.367528] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/include/manager.hpp:4\x1b[m\x1b[K,\n'}
+[2.367636] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:1\x1b[m\x1b[K:\n'}
+[2.367717] (cpp_pubsub) StderrLine: {'line': b'/usr/include/c++/9/ext/new_allocator.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = std::pair<std::array<double, 3>, double>; _Args = {std::vector<double, std::allocator<double> >&, const double&}; _Tp = std::pair<std::array<double, 3>, double>]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.367808] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/alloc_traits.h:483:4:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstatic void std::allocator_traits<std::allocator<_Tp1> >::construct(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, _Up*, _Args&& ...) [with _Up = std::pair<std::array<double, 3>, double>; _Args = {std::vector<double, std::allocator<double> >&, const double&}; _Tp = std::pair<std::array<double, 3>, double>; std::allocator_traits<std::allocator<_Tp1> >::allocator_type = std::allocator<std::pair<std::array<double, 3>, double> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.367898] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/vector.tcc:115:30:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kvoid std::vector<_Tp, _Alloc>::emplace_back(_Args&& ...) [with _Args = {std::vector<double, std::allocator<double> >&, const double&}; _Tp = std::pair<std::array<double, 3>, double>; _Alloc = std::allocator<std::pair<std::array<double, 3>, double> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.367977] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:203:59:\x1b[m\x1b[K   required from here\n'}
+[2.368049] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ext/new_allocator.h:146:4:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kstd::pair<std::array<double, 3>, double>::pair(std::vector<double, std::allocator<double> >&, const double&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.368130] (cpp_pubsub) StderrLine: {'line': b'  146 |  { \x1b[01;31m\x1b[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)\x1b[m\x1b[K; }\n'}
+[2.368218] (cpp_pubsub) StderrLine: {'line': b'      |    \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.368328] (cpp_pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/bits/stl_algobase.h:64\x1b[m\x1b[K,\n'}
+[2.368422] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/vector:60\x1b[m\x1b[K,\n'}
+[2.368498] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/include/manager.hpp:4\x1b[m\x1b[K,\n'}
+[2.368572] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:1\x1b[m\x1b[K:\n'}
+[2.368642] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_pair.h:436:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ... _Args1, long unsigned int ..._Indexes1, class ... _Args2, long unsigned int ..._Indexes2> std::pair<_T1, _T2>::pair(std::tuple<_Args1 ...>&, std::tuple<_Args2 ...>&, std::_Index_tuple<_Indexes1 ...>, std::_Index_tuple<_Indexes2 ...>)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.368720] (cpp_pubsub) StderrLine: {'line': b'  436 |         \x1b[01;36m\x1b[Kpair\x1b[m\x1b[K(tuple<_Args1...>&, tuple<_Args2...>&,\n'}
+[2.368795] (cpp_pubsub) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.368867] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_pair.h:436:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.368942] (cpp_pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/9/bits/c++allocator.h:33\x1b[m\x1b[K,\n'}
+[2.369018] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/bits/allocator.h:46\x1b[m\x1b[K,\n'}
+[2.369092] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/vector:64\x1b[m\x1b[K,\n'}
+[2.369168] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/include/manager.hpp:4\x1b[m\x1b[K,\n'}
+[2.369296] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:1\x1b[m\x1b[K:\n'}
+[2.369402] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ext/new_allocator.h:146:4:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<double, std::allocator<double> >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::tuple<_Tps ...>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.369502] (cpp_pubsub) StderrLine: {'line': b'  146 |  { \x1b[01;36m\x1b[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)\x1b[m\x1b[K; }\n'}
+[2.369589] (cpp_pubsub) StderrLine: {'line': b'      |    \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.369677] (cpp_pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/bits/stl_algobase.h:64\x1b[m\x1b[K,\n'}
+[2.369779] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/vector:60\x1b[m\x1b[K,\n'}
+[2.369869] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/include/manager.hpp:4\x1b[m\x1b[K,\n'}
+[2.370011] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:1\x1b[m\x1b[K:\n'}
+[2.370129] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_pair.h:375:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ... _Args1, class ... _Args2> std::pair<_T1, _T2>::pair(std::piecewise_construct_t, std::tuple<_Args1 ...>, std::tuple<_Args2 ...>)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.370269] (cpp_pubsub) StderrLine: {'line': b'  375 |         \x1b[01;36m\x1b[Kpair\x1b[m\x1b[K(piecewise_construct_t, tuple<_Args1...>, tuple<_Args2...>);\n'}
+[2.370339] (cpp_pubsub) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.370391] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_pair.h:375:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.370442] (cpp_pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/9/bits/c++allocator.h:33\x1b[m\x1b[K,\n'}
+[2.370492] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/bits/allocator.h:46\x1b[m\x1b[K,\n'}
+[2.370540] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/vector:64\x1b[m\x1b[K,\n'}
+[2.370587] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/include/manager.hpp:4\x1b[m\x1b[K,\n'}
+[2.370638] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:1\x1b[m\x1b[K:\n'}
+[2.370685] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ext/new_allocator.h:146:4:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kstd::tuple<_Tps ...>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.370734] (cpp_pubsub) StderrLine: {'line': b'  146 |  { \x1b[01;36m\x1b[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)\x1b[m\x1b[K; }\n'}
+[2.370782] (cpp_pubsub) StderrLine: {'line': b'      |    \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.370830] (cpp_pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/bits/stl_algobase.h:64\x1b[m\x1b[K,\n'}
+[2.370877] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/vector:60\x1b[m\x1b[K,\n'}
+[2.370923] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/include/manager.hpp:4\x1b[m\x1b[K,\n'}
+[2.370970] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:1\x1b[m\x1b[K:\n'}
+[2.371017] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_pair.h:370:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _U1, class _U2, typename std::enable_if<(std::_PCC<((! std::is_same<std::array<double, 3>, _U1>::value) || (! std::is_same<double, _U2>::value)), std::array<double, 3>, double>::_MoveConstructiblePair<_U1, _U2>() && (! std::_PCC<((! std::is_same<std::array<double, 3>, _U1>::value) || (! std::is_same<double, _U2>::value)), std::array<double, 3>, double>::_ImplicitlyMoveConvertiblePair<_U1, _U2>())), bool>::type <anonymous> > constexpr std::pair<_T1, _T2>::pair(std::pair<_U1, _U2>&&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.371075] (cpp_pubsub) StderrLine: {'line': b'  370 |  explicit constexpr \x1b[01;36m\x1b[Kpair\x1b[m\x1b[K(pair<_U1, _U2>&& __p)\n'}
+[2.371124] (cpp_pubsub) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.371172] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_pair.h:370:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.371267] (cpp_pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/9/bits/c++allocator.h:33\x1b[m\x1b[K,\n'}
+[2.371329] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/bits/allocator.h:46\x1b[m\x1b[K,\n'}
+[2.371383] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/vector:64\x1b[m\x1b[K,\n'}
+[2.371434] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/include/manager.hpp:4\x1b[m\x1b[K,\n'}
+[2.371482] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:1\x1b[m\x1b[K:\n'}
+[2.371530] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ext/new_allocator.h:146:4:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<double, std::allocator<double> >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::pair<_T1, _T2>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.371580] (cpp_pubsub) StderrLine: {'line': b'  146 |  { \x1b[01;36m\x1b[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)\x1b[m\x1b[K; }\n'}
+[2.371626] (cpp_pubsub) StderrLine: {'line': b'      |    \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.371674] (cpp_pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/bits/stl_algobase.h:64\x1b[m\x1b[K,\n'}
+[2.371722] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/vector:60\x1b[m\x1b[K,\n'}
+[2.371773] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/include/manager.hpp:4\x1b[m\x1b[K,\n'}
+[2.371821] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:1\x1b[m\x1b[K:\n'}
+[2.371869] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_pair.h:360:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _U1, class _U2, typename std::enable_if<(std::_PCC<((! std::is_same<std::array<double, 3>, _U1>::value) || (! std::is_same<double, _U2>::value)), std::array<double, 3>, double>::_MoveConstructiblePair<_U1, _U2>() && std::_PCC<((! std::is_same<std::array<double, 3>, _U1>::value) || (! std::is_same<double, _U2>::value)), std::array<double, 3>, double>::_ImplicitlyMoveConvertiblePair<_U1, _U2>()), bool>::type <anonymous> > constexpr std::pair<_T1, _T2>::pair(std::pair<_U1, _U2>&&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.371921] (cpp_pubsub) StderrLine: {'line': b'  360 |  constexpr \x1b[01;36m\x1b[Kpair\x1b[m\x1b[K(pair<_U1, _U2>&& __p)\n'}
+[2.371969] (cpp_pubsub) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.372016] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_pair.h:360:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.372063] (cpp_pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/9/bits/c++allocator.h:33\x1b[m\x1b[K,\n'}
+[2.372110] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/bits/allocator.h:46\x1b[m\x1b[K,\n'}
+[2.372157] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/vector:64\x1b[m\x1b[K,\n'}
+[2.372206] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/include/manager.hpp:4\x1b[m\x1b[K,\n'}
+[2.372332] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:1\x1b[m\x1b[K:\n'}
+[2.372412] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ext/new_allocator.h:146:4:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<double, std::allocator<double> >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::pair<_T1, _T2>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.372493] (cpp_pubsub) StderrLine: {'line': b'  146 |  { \x1b[01;36m\x1b[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)\x1b[m\x1b[K; }\n'}
+[2.372568] (cpp_pubsub) StderrLine: {'line': b'      |    \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.372639] (cpp_pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/bits/stl_algobase.h:64\x1b[m\x1b[K,\n'}
+[2.372713] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/vector:60\x1b[m\x1b[K,\n'}
+[2.372782] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/include/manager.hpp:4\x1b[m\x1b[K,\n'}
+[2.372852] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:1\x1b[m\x1b[K:\n'}
+[2.372923] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_pair.h:350:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _U1, class _U2, typename std::enable_if<(_MoveConstructiblePair<_U1, _U2>() && (! _ImplicitlyMoveConvertiblePair<_U1, _U2>())), bool>::type <anonymous> > constexpr std::pair<_T1, _T2>::pair(_U1&&, _U2&&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.372998] (cpp_pubsub) StderrLine: {'line': b'  350 |  explicit constexpr \x1b[01;36m\x1b[Kpair\x1b[m\x1b[K(_U1&& __x, _U2&& __y)\n'}
+[2.373070] (cpp_pubsub) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.373140] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_pair.h:350:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.373230] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_pair.h:349:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, bool>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.373343] (cpp_pubsub) StderrLine: {'line': b'  349 |                          bool>::type=\x1b[01;31m\x1b[Kfalse\x1b[m\x1b[K>\n'}
+[2.373414] (cpp_pubsub) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.373484] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_pair.h:341:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _U1, class _U2, typename std::enable_if<(_MoveConstructiblePair<_U1, _U2>() && _ImplicitlyMoveConvertiblePair<_U1, _U2>()), bool>::type <anonymous> > constexpr std::pair<_T1, _T2>::pair(_U1&&, _U2&&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.373561] (cpp_pubsub) StderrLine: {'line': b'  341 |  constexpr \x1b[01;36m\x1b[Kpair\x1b[m\x1b[K(_U1&& __x, _U2&& __y)\n'}
+[2.373632] (cpp_pubsub) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.373742] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_pair.h:341:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.373831] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_pair.h:340:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, bool>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.373903] (cpp_pubsub) StderrLine: {'line': b'  340 |                          bool>::type=\x1b[01;31m\x1b[Ktrue\x1b[m\x1b[K>\n'}
+[2.373974] (cpp_pubsub) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.374045] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_pair.h:332:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _U2, typename std::enable_if<_CopyMovePair<false, std::array<double, 3>, _U2>(), bool>::type <anonymous> > std::pair<_T1, _T2>::pair(const _T1&, _U2&&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.374129] (cpp_pubsub) StderrLine: {'line': b'  332 |        explicit \x1b[01;36m\x1b[Kpair\x1b[m\x1b[K(const _T1& __x, _U2&& __y)\n'}
+[2.374200] (cpp_pubsub) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.374321] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_pair.h:332:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.374405] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_pair.h:331:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, bool>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.374478] (cpp_pubsub) StderrLine: {'line': b'  331 |                          bool>::type=\x1b[01;31m\x1b[Kfalse\x1b[m\x1b[K>\n'}
+[2.374550] (cpp_pubsub) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.374623] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_pair.h:325:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _U2, typename std::enable_if<_CopyMovePair<true, std::array<double, 3>, _U2>(), bool>::type <anonymous> > constexpr std::pair<_T1, _T2>::pair(const _T1&, _U2&&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.374698] (cpp_pubsub) StderrLine: {'line': b'  325 |        constexpr \x1b[01;36m\x1b[Kpair\x1b[m\x1b[K(const _T1& __x, _U2&& __y)\n'}
+[2.374769] (cpp_pubsub) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.374837] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_pair.h:325:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.374911] (cpp_pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/9/bits/c++allocator.h:33\x1b[m\x1b[K,\n'}
+[2.374984] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/bits/allocator.h:46\x1b[m\x1b[K,\n'}
+[2.375052] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/vector:64\x1b[m\x1b[K,\n'}
+[2.375122] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/include/manager.hpp:4\x1b[m\x1b[K,\n'}
+[2.375196] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:1\x1b[m\x1b[K:\n'}
+[2.375290] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ext/new_allocator.h:146:4:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[Kstd::forward<std::vector<double, std::allocator<double> >&>((* & __args#0))\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<double, std::allocator<double> >\x1b[m\x1b[K\xe2\x80\x99) to type \xe2\x80\x98\x1b[01m\x1b[Kconst std::array<double, 3>&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.375395] (cpp_pubsub) StderrLine: {'line': b'  146 |  { \x1b[01;36m\x1b[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)\x1b[m\x1b[K; }\n'}
+[2.375468] (cpp_pubsub) StderrLine: {'line': b'      |    \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.375555] (cpp_pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/bits/stl_algobase.h:64\x1b[m\x1b[K,\n'}
+[2.375661] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/vector:60\x1b[m\x1b[K,\n'}
+[2.375734] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/include/manager.hpp:4\x1b[m\x1b[K,\n'}
+[2.375805] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:1\x1b[m\x1b[K:\n'}
+[2.375877] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_pair.h:318:27:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _U1, typename std::enable_if<_MoveCopyPair<false, _U1, double>(), bool>::type <anonymous> > constexpr std::pair<_T1, _T2>::pair(_U1&&, const _T2&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.375969] (cpp_pubsub) StderrLine: {'line': b'  318 |        explicit constexpr \x1b[01;36m\x1b[Kpair\x1b[m\x1b[K(_U1&& __x, const _T2& __y)\n'}
+[2.376042] (cpp_pubsub) StderrLine: {'line': b'      |                           \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.376152] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_pair.h:318:27:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.376281] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_pair.h:317:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, bool>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.376371] (cpp_pubsub) StderrLine: {'line': b'  317 |                          bool>::type=\x1b[01;31m\x1b[Kfalse\x1b[m\x1b[K>\n'}
+[2.376449] (cpp_pubsub) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.376519] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_pair.h:311:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _U1, typename std::enable_if<_MoveCopyPair<true, _U1, double>(), bool>::type <anonymous> > constexpr std::pair<_T1, _T2>::pair(_U1&&, const _T2&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.376594] (cpp_pubsub) StderrLine: {'line': b'  311 |        constexpr \x1b[01;36m\x1b[Kpair\x1b[m\x1b[K(_U1&& __x, const _T2& __y)\n'}
+[2.376664] (cpp_pubsub) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.376734] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_pair.h:311:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.376806] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_pair.h:310:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, bool>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.376878] (cpp_pubsub) StderrLine: {'line': b'  310 |                          bool>::type=\x1b[01;31m\x1b[Ktrue\x1b[m\x1b[K>\n'}
+[2.376950] (cpp_pubsub) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.377029] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_pair.h:304:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconstexpr std::pair<_T1, _T2>::pair(std::pair<_T1, _T2>&&) [with _T1 = std::array<double, 3>; _T2 = double]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.377104] (cpp_pubsub) StderrLine: {'line': b'  304 |       constexpr \x1b[01;36m\x1b[Kpair\x1b[m\x1b[K(pair&&) = default;\n'}
+[2.377177] (cpp_pubsub) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.377364] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_pair.h:304:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 2 provided\n'}
+[2.377438] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_pair.h:303:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconstexpr std::pair<_T1, _T2>::pair(const std::pair<_T1, _T2>&) [with _T1 = std::array<double, 3>; _T2 = double]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.377491] (cpp_pubsub) StderrLine: {'line': b'  303 |       constexpr \x1b[01;36m\x1b[Kpair\x1b[m\x1b[K(const pair&) = default;\n'}
+[2.377538] (cpp_pubsub) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.377584] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_pair.h:303:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 2 provided\n'}
+[2.377632] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_pair.h:300:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _U1, class _U2, typename std::enable_if<(std::_PCC<((! std::is_same<std::array<double, 3>, _U1>::value) || (! std::is_same<double, _U2>::value)), std::array<double, 3>, double>::_ConstructiblePair<_U1, _U2>() && (! std::_PCC<((! std::is_same<std::array<double, 3>, _U1>::value) || (! std::is_same<double, _U2>::value)), std::array<double, 3>, double>::_ImplicitlyConvertiblePair<_U1, _U2>())), bool>::type <anonymous> > constexpr std::pair<_T1, _T2>::pair(const std::pair<_U1, _U2>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.377767] (cpp_pubsub) StderrLine: {'line': b'  300 |  explicit constexpr \x1b[01;36m\x1b[Kpair\x1b[m\x1b[K(const pair<_U1, _U2>& __p)\n'}
+[2.377845] (cpp_pubsub) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.377895] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_pair.h:300:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.377946] (cpp_pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/9/bits/c++allocator.h:33\x1b[m\x1b[K,\n'}
+[2.377995] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/bits/allocator.h:46\x1b[m\x1b[K,\n'}
+[2.378043] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/vector:64\x1b[m\x1b[K,\n'}
+[2.378094] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/include/manager.hpp:4\x1b[m\x1b[K,\n'}
+[2.378143] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:1\x1b[m\x1b[K:\n'}
+[2.378191] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ext/new_allocator.h:146:4:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<double, std::allocator<double> >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::pair<_T1, _T2>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.378283] (cpp_pubsub) StderrLine: {'line': b'  146 |  { \x1b[01;36m\x1b[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)\x1b[m\x1b[K; }\n'}
+[2.378337] (cpp_pubsub) StderrLine: {'line': b'      |    \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.378406] (cpp_pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/bits/stl_algobase.h:64\x1b[m\x1b[K,\n'}
+[2.378458] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/vector:60\x1b[m\x1b[K,\n'}
+[2.378506] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/include/manager.hpp:4\x1b[m\x1b[K,\n'}
+[2.378555] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:1\x1b[m\x1b[K:\n'}
+[2.378604] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_pair.h:291:19:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _U1, class _U2, typename std::enable_if<(std::_PCC<((! std::is_same<std::array<double, 3>, _U1>::value) || (! std::is_same<double, _U2>::value)), std::array<double, 3>, double>::_ConstructiblePair<_U1, _U2>() && std::_PCC<((! std::is_same<std::array<double, 3>, _U1>::value) || (! std::is_same<double, _U2>::value)), std::array<double, 3>, double>::_ImplicitlyConvertiblePair<_U1, _U2>()), bool>::type <anonymous> > constexpr std::pair<_T1, _T2>::pair(const std::pair<_U1, _U2>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.378658] (cpp_pubsub) StderrLine: {'line': b'  291 |         constexpr \x1b[01;36m\x1b[Kpair\x1b[m\x1b[K(const pair<_U1, _U2>& __p)\n'}
+[2.378708] (cpp_pubsub) StderrLine: {'line': b'      |                   \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.378757] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_pair.h:291:19:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.378810] (cpp_pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/9/bits/c++allocator.h:33\x1b[m\x1b[K,\n'}
+[2.378859] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/bits/allocator.h:46\x1b[m\x1b[K,\n'}
+[2.378907] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/vector:64\x1b[m\x1b[K,\n'}
+[2.378955] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/include/manager.hpp:4\x1b[m\x1b[K,\n'}
+[2.379007] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:1\x1b[m\x1b[K:\n'}
+[2.379057] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ext/new_allocator.h:146:4:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<double, std::allocator<double> >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::pair<_T1, _T2>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.379106] (cpp_pubsub) StderrLine: {'line': b'  146 |  { \x1b[01;36m\x1b[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)\x1b[m\x1b[K; }\n'}
+[2.379154] (cpp_pubsub) StderrLine: {'line': b'      |    \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.379202] (cpp_pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/bits/stl_algobase.h:64\x1b[m\x1b[K,\n'}
+[2.379399] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/vector:60\x1b[m\x1b[K,\n'}
+[2.379494] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/include/manager.hpp:4\x1b[m\x1b[K,\n'}
+[2.379576] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:1\x1b[m\x1b[K:\n'}
+[2.379653] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_pair.h:269:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _U1, class _U2, typename std::enable_if<(_ConstructiblePair<_U1, _U2>() && (! _ImplicitlyConvertiblePair<_U1, _U2>())), bool>::type <anonymous> > constexpr std::pair<_T1, _T2>::pair(const _T1&, const _T2&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.379734] (cpp_pubsub) StderrLine: {'line': b'  269 |       explicit constexpr \x1b[01;36m\x1b[Kpair\x1b[m\x1b[K(const _T1& __a, const _T2& __b)\n'}
+[2.379810] (cpp_pubsub) StderrLine: {'line': b'      |                          \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.379888] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_pair.h:269:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.379972] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_pair.h:268:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, bool>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.380054] (cpp_pubsub) StderrLine: {'line': b'  268 |                          bool>::type=\x1b[01;31m\x1b[Kfalse\x1b[m\x1b[K>\n'}
+[2.380152] (cpp_pubsub) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.380251] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_pair.h:260:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _U1, class _U2, typename std::enable_if<(_ConstructiblePair<_U1, _U2>() && _ImplicitlyConvertiblePair<_U1, _U2>()), bool>::type <anonymous> > constexpr std::pair<_T1, _T2>::pair(const _T1&, const _T2&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.380344] (cpp_pubsub) StderrLine: {'line': b'  260 |       constexpr \x1b[01;36m\x1b[Kpair\x1b[m\x1b[K(const _T1& __a, const _T2& __b)\n'}
+[2.380419] (cpp_pubsub) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.380497] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_pair.h:260:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.380571] (cpp_pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/9/bits/c++allocator.h:33\x1b[m\x1b[K,\n'}
+[2.380645] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/bits/allocator.h:46\x1b[m\x1b[K,\n'}
+[2.380722] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/vector:64\x1b[m\x1b[K,\n'}
+[2.380798] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/include/manager.hpp:4\x1b[m\x1b[K,\n'}
+[2.380874] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:1\x1b[m\x1b[K:\n'}
+[2.380941] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ext/new_allocator.h:146:4:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[Kstd::forward<std::vector<double, std::allocator<double> >&>((* & __args#0))\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<double, std::allocator<double> >\x1b[m\x1b[K\xe2\x80\x99) to type \xe2\x80\x98\x1b[01m\x1b[Kconst std::array<double, 3>&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.381007] (cpp_pubsub) StderrLine: {'line': b'  146 |  { \x1b[01;36m\x1b[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)\x1b[m\x1b[K; }\n'}
+[2.381069] (cpp_pubsub) StderrLine: {'line': b'      |    \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.381146] (cpp_pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/bits/stl_algobase.h:64\x1b[m\x1b[K,\n'}
+[2.381294] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/vector:60\x1b[m\x1b[K,\n'}
+[2.381389] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/include/manager.hpp:4\x1b[m\x1b[K,\n'}
+[2.381465] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:1\x1b[m\x1b[K:\n'}
+[2.381540] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_pair.h:242:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _U1, class _U2, typename std::enable_if<std::__and_<std::is_default_constructible<_Tp>, std::is_default_constructible<_Dp>, std::__not_<std::__and_<std::__is_implicitly_default_constructible<_U1>, std::__is_implicitly_default_constructible<_U2> > > >::value, bool>::type <anonymous> > constexpr std::pair<_T1, _T2>::pair()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.381643] (cpp_pubsub) StderrLine: {'line': b'  242 |       explicit constexpr \x1b[01;36m\x1b[Kpair\x1b[m\x1b[K()\n'}
+[2.381754] (cpp_pubsub) StderrLine: {'line': b'      |                          \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.381834] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_pair.h:242:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.381928] (cpp_pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/9/bits/c++allocator.h:33\x1b[m\x1b[K,\n'}
+[2.382003] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/bits/allocator.h:46\x1b[m\x1b[K,\n'}
+[2.382080] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/vector:64\x1b[m\x1b[K,\n'}
+[2.382156] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/include/manager.hpp:4\x1b[m\x1b[K,\n'}
+[2.382231] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:1\x1b[m\x1b[K:\n'}
+[2.382676] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ext/new_allocator.h:146:4:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 0 arguments, 2 provided\n'}
+[2.382779] (cpp_pubsub) StderrLine: {'line': b'  146 |  { \x1b[01;36m\x1b[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)\x1b[m\x1b[K; }\n'}
+[2.382868] (cpp_pubsub) StderrLine: {'line': b'      |    \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.383013] (cpp_pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/bits/stl_algobase.h:64\x1b[m\x1b[K,\n'}
+[2.383139] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/vector:60\x1b[m\x1b[K,\n'}
+[2.383286] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/include/manager.hpp:4\x1b[m\x1b[K,\n'}
+[2.383402] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:1\x1b[m\x1b[K:\n'}
+[2.383496] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_pair.h:229:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _U1, class _U2, typename std::enable_if<std::__and_<std::__is_implicitly_default_constructible<_U1>, std::__is_implicitly_default_constructible<_U2> >::value, bool>::type <anonymous> > constexpr std::pair<_T1, _T2>::pair()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.383588] (cpp_pubsub) StderrLine: {'line': b'  229 |       _GLIBCXX_CONSTEXPR \x1b[01;36m\x1b[Kpair\x1b[m\x1b[K()\n'}
+[2.383730] (cpp_pubsub) StderrLine: {'line': b'      |                          \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.383841] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_pair.h:229:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.383938] (cpp_pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/9/bits/c++allocator.h:33\x1b[m\x1b[K,\n'}
+[2.384045] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/bits/allocator.h:46\x1b[m\x1b[K,\n'}
+[2.384128] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/vector:64\x1b[m\x1b[K,\n'}
+[2.384226] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/include/manager.hpp:4\x1b[m\x1b[K,\n'}
+[2.384321] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:1\x1b[m\x1b[K:\n'}
+[2.384477] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ext/new_allocator.h:146:4:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 0 arguments, 2 provided\n'}
+[2.384591] (cpp_pubsub) StderrLine: {'line': b'  146 |  { \x1b[01;36m\x1b[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)\x1b[m\x1b[K; }\n'}
+[2.384680] (cpp_pubsub) StderrLine: {'line': b'      |    \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.386252] (cpp_pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/9/bits/c++allocator.h:33\x1b[m\x1b[K,\n'}
+[2.386641] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/bits/allocator.h:46\x1b[m\x1b[K,\n'}
+[2.386768] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/vector:64\x1b[m\x1b[K,\n'}
+[2.386888] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/include/manager.hpp:4\x1b[m\x1b[K,\n'}
+[2.387008] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:1\x1b[m\x1b[K:\n'}
+[2.387110] (cpp_pubsub) StderrLine: {'line': b'/usr/include/c++/9/ext/new_allocator.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = std::pair<std::array<double, 3>, double>; _Args = {std::vector<double, std::allocator<double> >&, const double&}; _Tp = std::pair<std::array<double, 3>, double>]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.387239] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/alloc_traits.h:483:4:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstatic void std::allocator_traits<std::allocator<_Tp1> >::construct(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, _Up*, _Args&& ...) [with _Up = std::pair<std::array<double, 3>, double>; _Args = {std::vector<double, std::allocator<double> >&, const double&}; _Tp = std::pair<std::array<double, 3>, double>; std::allocator_traits<std::allocator<_Tp1> >::allocator_type = std::allocator<std::pair<std::array<double, 3>, double> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.387349] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/vector.tcc:115:30:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kvoid std::vector<_Tp, _Alloc>::emplace_back(_Args&& ...) [with _Args = {std::vector<double, std::allocator<double> >&, const double&}; _Tp = std::pair<std::array<double, 3>, double>; _Alloc = std::allocator<std::pair<std::array<double, 3>, double> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.387482] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:203:59:\x1b[m\x1b[K   required from here\n'}
+[2.387604] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ext/new_allocator.h:146:4:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kstd::pair<std::array<double, 3>, double>::pair(std::vector<double, std::allocator<double> >&, const double&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.387715] (cpp_pubsub) StderrLine: {'line': b'  146 |  { \x1b[01;31m\x1b[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)\x1b[m\x1b[K; }\n'}
+[2.388575] (cpp_pubsub) StderrLine: {'line': b'      |    \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.388638] (cpp_pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/bits/stl_algobase.h:64\x1b[m\x1b[K,\n'}
+[2.388688] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/vector:60\x1b[m\x1b[K,\n'}
+[2.388736] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/include/manager.hpp:4\x1b[m\x1b[K,\n'}
+[2.388788] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:1\x1b[m\x1b[K:\n'}
+[2.388834] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_pair.h:436:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ... _Args1, long unsigned int ..._Indexes1, class ... _Args2, long unsigned int ..._Indexes2> std::pair<_T1, _T2>::pair(std::tuple<_Args1 ...>&, std::tuple<_Args2 ...>&, std::_Index_tuple<_Indexes1 ...>, std::_Index_tuple<_Indexes2 ...>)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.388886] (cpp_pubsub) StderrLine: {'line': b'  436 |         \x1b[01;36m\x1b[Kpair\x1b[m\x1b[K(tuple<_Args1...>&, tuple<_Args2...>&,\n'}
+[2.388933] (cpp_pubsub) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.388980] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_pair.h:436:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.389029] (cpp_pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/9/bits/c++allocator.h:33\x1b[m\x1b[K,\n'}
+[2.389075] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/bits/allocator.h:46\x1b[m\x1b[K,\n'}
+[2.389121] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/vector:64\x1b[m\x1b[K,\n'}
+[2.389166] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/include/manager.hpp:4\x1b[m\x1b[K,\n'}
+[2.389214] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:1\x1b[m\x1b[K:\n'}
+[2.389261] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ext/new_allocator.h:146:4:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<double, std::allocator<double> >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::tuple<_Tps ...>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.389309] (cpp_pubsub) StderrLine: {'line': b'  146 |  { \x1b[01;36m\x1b[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)\x1b[m\x1b[K; }\n'}
+[2.389356] (cpp_pubsub) StderrLine: {'line': b'      |    \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.389402] (cpp_pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/bits/stl_algobase.h:64\x1b[m\x1b[K,\n'}
+[2.389450] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/vector:60\x1b[m\x1b[K,\n'}
+[2.389503] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/include/manager.hpp:4\x1b[m\x1b[K,\n'}
+[2.389568] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:1\x1b[m\x1b[K:\n'}
+[2.389636] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_pair.h:375:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ... _Args1, class ... _Args2> std::pair<_T1, _T2>::pair(std::piecewise_construct_t, std::tuple<_Args1 ...>, std::tuple<_Args2 ...>)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.389685] (cpp_pubsub) StderrLine: {'line': b'  375 |         \x1b[01;36m\x1b[Kpair\x1b[m\x1b[K(piecewise_construct_t, tuple<_Args1...>, tuple<_Args2...>);\n'}
+[2.389733] (cpp_pubsub) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.389779] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_pair.h:375:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.389827] (cpp_pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/9/bits/c++allocator.h:33\x1b[m\x1b[K,\n'}
+[2.389873] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/bits/allocator.h:46\x1b[m\x1b[K,\n'}
+[2.389919] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/vector:64\x1b[m\x1b[K,\n'}
+[2.389965] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/include/manager.hpp:4\x1b[m\x1b[K,\n'}
+[2.390015] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:1\x1b[m\x1b[K:\n'}
+[2.390062] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ext/new_allocator.h:146:4:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kstd::tuple<_Tps ...>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.390110] (cpp_pubsub) StderrLine: {'line': b'  146 |  { \x1b[01;36m\x1b[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)\x1b[m\x1b[K; }\n'}
+[2.390158] (cpp_pubsub) StderrLine: {'line': b'      |    \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.390204] (cpp_pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/bits/stl_algobase.h:64\x1b[m\x1b[K,\n'}
+[2.390251] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/vector:60\x1b[m\x1b[K,\n'}
+[2.390314] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/include/manager.hpp:4\x1b[m\x1b[K,\n'}
+[2.390365] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:1\x1b[m\x1b[K:\n'}
+[2.390416] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_pair.h:370:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _U1, class _U2, typename std::enable_if<(std::_PCC<((! std::is_same<std::array<double, 3>, _U1>::value) || (! std::is_same<double, _U2>::value)), std::array<double, 3>, double>::_MoveConstructiblePair<_U1, _U2>() && (! std::_PCC<((! std::is_same<std::array<double, 3>, _U1>::value) || (! std::is_same<double, _U2>::value)), std::array<double, 3>, double>::_ImplicitlyMoveConvertiblePair<_U1, _U2>())), bool>::type <anonymous> > constexpr std::pair<_T1, _T2>::pair(std::pair<_U1, _U2>&&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.390481] (cpp_pubsub) StderrLine: {'line': b'  370 |  explicit constexpr \x1b[01;36m\x1b[Kpair\x1b[m\x1b[K(pair<_U1, _U2>&& __p)\n'}
+[2.390552] (cpp_pubsub) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.390602] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_pair.h:370:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.390650] (cpp_pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/9/bits/c++allocator.h:33\x1b[m\x1b[K,\n'}
+[2.390697] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/bits/allocator.h:46\x1b[m\x1b[K,\n'}
+[2.390744] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/vector:64\x1b[m\x1b[K,\n'}
+[2.390791] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/include/manager.hpp:4\x1b[m\x1b[K,\n'}
+[2.390838] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:1\x1b[m\x1b[K:\n'}
+[2.390885] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ext/new_allocator.h:146:4:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<double, std::allocator<double> >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::pair<_T1, _T2>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.390936] (cpp_pubsub) StderrLine: {'line': b'  146 |  { \x1b[01;36m\x1b[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)\x1b[m\x1b[K; }\n'}
+[2.390984] (cpp_pubsub) StderrLine: {'line': b'      |    \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.391081] (cpp_pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/bits/stl_algobase.h:64\x1b[m\x1b[K,\n'}
+[2.391132] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/vector:60\x1b[m\x1b[K,\n'}
+[2.391190] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/include/manager.hpp:4\x1b[m\x1b[K,\n'}
+[2.391238] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:1\x1b[m\x1b[K:\n'}
+[2.391286] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_pair.h:360:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _U1, class _U2, typename std::enable_if<(std::_PCC<((! std::is_same<std::array<double, 3>, _U1>::value) || (! std::is_same<double, _U2>::value)), std::array<double, 3>, double>::_MoveConstructiblePair<_U1, _U2>() && std::_PCC<((! std::is_same<std::array<double, 3>, _U1>::value) || (! std::is_same<double, _U2>::value)), std::array<double, 3>, double>::_ImplicitlyMoveConvertiblePair<_U1, _U2>()), bool>::type <anonymous> > constexpr std::pair<_T1, _T2>::pair(std::pair<_U1, _U2>&&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.391337] (cpp_pubsub) StderrLine: {'line': b'  360 |  constexpr \x1b[01;36m\x1b[Kpair\x1b[m\x1b[K(pair<_U1, _U2>&& __p)\n'}
+[2.391384] (cpp_pubsub) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.391434] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_pair.h:360:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.391500] (cpp_pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/9/bits/c++allocator.h:33\x1b[m\x1b[K,\n'}
+[2.391564] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/bits/allocator.h:46\x1b[m\x1b[K,\n'}
+[2.391657] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/vector:64\x1b[m\x1b[K,\n'}
+[2.391732] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/include/manager.hpp:4\x1b[m\x1b[K,\n'}
+[2.391804] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:1\x1b[m\x1b[K:\n'}
+[2.391876] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ext/new_allocator.h:146:4:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<double, std::allocator<double> >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::pair<_T1, _T2>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.391949] (cpp_pubsub) StderrLine: {'line': b'  146 |  { \x1b[01;36m\x1b[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)\x1b[m\x1b[K; }\n'}
+[2.392020] (cpp_pubsub) StderrLine: {'line': b'      |    \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.392091] (cpp_pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/bits/stl_algobase.h:64\x1b[m\x1b[K,\n'}
+[2.392163] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/vector:60\x1b[m\x1b[K,\n'}
+[2.392235] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/include/manager.hpp:4\x1b[m\x1b[K,\n'}
+[2.392307] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:1\x1b[m\x1b[K:\n'}
+[2.392377] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_pair.h:350:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _U1, class _U2, typename std::enable_if<(_MoveConstructiblePair<_U1, _U2>() && (! _ImplicitlyMoveConvertiblePair<_U1, _U2>())), bool>::type <anonymous> > constexpr std::pair<_T1, _T2>::pair(_U1&&, _U2&&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.392461] (cpp_pubsub) StderrLine: {'line': b'  350 |  explicit constexpr \x1b[01;36m\x1b[Kpair\x1b[m\x1b[K(_U1&& __x, _U2&& __y)\n'}
+[2.392528] (cpp_pubsub) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.392631] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_pair.h:350:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.392700] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_pair.h:349:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, bool>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.392777] (cpp_pubsub) StderrLine: {'line': b'  349 |                          bool>::type=\x1b[01;31m\x1b[Kfalse\x1b[m\x1b[K>\n'}
+[2.392849] (cpp_pubsub) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.392928] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_pair.h:341:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _U1, class _U2, typename std::enable_if<(_MoveConstructiblePair<_U1, _U2>() && _ImplicitlyMoveConvertiblePair<_U1, _U2>()), bool>::type <anonymous> > constexpr std::pair<_T1, _T2>::pair(_U1&&, _U2&&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.393011] (cpp_pubsub) StderrLine: {'line': b'  341 |  constexpr \x1b[01;36m\x1b[Kpair\x1b[m\x1b[K(_U1&& __x, _U2&& __y)\n'}
+[2.393085] (cpp_pubsub) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.393187] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_pair.h:341:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.393262] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_pair.h:340:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, bool>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.393336] (cpp_pubsub) StderrLine: {'line': b'  340 |                          bool>::type=\x1b[01;31m\x1b[Ktrue\x1b[m\x1b[K>\n'}
+[2.393406] (cpp_pubsub) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.393474] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_pair.h:332:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _U2, typename std::enable_if<_CopyMovePair<false, std::array<double, 3>, _U2>(), bool>::type <anonymous> > std::pair<_T1, _T2>::pair(const _T1&, _U2&&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.393569] (cpp_pubsub) StderrLine: {'line': b'  332 |        explicit \x1b[01;36m\x1b[Kpair\x1b[m\x1b[K(const _T1& __x, _U2&& __y)\n'}
+[2.393697] (cpp_pubsub) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.393807] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_pair.h:332:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.393882] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_pair.h:331:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, bool>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.393955] (cpp_pubsub) StderrLine: {'line': b'  331 |                          bool>::type=\x1b[01;31m\x1b[Kfalse\x1b[m\x1b[K>\n'}
+[2.394028] (cpp_pubsub) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.394100] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_pair.h:325:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _U2, typename std::enable_if<_CopyMovePair<true, std::array<double, 3>, _U2>(), bool>::type <anonymous> > constexpr std::pair<_T1, _T2>::pair(const _T1&, _U2&&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.394180] (cpp_pubsub) StderrLine: {'line': b'  325 |        constexpr \x1b[01;36m\x1b[Kpair\x1b[m\x1b[K(const _T1& __x, _U2&& __y)\n'}
+[2.394274] (cpp_pubsub) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.394354] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_pair.h:325:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.394445] (cpp_pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/9/bits/c++allocator.h:33\x1b[m\x1b[K,\n'}
+[2.394578] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/bits/allocator.h:46\x1b[m\x1b[K,\n'}
+[2.394652] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/vector:64\x1b[m\x1b[K,\n'}
+[2.394724] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/include/manager.hpp:4\x1b[m\x1b[K,\n'}
+[2.394796] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:1\x1b[m\x1b[K:\n'}
+[2.394867] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ext/new_allocator.h:146:4:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[Kstd::forward<std::vector<double, std::allocator<double> >&>((* & __args#0))\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<double, std::allocator<double> >\x1b[m\x1b[K\xe2\x80\x99) to type \xe2\x80\x98\x1b[01m\x1b[Kconst std::array<double, 3>&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.394954] (cpp_pubsub) StderrLine: {'line': b'  146 |  { \x1b[01;36m\x1b[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)\x1b[m\x1b[K; }\n'}
+[2.395026] (cpp_pubsub) StderrLine: {'line': b'      |    \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.395123] (cpp_pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/bits/stl_algobase.h:64\x1b[m\x1b[K,\n'}
+[2.395213] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/vector:60\x1b[m\x1b[K,\n'}
+[2.395282] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/include/manager.hpp:4\x1b[m\x1b[K,\n'}
+[2.395354] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:1\x1b[m\x1b[K:\n'}
+[2.395424] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_pair.h:318:27:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _U1, typename std::enable_if<_MoveCopyPair<false, _U1, double>(), bool>::type <anonymous> > constexpr std::pair<_T1, _T2>::pair(_U1&&, const _T2&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.395555] (cpp_pubsub) StderrLine: {'line': b'  318 |        explicit constexpr \x1b[01;36m\x1b[Kpair\x1b[m\x1b[K(_U1&& __x, const _T2& __y)\n'}
+[2.395645] (cpp_pubsub) StderrLine: {'line': b'      |                           \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.395717] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_pair.h:318:27:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.395789] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_pair.h:317:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, bool>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.395861] (cpp_pubsub) StderrLine: {'line': b'  317 |                          bool>::type=\x1b[01;31m\x1b[Kfalse\x1b[m\x1b[K>\n'}
+[2.395933] (cpp_pubsub) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.396004] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_pair.h:311:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _U1, typename std::enable_if<_MoveCopyPair<true, _U1, double>(), bool>::type <anonymous> > constexpr std::pair<_T1, _T2>::pair(_U1&&, const _T2&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.396078] (cpp_pubsub) StderrLine: {'line': b'  311 |        constexpr \x1b[01;36m\x1b[Kpair\x1b[m\x1b[K(_U1&& __x, const _T2& __y)\n'}
+[2.396150] (cpp_pubsub) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.396227] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_pair.h:311:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.396297] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_pair.h:310:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, bool>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.396367] (cpp_pubsub) StderrLine: {'line': b'  310 |                          bool>::type=\x1b[01;31m\x1b[Ktrue\x1b[m\x1b[K>\n'}
+[2.396437] (cpp_pubsub) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.396510] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_pair.h:304:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconstexpr std::pair<_T1, _T2>::pair(std::pair<_T1, _T2>&&) [with _T1 = std::array<double, 3>; _T2 = double]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.396586] (cpp_pubsub) StderrLine: {'line': b'  304 |       constexpr \x1b[01;36m\x1b[Kpair\x1b[m\x1b[K(pair&&) = default;\n'}
+[2.396716] (cpp_pubsub) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.396799] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_pair.h:304:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 2 provided\n'}
+[2.396874] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_pair.h:303:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconstexpr std::pair<_T1, _T2>::pair(const std::pair<_T1, _T2>&) [with _T1 = std::array<double, 3>; _T2 = double]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.396946] (cpp_pubsub) StderrLine: {'line': b'  303 |       constexpr \x1b[01;36m\x1b[Kpair\x1b[m\x1b[K(const pair&) = default;\n'}
+[2.397016] (cpp_pubsub) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.397086] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_pair.h:303:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 2 provided\n'}
+[2.397157] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_pair.h:300:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _U1, class _U2, typename std::enable_if<(std::_PCC<((! std::is_same<std::array<double, 3>, _U1>::value) || (! std::is_same<double, _U2>::value)), std::array<double, 3>, double>::_ConstructiblePair<_U1, _U2>() && (! std::_PCC<((! std::is_same<std::array<double, 3>, _U1>::value) || (! std::is_same<double, _U2>::value)), std::array<double, 3>, double>::_ImplicitlyConvertiblePair<_U1, _U2>())), bool>::type <anonymous> > constexpr std::pair<_T1, _T2>::pair(const std::pair<_U1, _U2>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.397237] (cpp_pubsub) StderrLine: {'line': b'  300 |  explicit constexpr \x1b[01;36m\x1b[Kpair\x1b[m\x1b[K(const pair<_U1, _U2>& __p)\n'}
+[2.397312] (cpp_pubsub) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.397384] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_pair.h:300:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.397461] (cpp_pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/9/bits/c++allocator.h:33\x1b[m\x1b[K,\n'}
+[2.397545] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/bits/allocator.h:46\x1b[m\x1b[K,\n'}
+[2.397749] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/vector:64\x1b[m\x1b[K,\n'}
+[2.397839] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/include/manager.hpp:4\x1b[m\x1b[K,\n'}
+[2.397898] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:1\x1b[m\x1b[K:\n'}
+[2.397964] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ext/new_allocator.h:146:4:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<double, std::allocator<double> >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::pair<_T1, _T2>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.398027] (cpp_pubsub) StderrLine: {'line': b'  146 |  { \x1b[01;36m\x1b[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)\x1b[m\x1b[K; }\n'}
+[2.398077] (cpp_pubsub) StderrLine: {'line': b'      |    \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.398143] (cpp_pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/bits/stl_algobase.h:64\x1b[m\x1b[K,\n'}
+[2.398202] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/vector:60\x1b[m\x1b[K,\n'}
+[2.398262] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/include/manager.hpp:4\x1b[m\x1b[K,\n'}
+[2.398320] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:1\x1b[m\x1b[K:\n'}
+[2.398381] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_pair.h:291:19:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _U1, class _U2, typename std::enable_if<(std::_PCC<((! std::is_same<std::array<double, 3>, _U1>::value) || (! std::is_same<double, _U2>::value)), std::array<double, 3>, double>::_ConstructiblePair<_U1, _U2>() && std::_PCC<((! std::is_same<std::array<double, 3>, _U1>::value) || (! std::is_same<double, _U2>::value)), std::array<double, 3>, double>::_ImplicitlyConvertiblePair<_U1, _U2>()), bool>::type <anonymous> > constexpr std::pair<_T1, _T2>::pair(const std::pair<_U1, _U2>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.398445] (cpp_pubsub) StderrLine: {'line': b'  291 |         constexpr \x1b[01;36m\x1b[Kpair\x1b[m\x1b[K(const pair<_U1, _U2>& __p)\n'}
+[2.398506] (cpp_pubsub) StderrLine: {'line': b'      |                   \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.398561] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_pair.h:291:19:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.398615] (cpp_pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/9/bits/c++allocator.h:33\x1b[m\x1b[K,\n'}
+[2.398664] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/bits/allocator.h:46\x1b[m\x1b[K,\n'}
+[2.398715] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/vector:64\x1b[m\x1b[K,\n'}
+[2.398797] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/include/manager.hpp:4\x1b[m\x1b[K,\n'}
+[2.398854] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:1\x1b[m\x1b[K:\n'}
+[2.398909] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ext/new_allocator.h:146:4:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<double, std::allocator<double> >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::pair<_T1, _T2>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.398964] (cpp_pubsub) StderrLine: {'line': b'  146 |  { \x1b[01;36m\x1b[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)\x1b[m\x1b[K; }\n'}
+[2.399014] (cpp_pubsub) StderrLine: {'line': b'      |    \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.399063] (cpp_pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/bits/stl_algobase.h:64\x1b[m\x1b[K,\n'}
+[2.399112] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/vector:60\x1b[m\x1b[K,\n'}
+[2.399163] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/include/manager.hpp:4\x1b[m\x1b[K,\n'}
+[2.399213] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:1\x1b[m\x1b[K:\n'}
+[2.399262] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_pair.h:269:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _U1, class _U2, typename std::enable_if<(_ConstructiblePair<_U1, _U2>() && (! _ImplicitlyConvertiblePair<_U1, _U2>())), bool>::type <anonymous> > constexpr std::pair<_T1, _T2>::pair(const _T1&, const _T2&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.399322] (cpp_pubsub) StderrLine: {'line': b'  269 |       explicit constexpr \x1b[01;36m\x1b[Kpair\x1b[m\x1b[K(const _T1& __a, const _T2& __b)\n'}
+[2.399372] (cpp_pubsub) StderrLine: {'line': b'      |                          \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.399423] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_pair.h:269:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.399473] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_pair.h:268:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, bool>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.399525] (cpp_pubsub) StderrLine: {'line': b'  268 |                          bool>::type=\x1b[01;31m\x1b[Kfalse\x1b[m\x1b[K>\n'}
+[2.399575] (cpp_pubsub) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.399627] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_pair.h:260:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _U1, class _U2, typename std::enable_if<(_ConstructiblePair<_U1, _U2>() && _ImplicitlyConvertiblePair<_U1, _U2>()), bool>::type <anonymous> > constexpr std::pair<_T1, _T2>::pair(const _T1&, const _T2&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.399682] (cpp_pubsub) StderrLine: {'line': b'  260 |       constexpr \x1b[01;36m\x1b[Kpair\x1b[m\x1b[K(const _T1& __a, const _T2& __b)\n'}
+[2.399769] (cpp_pubsub) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.399903] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_pair.h:260:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.399973] (cpp_pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/9/bits/c++allocator.h:33\x1b[m\x1b[K,\n'}
+[2.400026] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/bits/allocator.h:46\x1b[m\x1b[K,\n'}
+[2.400103] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/vector:64\x1b[m\x1b[K,\n'}
+[2.400175] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/include/manager.hpp:4\x1b[m\x1b[K,\n'}
+[2.400228] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:1\x1b[m\x1b[K:\n'}
+[2.400279] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ext/new_allocator.h:146:4:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[Kstd::forward<std::vector<double, std::allocator<double> >&>((* & __args#0))\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<double, std::allocator<double> >\x1b[m\x1b[K\xe2\x80\x99) to type \xe2\x80\x98\x1b[01m\x1b[Kconst std::array<double, 3>&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.400335] (cpp_pubsub) StderrLine: {'line': b'  146 |  { \x1b[01;36m\x1b[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)\x1b[m\x1b[K; }\n'}
+[2.400417] (cpp_pubsub) StderrLine: {'line': b'      |    \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.400499] (cpp_pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/bits/stl_algobase.h:64\x1b[m\x1b[K,\n'}
+[2.400559] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/vector:60\x1b[m\x1b[K,\n'}
+[2.400632] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/include/manager.hpp:4\x1b[m\x1b[K,\n'}
+[2.400709] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:1\x1b[m\x1b[K:\n'}
+[2.401117] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_pair.h:242:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _U1, class _U2, typename std::enable_if<std::__and_<std::is_default_constructible<_Tp>, std::is_default_constructible<_Dp>, std::__not_<std::__and_<std::__is_implicitly_default_constructible<_U1>, std::__is_implicitly_default_constructible<_U2> > > >::value, bool>::type <anonymous> > constexpr std::pair<_T1, _T2>::pair()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.401200] (cpp_pubsub) StderrLine: {'line': b'  242 |       explicit constexpr \x1b[01;36m\x1b[Kpair\x1b[m\x1b[K()\n'}
+[2.401251] (cpp_pubsub) StderrLine: {'line': b'      |                          \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.401300] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_pair.h:242:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.401348] (cpp_pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/9/bits/c++allocator.h:33\x1b[m\x1b[K,\n'}
+[2.401396] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/bits/allocator.h:46\x1b[m\x1b[K,\n'}
+[2.401444] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/vector:64\x1b[m\x1b[K,\n'}
+[2.401492] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/include/manager.hpp:4\x1b[m\x1b[K,\n'}
+[2.401541] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:1\x1b[m\x1b[K:\n'}
+[2.401588] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ext/new_allocator.h:146:4:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 0 arguments, 2 provided\n'}
+[2.401638] (cpp_pubsub) StderrLine: {'line': b'  146 |  { \x1b[01;36m\x1b[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)\x1b[m\x1b[K; }\n'}
+[2.401704] (cpp_pubsub) StderrLine: {'line': b'      |    \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.401782] (cpp_pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/bits/stl_algobase.h:64\x1b[m\x1b[K,\n'}
+[2.401879] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/vector:60\x1b[m\x1b[K,\n'}
+[2.401952] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/include/manager.hpp:4\x1b[m\x1b[K,\n'}
+[2.402023] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:1\x1b[m\x1b[K:\n'}
+[2.402095] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_pair.h:229:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _U1, class _U2, typename std::enable_if<std::__and_<std::__is_implicitly_default_constructible<_U1>, std::__is_implicitly_default_constructible<_U2> >::value, bool>::type <anonymous> > constexpr std::pair<_T1, _T2>::pair()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.402172] (cpp_pubsub) StderrLine: {'line': b'  229 |       _GLIBCXX_CONSTEXPR \x1b[01;36m\x1b[Kpair\x1b[m\x1b[K()\n'}
+[2.402250] (cpp_pubsub) StderrLine: {'line': b'      |                          \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.402321] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_pair.h:229:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.402392] (cpp_pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/9/bits/c++allocator.h:33\x1b[m\x1b[K,\n'}
+[2.402459] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/bits/allocator.h:46\x1b[m\x1b[K,\n'}
+[2.402526] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/vector:64\x1b[m\x1b[K,\n'}
+[2.402596] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/include/manager.hpp:4\x1b[m\x1b[K,\n'}
+[2.402664] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:1\x1b[m\x1b[K:\n'}
+[2.402739] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ext/new_allocator.h:146:4:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 0 arguments, 2 provided\n'}
+[2.402872] (cpp_pubsub) StderrLine: {'line': b'  146 |  { \x1b[01;36m\x1b[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)\x1b[m\x1b[K; }\n'}
+[2.402964] (cpp_pubsub) StderrLine: {'line': b'      |    \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.407133] (-) TimerEvent: {}
+[2.507532] (-) TimerEvent: {}
+[2.547238] (cpp_pubsub) StderrLine: {'line': b'make[2]: *** [CMakeFiles/planner.dir/build.make:89: CMakeFiles/planner.dir/src/manager.cpp.o] Error 1\n'}
+[2.547428] (cpp_pubsub) StderrLine: {'line': b'make[2]: *** Waiting for unfinished jobs....\n'}
+[2.569106] (cpp_pubsub) StderrLine: {'line': b'make[2]: *** [CMakeFiles/cpp_pubsub.dir/build.make:76: CMakeFiles/cpp_pubsub.dir/src/manager.cpp.o] Error 1\n'}
+[2.569527] (cpp_pubsub) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/cpp_pubsub.dir/all] Error 2\n'}
+[2.569636] (cpp_pubsub) StderrLine: {'line': b'make[1]: *** Waiting for unfinished jobs....\n'}
+[2.607665] (-) TimerEvent: {}
+[2.708031] (-) TimerEvent: {}
+[2.808401] (-) TimerEvent: {}
+[2.908875] (-) TimerEvent: {}
+[3.009258] (-) TimerEvent: {}
+[3.109877] (-) TimerEvent: {}
+[3.210292] (-) TimerEvent: {}
+[3.310625] (-) TimerEvent: {}
+[3.410934] (-) TimerEvent: {}
+[3.511276] (-) TimerEvent: {}
+[3.611623] (-) TimerEvent: {}
+[3.711955] (-) TimerEvent: {}
+[3.812286] (-) TimerEvent: {}
+[3.912631] (-) TimerEvent: {}
+[4.013001] (-) TimerEvent: {}
+[4.086756] (cpp_pubsub) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/planner.dir/all] Error 2\n'}
+[4.087159] (cpp_pubsub) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[4.088830] (cpp_pubsub) CommandEnded: {'returncode': 2}
+[4.113127] (-) TimerEvent: {}
+[4.143977] (cpp_pubsub) JobEnded: {'identifier': 'cpp_pubsub', 'rc': 2}
+[4.155099] (-) EventReactorShutdown: {}

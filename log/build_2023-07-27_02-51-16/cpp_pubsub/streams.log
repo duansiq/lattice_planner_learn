@@ -1,0 +1,107 @@
+[0.022s] Invoking command in '/root/planner_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /root/planner_ws/build/cpp_pubsub -- -j12 -l12
+[0.050s] -- Found ament_cmake_auto: 0.9.11 (/opt/ros/foxy/share/ament_cmake_auto/cmake)
+[0.067s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.267s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.269s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.369s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.407s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.408s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.635s] -- Configuring done
+[0.653s] -- Generating done
+[0.655s] -- Build files have been written to: /root/planner_ws/build/cpp_pubsub
+[0.686s] [35m[1mScanning dependencies of target cpp_pubsub[0m
+[0.687s] [35m[1mScanning dependencies of target planner[0m
+[0.721s] [  3%] [32mBuilding CXX object CMakeFiles/planner.dir/src/end_condition_sampler.cpp.o[0m
+[0.721s] [  7%] [32mBuilding CXX object CMakeFiles/planner.dir/src/manager.cpp.o[0m
+[0.724s] [ 11%] [32mBuilding CXX object CMakeFiles/cpp_pubsub.dir/src/manager.cpp.o[0m
+[0.724s] [ 14%] [32mBuilding CXX object CMakeFiles/cpp_pubsub.dir/src/end_condition_sampler.cpp.o[0m
+[0.895s] [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:[m[K In member function ‘[01m[Kstd::vector<std::pair<std::array<double, 3>, double> > EndConditionSampler::SampleLonEndConditionsForCruising(double) const[m[K’:
+[0.895s] [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:29:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+[0.895s]    29 | [01;35m[K}[m[K
+[0.895s]       | [01;35m[K^[m[K
+[0.895s] [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:26:69:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kref_cruise_speed[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.895s]    26 | EndConditionSampler::SampleLonEndConditionsForCruising([01;35m[Kconst double ref_cruise_speed[m[K) const
+[0.895s]       |                                                        [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[0.895s] [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:[m[K In member function ‘[01m[Kstd::vector<std::pair<std::array<double, 3>, double> > EndConditionSampler::SampleLonEndConditionsForStopping(double) const[m[K’:
+[0.895s] [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:35:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+[0.895s]    35 | [01;35m[K}[m[K
+[0.895s]       | [01;35m[K^[m[K
+[0.895s] [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:32:69:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kref_stop_point[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.896s]    32 | EndConditionSampler::SampleLonEndConditionsForStopping([01;35m[Kconst double ref_stop_point[m[K) const
+[0.896s]       |                                                        [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[0.896s] [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:[m[K In member function ‘[01m[Kstd::vector<std::pair<std::array<double, 3>, double> > EndConditionSampler::SampleLonEndConditionsForLaneChange() const[m[K’:
+[0.896s] [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:41:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+[0.896s]    41 | [01;35m[K}[m[K
+[0.896s]       | [01;35m[K^[m[K
+[0.899s] [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:[m[K In member function ‘[01m[Kstd::vector<std::pair<std::array<double, 3>, double> > EndConditionSampler::SampleLonEndConditionsForCruising(double) const[m[K’:
+[0.899s] [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:29:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+[0.899s]    29 | [01;35m[K}[m[K
+[0.899s]       | [01;35m[K^[m[K
+[0.899s] [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:26:69:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kref_cruise_speed[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.900s]    26 | EndConditionSampler::SampleLonEndConditionsForCruising([01;35m[Kconst double ref_cruise_speed[m[K) const
+[0.900s]       |                                                        [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[0.900s] [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:[m[K In member function ‘[01m[Kstd::vector<std::pair<std::array<double, 3>, double> > EndConditionSampler::SampleLonEndConditionsForStopping(double) const[m[K’:
+[0.900s] [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:35:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+[0.900s]    35 | [01;35m[K}[m[K
+[0.900s]       | [01;35m[K^[m[K
+[0.900s] [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:32:69:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kref_stop_point[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.900s]    32 | EndConditionSampler::SampleLonEndConditionsForStopping([01;35m[Kconst double ref_stop_point[m[K) const
+[0.900s]       |                                                        [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[0.900s] [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:[m[K In member function ‘[01m[Kstd::vector<std::pair<std::array<double, 3>, double> > EndConditionSampler::SampleLonEndConditionsForLaneChange() const[m[K’:
+[0.900s] [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:41:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+[0.900s]    41 | [01;35m[K}[m[K
+[0.900s]       | [01;35m[K^[m[K
+[2.725s] [ 18%] [32m[1mLinking CXX executable planner[0m
+[2.737s] [ 22%] [32m[1mLinking CXX shared library libcpp_pubsub.so[0m
+[2.846s] [ 59%] Built target cpp_pubsub
+[2.914s] [100%] Built target planner
+[2.924s] Invoked command in '/root/planner_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /root/planner_ws/build/cpp_pubsub -- -j12 -l12
+[2.969s] Invoking command in '/root/planner_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /root/planner_ws/build/cpp_pubsub
+[2.975s] -- Install configuration: ""
+[2.975s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/include
+[2.976s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/cartesian_frenet_converter.hpp
+[2.976s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/collisionchecker.hpp
+[2.976s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/latpath1d.hpp
+[2.976s] -- Installing: /root/planner_ws/install/cpp_pubsub/include/end_condition_sampler.hpp
+[2.976s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/constans.hpp
+[2.976s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/trajectory_evaluator.hpp
+[2.976s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/obstacle.hpp
+[2.976s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/liner_interpolation.hpp
+[2.977s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/Trajectory1dGenerator.hpp
+[2.977s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/lonspeed1d.hpp
+[2.977s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/matplotlibcpp.h
+[2.977s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/referenceline.hpp
+[2.977s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/manager.hpp
+[2.977s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/plotfigure.hpp
+[2.977s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/pathpoint.hpp
+[2.977s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/constraint_checker1d.hpp
+[2.977s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/path_matcher.hpp
+[2.977s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/SLPoint.hpp
+[2.977s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/test.hpp
+[2.978s] -- Installing: /root/planner_ws/install/cpp_pubsub/include/STpoint.hpp
+[2.978s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/TrajectoryPoint.hpp
+[2.978s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/environment/library_path.sh
+[2.978s] -- Installing: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/environment/library_path.dsv
+[2.978s] -- Installing: /root/planner_ws/install/cpp_pubsub/lib/libcpp_pubsub.so
+[2.978s] -- Set runtime path of "/root/planner_ws/install/cpp_pubsub/lib/libcpp_pubsub.so" to ""
+[2.978s] -- Installing: /root/planner_ws/install/cpp_pubsub/lib/cpp_pubsub/planner
+[2.979s] -- Set runtime path of "/root/planner_ws/install/cpp_pubsub/lib/cpp_pubsub/planner" to ""
+[2.979s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[2.979s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[2.979s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[2.980s] -- Installing: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[2.980s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[2.980s] -- Installing: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[2.980s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[2.980s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[2.980s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[2.980s] -- Installing: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[2.980s] -- Installing: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[2.981s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[2.981s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.981s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.981s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/ament_cmake_export_libraries-extras.cmake
+[2.981s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[2.981s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[2.981s] -- Up-to-date: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[2.982s] Invoked command in '/root/planner_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /root/planner_ws/build/cpp_pubsub

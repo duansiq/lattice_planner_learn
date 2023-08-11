@@ -1,0 +1,96 @@
+[0.028s] Invoking command in '/root/planner_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /root/planner_ws/build/cpp_pubsub -- -j12 -l12
+[0.062s] [35m[1mScanning dependencies of target cpp_pubsub[0m
+[0.062s] [35m[1mScanning dependencies of target planner[0m
+[0.079s] [  3%] [32mBuilding CXX object CMakeFiles/cpp_pubsub.dir/src/end_condition_sampler.cpp.o[0m
+[0.079s] [  7%] [32mBuilding CXX object CMakeFiles/cpp_pubsub.dir/src/manager.cpp.o[0m
+[0.081s] [ 11%] [32mBuilding CXX object CMakeFiles/planner.dir/src/manager.cpp.o[0m
+[0.082s] [ 14%] [32mBuilding CXX object CMakeFiles/planner.dir/src/end_condition_sampler.cpp.o[0m
+[0.254s] [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:9:1:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[KEndConditionSampler::~EndConditionSampler()[m[K’
+[0.254s]     9 | [01;31m[KEndConditionSampler[m[K::~EndConditionSampler(){}
+[0.254s]       | [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[0.255s] In file included from [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:1[m[K:
+[0.255s] [01m[K/root/planner_ws/src/cpp_pubsub/include/end_condition_sampler.hpp:17:5:[m[K [01;36m[Knote: [m[K‘[01m[KEndConditionSampler::~EndConditionSampler()[m[K’ previously defined here
+[0.255s]    17 |     [01;36m[K~[m[KEndConditionSampler(){};
+[0.255s]       |     [01;36m[K^[m[K
+[0.259s] [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:9:1:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[KEndConditionSampler::~EndConditionSampler()[m[K’
+[0.259s]     9 | [01;31m[KEndConditionSampler[m[K::~EndConditionSampler(){}
+[0.259s]       | [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[0.259s] In file included from [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:1[m[K:
+[0.259s] [01m[K/root/planner_ws/src/cpp_pubsub/include/end_condition_sampler.hpp:17:5:[m[K [01;36m[Knote: [m[K‘[01m[KEndConditionSampler::~EndConditionSampler()[m[K’ previously defined here
+[0.259s]    17 |     [01;36m[K~[m[KEndConditionSampler(){};
+[0.259s]       |     [01;36m[K^[m[K
+[0.263s] [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:[m[K In member function ‘[01m[Kstd::vector<std::pair<std::array<double, 3>, double> > EndConditionSampler::SampleLonEndConditionsForCruising(double) const[m[K’:
+[0.264s] [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:32:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+[0.264s]    32 | [01;35m[K}[m[K
+[0.264s]       | [01;35m[K^[m[K
+[0.264s] [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:29:69:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kref_cruise_speed[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.264s]    29 | EndConditionSampler::SampleLonEndConditionsForCruising([01;35m[Kconst double ref_cruise_speed[m[K) const
+[0.264s]       |                                                        [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[0.264s] [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:[m[K In member function ‘[01m[Kstd::vector<std::pair<std::array<double, 3>, double> > EndConditionSampler::SampleLonEndConditionsForStopping(double) const[m[K’:
+[0.264s] [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:38:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+[0.264s]    38 | [01;35m[K}[m[K
+[0.264s]       | [01;35m[K^[m[K
+[0.264s] [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:35:69:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kref_stop_point[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.264s]    35 | EndConditionSampler::SampleLonEndConditionsForStopping([01;35m[Kconst double ref_stop_point[m[K) const
+[0.264s]       |                                                        [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[0.264s] [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:[m[K In member function ‘[01m[Kstd::vector<std::pair<std::array<double, 3>, double> > EndConditionSampler::SampleLonEndConditionsForLaneChange() const[m[K’:
+[0.264s] [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:44:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+[0.264s]    44 | [01;35m[K}[m[K
+[0.264s]       | [01;35m[K^[m[K
+[0.266s] [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:[m[K In member function ‘[01m[Kstd::vector<std::pair<std::array<double, 3>, double> > EndConditionSampler::SampleLonEndConditionsForCruising(double) const[m[K’:
+[0.267s] [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:32:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+[0.267s]    32 | [01;35m[K}[m[K
+[0.267s]       | [01;35m[K^[m[K
+[0.267s] [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:29:69:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kref_cruise_speed[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.267s]    29 | EndConditionSampler::SampleLonEndConditionsForCruising([01;35m[Kconst double ref_cruise_speed[m[K) const
+[0.267s]       |                                                        [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[0.267s] [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:[m[K In member function ‘[01m[Kstd::vector<std::pair<std::array<double, 3>, double> > EndConditionSampler::SampleLonEndConditionsForStopping(double) const[m[K’:
+[0.267s] [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:38:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+[0.267s]    38 | [01;35m[K}[m[K
+[0.267s]       | [01;35m[K^[m[K
+[0.267s] [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:35:69:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kref_stop_point[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.267s]    35 | EndConditionSampler::SampleLonEndConditionsForStopping([01;35m[Kconst double ref_stop_point[m[K) const
+[0.267s]       |                                                        [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[0.267s] [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:[m[K In member function ‘[01m[Kstd::vector<std::pair<std::array<double, 3>, double> > EndConditionSampler::SampleLonEndConditionsForLaneChange() const[m[K’:
+[0.267s] [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:44:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+[0.267s]    44 | [01;35m[K}[m[K
+[0.267s]       | [01;35m[K^[m[K
+[0.312s] make[2]: *** [CMakeFiles/planner.dir/build.make:219: CMakeFiles/planner.dir/src/end_condition_sampler.cpp.o] Error 1
+[0.312s] make[2]: *** Waiting for unfinished jobs....
+[0.318s] make[2]: *** [CMakeFiles/cpp_pubsub.dir/build.make:206: CMakeFiles/cpp_pubsub.dir/src/end_condition_sampler.cpp.o] Error 1
+[0.318s] make[2]: *** Waiting for unfinished jobs....
+[1.302s] [01m[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:[m[K In constructor ‘[01m[KManage_Planner::Manage_Planner()[m[K’:
+[1.303s] [01m[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:2:32:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KEndConditionSampler::EndConditionSampler()[m[K’
+[1.303s]     2 | Manage_Planner::Manage_Planner([01;31m[K)[m[K {}
+[1.303s]       |                                [01;31m[K^[m[K
+[1.303s] In file included from [01m[K/root/planner_ws/src/cpp_pubsub/include/manager.hpp:24[m[K,
+[1.303s]                  from [01m[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:1[m[K:
+[1.303s] [01m[K/root/planner_ws/src/cpp_pubsub/include/end_condition_sampler.hpp:15:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KEndConditionSampler::EndConditionSampler(const std::array<double, 3>&, const std::array<double, 3>&)[m[K’
+[1.303s]    15 |     [01;36m[KEndConditionSampler[m[K(
+[1.303s]       |     [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.303s] [01m[K/root/planner_ws/src/cpp_pubsub/include/end_condition_sampler.hpp:15:5:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 0 provided
+[1.303s] [01m[K/root/planner_ws/src/cpp_pubsub/include/end_condition_sampler.hpp:11:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr EndConditionSampler::EndConditionSampler(const EndConditionSampler&)[m[K’
+[1.303s]    11 | class [01;36m[KEndConditionSampler[m[K
+[1.303s]       |       [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.303s] [01m[K/root/planner_ws/src/cpp_pubsub/include/end_condition_sampler.hpp:11:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[1.322s] [01m[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:[m[K In constructor ‘[01m[KManage_Planner::Manage_Planner()[m[K’:
+[1.322s] [01m[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:2:32:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KEndConditionSampler::EndConditionSampler()[m[K’
+[1.322s]     2 | Manage_Planner::Manage_Planner([01;31m[K)[m[K {}
+[1.322s]       |                                [01;31m[K^[m[K
+[1.322s] In file included from [01m[K/root/planner_ws/src/cpp_pubsub/include/manager.hpp:24[m[K,
+[1.322s]                  from [01m[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:1[m[K:
+[1.322s] [01m[K/root/planner_ws/src/cpp_pubsub/include/end_condition_sampler.hpp:15:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KEndConditionSampler::EndConditionSampler(const std::array<double, 3>&, const std::array<double, 3>&)[m[K’
+[1.322s]    15 |     [01;36m[KEndConditionSampler[m[K(
+[1.322s]       |     [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.323s] [01m[K/root/planner_ws/src/cpp_pubsub/include/end_condition_sampler.hpp:15:5:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 0 provided
+[1.323s] [01m[K/root/planner_ws/src/cpp_pubsub/include/end_condition_sampler.hpp:11:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr EndConditionSampler::EndConditionSampler(const EndConditionSampler&)[m[K’
+[1.323s]    11 | class [01;36m[KEndConditionSampler[m[K
+[1.323s]       |       [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.323s] [01m[K/root/planner_ws/src/cpp_pubsub/include/end_condition_sampler.hpp:11:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[1.740s] make[2]: *** [CMakeFiles/planner.dir/build.make:89: CMakeFiles/planner.dir/src/manager.cpp.o] Error 1
+[1.740s] make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/planner.dir/all] Error 2
+[1.740s] make[1]: *** Waiting for unfinished jobs....
+[1.753s] make[2]: *** [CMakeFiles/cpp_pubsub.dir/build.make:76: CMakeFiles/cpp_pubsub.dir/src/manager.cpp.o] Error 1
+[1.753s] make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/cpp_pubsub.dir/all] Error 2
+[1.753s] make: *** [Makefile:141: all] Error 2
+[1.756s] Invoked command in '/root/planner_ws/build/cpp_pubsub' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /root/planner_ws/build/cpp_pubsub -- -j12 -l12

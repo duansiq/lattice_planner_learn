@@ -1,0 +1,121 @@
+[0.000000] (-) TimerEvent: {}
+[0.000390] (cpp_pubsub) JobQueued: {'identifier': 'cpp_pubsub', 'dependencies': OrderedDict()}
+[0.000672] (cpp_pubsub) JobStarted: {'identifier': 'cpp_pubsub'}
+[0.017756] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'cmake'}
+[0.019783] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'build'}
+[0.020401] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/planner_ws/build/cpp_pubsub', '--', '-j12', '-l12'], 'cwd': '/root/planner_ws/build/cpp_pubsub', 'env': OrderedDict([('HOSTNAME', '44664d8c3ea7'), ('GIT_ASKPASS', '/root/.vscode-server/bin/b380da4ef1ee00e224a15c1d4d9793e27c2b6302/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/root/planner_ws/install/cpp_pubsub/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/root/.vscode-server/bin/b380da4ef1ee00e224a15c1d4d9793e27c2b6302/bin/helpers/browser.sh'), ('HOME', '/root'), ('TERM_PROGRAM_VERSION', '1.79.0'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-649d74c9-f598-4441-a04f-56bc1cb4da32.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/b380da4ef1ee00e224a15c1d4d9793e27c2b6302/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/b380da4ef1ee00e224a15c1d4d9793e27c2b6302/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('COLCON_PREFIX_PATH', '/root/planner_ws/install'), ('ROS_DISTRO', 'foxy'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-9b105f66-cdba-4df0-82d4-9184e5601c87.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/root/.vscode-server/bin/b380da4ef1ee00e224a15c1d4d9793e27c2b6302/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-9b105f66-cdba-4df0-82d4-9184e5601c87.sock","/tmp/.X11-unix/X9","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':9'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-7677d3e828.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-9b105f66-cdba-4df0-82d4-9184e5601c87.sock'), ('AMENT_PREFIX_PATH', '/root/planner_ws/install/cpp_pubsub:/opt/ros/foxy'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X9'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/root/planner_ws/build/cpp_pubsub'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/planner_ws/install/cpp_pubsub:/opt/ros/foxy')]), 'shell': False}
+[0.045067] (cpp_pubsub) StdoutLine: {'line': b'-- Found ament_cmake_auto: 0.9.11 (/opt/ros/foxy/share/ament_cmake_auto/cmake)\n'}
+[0.062793] (cpp_pubsub) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.099808] (-) TimerEvent: {}
+[0.200180] (-) TimerEvent: {}
+[0.255835] (cpp_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.258133] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.300380] (-) TimerEvent: {}
+[0.355491] (cpp_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.392618] (cpp_pubsub) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.393713] (cpp_pubsub) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.400458] (-) TimerEvent: {}
+[0.500724] (-) TimerEvent: {}
+[0.601084] (-) TimerEvent: {}
+[0.603337] (cpp_pubsub) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.620227] (cpp_pubsub) StdoutLine: {'line': b'-- Generating done\n'}
+[0.622215] (cpp_pubsub) StdoutLine: {'line': b'-- Build files have been written to: /root/planner_ws/build/cpp_pubsub\n'}
+[0.650529] (cpp_pubsub) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target planner\x1b[0m\n'}
+[0.677725] (cpp_pubsub) StdoutLine: {'line': b'[ 48%] Built target cpp_pubsub\n'}
+[0.681678] (cpp_pubsub) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/planner.dir/src/feasible_region.cpp.o\x1b[0m\n'}
+[0.701216] (-) TimerEvent: {}
+[0.774735] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kdouble FeasibleRegion::SUpper(double) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[0.775008] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:24:1:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kno return statement in function returning non-void [\x1b[01;35m\x1b[K-Wreturn-type\x1b[m\x1b[K]\n'}
+[0.775079] (cpp_pubsub) StderrLine: {'line': b'   24 | \x1b[01;35m\x1b[K}\x1b[m\x1b[K\n'}
+[0.775134] (cpp_pubsub) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[0.775342] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:22:44:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kt\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[0.775398] (cpp_pubsub) StderrLine: {'line': b'   22 | double FeasibleRegion::SUpper(\x1b[01;35m\x1b[Kconst double t\x1b[m\x1b[K) const\n'}
+[0.775449] (cpp_pubsub) StderrLine: {'line': b'      |                               \x1b[01;35m\x1b[K~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[0.775498] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kdouble FeasibleRegion::SLower(double) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[0.775547] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:28:1:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kno return statement in function returning non-void [\x1b[01;35m\x1b[K-Wreturn-type\x1b[m\x1b[K]\n'}
+[0.775596] (cpp_pubsub) StderrLine: {'line': b'   28 | \x1b[01;35m\x1b[K}\x1b[m\x1b[K\n'}
+[0.775644] (cpp_pubsub) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[0.775692] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:26:44:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kt\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[0.775746] (cpp_pubsub) StderrLine: {'line': b'   26 | double FeasibleRegion::SLower(\x1b[01;35m\x1b[Kconst double t\x1b[m\x1b[K) const\n'}
+[0.775796] (cpp_pubsub) StderrLine: {'line': b'      |                               \x1b[01;35m\x1b[K~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[0.775855] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kdouble FeasibleRegion::VUpper(double) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[0.775917] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:32:1:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kno return statement in function returning non-void [\x1b[01;35m\x1b[K-Wreturn-type\x1b[m\x1b[K]\n'}
+[0.775975] (cpp_pubsub) StderrLine: {'line': b'   32 | \x1b[01;35m\x1b[K}\x1b[m\x1b[K\n'}
+[0.776026] (cpp_pubsub) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[0.776074] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:30:44:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kt\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[0.776123] (cpp_pubsub) StderrLine: {'line': b'   30 | double FeasibleRegion::VUpper(\x1b[01;35m\x1b[Kconst double t\x1b[m\x1b[K) const\n'}
+[0.776171] (cpp_pubsub) StderrLine: {'line': b'      |                               \x1b[01;35m\x1b[K~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[0.776220] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kdouble FeasibleRegion::VLower(double) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[0.776269] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:36:1:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kno return statement in function returning non-void [\x1b[01;35m\x1b[K-Wreturn-type\x1b[m\x1b[K]\n'}
+[0.776318] (cpp_pubsub) StderrLine: {'line': b'   36 | \x1b[01;35m\x1b[K}\x1b[m\x1b[K\n'}
+[0.776366] (cpp_pubsub) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[0.776413] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:34:44:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kt\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[0.776466] (cpp_pubsub) StderrLine: {'line': b'   34 | double FeasibleRegion::VLower(\x1b[01;35m\x1b[Kconst double t\x1b[m\x1b[K) const\n'}
+[0.776514] (cpp_pubsub) StderrLine: {'line': b'      |                               \x1b[01;35m\x1b[K~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[0.776561] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kdouble FeasibleRegion::TLower(double) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[0.776610] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:40:1:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kno return statement in function returning non-void [\x1b[01;35m\x1b[K-Wreturn-type\x1b[m\x1b[K]\n'}
+[0.776658] (cpp_pubsub) StderrLine: {'line': b'   40 | \x1b[01;35m\x1b[K}\x1b[m\x1b[K\n'}
+[0.776708] (cpp_pubsub) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[0.776755] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:38:44:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ks\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[0.776804] (cpp_pubsub) StderrLine: {'line': b'   38 | double FeasibleRegion::TLower(\x1b[01;35m\x1b[Kconst double s\x1b[m\x1b[K) const\n'}
+[0.776852] (cpp_pubsub) StderrLine: {'line': b'      |                               \x1b[01;35m\x1b[K~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[0.801392] (-) TimerEvent: {}
+[0.817895] (cpp_pubsub) StdoutLine: {'line': b'[ 55%] \x1b[32m\x1b[1mLinking CXX executable planner\x1b[0m\n'}
+[0.901544] (-) TimerEvent: {}
+[0.987168] (cpp_pubsub) StdoutLine: {'line': b'[100%] Built target planner\n'}
+[0.995979] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[1.001669] (-) TimerEvent: {}
+[1.035413] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'install'}
+[1.042605] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/planner_ws/build/cpp_pubsub'], 'cwd': '/root/planner_ws/build/cpp_pubsub', 'env': OrderedDict([('HOSTNAME', '44664d8c3ea7'), ('GIT_ASKPASS', '/root/.vscode-server/bin/b380da4ef1ee00e224a15c1d4d9793e27c2b6302/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/root/planner_ws/install/cpp_pubsub/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/root/.vscode-server/bin/b380da4ef1ee00e224a15c1d4d9793e27c2b6302/bin/helpers/browser.sh'), ('HOME', '/root'), ('TERM_PROGRAM_VERSION', '1.79.0'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-649d74c9-f598-4441-a04f-56bc1cb4da32.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/b380da4ef1ee00e224a15c1d4d9793e27c2b6302/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/b380da4ef1ee00e224a15c1d4d9793e27c2b6302/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('COLCON_PREFIX_PATH', '/root/planner_ws/install'), ('ROS_DISTRO', 'foxy'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-9b105f66-cdba-4df0-82d4-9184e5601c87.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/root/.vscode-server/bin/b380da4ef1ee00e224a15c1d4d9793e27c2b6302/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-9b105f66-cdba-4df0-82d4-9184e5601c87.sock","/tmp/.X11-unix/X9","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':9'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-7677d3e828.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-9b105f66-cdba-4df0-82d4-9184e5601c87.sock'), ('AMENT_PREFIX_PATH', '/root/planner_ws/install/cpp_pubsub:/opt/ros/foxy'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X9'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/root/planner_ws/build/cpp_pubsub'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/planner_ws/install/cpp_pubsub:/opt/ros/foxy')]), 'shell': False}
+[1.050164] (cpp_pubsub) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.050656] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /root/planner_ws/install/cpp_pubsub/include\n'}
+[1.050827] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/cartesian_frenet_converter.hpp\n'}
+[1.051012] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/collisionchecker.hpp\n'}
+[1.051176] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/latpath1d.hpp\n'}
+[1.051332] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /root/planner_ws/install/cpp_pubsub/include/end_condition_sampler.hpp\n'}
+[1.051495] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/constans.hpp\n'}
+[1.051658] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/trajectory_evaluator.hpp\n'}
+[1.051821] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/obstacle.hpp\n'}
+[1.052044] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/liner_interpolation.hpp\n'}
+[1.052169] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /root/planner_ws/install/cpp_pubsub/include/Trajectory1dGenerator.hpp\n'}
+[1.052287] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/lonspeed1d.hpp\n'}
+[1.052406] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/matplotlibcpp.h\n'}
+[1.052524] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/referenceline.hpp\n'}
+[1.052641] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /root/planner_ws/install/cpp_pubsub/include/manager.hpp\n'}
+[1.052758] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/plotfigure.hpp\n'}
+[1.052876] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/pathpoint.hpp\n'}
+[1.053192] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/constraint_checker1d.hpp\n'}
+[1.053516] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /root/planner_ws/install/cpp_pubsub/include/feasible_region.hpp\n'}
+[1.053688] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/path_matcher.hpp\n'}
+[1.053863] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/SLPoint.hpp\n'}
+[1.054031] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/test.hpp\n'}
+[1.054200] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/STpoint.hpp\n'}
+[1.054381] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/TrajectoryPoint.hpp\n'}
+[1.054555] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/environment/library_path.sh\n'}
+[1.054730] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/environment/library_path.dsv\n'}
+[1.054904] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /root/planner_ws/install/cpp_pubsub/lib/libcpp_pubsub.so\n'}
+[1.055070] (cpp_pubsub) StdoutLine: {'line': b'-- Set runtime path of "/root/planner_ws/install/cpp_pubsub/lib/libcpp_pubsub.so" to ""\n'}
+[1.055254] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /root/planner_ws/install/cpp_pubsub/lib/cpp_pubsub/planner\n'}
+[1.055426] (cpp_pubsub) StdoutLine: {'line': b'-- Set runtime path of "/root/planner_ws/install/cpp_pubsub/lib/cpp_pubsub/planner" to ""\n'}
+[1.055823] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /root/planner_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub\n'}
+[1.056038] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /root/planner_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub\n'}
+[1.056703] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh\n'}
+[1.056977] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv\n'}
+[1.057101] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh\n'}
+[1.057220] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv\n'}
+[1.057429] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash\n'}
+[1.057548] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh\n'}
+[1.057666] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh\n'}
+[1.058175] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv\n'}
+[1.058302] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv\n'}
+[1.058419] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /root/planner_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub\n'}
+[1.058537] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[1.058654] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[1.059141] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[1.059268] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake\n'}
+[1.059385] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake\n'}
+[1.059511] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml\n'}
+[1.059637] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[1.101849] (-) TimerEvent: {}
+[1.125540] (cpp_pubsub) JobEnded: {'identifier': 'cpp_pubsub', 'rc': 0}
+[1.126950] (-) EventReactorShutdown: {}

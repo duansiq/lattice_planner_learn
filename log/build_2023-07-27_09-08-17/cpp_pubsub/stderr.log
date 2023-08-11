@@ -1,0 +1,8 @@
+[01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:[m[K In member function ‘[01m[Kstd::vector<std::pair<std::vector<double>, double> > EndConditionSampler::SampleLonEndConditionsForLaneChange() const[m[K’:
+[01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:115:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+  115 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:[m[K In member function ‘[01m[Kstd::vector<std::pair<std::vector<double>, double> > EndConditionSampler::SampleLonEndConditionsForLaneChange() const[m[K’:
+[01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:115:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+  115 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K

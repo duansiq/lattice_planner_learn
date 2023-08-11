@@ -1,0 +1,38 @@
+[0.027s] Invoking command in '/root/planner_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /root/planner_ws/build/cpp_pubsub -- -j12 -l12
+[0.065s] [35m[1mScanning dependencies of target cpp_pubsub[0m
+[0.066s] [35m[1mScanning dependencies of target planner[0m
+[0.094s] [  3%] [32mBuilding CXX object CMakeFiles/cpp_pubsub.dir/src/manager.cpp.o[0m
+[0.097s] [  6%] [32mBuilding CXX object CMakeFiles/planner.dir/src/publisher.cpp.o[0m
+[0.097s] [  9%] [32mBuilding CXX object CMakeFiles/planner.dir/src/manager.cpp.o[0m
+[1.482s] [01m[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:[m[K In member function ‘[01m[Kstd::vector<PathPoint> Manage_Planner::ToDiscretizedReferenceLine(const std::vector<PathPoint>&, const TrajectoryPoint&)[m[K’:
+[1.482s] [01m[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:9:123:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kplanning_init_point[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[1.482s]     9 | vector<PathPoint> Manage_Planner::ToDiscretizedReferenceLine(const vector<PathPoint> &ref_points , [01;35m[Kconst TrajectoryPoint& planning_init_point[m[K)
+[1.482s]       |                                                                                                    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+[1.482s] [01m[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:[m[K In member function ‘[01m[Kvoid Manage_Planner::planner()[m[K’:
+[1.482s] [01m[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:77:88:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KManage_Planner::ToDiscretizedReferenceLine(std::vector<PathPoint>)[m[K’
+[1.482s]    77 |     referenceline_points = ToDiscretizedReferenceLine(referenceline.get_referenceline()[01;31m[K)[m[K;
+[1.482s]       |                                                                                        [01;31m[K^[m[K
+[1.482s] [01m[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:9:19:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<PathPoint> Manage_Planner::ToDiscretizedReferenceLine(const std::vector<PathPoint>&, const TrajectoryPoint&)[m[K’
+[1.483s]     9 | vector<PathPoint> [01;36m[KManage_Planner[m[K::ToDiscretizedReferenceLine(const vector<PathPoint> &ref_points , const TrajectoryPoint& planning_init_point)
+[1.483s]       |                   [01;36m[K^~~~~~~~~~~~~~[m[K
+[1.483s] [01m[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:9:19:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[1.500s] [01m[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:[m[K In member function ‘[01m[Kstd::vector<PathPoint> Manage_Planner::ToDiscretizedReferenceLine(const std::vector<PathPoint>&, const TrajectoryPoint&)[m[K’:
+[1.500s] [01m[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:9:123:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kplanning_init_point[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[1.500s]     9 | vector<PathPoint> Manage_Planner::ToDiscretizedReferenceLine(const vector<PathPoint> &ref_points , [01;35m[Kconst TrajectoryPoint& planning_init_point[m[K)
+[1.501s]       |                                                                                                    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+[1.501s] [01m[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:[m[K In member function ‘[01m[Kvoid Manage_Planner::planner()[m[K’:
+[1.501s] [01m[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:77:88:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KManage_Planner::ToDiscretizedReferenceLine(std::vector<PathPoint>)[m[K’
+[1.501s]    77 |     referenceline_points = ToDiscretizedReferenceLine(referenceline.get_referenceline()[01;31m[K)[m[K;
+[1.501s]       |                                                                                        [01;31m[K^[m[K
+[1.501s] [01m[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:9:19:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<PathPoint> Manage_Planner::ToDiscretizedReferenceLine(const std::vector<PathPoint>&, const TrajectoryPoint&)[m[K’
+[1.501s]     9 | vector<PathPoint> [01;36m[KManage_Planner[m[K::ToDiscretizedReferenceLine(const vector<PathPoint> &ref_points , const TrajectoryPoint& planning_init_point)
+[1.501s]       |                   [01;36m[K^~~~~~~~~~~~~~[m[K
+[1.501s] [01m[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:9:19:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[1.929s] make[2]: *** [CMakeFiles/planner.dir/build.make:89: CMakeFiles/planner.dir/src/manager.cpp.o] Error 1
+[1.930s] make[2]: *** Waiting for unfinished jobs....
+[1.951s] make[2]: *** [CMakeFiles/cpp_pubsub.dir/build.make:76: CMakeFiles/cpp_pubsub.dir/src/manager.cpp.o] Error 1
+[1.952s] make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/cpp_pubsub.dir/all] Error 2
+[1.952s] make[1]: *** Waiting for unfinished jobs....
+[3.467s] make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/planner.dir/all] Error 2
+[3.467s] make: *** [Makefile:141: all] Error 2
+[3.469s] Invoked command in '/root/planner_ws/build/cpp_pubsub' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /root/planner_ws/build/cpp_pubsub -- -j12 -l12

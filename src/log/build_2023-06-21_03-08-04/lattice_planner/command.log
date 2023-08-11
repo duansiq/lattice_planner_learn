@@ -1,0 +1,1 @@
+Invoking command in '/root/planner_ws/src/build/lattice_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /root/planner_ws/src/build/lattice_planner -- -j12 -l12

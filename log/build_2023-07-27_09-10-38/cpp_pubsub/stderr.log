@@ -1,0 +1,22 @@
+[01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:[m[K In member function ‘[01m[Kstd::vector<std::pair<std::vector<double>, double> > EndConditionSampler::SampleLonEndConditionsForLaneChange(int) const[m[K’:
+[01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:115:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+  115 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:112:68:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KLC_mode[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  112 | EndConditionSampler::SampleLonEndConditionsForLaneChange([01;35m[Kconst int LC_mode[m[K) const
+      |                                                          [01;35m[K~~~~~~~~~~^~~~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:[m[K In member function ‘[01m[Kstd::vector<std::pair<std::vector<double>, double> > EndConditionSampler::SampleLonEndConditionsForLaneChange(int) const[m[K’:
+[01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:115:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+  115 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:112:68:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KLC_mode[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  112 | EndConditionSampler::SampleLonEndConditionsForLaneChange([01;35m[Kconst int LC_mode[m[K) const
+      |                                                          [01;35m[K~~~~~~~~~~^~~~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:[m[K In member function ‘[01m[Kvoid Manage_Planner::planner()[m[K’:
+[01m[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:191:85:[m[K [01;35m[Kwarning: [m[K‘[01m[KLC_mode[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+  191 |         lon_end_conditions = [01;35m[Kendconditionsampler.SampleLonEndConditionsForLaneChange(LC_mode)[m[K;
+      |                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:[m[K In member function ‘[01m[Kvoid Manage_Planner::planner()[m[K’:
+[01m[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:191:85:[m[K [01;35m[Kwarning: [m[K‘[01m[KLC_mode[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+  191 |         lon_end_conditions = [01;35m[Kendconditionsampler.SampleLonEndConditionsForLaneChange(LC_mode)[m[K;
+      |                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K

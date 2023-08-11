@@ -1,0 +1,5 @@
+[35m[1mScanning dependencies of target cpp_pubsub[0m
+[  3%] [32mBuilding CXX object CMakeFiles/cpp_pubsub.dir/src/feasible_region.cpp.o[0m
+[  7%] [32m[1mLinking CXX executable planner[0m
+[ 10%] [32m[1mLinking CXX shared library libcpp_pubsub.so[0m
+[ 53%] Built target cpp_pubsub

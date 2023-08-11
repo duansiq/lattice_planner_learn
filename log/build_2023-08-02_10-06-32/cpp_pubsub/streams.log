@@ -1,0 +1,274 @@
+[0.023s] Invoking command in '/root/planner_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /root/planner_ws/build/cpp_pubsub -- -j12 -l12
+[0.059s] [35m[1mScanning dependencies of target cpp_pubsub[0m
+[0.059s] [35m[1mScanning dependencies of target planner[0m
+[0.088s] [  9%] [32mBuilding CXX object CMakeFiles/cpp_pubsub.dir/src/manager.cpp.o[0m
+[0.089s] [  9%] [32mBuilding CXX object CMakeFiles/cpp_pubsub.dir/src/feasible_region.cpp.o[0m
+[0.089s] [ 12%] [32mBuilding CXX object CMakeFiles/cpp_pubsub.dir/src/trajectory_evaluator.cpp.o[0m
+[0.089s] [ 12%] [32mBuilding CXX object CMakeFiles/cpp_pubsub.dir/src/path_time_graph.cpp.o[0m
+[0.089s] [ 22%] [32mBuilding CXX object CMakeFiles/cpp_pubsub.dir/src/collisionchecker.cpp.o[0m
+[0.089s] [ 22%] [32mBuilding CXX object CMakeFiles/cpp_pubsub.dir/src/constraint_checker1d.cpp.o[0m
+[0.089s] [ 22%] [32mBuilding CXX object CMakeFiles/cpp_pubsub.dir/src/end_condition_sampler.cpp.o[0m
+[0.095s] [ 25%] [32mBuilding CXX object CMakeFiles/planner.dir/src/publisher.cpp.o[0m
+[0.096s] [ 29%] [32mBuilding CXX object CMakeFiles/planner.dir/src/manager.cpp.o[0m
+[0.097s] [ 32%] [32mBuilding CXX object CMakeFiles/planner.dir/src/trajectory_evaluator.cpp.o[0m
+[0.101s] [ 35%] [32mBuilding CXX object CMakeFiles/planner.dir/src/collisionchecker.cpp.o[0m
+[0.102s] [ 38%] [32mBuilding CXX object CMakeFiles/planner.dir/src/constraint_checker1d.cpp.o[0m
+[0.289s] In file included from [01m[K/root/planner_ws/src/cpp_pubsub/include/feasible_region.hpp:4[m[K,
+[0.289s]                  from [01m[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:1[m[K:
+[0.290s] [01m[K/root/planner_ws/src/cpp_pubsub/include/constans.hpp:22:53:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kconst double Constans::FLAGS_trajectory_time_resolution[m[K’
+[0.290s]    22 |     const double FLAGS_trajectory_time_resolution = [01;31m[K0.1[m[K;
+[0.290s]       |                                                     [01;31m[K^~~[m[K
+[0.290s] [01m[K/root/planner_ws/src/cpp_pubsub/include/constans.hpp:13:18:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kconst double Constans::FLAGS_trajectory_time_resolution[m[K’
+[0.290s]    13 |     const double [01;36m[KFLAGS_trajectory_time_resolution[m[K = 0;
+[0.290s]       |                  [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.294s] In file included from [01m[K/root/planner_ws/src/cpp_pubsub/include/path_time_graph.hpp:6[m[K,
+[0.294s]                  from [01m[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:1[m[K:
+[0.294s] [01m[K/root/planner_ws/src/cpp_pubsub/include/constans.hpp:22:53:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kconst double Constans::FLAGS_trajectory_time_resolution[m[K’
+[0.294s]    22 |     const double FLAGS_trajectory_time_resolution = [01;31m[K0.1[m[K;
+[0.294s]       |                                                     [01;31m[K^~~[m[K
+[0.294s] [01m[K/root/planner_ws/src/cpp_pubsub/include/constans.hpp:13:18:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kconst double Constans::FLAGS_trajectory_time_resolution[m[K’
+[0.294s]    13 |     const double [01;36m[KFLAGS_trajectory_time_resolution[m[K = 0;
+[0.294s]       |                  [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.309s] [01m[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:[m[K In member function ‘[01m[Kvoid PathTimeGraph::Init(const std::vector<std::vector<double> >&, const std::vector<PathPoint>&, double, double, double, double, const std::array<double, 3>&)[m[K’:
+[0.309s] [01m[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:20:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<double> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[0.309s]    20 |         for (int i = 0; [01;35m[Ki < dynamic_obstacle_sl.size()[m[K; i++)
+[0.309s]       |                         [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.309s] [01m[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:24:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kobs_heading[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[0.309s]    24 |             double [01;35m[Kobs_heading[m[K = dynamic_obstacle_sl[i][2];
+[0.310s]       |                    [01;35m[K^~~~~~~~~~~[m[K
+[0.310s] [01m[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:25:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kobs_velocity[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[0.311s]    25 |             double [01;35m[Kobs_velocity[m[K = dynamic_obstacle_sl[i][3];
+[0.311s]       |                    [01;35m[K^~~~~~~~~~~~[m[K
+[0.311s] [01m[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:5:102:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreferenceline[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.311s]     5 | void PathTimeGraph::Init(const vector<vector<double>> &dynamic_obstacle_sl, [01;35m[Kconst vector<PathPoint> &referenceline[m[K,
+[0.311s]       |                                                                             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[0.311s] [01m[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:6:61:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ks_end[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.311s]     6 |                          const double s_start, [01;35m[Kconst double s_end[m[K, const double t_start,
+[0.311s]       |                                                [01;35m[K~~~~~~~~~~~~~^~~~~[m[K
+[0.312s] [01m[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:6:81:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kt_start[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.312s]     6 |                          const double s_start, const double s_end, [01;35m[Kconst double t_start[m[K,
+[0.312s]       |                                                                    [01;35m[K~~~~~~~~~~~~~^~~~~~~[m[K
+[0.312s] [01m[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:7:39:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kt_end[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.312s]     7 |                          [01;35m[Kconst double t_end[m[K, const array<double, 3> &init_d)
+[0.312s]       |                          [01;35m[K~~~~~~~~~~~~~^~~~~[m[K
+[0.312s] [01m[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:7:70:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kinit_d[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.312s]     7 |                          const double t_end, [01;35m[Kconst array<double, 3> &init_d[m[K)
+[0.312s]       |                                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[0.317s] In file included from [01m[K/root/planner_ws/src/cpp_pubsub/include/constraint_checker1d.hpp:7[m[K,
+[0.317s]                  from [01m[K/root/planner_ws/src/cpp_pubsub/include/collisionchecker.hpp:6[m[K,
+[0.318s]                  from [01m[K/root/planner_ws/src/cpp_pubsub/src/collisionchecker.cpp:1[m[K:
+[0.318s] [01m[K/root/planner_ws/src/cpp_pubsub/include/constans.hpp:22:53:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kconst double Constans::FLAGS_trajectory_time_resolution[m[K’
+[0.318s]    22 |     const double FLAGS_trajectory_time_resolution = [01;31m[K0.1[m[K;
+[0.318s]       |                                                     [01;31m[K^~~[m[K
+[0.318s] [01m[K/root/planner_ws/src/cpp_pubsub/include/constans.hpp:13:18:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kconst double Constans::FLAGS_trajectory_time_resolution[m[K’
+[0.318s]    13 |     const double [01;36m[KFLAGS_trajectory_time_resolution[m[K = 0;
+[0.318s]       |                  [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.339s] In file included from [01m[K/root/planner_ws/src/cpp_pubsub/include/constraint_checker1d.hpp:7[m[K,
+[0.339s]                  from [01m[K/root/planner_ws/src/cpp_pubsub/src/constraint_checker1d.cpp:1[m[K:
+[0.339s] [01m[K/root/planner_ws/src/cpp_pubsub/include/constans.hpp:22:53:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kconst double Constans::FLAGS_trajectory_time_resolution[m[K’
+[0.339s]    22 |     const double FLAGS_trajectory_time_resolution = [01;31m[K0.1[m[K;
+[0.339s]       |                                                     [01;31m[K^~~[m[K
+[0.339s] [01m[K/root/planner_ws/src/cpp_pubsub/include/constans.hpp:13:18:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kconst double Constans::FLAGS_trajectory_time_resolution[m[K’
+[0.340s]    13 |     const double [01;36m[KFLAGS_trajectory_time_resolution[m[K = 0;
+[0.340s]       |                  [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.355s] In file included from [01m[K/root/planner_ws/src/cpp_pubsub/include/feasible_region.hpp:4[m[K,
+[0.355s]                  from [01m[K/root/planner_ws/src/cpp_pubsub/include/end_condition_sampler.hpp:6[m[K,
+[0.355s]                  from [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:1[m[K:
+[0.355s] [01m[K/root/planner_ws/src/cpp_pubsub/include/constans.hpp:22:53:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kconst double Constans::FLAGS_trajectory_time_resolution[m[K’
+[0.355s]    22 |     const double FLAGS_trajectory_time_resolution = [01;31m[K0.1[m[K;
+[0.355s]       |                                                     [01;31m[K^~~[m[K
+[0.355s] [01m[K/root/planner_ws/src/cpp_pubsub/include/constans.hpp:13:18:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kconst double Constans::FLAGS_trajectory_time_resolution[m[K’
+[0.355s]    13 |     const double [01;36m[KFLAGS_trajectory_time_resolution[m[K = 0;
+[0.356s]       |                  [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.356s] [01m[K/root/planner_ws/src/cpp_pubsub/src/collisionchecker.cpp:[m[K In member function ‘[01m[Kbool Collision_Checker::InCollision(const std::vector<std::vector<double> >&, const LATpath&, double, double, const std::array<double, 3>&)[m[K’:
+[0.356s] [01m[K/root/planner_ws/src/cpp_pubsub/src/collisionchecker.cpp:19:17:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kpointnum[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[0.356s]    19 |             int [01;35m[Kpointnum[m[K = 30;
+[0.356s]       |                 [01;35m[K^~~~~~~~[m[K
+[0.356s] [01m[K/root/planner_ws/src/cpp_pubsub/src/collisionchecker.cpp:5:74:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kobs_length[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.356s]     5 |                                     const double obs_width, [01;35m[Kconst double obs_length[m[K, const std::array<double, 3> &init_s)
+[0.356s]       |                                                             [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[0.386s] make[2]: *** [CMakeFiles/cpp_pubsub.dir/build.make:232: CMakeFiles/cpp_pubsub.dir/src/path_time_graph.cpp.o] Error 1
+[0.386s] make[2]: *** Waiting for unfinished jobs....
+[0.386s] In file included from [01m[K/root/planner_ws/src/cpp_pubsub/include/constraint_checker1d.hpp:7[m[K,
+[0.386s]                  from [01m[K/root/planner_ws/src/cpp_pubsub/include/trajectory_evaluator.hpp:9[m[K,
+[0.386s]                  from [01m[K/root/planner_ws/src/cpp_pubsub/src/trajectory_evaluator.cpp:1[m[K:
+[0.386s] [01m[K/root/planner_ws/src/cpp_pubsub/include/constans.hpp:22:53:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kconst double Constans::FLAGS_trajectory_time_resolution[m[K’
+[0.386s]    22 |     const double FLAGS_trajectory_time_resolution = [01;31m[K0.1[m[K;
+[0.387s]       |                                                     [01;31m[K^~~[m[K
+[0.387s] [01m[K/root/planner_ws/src/cpp_pubsub/include/constans.hpp:13:18:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kconst double Constans::FLAGS_trajectory_time_resolution[m[K’
+[0.387s]    13 |     const double [01;36m[KFLAGS_trajectory_time_resolution[m[K = 0;
+[0.387s]       |                  [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.387s] make[2]: *** [CMakeFiles/cpp_pubsub.dir/build.make:180: CMakeFiles/cpp_pubsub.dir/src/constraint_checker1d.cpp.o] Error 1
+[0.392s] In file included from [01m[K/root/planner_ws/src/cpp_pubsub/include/constraint_checker1d.hpp:7[m[K,
+[0.392s]                  from [01m[K/root/planner_ws/src/cpp_pubsub/include/trajectory_evaluator.hpp:9[m[K,
+[0.392s]                  from [01m[K/root/planner_ws/src/cpp_pubsub/src/trajectory_evaluator.cpp:1[m[K:
+[0.392s] [01m[K/root/planner_ws/src/cpp_pubsub/include/constans.hpp:22:53:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kconst double Constans::FLAGS_trajectory_time_resolution[m[K’
+[0.392s]    22 |     const double FLAGS_trajectory_time_resolution = [01;31m[K0.1[m[K;
+[0.392s]       |                                                     [01;31m[K^~~[m[K
+[0.392s] [01m[K/root/planner_ws/src/cpp_pubsub/include/constans.hpp:13:18:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kconst double Constans::FLAGS_trajectory_time_resolution[m[K’
+[0.393s]    13 |     const double [01;36m[KFLAGS_trajectory_time_resolution[m[K = 0;
+[0.393s]       |                  [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.419s] [ 41%] [32mBuilding CXX object CMakeFiles/planner.dir/src/end_condition_sampler.cpp.o[0m
+[0.419s] make[2]: *** [CMakeFiles/cpp_pubsub.dir/build.make:219: CMakeFiles/cpp_pubsub.dir/src/feasible_region.cpp.o] Error 1
+[0.429s] [ 45%] [32mBuilding CXX object CMakeFiles/planner.dir/src/feasible_region.cpp.o[0m
+[0.439s] In file included from [01m[K/root/planner_ws/src/cpp_pubsub/include/constraint_checker1d.hpp:7[m[K,
+[0.439s]                  from [01m[K/root/planner_ws/src/cpp_pubsub/src/constraint_checker1d.cpp:1[m[K:
+[0.439s] [01m[K/root/planner_ws/src/cpp_pubsub/include/constans.hpp:22:53:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kconst double Constans::FLAGS_trajectory_time_resolution[m[K’
+[0.439s]    22 |     const double FLAGS_trajectory_time_resolution = [01;31m[K0.1[m[K;
+[0.439s]       |                                                     [01;31m[K^~~[m[K
+[0.439s] [01m[K/root/planner_ws/src/cpp_pubsub/include/constans.hpp:13:18:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kconst double Constans::FLAGS_trajectory_time_resolution[m[K’
+[0.439s]    13 |     const double [01;36m[KFLAGS_trajectory_time_resolution[m[K = 0;
+[0.439s]       |                  [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.441s] [ 48%] [32mBuilding CXX object CMakeFiles/planner.dir/src/path_time_graph.cpp.o[0m
+[0.447s] [01m[K/root/planner_ws/src/cpp_pubsub/src/trajectory_evaluator.cpp:[m[K In member function ‘[01m[Kvoid Trajectory_Evaluator::TrajectoryEvaluator(const std::array<double, 3>&, const std::vector<LONspeed>&, const std::vector<LATpath>&, const std::vector<PathPoint>&)[m[K’:
+[0.448s] [01m[K/root/planner_ws/src/cpp_pubsub/src/trajectory_evaluator.cpp:9:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Klon_trajectories[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.448s]     9 |     [01;35m[Kconst std::vector<LONspeed> &lon_trajectories[m[K,
+[0.448s]       |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[0.451s] [01m[K/root/planner_ws/src/cpp_pubsub/src/trajectory_evaluator.cpp:11:35:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreference_line[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.451s]    11 |     [01;35m[Kconst std::vector<PathPoint> &reference_line[m[K)
+[0.451s]       |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[0.451s] [01m[K/root/planner_ws/src/cpp_pubsub/src/trajectory_evaluator.cpp:[m[K In member function ‘[01m[Kdouble Trajectory_Evaluator::LatComfortCost(const std::vector<double>&, const LATpath&) const[m[K’:
+[0.451s] [01m[K/root/planner_ws/src/cpp_pubsub/src/trajectory_evaluator.cpp:44:60:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Klat_trajectory[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.451s]    44 |                                             [01;35m[Kconst LATpath &lat_trajectory[m[K) const
+[0.451s]       |                                             [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[0.451s] [01m[K/root/planner_ws/src/cpp_pubsub/src/trajectory_evaluator.cpp:[m[K In member function ‘[01m[Kdouble Trajectory_Evaluator::LatOffsetCost(const LATpath&, const std::vector<double>&) const[m[K’:
+[0.452s] [01m[K/root/planner_ws/src/cpp_pubsub/src/trajectory_evaluator.cpp:62:20:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Klat_trajectory[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.452s]    62 |     [01;35m[Kconst LATpath &lat_trajectory[m[K,
+[0.452s]       |     [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[0.452s] make[2]: *** [CMakeFiles/cpp_pubsub.dir/build.make:193: CMakeFiles/cpp_pubsub.dir/src/collisionchecker.cpp.o] Error 1
+[0.457s] [01m[K/root/planner_ws/src/cpp_pubsub/src/trajectory_evaluator.cpp:[m[K In member function ‘[01m[Kvoid Trajectory_Evaluator::TrajectoryEvaluator(const std::array<double, 3>&, const std::vector<LONspeed>&, const std::vector<LATpath>&, const std::vector<PathPoint>&)[m[K’:
+[0.458s] [01m[K/root/planner_ws/src/cpp_pubsub/src/trajectory_evaluator.cpp:9:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Klon_trajectories[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.458s]     9 |     [01;35m[Kconst std::vector<LONspeed> &lon_trajectories[m[K,
+[0.458s]       |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[0.458s] [01m[K/root/planner_ws/src/cpp_pubsub/src/trajectory_evaluator.cpp:11:35:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreference_line[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.458s]    11 |     [01;35m[Kconst std::vector<PathPoint> &reference_line[m[K)
+[0.458s]       |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[0.458s] [01m[K/root/planner_ws/src/cpp_pubsub/src/trajectory_evaluator.cpp:[m[K In member function ‘[01m[Kdouble Trajectory_Evaluator::LatComfortCost(const std::vector<double>&, const LATpath&) const[m[K’:
+[0.459s] [01m[K/root/planner_ws/src/cpp_pubsub/src/trajectory_evaluator.cpp:44:60:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Klat_trajectory[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.459s]    44 |                                             [01;35m[Kconst LATpath &lat_trajectory[m[K) const
+[0.459s]       |                                             [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[0.459s] [01m[K/root/planner_ws/src/cpp_pubsub/src/trajectory_evaluator.cpp:[m[K In member function ‘[01m[Kdouble Trajectory_Evaluator::LatOffsetCost(const LATpath&, const std::vector<double>&) const[m[K’:
+[0.459s] [01m[K/root/planner_ws/src/cpp_pubsub/src/trajectory_evaluator.cpp:62:20:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Klat_trajectory[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.460s]    62 |     [01;35m[Kconst LATpath &lat_trajectory[m[K,
+[0.460s]       |     [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[0.470s] [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:[m[K In member function ‘[01m[Kstd::vector<std::pair<std::vector<double>, double> > EndConditionSampler::SampleLonEndConditionsForLaneChange(int) const[m[K’:
+[0.470s] [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:115:68:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KLC_mode[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.470s]   115 | EndConditionSampler::SampleLonEndConditionsForLaneChange([01;35m[Kconst int LC_mode[m[K) const
+[0.471s]       |                                                          [01;35m[K~~~~~~~~~~^~~~~~~[m[K
+[0.489s] make[2]: *** [CMakeFiles/planner.dir/build.make:193: CMakeFiles/planner.dir/src/constraint_checker1d.cpp.o] Error 1
+[0.490s] make[2]: *** Waiting for unfinished jobs....
+[0.490s] In file included from [01m[K/root/planner_ws/src/cpp_pubsub/include/constraint_checker1d.hpp:7[m[K,
+[0.490s]                  from [01m[K/root/planner_ws/src/cpp_pubsub/include/collisionchecker.hpp:6[m[K,
+[0.490s]                  from [01m[K/root/planner_ws/src/cpp_pubsub/src/collisionchecker.cpp:1[m[K:
+[0.490s] [01m[K/root/planner_ws/src/cpp_pubsub/include/constans.hpp:22:53:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kconst double Constans::FLAGS_trajectory_time_resolution[m[K’
+[0.490s]    22 |     const double FLAGS_trajectory_time_resolution = [01;31m[K0.1[m[K;
+[0.491s]       |                                                     [01;31m[K^~~[m[K
+[0.491s] [01m[K/root/planner_ws/src/cpp_pubsub/include/constans.hpp:13:18:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kconst double Constans::FLAGS_trajectory_time_resolution[m[K’
+[0.491s]    13 |     const double [01;36m[KFLAGS_trajectory_time_resolution[m[K = 0;
+[0.491s]       |                  [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.543s] [01m[K/root/planner_ws/src/cpp_pubsub/src/collisionchecker.cpp:[m[K In member function ‘[01m[Kbool Collision_Checker::InCollision(const std::vector<std::vector<double> >&, const LATpath&, double, double, const std::array<double, 3>&)[m[K’:
+[0.543s] [01m[K/root/planner_ws/src/cpp_pubsub/src/collisionchecker.cpp:19:17:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kpointnum[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[0.543s]    19 |             int [01;35m[Kpointnum[m[K = 30;
+[0.548s]       |                 [01;35m[K^~~~~~~~[m[K
+[0.548s] [01m[K/root/planner_ws/src/cpp_pubsub/src/collisionchecker.cpp:5:74:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kobs_length[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.549s]     5 |                                     const double obs_width, [01;35m[Kconst double obs_length[m[K, const std::array<double, 3> &init_s)
+[0.549s]       |                                                             [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[0.549s] make[2]: *** [CMakeFiles/planner.dir/build.make:180: CMakeFiles/planner.dir/src/trajectory_evaluator.cpp.o] Error 1
+[0.582s] make[2]: *** [CMakeFiles/cpp_pubsub.dir/build.make:206: CMakeFiles/cpp_pubsub.dir/src/end_condition_sampler.cpp.o] Error 1
+[0.588s] make[2]: *** [CMakeFiles/cpp_pubsub.dir/build.make:167: CMakeFiles/cpp_pubsub.dir/src/trajectory_evaluator.cpp.o] Error 1
+[0.590s] make[2]: *** [CMakeFiles/planner.dir/build.make:206: CMakeFiles/planner.dir/src/collisionchecker.cpp.o] Error 1
+[0.694s] In file included from [01m[K/root/planner_ws/src/cpp_pubsub/include/feasible_region.hpp:4[m[K,
+[0.694s]                  from [01m[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:1[m[K:
+[0.694s] [01m[K/root/planner_ws/src/cpp_pubsub/include/constans.hpp:22:53:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kconst double Constans::FLAGS_trajectory_time_resolution[m[K’
+[0.694s]    22 |     const double FLAGS_trajectory_time_resolution = [01;31m[K0.1[m[K;
+[0.694s]       |                                                     [01;31m[K^~~[m[K
+[0.694s] In file included from [01m[K/root/planner_ws/src/cpp_pubsub/include/path_time_graph.hpp:6[m[K,
+[0.694s]                  from [01m[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:1[m[K:
+[0.694s] [01m[K/root/planner_ws/src/cpp_pubsub/include/constans.hpp:22:53:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kconst double Constans::FLAGS_trajectory_time_resolution[m[K’
+[0.694s]    22 |     const double FLAGS_trajectory_time_resolution = [01;31m[K0.1[m[K;
+[0.695s]       |                                                     [01;31m[K^~~[m[K
+[0.695s] [01m[K/root/planner_ws/src/cpp_pubsub/include/constans.hpp:13:18:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kconst double Constans::FLAGS_trajectory_time_resolution[m[K’
+[0.695s]    13 |     const double [01;36m[KFLAGS_trajectory_time_resolution[m[K = 0;
+[0.695s]       |                  [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.695s] [01m[K/root/planner_ws/src/cpp_pubsub/include/constans.hpp:13:18:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kconst double Constans::FLAGS_trajectory_time_resolution[m[K’
+[0.695s]    13 |     const double [01;36m[KFLAGS_trajectory_time_resolution[m[K = 0;
+[0.695s]       |                  [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.705s] [01m[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:[m[K In member function ‘[01m[Kvoid PathTimeGraph::Init(const std::vector<std::vector<double> >&, const std::vector<PathPoint>&, double, double, double, double, const std::array<double, 3>&)[m[K’:
+[0.705s] [01m[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:20:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<double> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[0.706s]    20 |         for (int i = 0; [01;35m[Ki < dynamic_obstacle_sl.size()[m[K; i++)
+[0.706s]       |                         [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.706s] [01m[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:24:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kobs_heading[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[0.706s]    24 |             double [01;35m[Kobs_heading[m[K = dynamic_obstacle_sl[i][2];
+[0.707s]       |                    [01;35m[K^~~~~~~~~~~[m[K
+[0.707s] [01m[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:25:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kobs_velocity[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[0.707s]    25 |             double [01;35m[Kobs_velocity[m[K = dynamic_obstacle_sl[i][3];
+[0.707s]       |                    [01;35m[K^~~~~~~~~~~~[m[K
+[0.707s] [01m[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:5:102:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreferenceline[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.707s]     5 | void PathTimeGraph::Init(const vector<vector<double>> &dynamic_obstacle_sl, [01;35m[Kconst vector<PathPoint> &referenceline[m[K,
+[0.707s]       |                                                                             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[0.707s] [01m[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:6:61:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ks_end[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.707s]     6 |                          const double s_start, [01;35m[Kconst double s_end[m[K, const double t_start,
+[0.707s]       |                                                [01;35m[K~~~~~~~~~~~~~^~~~~[m[K
+[0.707s] [01m[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:6:81:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kt_start[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.707s]     6 |                          const double s_start, const double s_end, [01;35m[Kconst double t_start[m[K,
+[0.708s]       |                                                                    [01;35m[K~~~~~~~~~~~~~^~~~~~~[m[K
+[0.708s] [01m[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:7:39:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kt_end[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.708s]     7 |                          [01;35m[Kconst double t_end[m[K, const array<double, 3> &init_d)
+[0.708s]       |                          [01;35m[K~~~~~~~~~~~~~^~~~~[m[K
+[0.708s] [01m[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:7:70:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kinit_d[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.708s]     7 |                          const double t_end, [01;35m[Kconst array<double, 3> &init_d[m[K)
+[0.708s]       |                                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[0.717s] In file included from [01m[K/root/planner_ws/src/cpp_pubsub/include/feasible_region.hpp:4[m[K,
+[0.717s]                  from [01m[K/root/planner_ws/src/cpp_pubsub/include/end_condition_sampler.hpp:6[m[K,
+[0.717s]                  from [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:1[m[K:
+[0.717s] [01m[K/root/planner_ws/src/cpp_pubsub/include/constans.hpp:22:53:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kconst double Constans::FLAGS_trajectory_time_resolution[m[K’
+[0.717s]    22 |     const double FLAGS_trajectory_time_resolution = [01;31m[K0.1[m[K;
+[0.717s]       |                                                     [01;31m[K^~~[m[K
+[0.717s] [01m[K/root/planner_ws/src/cpp_pubsub/include/constans.hpp:13:18:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kconst double Constans::FLAGS_trajectory_time_resolution[m[K’
+[0.717s]    13 |     const double [01;36m[KFLAGS_trajectory_time_resolution[m[K = 0;
+[0.718s]       |                  [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.765s] make[2]: *** [CMakeFiles/planner.dir/build.make:245: CMakeFiles/planner.dir/src/path_time_graph.cpp.o] Error 1
+[0.790s] make[2]: *** [CMakeFiles/planner.dir/build.make:232: CMakeFiles/planner.dir/src/feasible_region.cpp.o] Error 1
+[0.801s] [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:[m[K In member function ‘[01m[Kstd::vector<std::pair<std::vector<double>, double> > EndConditionSampler::SampleLonEndConditionsForLaneChange(int) const[m[K’:
+[0.801s] [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:115:68:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KLC_mode[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.801s]   115 | EndConditionSampler::SampleLonEndConditionsForLaneChange([01;35m[Kconst int LC_mode[m[K) const
+[0.801s]       |                                                          [01;35m[K~~~~~~~~~~^~~~~~~[m[K
+[0.880s] make[2]: *** [CMakeFiles/planner.dir/build.make:219: CMakeFiles/planner.dir/src/end_condition_sampler.cpp.o] Error 1
+[1.736s] In file included from [01m[K/root/planner_ws/src/cpp_pubsub/include/constraint_checker1d.hpp:7[m[K,
+[1.736s]                  from [01m[K/root/planner_ws/src/cpp_pubsub/include/trajectory_evaluator.hpp:9[m[K,
+[1.736s]                  from [01m[K/root/planner_ws/src/cpp_pubsub/include/manager.hpp:20[m[K,
+[1.736s]                  from [01m[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:1[m[K:
+[1.737s] [01m[K/root/planner_ws/src/cpp_pubsub/include/constans.hpp:22:53:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kconst double Constans::FLAGS_trajectory_time_resolution[m[K’
+[1.737s]    22 |     const double FLAGS_trajectory_time_resolution = [01;31m[K0.1[m[K;
+[1.737s]       |                                                     [01;31m[K^~~[m[K
+[1.737s] [01m[K/root/planner_ws/src/cpp_pubsub/include/constans.hpp:13:18:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kconst double Constans::FLAGS_trajectory_time_resolution[m[K’
+[1.737s]    13 |     const double [01;36m[KFLAGS_trajectory_time_resolution[m[K = 0;
+[1.737s]       |                  [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.782s] In file included from [01m[K/root/planner_ws/src/cpp_pubsub/include/constraint_checker1d.hpp:7[m[K,
+[1.782s]                  from [01m[K/root/planner_ws/src/cpp_pubsub/include/trajectory_evaluator.hpp:9[m[K,
+[1.782s]                  from [01m[K/root/planner_ws/src/cpp_pubsub/include/manager.hpp:20[m[K,
+[1.782s]                  from [01m[K/root/planner_ws/src/cpp_pubsub/src/publisher.cpp:10[m[K:
+[1.782s] [01m[K/root/planner_ws/src/cpp_pubsub/include/constans.hpp:22:53:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kconst double Constans::FLAGS_trajectory_time_resolution[m[K’
+[1.782s]    22 |     const double FLAGS_trajectory_time_resolution = [01;31m[K0.1[m[K;
+[1.783s]       |                                                     [01;31m[K^~~[m[K
+[1.783s] [01m[K/root/planner_ws/src/cpp_pubsub/include/constans.hpp:13:18:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kconst double Constans::FLAGS_trajectory_time_resolution[m[K’
+[1.784s]    13 |     const double [01;36m[KFLAGS_trajectory_time_resolution[m[K = 0;
+[1.784s]       |                  [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.849s] In file included from [01m[K/root/planner_ws/src/cpp_pubsub/include/constraint_checker1d.hpp:7[m[K,
+[1.849s]                  from [01m[K/root/planner_ws/src/cpp_pubsub/include/trajectory_evaluator.hpp:9[m[K,
+[1.849s]                  from [01m[K/root/planner_ws/src/cpp_pubsub/include/manager.hpp:20[m[K,
+[1.849s]                  from [01m[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:1[m[K:
+[1.849s] [01m[K/root/planner_ws/src/cpp_pubsub/include/constans.hpp:22:53:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kconst double Constans::FLAGS_trajectory_time_resolution[m[K’
+[1.849s]    22 |     const double FLAGS_trajectory_time_resolution = [01;31m[K0.1[m[K;
+[1.849s]       |                                                     [01;31m[K^~~[m[K
+[1.849s] [01m[K/root/planner_ws/src/cpp_pubsub/include/constans.hpp:13:18:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kconst double Constans::FLAGS_trajectory_time_resolution[m[K’
+[1.849s]    13 |     const double [01;36m[KFLAGS_trajectory_time_resolution[m[K = 0;
+[1.849s]       |                  [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.383s] make[2]: *** [CMakeFiles/planner.dir/build.make:89: CMakeFiles/planner.dir/src/manager.cpp.o] Error 1
+[2.456s] make[2]: *** [CMakeFiles/cpp_pubsub.dir/build.make:76: CMakeFiles/cpp_pubsub.dir/src/manager.cpp.o] Error 1
+[2.457s] make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/cpp_pubsub.dir/all] Error 2
+[2.457s] make[1]: *** Waiting for unfinished jobs....
+[3.477s] make[2]: *** [CMakeFiles/planner.dir/build.make:63: CMakeFiles/planner.dir/src/publisher.cpp.o] Error 1
+[3.478s] make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/planner.dir/all] Error 2
+[3.478s] make: *** [Makefile:141: all] Error 2
+[3.480s] Invoked command in '/root/planner_ws/build/cpp_pubsub' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /root/planner_ws/build/cpp_pubsub -- -j12 -l12

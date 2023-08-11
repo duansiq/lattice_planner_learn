@@ -1,0 +1,151 @@
+[0.282s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.282s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f4a1058b9a0>>, merge_install=False, metas=['./colcon.meta'], mixin=None, mixin_files=None, mixin_verb=('build',), packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=12, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f4a1058b9a0>, verb_name='build', verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f4a1058bf70>)
+[0.306s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.307s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/Gazebo.meta'
+[0.307s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/fastrtps.meta'
+[0.307s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.307s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.307s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.307s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.308s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.308s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/root/planner_ws/src'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_pubsub) by extensions ['ignore', 'ignore_ament_install']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_pubsub) by extension 'ignore'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_pubsub) by extension 'ignore_ament_install'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_pubsub) by extensions ['colcon_pkg']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_pubsub) by extension 'colcon_pkg'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_pubsub) by extensions ['colcon_meta']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_pubsub) by extension 'colcon_meta'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_pubsub) by extensions ['ros']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_pubsub) by extension 'ros'
+[0.333s] DEBUG:colcon.colcon_core.package_identification:Package 'cpp_pubsub' with type 'ros.ament_cmake' and name 'cpp_pubsub'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(lattice_planner) by extensions ['ignore', 'ignore_ament_install']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(lattice_planner) by extension 'ignore'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(lattice_planner) by extension 'ignore_ament_install'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(lattice_planner) by extensions ['colcon_pkg']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(lattice_planner) by extension 'colcon_pkg'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(lattice_planner) by extensions ['colcon_meta']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(lattice_planner) by extension 'colcon_meta'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(lattice_planner) by extensions ['ros']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(lattice_planner) by extension 'ros'
+[0.335s] DEBUG:colcon.colcon_core.package_identification:Package 'lattice_planner' with type 'ros.ament_cmake' and name 'lattice_planner'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(planner) by extensions ['ignore', 'ignore_ament_install']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(planner) by extension 'ignore'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(planner) by extension 'ignore_ament_install'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(planner) by extensions ['colcon_pkg']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(planner) by extension 'colcon_pkg'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(planner) by extensions ['colcon_meta']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(planner) by extension 'colcon_meta'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(planner) by extensions ['ros']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(planner) by extension 'ros'
+[0.336s] DEBUG:colcon.colcon_core.package_identification:Package 'planner' with type 'ros.ament_cmake' and name 'planner'
+[0.336s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.336s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.336s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.336s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.336s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_args' from command line to 'None'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_target' from command line to 'None'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_clean_cache' from command line to 'False'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_clean_first' from command line to 'False'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_force_configure' from command line to 'False'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'ament_cmake_args' from command line to 'None'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'catkin_cmake_args' from command line to 'None'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.357s] DEBUG:colcon.colcon_core.verb:Building package 'cpp_pubsub' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/planner_ws/src/build/cpp_pubsub', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/planner_ws/src/install/cpp_pubsub', 'merge_install': False, 'path': '/root/planner_ws/src/cpp_pubsub', 'symlink_install': False, 'test_result_base': None}
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'lattice_planner' build argument 'cmake_args' from command line to 'None'
+[0.359s] Level 5:colcon.colcon_core.verb:set package 'lattice_planner' build argument 'cmake_target' from command line to 'None'
+[0.359s] Level 5:colcon.colcon_core.verb:set package 'lattice_planner' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.359s] Level 5:colcon.colcon_core.verb:set package 'lattice_planner' build argument 'cmake_clean_cache' from command line to 'False'
+[0.359s] Level 5:colcon.colcon_core.verb:set package 'lattice_planner' build argument 'cmake_clean_first' from command line to 'False'
+[0.359s] Level 5:colcon.colcon_core.verb:set package 'lattice_planner' build argument 'cmake_force_configure' from command line to 'False'
+[0.359s] Level 5:colcon.colcon_core.verb:set package 'lattice_planner' build argument 'ament_cmake_args' from command line to 'None'
+[0.359s] Level 5:colcon.colcon_core.verb:set package 'lattice_planner' build argument 'catkin_cmake_args' from command line to 'None'
+[0.359s] Level 5:colcon.colcon_core.verb:set package 'lattice_planner' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.359s] DEBUG:colcon.colcon_core.verb:Building package 'lattice_planner' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/planner_ws/src/build/lattice_planner', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/planner_ws/src/install/lattice_planner', 'merge_install': False, 'path': '/root/planner_ws/src/lattice_planner', 'symlink_install': False, 'test_result_base': None}
+[0.360s] Level 5:colcon.colcon_core.verb:set package 'planner' build argument 'cmake_args' from command line to 'None'
+[0.360s] Level 5:colcon.colcon_core.verb:set package 'planner' build argument 'cmake_target' from command line to 'None'
+[0.360s] Level 5:colcon.colcon_core.verb:set package 'planner' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.360s] Level 5:colcon.colcon_core.verb:set package 'planner' build argument 'cmake_clean_cache' from command line to 'False'
+[0.360s] Level 5:colcon.colcon_core.verb:set package 'planner' build argument 'cmake_clean_first' from command line to 'False'
+[0.360s] Level 5:colcon.colcon_core.verb:set package 'planner' build argument 'cmake_force_configure' from command line to 'False'
+[0.360s] Level 5:colcon.colcon_core.verb:set package 'planner' build argument 'ament_cmake_args' from command line to 'None'
+[0.360s] Level 5:colcon.colcon_core.verb:set package 'planner' build argument 'catkin_cmake_args' from command line to 'None'
+[0.360s] Level 5:colcon.colcon_core.verb:set package 'planner' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.360s] DEBUG:colcon.colcon_core.verb:Building package 'planner' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/planner_ws/src/build/planner', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/planner_ws/src/install/planner', 'merge_install': False, 'path': '/root/planner_ws/src/planner', 'symlink_install': False, 'test_result_base': None}
+[0.361s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.366s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.366s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/planner_ws/src/cpp_pubsub' with build type 'ament_cmake'
+[0.367s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/planner_ws/src/cpp_pubsub'
+[0.375s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.376s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.376s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.385s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/planner_ws/src/lattice_planner' with build type 'ament_cmake'
+[0.385s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/planner_ws/src/lattice_planner'
+[0.388s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.388s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.399s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/planner_ws/src/planner' with build type 'ament_cmake'
+[0.399s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/planner_ws/src/planner'
+[0.401s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.402s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.420s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/planner_ws/src/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /root/planner_ws/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/root/planner_ws/src/install/cpp_pubsub
+[0.428s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/planner_ws/src/build/lattice_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /root/planner_ws/src/build/lattice_planner -- -j12 -l12
+[0.437s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/planner_ws/src/build/planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /root/planner_ws/src/build/planner -- -j12 -l12
+[1.030s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/planner_ws/src/build/cpp_pubsub' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /root/planner_ws/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/root/planner_ws/src/install/cpp_pubsub
+[1.053s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_pubsub)
+[1.061s] Level 1:colcon.colcon_core.environment:checking '/root/planner_ws/src/install/cpp_pubsub' for CMake module files
+[1.062s] Level 1:colcon.colcon_core.environment:checking '/root/planner_ws/src/install/cpp_pubsub' for CMake config files
+[1.063s] Level 1:colcon.colcon_core.environment:checking '/root/planner_ws/src/install/cpp_pubsub/bin'
+[1.064s] Level 1:colcon.colcon_core.environment:checking '/root/planner_ws/src/install/cpp_pubsub/lib/pkgconfig/cpp_pubsub.pc'
+[1.065s] Level 1:colcon.colcon_core.environment:checking '/root/planner_ws/src/install/cpp_pubsub/lib/python3.8/site-packages'
+[1.066s] Level 1:colcon.colcon_core.environment:checking '/root/planner_ws/src/install/cpp_pubsub/bin'
+[1.068s] INFO:colcon.colcon_core.shell:Creating package script '/root/planner_ws/src/install/cpp_pubsub/share/cpp_pubsub/package.ps1'
+[1.073s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/planner_ws/src/install/cpp_pubsub/share/cpp_pubsub/package.dsv'
+[1.074s] INFO:colcon.colcon_core.shell:Creating package script '/root/planner_ws/src/install/cpp_pubsub/share/cpp_pubsub/package.sh'
+[1.075s] INFO:colcon.colcon_core.shell:Creating package script '/root/planner_ws/src/install/cpp_pubsub/share/cpp_pubsub/package.bash'
+[1.077s] INFO:colcon.colcon_core.shell:Creating package script '/root/planner_ws/src/install/cpp_pubsub/share/cpp_pubsub/package.zsh'
+[1.079s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/planner_ws/src/install/cpp_pubsub/share/colcon-core/packages/cpp_pubsub)
+[4.444s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.445s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.445s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[4.445s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.453s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[4.453s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.453s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.453s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.456s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[4.456s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.459s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/planner_ws/src/install/local_setup.ps1'
+[4.460s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/planner_ws/src/install/_local_setup_util_ps1.py'
+[4.462s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/planner_ws/src/install/setup.ps1'
+[4.464s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/planner_ws/src/install/local_setup.sh'
+[4.465s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/planner_ws/src/install/_local_setup_util_sh.py'
+[4.465s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/planner_ws/src/install/setup.sh'
+[4.467s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/planner_ws/src/install/local_setup.bash'
+[4.467s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/planner_ws/src/install/setup.bash'
+[4.468s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/planner_ws/src/install/local_setup.zsh'
+[4.469s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/planner_ws/src/install/setup.zsh'

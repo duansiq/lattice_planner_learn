@@ -1,0 +1,250 @@
+[0.000000] (-) TimerEvent: {}
+[0.000472] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000732] (-) JobUnselected: {'identifier': 'lattice_planner'}
+[0.000812] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.000850] (my_msgs) JobQueued: {'identifier': 'my_msgs', 'dependencies': OrderedDict()}
+[0.000888] (my_msgs) JobStarted: {'identifier': 'my_msgs'}
+[0.017212] (my_msgs) JobProgress: {'identifier': 'my_msgs', 'progress': 'cmake'}
+[0.017943] (my_msgs) Command: {'cmd': ['/usr/bin/cmake', '/root/planner_ws/src/my_msgs', '-DCMAKE_INSTALL_PREFIX=/root/planner_ws/src/install/my_msgs'], 'cwd': '/root/planner_ws/src/build/my_msgs', 'env': OrderedDict([('HOSTNAME', '44664d8c3ea7'), ('GIT_ASKPASS', '/root/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/root/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/root/planner_ws'), ('TERM_PROGRAM_VERSION', '1.78.2'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-1d4aab92-1be8-4af8-928e-22947f4f47d4.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('ROS_DISTRO', 'foxy'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-ffed19cc-03b0-440d-bfe9-19d06534580f.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/root/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-ffed19cc-03b0-440d-bfe9-19d06534580f.sock","/tmp/.X11-unix/X1","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-7677d3e828.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-ffed19cc-03b0-440d-bfe9-19d06534580f.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X1'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/root/planner_ws/src/build/my_msgs'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.031290] (my_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.048185] (my_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.099595] (-) TimerEvent: {}
+[0.184376] (my_msgs) StdoutLine: {'line': b'-- Found builtin_interfaces: 1.0.0 (/opt/ros/foxy/share/builtin_interfaces/cmake)\n'}
+[0.198448] (my_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.199718] (-) TimerEvent: {}
+[0.200922] (my_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.299964] (-) TimerEvent: {}
+[0.305121] (my_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.330371] (my_msgs) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[0.386198] (my_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[0.400139] (-) TimerEvent: {}
+[0.412758] (my_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[0.500288] (-) TimerEvent: {}
+[0.563118] (my_msgs) StdoutLine: {'line': b'-- Found ament_cmake_cppcheck: 0.9.8 (/opt/ros/foxy/share/ament_cmake_cppcheck/cmake)\n'}
+[0.564855] (my_msgs) StdoutLine: {'line': b'-- Found ament_cmake_cpplint: 0.9.8 (/opt/ros/foxy/share/ament_cmake_cpplint/cmake)\n'}
+[0.567004] (my_msgs) StdoutLine: {'line': b'-- Found ament_cmake_uncrustify: 0.9.8 (/opt/ros/foxy/share/ament_cmake_uncrustify/cmake)\n'}
+[0.569371] (my_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[0.600476] (-) TimerEvent: {}
+[0.700916] (-) TimerEvent: {}
+[0.775184] (my_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.801104] (-) TimerEvent: {}
+[0.875828] (my_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.897079] (my_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[0.898198] (my_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[0.901214] (-) TimerEvent: {}
+[0.919702] (my_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[0.919939] (my_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.919999] (my_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[0.920049] (my_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[0.936944] (my_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[0.998880] (my_msgs) StdoutLine: {'line': b'-- Found ament_cmake_flake8: 0.9.8 (/opt/ros/foxy/share/ament_cmake_flake8/cmake)\n'}
+[1.000371] (my_msgs) StdoutLine: {'line': b'-- Found ament_cmake_pep257: 0.9.8 (/opt/ros/foxy/share/ament_cmake_pep257/cmake)\n'}
+[1.001342] (-) TimerEvent: {}
+[1.003022] (my_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[1.015675] (my_msgs) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.016194] (my_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.016568] (my_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.020503] (my_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.066315] (my_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[1.069797] (my_msgs) StdoutLine: {'line': b'-- Build files have been written to: /root/planner_ws/src/build/my_msgs\n'}
+[1.078846] (my_msgs) CommandEnded: {'returncode': 0}
+[1.082861] (my_msgs) JobProgress: {'identifier': 'my_msgs', 'progress': 'build'}
+[1.083476] (my_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/planner_ws/src/build/my_msgs', '--', '-j12', '-l12'], 'cwd': '/root/planner_ws/src/build/my_msgs', 'env': OrderedDict([('HOSTNAME', '44664d8c3ea7'), ('GIT_ASKPASS', '/root/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/root/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/root/planner_ws'), ('TERM_PROGRAM_VERSION', '1.78.2'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-1d4aab92-1be8-4af8-928e-22947f4f47d4.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('ROS_DISTRO', 'foxy'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-ffed19cc-03b0-440d-bfe9-19d06534580f.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/root/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-ffed19cc-03b0-440d-bfe9-19d06534580f.sock","/tmp/.X11-unix/X1","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-7677d3e828.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-ffed19cc-03b0-440d-bfe9-19d06534580f.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X1'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/root/planner_ws/src/build/my_msgs'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[1.101514] (-) TimerEvent: {}
+[1.114597] (my_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_msgs__cpp\x1b[0m\n'}
+[1.114840] (my_msgs) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.123136] (my_msgs) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.201691] (-) TimerEvent: {}
+[1.302143] (-) TimerEvent: {}
+[1.347225] (my_msgs) StdoutLine: {'line': b'[  6%] Built target my_msgs__cpp\n'}
+[1.350000] (my_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_msgs__rosidl_generator_c\x1b[0m\n'}
+[1.357627] (my_msgs) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.358055] (my_msgs) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.358375] (my_msgs) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[1.362448] (my_msgs) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding C object CMakeFiles/my_msgs__rosidl_generator_c.dir/rosidl_generator_c/my_msgs/msg/detail/referenceline__functions.c.o\x1b[0m\n'}
+[1.399197] (my_msgs) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libmy_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[1.402329] (-) TimerEvent: {}
+[1.431752] (my_msgs) StdoutLine: {'line': b'[ 22%] Built target my_msgs__rosidl_generator_c\n'}
+[1.441909] (my_msgs) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.444137] (my_msgs) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[1.502459] (-) TimerEvent: {}
+[1.581296] (my_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_msgs__rosidl_typesupport_cpp\x1b[0m\n'}
+[1.582375] (my_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_msgs__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[1.594657] (my_msgs) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/my_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_msgs/msg/referenceline__type_support.cpp.o\x1b[0m\n'}
+[1.595892] (my_msgs) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/my_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_msgs/msg/detail/referenceline__type_support.cpp.o\x1b[0m\n'}
+[1.601118] (my_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_msgs__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[1.602611] (-) TimerEvent: {}
+[1.617147] (my_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/my_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_msgs/msg/detail/dds_fastrtps/referenceline__type_support.cpp.o\x1b[0m\n'}
+[1.668929] (my_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_msgs__rosidl_typesupport_c\x1b[0m\n'}
+[1.675996] (my_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_msgs__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[1.682870] (my_msgs) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/my_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_msgs/msg/referenceline__type_support.cpp.o\x1b[0m\n'}
+[1.689229] (my_msgs) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding C object CMakeFiles/my_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_msgs/msg/detail/referenceline__type_support.c.o\x1b[0m\n'}
+[1.702799] (-) TimerEvent: {}
+[1.710740] (my_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX shared library libmy_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[1.723307] (my_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking C shared library libmy_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[1.751359] (my_msgs) StdoutLine: {'line': b'[ 51%] Built target my_msgs__rosidl_typesupport_c\n'}
+[1.752456] (my_msgs) StdoutLine: {'line': b'[ 51%] Built target my_msgs__rosidl_typesupport_introspection_c\n'}
+[1.802981] (-) TimerEvent: {}
+[1.870917] (my_msgs) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX shared library libmy_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[1.903151] (-) TimerEvent: {}
+[1.903886] (my_msgs) StdoutLine: {'line': b'[ 54%] Built target my_msgs__rosidl_typesupport_cpp\n'}
+[1.924611] (my_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libmy_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[1.983892] (my_msgs) StdoutLine: {'line': b'[ 58%] Built target my_msgs__rosidl_typesupport_introspection_cpp\n'}
+[2.003333] (-) TimerEvent: {}
+[2.051264] (my_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libmy_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[2.103503] (-) TimerEvent: {}
+[2.121797] (my_msgs) StdoutLine: {'line': b'[ 61%] Built target my_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[2.130229] (my_msgs) StdoutLine: {'line': b'[ 64%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.203778] (-) TimerEvent: {}
+[2.304216] (-) TimerEvent: {}
+[2.327611] (my_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_msgs__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[2.342685] (my_msgs) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/my_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_msgs/msg/detail/referenceline__type_support_c.cpp.o\x1b[0m\n'}
+[2.404428] (-) TimerEvent: {}
+[2.504898] (-) TimerEvent: {}
+[2.605632] (-) TimerEvent: {}
+[2.647748] (my_msgs) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libmy_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[2.705796] (-) TimerEvent: {}
+[2.726617] (my_msgs) StdoutLine: {'line': b'[ 70%] Built target my_msgs__rosidl_typesupport_fastrtps_c\n'}
+[2.735584] (my_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_msgs\x1b[0m\n'}
+[2.745702] (my_msgs) StdoutLine: {'line': b'[ 70%] Built target my_msgs\n'}
+[2.754913] (my_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_msgs__py\x1b[0m\n'}
+[2.764153] (my_msgs) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[2.805938] (-) TimerEvent: {}
+[2.906316] (-) TimerEvent: {}
+[3.006689] (-) TimerEvent: {}
+[3.107163] (-) TimerEvent: {}
+[3.137129] (my_msgs) StdoutLine: {'line': b'[ 74%] Built target my_msgs__py\n'}
+[3.146216] (my_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_msgs__python\x1b[0m\n'}
+[3.161966] (my_msgs) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/my_msgs__python.dir/rosidl_generator_py/my_msgs/msg/_referenceline_s.c.o\x1b[0m\n'}
+[3.207370] (-) TimerEvent: {}
+[3.231650] (my_msgs) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_msgs/libmy_msgs__python.so\x1b[0m\n'}
+[3.273943] (my_msgs) StdoutLine: {'line': b'[ 80%] Built target my_msgs__python\n'}
+[3.281930] (my_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_msgs__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[3.283282] (my_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_msgs__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[3.283380] (my_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_msgs__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[3.295725] (my_msgs) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/my_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/my_msgs/_my_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[3.302895] (my_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/my_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/my_msgs/_my_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[3.303255] (my_msgs) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/my_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/my_msgs/_my_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[3.307575] (-) TimerEvent: {}
+[3.373651] (my_msgs) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_msgs/my_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.373947] (my_msgs) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/my_msgs/my_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.377203] (my_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_msgs/my_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.407293] (my_msgs) StdoutLine: {'line': b'[100%] Built target my_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[3.407599] (-) TimerEvent: {}
+[3.409914] (my_msgs) StdoutLine: {'line': b'[100%] Built target my_msgs__rosidl_typesupport_c__pyext\n'}
+[3.443040] (my_msgs) StdoutLine: {'line': b'[100%] Built target my_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[3.452156] (my_msgs) CommandEnded: {'returncode': 0}
+[3.489304] (my_msgs) JobProgress: {'identifier': 'my_msgs', 'progress': 'install'}
+[3.497631] (my_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/planner_ws/src/build/my_msgs'], 'cwd': '/root/planner_ws/src/build/my_msgs', 'env': OrderedDict([('HOSTNAME', '44664d8c3ea7'), ('GIT_ASKPASS', '/root/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/root/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/root/planner_ws'), ('TERM_PROGRAM_VERSION', '1.78.2'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-1d4aab92-1be8-4af8-928e-22947f4f47d4.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('ROS_DISTRO', 'foxy'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-ffed19cc-03b0-440d-bfe9-19d06534580f.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/root/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-ffed19cc-03b0-440d-bfe9-19d06534580f.sock","/tmp/.X11-unix/X1","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-7677d3e828.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-ffed19cc-03b0-440d-bfe9-19d06534580f.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X1'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/root/planner_ws/src/build/my_msgs'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[3.506607] (my_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.506912] (my_msgs) StdoutLine: {'line': b'-- Installing: /root/planner_ws/src/install/my_msgs/share/ament_index/resource_index/rosidl_interfaces/my_msgs\n'}
+[3.507154] (my_msgs) StdoutLine: {'line': b'-- Installing: /root/planner_ws/src/install/my_msgs/include/my_msgs\n'}
+[3.507332] (my_msgs) StdoutLine: {'line': b'-- Installing: /root/planner_ws/src/install/my_msgs/include/my_msgs/msg\n'}
+[3.507484] (my_msgs) StdoutLine: {'line': b'-- Installing: /root/planner_ws/src/install/my_msgs/include/my_msgs/msg/referenceline.h\n'}
+[3.507605] (-) TimerEvent: {}
+[3.507855] (my_msgs) StdoutLine: {'line': b'-- Installing: /root/planner_ws/src/install/my_msgs/include/my_msgs/msg/detail\n'}
+[3.508011] (my_msgs) StdoutLine: {'line': b'-- Installing: /root/planner_ws/src/install/my_msgs/include/my_msgs/msg/detail/referenceline__struct.h\n'}
+[3.508121] (my_msgs) StdoutLine: {'line': b'-- Installing: /root/planner_ws/src/install/my_msgs/include/my_msgs/msg/detail/referenceline__functions.h\n'}
+[3.508203] (my_msgs) StdoutLine: {'line': b'-- Installing: /root/planner_ws/src/install/my_msgs/include/my_msgs/msg/detail/referenceline__functions.c\n'}
+[3.508328] (my_msgs) StdoutLine: {'line': b'-- Installing: /root/planner_ws/src/install/my_msgs/include/my_msgs/msg/detail/referenceline__type_support.h\n'}
+[3.508551] (my_msgs) StdoutLine: {'line': b'-- Installing: /root/planner_ws/src/install/my_msgs/include/my_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[3.508627] (my_msgs) StdoutLine: {'line': b'-- Installing: /root/planner_ws/src/install/my_msgs/share/my_msgs/environment/library_path.sh\n'}
+[3.508748] (my_msgs) StdoutLine: {'line': b'-- Installing: /root/planner_ws/src/install/my_msgs/share/my_msgs/environment/library_path.dsv\n'}
+[3.508953] (my_msgs) StdoutLine: {'line': b'-- Installing: /root/planner_ws/src/install/my_msgs/lib/libmy_msgs__rosidl_generator_c.so\n'}
+[3.509184] (my_msgs) StdoutLine: {'line': b'-- Set runtime path of "/root/planner_ws/src/install/my_msgs/lib/libmy_msgs__rosidl_generator_c.so" to ""\n'}
+[3.509307] (my_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/planner_ws/src/install/my_msgs/include/my_msgs\n'}
+[3.509425] (my_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/planner_ws/src/install/my_msgs/include/my_msgs/msg\n'}
+[3.509553] (my_msgs) StdoutLine: {'line': b'-- Installing: /root/planner_ws/src/install/my_msgs/include/my_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[3.509748] (my_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/planner_ws/src/install/my_msgs/include/my_msgs/msg/detail\n'}
+[3.510067] (my_msgs) StdoutLine: {'line': b'-- Installing: /root/planner_ws/src/install/my_msgs/include/my_msgs/msg/detail/referenceline__rosidl_typesupport_fastrtps_c.h\n'}
+[3.510209] (my_msgs) StdoutLine: {'line': b'-- Installing: /root/planner_ws/src/install/my_msgs/lib/libmy_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[3.510350] (my_msgs) StdoutLine: {'line': b'-- Set runtime path of "/root/planner_ws/src/install/my_msgs/lib/libmy_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[3.510506] (my_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/planner_ws/src/install/my_msgs/include/my_msgs\n'}
+[3.510685] (my_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/planner_ws/src/install/my_msgs/include/my_msgs/msg\n'}
+[3.510916] (my_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/planner_ws/src/install/my_msgs/include/my_msgs/msg/detail\n'}
+[3.510971] (my_msgs) StdoutLine: {'line': b'-- Installing: /root/planner_ws/src/install/my_msgs/include/my_msgs/msg/detail/referenceline__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.511094] (my_msgs) StdoutLine: {'line': b'-- Installing: /root/planner_ws/src/install/my_msgs/include/my_msgs/msg/detail/dds_fastrtps\n'}
+[3.511213] (my_msgs) StdoutLine: {'line': b'-- Installing: /root/planner_ws/src/install/my_msgs/include/my_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[3.511333] (my_msgs) StdoutLine: {'line': b'-- Installing: /root/planner_ws/src/install/my_msgs/lib/libmy_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[3.511561] (my_msgs) StdoutLine: {'line': b'-- Set runtime path of "/root/planner_ws/src/install/my_msgs/lib/libmy_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[3.511717] (my_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/planner_ws/src/install/my_msgs/include/my_msgs\n'}
+[3.511840] (my_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/planner_ws/src/install/my_msgs/include/my_msgs/msg\n'}
+[3.511961] (my_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/planner_ws/src/install/my_msgs/include/my_msgs/msg/detail\n'}
+[3.512080] (my_msgs) StdoutLine: {'line': b'-- Installing: /root/planner_ws/src/install/my_msgs/include/my_msgs/msg/detail/referenceline__type_support.c\n'}
+[3.512200] (my_msgs) StdoutLine: {'line': b'-- Installing: /root/planner_ws/src/install/my_msgs/include/my_msgs/msg/detail/referenceline__rosidl_typesupport_introspection_c.h\n'}
+[3.512319] (my_msgs) StdoutLine: {'line': b'-- Installing: /root/planner_ws/src/install/my_msgs/include/my_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[3.512439] (my_msgs) StdoutLine: {'line': b'-- Installing: /root/planner_ws/src/install/my_msgs/lib/libmy_msgs__rosidl_typesupport_introspection_c.so\n'}
+[3.512562] (my_msgs) StdoutLine: {'line': b'-- Set runtime path of "/root/planner_ws/src/install/my_msgs/lib/libmy_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[3.512726] (my_msgs) StdoutLine: {'line': b'-- Installing: /root/planner_ws/src/install/my_msgs/lib/libmy_msgs__rosidl_typesupport_c.so\n'}
+[3.512940] (my_msgs) StdoutLine: {'line': b'-- Set runtime path of "/root/planner_ws/src/install/my_msgs/lib/libmy_msgs__rosidl_typesupport_c.so" to ""\n'}
+[3.513154] (my_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/planner_ws/src/install/my_msgs/include/my_msgs\n'}
+[3.513404] (my_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/planner_ws/src/install/my_msgs/include/my_msgs/msg\n'}
+[3.513499] (my_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/planner_ws/src/install/my_msgs/include/my_msgs/msg/detail\n'}
+[3.513576] (my_msgs) StdoutLine: {'line': b'-- Installing: /root/planner_ws/src/install/my_msgs/include/my_msgs/msg/detail/referenceline__struct.hpp\n'}
+[3.513867] (my_msgs) StdoutLine: {'line': b'-- Installing: /root/planner_ws/src/install/my_msgs/include/my_msgs/msg/detail/referenceline__builder.hpp\n'}
+[3.514059] (my_msgs) StdoutLine: {'line': b'-- Installing: /root/planner_ws/src/install/my_msgs/include/my_msgs/msg/detail/referenceline__traits.hpp\n'}
+[3.514216] (my_msgs) StdoutLine: {'line': b'-- Installing: /root/planner_ws/src/install/my_msgs/include/my_msgs/msg/referenceline.hpp\n'}
+[3.514341] (my_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/planner_ws/src/install/my_msgs/include/my_msgs\n'}
+[3.514463] (my_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/planner_ws/src/install/my_msgs/include/my_msgs/msg\n'}
+[3.514754] (my_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/planner_ws/src/install/my_msgs/include/my_msgs/msg/detail\n'}
+[3.514823] (my_msgs) StdoutLine: {'line': b'-- Installing: /root/planner_ws/src/install/my_msgs/include/my_msgs/msg/detail/referenceline__type_support.cpp\n'}
+[3.514895] (my_msgs) StdoutLine: {'line': b'-- Installing: /root/planner_ws/src/install/my_msgs/include/my_msgs/msg/detail/referenceline__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.514958] (my_msgs) StdoutLine: {'line': b'-- Installing: /root/planner_ws/src/install/my_msgs/lib/libmy_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[3.515089] (my_msgs) StdoutLine: {'line': b'-- Set runtime path of "/root/planner_ws/src/install/my_msgs/lib/libmy_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[3.515151] (my_msgs) StdoutLine: {'line': b'-- Installing: /root/planner_ws/src/install/my_msgs/lib/libmy_msgs__rosidl_typesupport_cpp.so\n'}
+[3.515242] (my_msgs) StdoutLine: {'line': b'-- Set runtime path of "/root/planner_ws/src/install/my_msgs/lib/libmy_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[3.515304] (my_msgs) StdoutLine: {'line': b'-- Installing: /root/planner_ws/src/install/my_msgs/share/my_msgs/environment/pythonpath.sh\n'}
+[3.515361] (my_msgs) StdoutLine: {'line': b'-- Installing: /root/planner_ws/src/install/my_msgs/share/my_msgs/environment/pythonpath.dsv\n'}
+[3.515421] (my_msgs) StdoutLine: {'line': b'-- Installing: /root/planner_ws/src/install/my_msgs/lib/python3.8/site-packages/my_msgs/__init__.py\n'}
+[3.539943] (my_msgs) StdoutLine: {'line': b"Compiling '/root/planner_ws/src/install/my_msgs/lib/python3.8/site-packages/my_msgs/__init__.py'...\n"}
+[3.543492] (my_msgs) StdoutLine: {'line': b'-- Installing: /root/planner_ws/src/install/my_msgs/lib/python3.8/site-packages/my_msgs/msg\n'}
+[3.544095] (my_msgs) StdoutLine: {'line': b'-- Installing: /root/planner_ws/src/install/my_msgs/lib/python3.8/site-packages/my_msgs/msg/__init__.py\n'}
+[3.544225] (my_msgs) StdoutLine: {'line': b'-- Installing: /root/planner_ws/src/install/my_msgs/lib/python3.8/site-packages/my_msgs/msg/_referenceline.py\n'}
+[3.544343] (my_msgs) StdoutLine: {'line': b'-- Installing: /root/planner_ws/src/install/my_msgs/lib/python3.8/site-packages/my_msgs/msg/_referenceline_s.c\n'}
+[3.544615] (my_msgs) StdoutLine: {'line': b'-- Installing: /root/planner_ws/src/install/my_msgs/lib/python3.8/site-packages/my_msgs/my_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[3.544816] (my_msgs) StdoutLine: {'line': b'-- Set runtime path of "/root/planner_ws/src/install/my_msgs/lib/python3.8/site-packages/my_msgs/my_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[3.544882] (my_msgs) StdoutLine: {'line': b'-- Installing: /root/planner_ws/src/install/my_msgs/lib/python3.8/site-packages/my_msgs/my_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[3.545098] (my_msgs) StdoutLine: {'line': b'-- Set runtime path of "/root/planner_ws/src/install/my_msgs/lib/python3.8/site-packages/my_msgs/my_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[3.545385] (my_msgs) StdoutLine: {'line': b'-- Installing: /root/planner_ws/src/install/my_msgs/lib/python3.8/site-packages/my_msgs/my_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[3.545677] (my_msgs) StdoutLine: {'line': b'-- Set runtime path of "/root/planner_ws/src/install/my_msgs/lib/python3.8/site-packages/my_msgs/my_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[3.545771] (my_msgs) StdoutLine: {'line': b'-- Installing: /root/planner_ws/src/install/my_msgs/lib/libmy_msgs__python.so\n'}
+[3.546044] (my_msgs) StdoutLine: {'line': b'-- Set runtime path of "/root/planner_ws/src/install/my_msgs/lib/libmy_msgs__python.so" to ""\n'}
+[3.546137] (my_msgs) StdoutLine: {'line': b'-- Installing: /root/planner_ws/src/install/my_msgs/share/my_msgs/msg/Referenceline.idl\n'}
+[3.546400] (my_msgs) StdoutLine: {'line': b'-- Installing: /root/planner_ws/src/install/my_msgs/share/my_msgs/msg/Referenceline.msg\n'}
+[3.546560] (my_msgs) StdoutLine: {'line': b'-- Installing: /root/planner_ws/src/install/my_msgs/share/ament_index/resource_index/package_run_dependencies/my_msgs\n'}
+[3.546810] (my_msgs) StdoutLine: {'line': b'-- Installing: /root/planner_ws/src/install/my_msgs/share/ament_index/resource_index/parent_prefix_path/my_msgs\n'}
+[3.546913] (my_msgs) StdoutLine: {'line': b'-- Installing: /root/planner_ws/src/install/my_msgs/share/my_msgs/environment/ament_prefix_path.sh\n'}
+[3.547107] (my_msgs) StdoutLine: {'line': b'-- Installing: /root/planner_ws/src/install/my_msgs/share/my_msgs/environment/ament_prefix_path.dsv\n'}
+[3.547287] (my_msgs) StdoutLine: {'line': b'-- Installing: /root/planner_ws/src/install/my_msgs/share/my_msgs/environment/path.sh\n'}
+[3.547512] (my_msgs) StdoutLine: {'line': b'-- Installing: /root/planner_ws/src/install/my_msgs/share/my_msgs/environment/path.dsv\n'}
+[3.547572] (my_msgs) StdoutLine: {'line': b'-- Installing: /root/planner_ws/src/install/my_msgs/share/my_msgs/local_setup.bash\n'}
+[3.547685] (my_msgs) StdoutLine: {'line': b'-- Installing: /root/planner_ws/src/install/my_msgs/share/my_msgs/local_setup.sh\n'}
+[3.547801] (my_msgs) StdoutLine: {'line': b'-- Installing: /root/planner_ws/src/install/my_msgs/share/my_msgs/local_setup.zsh\n'}
+[3.547991] (my_msgs) StdoutLine: {'line': b'-- Installing: /root/planner_ws/src/install/my_msgs/share/my_msgs/local_setup.dsv\n'}
+[3.548051] (my_msgs) StdoutLine: {'line': b'-- Installing: /root/planner_ws/src/install/my_msgs/share/my_msgs/package.dsv\n'}
+[3.548102] (my_msgs) StdoutLine: {'line': b'-- Installing: /root/planner_ws/src/install/my_msgs/share/ament_index/resource_index/packages/my_msgs\n'}
+[3.548210] (my_msgs) StdoutLine: {'line': b'-- Installing: /root/planner_ws/src/install/my_msgs/share/my_msgs/cmake/my_msgs__rosidl_generator_cExport.cmake\n'}
+[3.548381] (my_msgs) StdoutLine: {'line': b'-- Installing: /root/planner_ws/src/install/my_msgs/share/my_msgs/cmake/my_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[3.548546] (my_msgs) StdoutLine: {'line': b'-- Installing: /root/planner_ws/src/install/my_msgs/share/my_msgs/cmake/my_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[3.548696] (my_msgs) StdoutLine: {'line': b'-- Installing: /root/planner_ws/src/install/my_msgs/share/my_msgs/cmake/my_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[3.548872] (my_msgs) StdoutLine: {'line': b'-- Installing: /root/planner_ws/src/install/my_msgs/share/my_msgs/cmake/my_msgs__rosidl_typesupport_cExport.cmake\n'}
+[3.549022] (my_msgs) StdoutLine: {'line': b'-- Installing: /root/planner_ws/src/install/my_msgs/share/my_msgs/cmake/my_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[3.549143] (my_msgs) StdoutLine: {'line': b'-- Installing: /root/planner_ws/src/install/my_msgs/share/my_msgs/cmake/my_msgs__rosidl_generator_cppExport.cmake\n'}
+[3.549308] (my_msgs) StdoutLine: {'line': b'-- Installing: /root/planner_ws/src/install/my_msgs/share/my_msgs/cmake/my_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[3.549412] (my_msgs) StdoutLine: {'line': b'-- Installing: /root/planner_ws/src/install/my_msgs/share/my_msgs/cmake/my_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[3.549557] (my_msgs) StdoutLine: {'line': b'-- Installing: /root/planner_ws/src/install/my_msgs/share/my_msgs/cmake/my_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[3.549705] (my_msgs) StdoutLine: {'line': b'-- Installing: /root/planner_ws/src/install/my_msgs/share/my_msgs/cmake/my_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[3.549817] (my_msgs) StdoutLine: {'line': b'-- Installing: /root/planner_ws/src/install/my_msgs/share/my_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[3.549923] (my_msgs) StdoutLine: {'line': b'-- Installing: /root/planner_ws/src/install/my_msgs/share/my_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[3.550035] (my_msgs) StdoutLine: {'line': b'-- Installing: /root/planner_ws/src/install/my_msgs/share/my_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[3.550149] (my_msgs) StdoutLine: {'line': b'-- Installing: /root/planner_ws/src/install/my_msgs/share/my_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[3.550263] (my_msgs) StdoutLine: {'line': b'-- Installing: /root/planner_ws/src/install/my_msgs/share/my_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[3.550375] (my_msgs) StdoutLine: {'line': b'-- Installing: /root/planner_ws/src/install/my_msgs/share/my_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[3.550483] (my_msgs) StdoutLine: {'line': b'-- Installing: /root/planner_ws/src/install/my_msgs/share/my_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[3.550611] (my_msgs) StdoutLine: {'line': b'-- Installing: /root/planner_ws/src/install/my_msgs/share/my_msgs/cmake/my_msgsConfig.cmake\n'}
+[3.550766] (my_msgs) StdoutLine: {'line': b'-- Installing: /root/planner_ws/src/install/my_msgs/share/my_msgs/cmake/my_msgsConfig-version.cmake\n'}
+[3.550943] (my_msgs) StdoutLine: {'line': b'-- Installing: /root/planner_ws/src/install/my_msgs/share/my_msgs/package.xml\n'}
+[3.552792] (my_msgs) CommandEnded: {'returncode': 0}
+[3.607769] (-) TimerEvent: {}
+[3.625085] (my_msgs) JobEnded: {'identifier': 'my_msgs', 'rc': 0}
+[3.626344] (-) EventReactorShutdown: {}

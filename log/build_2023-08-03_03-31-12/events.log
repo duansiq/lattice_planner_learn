@@ -1,0 +1,224 @@
+[0.000000] (-) TimerEvent: {}
+[0.000616] (cpp_pubsub) JobQueued: {'identifier': 'cpp_pubsub', 'dependencies': OrderedDict()}
+[0.000939] (cpp_pubsub) JobStarted: {'identifier': 'cpp_pubsub'}
+[0.023545] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'cmake'}
+[0.024764] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'build'}
+[0.026077] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/planner_ws/build/cpp_pubsub', '--', '-j12', '-l12'], 'cwd': '/root/planner_ws/build/cpp_pubsub', 'env': OrderedDict([('HOSTNAME', '44664d8c3ea7'), ('GIT_ASKPASS', '/root/.vscode-server/bin/b380da4ef1ee00e224a15c1d4d9793e27c2b6302/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/root/planner_ws/install/cpp_pubsub/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/root/.vscode-server/bin/b380da4ef1ee00e224a15c1d4d9793e27c2b6302/bin/helpers/browser.sh'), ('HOME', '/root'), ('TERM_PROGRAM_VERSION', '1.79.0'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-74b31f8a-e159-44e4-bc80-9da7f7fd8091.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/b380da4ef1ee00e224a15c1d4d9793e27c2b6302/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/b380da4ef1ee00e224a15c1d4d9793e27c2b6302/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('COLCON_PREFIX_PATH', '/root/planner_ws/install'), ('ROS_DISTRO', 'foxy'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-6c138ddc-56ac-4c91-9ecd-514541b9e14e.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/root/.vscode-server/bin/b380da4ef1ee00e224a15c1d4d9793e27c2b6302/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-6c138ddc-56ac-4c91-9ecd-514541b9e14e.sock","/tmp/.X11-unix/X11","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':11'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-7677d3e828.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-6c138ddc-56ac-4c91-9ecd-514541b9e14e.sock'), ('AMENT_PREFIX_PATH', '/root/planner_ws/install/cpp_pubsub:/opt/ros/foxy'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X11'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/root/planner_ws/build/cpp_pubsub'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/planner_ws/install/cpp_pubsub:/opt/ros/foxy')]), 'shell': False}
+[0.070735] (cpp_pubsub) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target cpp_pubsub\x1b[0m\n'}
+[0.071382] (cpp_pubsub) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target planner\x1b[0m\n'}
+[0.098507] (cpp_pubsub) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding CXX object CMakeFiles/cpp_pubsub.dir/src/trajectory_evaluator.cpp.o\x1b[0m\n'}
+[0.098857] (cpp_pubsub) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding CXX object CMakeFiles/cpp_pubsub.dir/src/constraint_checker1d.cpp.o\x1b[0m\n'}
+[0.099006] (cpp_pubsub) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding CXX object CMakeFiles/cpp_pubsub.dir/src/feasible_region.cpp.o\x1b[0m\n'}
+[0.099081] (cpp_pubsub) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/cpp_pubsub.dir/src/manager.cpp.o\x1b[0m\n'}
+[0.099149] (cpp_pubsub) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/cpp_pubsub.dir/src/end_condition_sampler.cpp.o\x1b[0m\n'}
+[0.099384] (-) TimerEvent: {}
+[0.100429] (cpp_pubsub) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/cpp_pubsub.dir/src/path_time_graph.cpp.o\x1b[0m\n'}
+[0.101625] (cpp_pubsub) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/cpp_pubsub.dir/src/collisionchecker.cpp.o\x1b[0m\n'}
+[0.110382] (cpp_pubsub) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/planner.dir/src/publisher.cpp.o\x1b[0m\n'}
+[0.110713] (cpp_pubsub) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/planner.dir/src/constraint_checker1d.cpp.o\x1b[0m\n'}
+[0.110832] (cpp_pubsub) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/planner.dir/src/trajectory_evaluator.cpp.o\x1b[0m\n'}
+[0.110942] (cpp_pubsub) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/planner.dir/src/manager.cpp.o\x1b[0m\n'}
+[0.111017] (cpp_pubsub) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/planner.dir/src/collisionchecker.cpp.o\x1b[0m\n'}
+[0.199542] (-) TimerEvent: {}
+[0.302463] (-) TimerEvent: {}
+[0.378045] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid PathTimeGraph::Init(const std::vector<std::vector<double> >&, const std::vector<PathPoint>&, double, double, double, double, const std::array<double, 3>&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[0.378371] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:20:27:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<std::vector<double> >::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[0.378486] (cpp_pubsub) StderrLine: {'line': b'   20 |         for (int i = 0; \x1b[01;35m\x1b[Ki < dynamic_obstacle_sl.size()\x1b[m\x1b[K; i++)\n'}
+[0.378572] (cpp_pubsub) StderrLine: {'line': b'      |                         \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.379902] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:24:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kobs_heading\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[0.380175] (cpp_pubsub) StderrLine: {'line': b'   24 |             double \x1b[01;35m\x1b[Kobs_heading\x1b[m\x1b[K = dynamic_obstacle_sl[i][2];\n'}
+[0.380254] (cpp_pubsub) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.380326] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:25:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kobs_velocity\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[0.380406] (cpp_pubsub) StderrLine: {'line': b'   25 |             double \x1b[01;35m\x1b[Kobs_velocity\x1b[m\x1b[K = dynamic_obstacle_sl[i][3];\n'}
+[0.380476] (cpp_pubsub) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.381317] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:105:23:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kstatement has no effect [\x1b[01;35m\x1b[K-Wunused-value\x1b[m\x1b[K]\n'}
+[0.381488] (cpp_pubsub) StderrLine: {'line': b'  105 |                 \x1b[01;35m\x1b[Kst.su == predicte_s\x1b[m\x1b[K;\n'}
+[0.381559] (cpp_pubsub) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.381723] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:118:23:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kstatement has no effect [\x1b[01;35m\x1b[K-Wunused-value\x1b[m\x1b[K]\n'}
+[0.381804] (cpp_pubsub) StderrLine: {'line': b'  118 |                 \x1b[01;35m\x1b[Kst.sl == predicte_s\x1b[m\x1b[K;\n'}
+[0.381872] (cpp_pubsub) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.382024] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:5:102:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kreferenceline\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[0.382103] (cpp_pubsub) StderrLine: {'line': b'    5 | void PathTimeGraph::Init(const vector<vector<double>> &dynamic_obstacle_sl, \x1b[01;35m\x1b[Kconst vector<PathPoint> &referenceline\x1b[m\x1b[K,\n'}
+[0.382176] (cpp_pubsub) StderrLine: {'line': b'      |                                                                             \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.382254] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:7:70:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kinit_d\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[0.382323] (cpp_pubsub) StderrLine: {'line': b'    7 |                          const double t_end, \x1b[01;35m\x1b[Kconst array<double, 3> &init_d\x1b[m\x1b[K)\n'}
+[0.382389] (cpp_pubsub) StderrLine: {'line': b'      |                                              \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[0.400731] (-) TimerEvent: {}
+[0.441109] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/collisionchecker.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool Collision_Checker::InCollision(const std::vector<std::vector<double> >&, const LATpath&, double, double, const std::array<double, 3>&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[0.441528] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/collisionchecker.cpp:19:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kpointnum\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[0.441632] (cpp_pubsub) StderrLine: {'line': b'   19 |             int \x1b[01;35m\x1b[Kpointnum\x1b[m\x1b[K = 30;\n'}
+[0.441713] (cpp_pubsub) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[0.441791] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/collisionchecker.cpp:5:74:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kobs_length\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[0.441874] (cpp_pubsub) StderrLine: {'line': b'    5 |                                     const double obs_width, \x1b[01;35m\x1b[Kconst double obs_length\x1b[m\x1b[K, const std::array<double, 3> &init_s)\n'}
+[0.441966] (cpp_pubsub) StderrLine: {'line': b'      |                                                             \x1b[01;35m\x1b[K~~~~~~~~~~~~~^~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.442043] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/collisionchecker.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool Collision_Checker::InCollision(const std::vector<std::vector<double> >&, const LATpath&, double, double, const std::array<double, 3>&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[0.442126] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/collisionchecker.cpp:19:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kpointnum\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[0.442206] (cpp_pubsub) StderrLine: {'line': b'   19 |             int \x1b[01;35m\x1b[Kpointnum\x1b[m\x1b[K = 30;\n'}
+[0.442288] (cpp_pubsub) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[0.442393] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/collisionchecker.cpp:5:74:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kobs_length\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[0.442483] (cpp_pubsub) StderrLine: {'line': b'    5 |                                     const double obs_width, \x1b[01;35m\x1b[Kconst double obs_length\x1b[m\x1b[K, const std::array<double, 3> &init_s)\n'}
+[0.442567] (cpp_pubsub) StderrLine: {'line': b'      |                                                             \x1b[01;35m\x1b[K~~~~~~~~~~~~~^~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.483892] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<SamplePoint> QueryPathTimeObstacleSamplePoints(const std::vector<STBoundaryPoint>&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[0.484252] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:138:66:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kstboundarypoint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[0.484362] (cpp_pubsub) StderrLine: {'line': b'  138 | QueryPathTimeObstacleSamplePoints(\x1b[01;35m\x1b[Kconst vector<STBoundaryPoint>& stboundarypoint\x1b[m\x1b[K)\n'}
+[0.484444] (cpp_pubsub) StderrLine: {'line': b'      |                                   \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.490732] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/trajectory_evaluator.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Trajectory_Evaluator::TrajectoryEvaluator(const std::array<double, 3>&, const std::vector<LONspeed>&, const std::vector<LATpath>&, const std::vector<PathPoint>&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[0.491064] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/trajectory_evaluator.cpp:9:34:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Klon_trajectories\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[0.491195] (cpp_pubsub) StderrLine: {'line': b'    9 |     \x1b[01;35m\x1b[Kconst std::vector<LONspeed> &lon_trajectories\x1b[m\x1b[K,\n'}
+[0.491284] (cpp_pubsub) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.491371] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/trajectory_evaluator.cpp:11:35:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kreference_line\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[0.491485] (cpp_pubsub) StderrLine: {'line': b'   11 |     \x1b[01;35m\x1b[Kconst std::vector<PathPoint> &reference_line\x1b[m\x1b[K)\n'}
+[0.491586] (cpp_pubsub) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.492920] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/trajectory_evaluator.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kdouble Trajectory_Evaluator::LatComfortCost(const std::vector<double>&, const LATpath&) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[0.493097] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/trajectory_evaluator.cpp:44:60:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Klat_trajectory\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[0.493174] (cpp_pubsub) StderrLine: {'line': b'   44 |                                             \x1b[01;35m\x1b[Kconst LATpath &lat_trajectory\x1b[m\x1b[K) const\n'}
+[0.493246] (cpp_pubsub) StderrLine: {'line': b'      |                                             \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.493547] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/trajectory_evaluator.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kdouble Trajectory_Evaluator::LatOffsetCost(const LATpath&, const std::vector<double>&) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[0.493654] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/trajectory_evaluator.cpp:62:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Klat_trajectory\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[0.493735] (cpp_pubsub) StderrLine: {'line': b'   62 |     \x1b[01;35m\x1b[Kconst LATpath &lat_trajectory\x1b[m\x1b[K,\n'}
+[0.493810] (cpp_pubsub) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.500884] (-) TimerEvent: {}
+[0.503173] (cpp_pubsub) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/planner.dir/src/end_condition_sampler.cpp.o\x1b[0m\n'}
+[0.518669] (cpp_pubsub) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/planner.dir/src/feasible_region.cpp.o\x1b[0m\n'}
+[0.558055] (cpp_pubsub) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/planner.dir/src/path_time_graph.cpp.o\x1b[0m\n'}
+[0.600008] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/trajectory_evaluator.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Trajectory_Evaluator::TrajectoryEvaluator(const std::array<double, 3>&, const std::vector<LONspeed>&, const std::vector<LATpath>&, const std::vector<PathPoint>&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[0.600323] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/trajectory_evaluator.cpp:9:34:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Klon_trajectories\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[0.600417] (cpp_pubsub) StderrLine: {'line': b'    9 |     \x1b[01;35m\x1b[Kconst std::vector<LONspeed> &lon_trajectories\x1b[m\x1b[K,\n'}
+[0.600491] (cpp_pubsub) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.600575] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/trajectory_evaluator.cpp:11:35:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kreference_line\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[0.600650] (cpp_pubsub) StderrLine: {'line': b'   11 |     \x1b[01;35m\x1b[Kconst std::vector<PathPoint> &reference_line\x1b[m\x1b[K)\n'}
+[0.600740] (cpp_pubsub) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.600943] (-) TimerEvent: {}
+[0.602682] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/trajectory_evaluator.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kdouble Trajectory_Evaluator::LatComfortCost(const std::vector<double>&, const LATpath&) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[0.602935] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/trajectory_evaluator.cpp:44:60:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Klat_trajectory\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[0.603024] (cpp_pubsub) StderrLine: {'line': b'   44 |                                             \x1b[01;35m\x1b[Kconst LATpath &lat_trajectory\x1b[m\x1b[K) const\n'}
+[0.603106] (cpp_pubsub) StderrLine: {'line': b'      |                                             \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.604624] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/trajectory_evaluator.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kdouble Trajectory_Evaluator::LatOffsetCost(const LATpath&, const std::vector<double>&) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[0.604879] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/trajectory_evaluator.cpp:62:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Klat_trajectory\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[0.604998] (cpp_pubsub) StderrLine: {'line': b'   62 |     \x1b[01;35m\x1b[Kconst LATpath &lat_trajectory\x1b[m\x1b[K,\n'}
+[0.605083] (cpp_pubsub) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.701142] (-) TimerEvent: {}
+[0.801642] (-) TimerEvent: {}
+[0.825128] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid PathTimeGraph::Init(const std::vector<std::vector<double> >&, const std::vector<PathPoint>&, double, double, double, double, const std::array<double, 3>&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[0.825648] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:20:27:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<std::vector<double> >::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[0.825756] (cpp_pubsub) StderrLine: {'line': b'   20 |         for (int i = 0; \x1b[01;35m\x1b[Ki < dynamic_obstacle_sl.size()\x1b[m\x1b[K; i++)\n'}
+[0.825840] (cpp_pubsub) StderrLine: {'line': b'      |                         \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.826013] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:24:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kobs_heading\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[0.826117] (cpp_pubsub) StderrLine: {'line': b'   24 |             double \x1b[01;35m\x1b[Kobs_heading\x1b[m\x1b[K = dynamic_obstacle_sl[i][2];\n'}
+[0.826197] (cpp_pubsub) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.826275] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:25:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kobs_velocity\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[0.826371] (cpp_pubsub) StderrLine: {'line': b'   25 |             double \x1b[01;35m\x1b[Kobs_velocity\x1b[m\x1b[K = dynamic_obstacle_sl[i][3];\n'}
+[0.826454] (cpp_pubsub) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.826869] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:105:23:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kstatement has no effect [\x1b[01;35m\x1b[K-Wunused-value\x1b[m\x1b[K]\n'}
+[0.826996] (cpp_pubsub) StderrLine: {'line': b'  105 |                 \x1b[01;35m\x1b[Kst.su == predicte_s\x1b[m\x1b[K;\n'}
+[0.827076] (cpp_pubsub) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.827613] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:118:23:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kstatement has no effect [\x1b[01;35m\x1b[K-Wunused-value\x1b[m\x1b[K]\n'}
+[0.828009] (cpp_pubsub) StderrLine: {'line': b'  118 |                 \x1b[01;35m\x1b[Kst.sl == predicte_s\x1b[m\x1b[K;\n'}
+[0.828203] (cpp_pubsub) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.828431] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:5:102:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kreferenceline\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[0.828597] (cpp_pubsub) StderrLine: {'line': b'    5 | void PathTimeGraph::Init(const vector<vector<double>> &dynamic_obstacle_sl, \x1b[01;35m\x1b[Kconst vector<PathPoint> &referenceline\x1b[m\x1b[K,\n'}
+[0.828690] (cpp_pubsub) StderrLine: {'line': b'      |                                                                             \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.828773] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:7:70:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kinit_d\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[0.828937] (cpp_pubsub) StderrLine: {'line': b'    7 |                          const double t_end, \x1b[01;35m\x1b[Kconst array<double, 3> &init_d\x1b[m\x1b[K)\n'}
+[0.829021] (cpp_pubsub) StderrLine: {'line': b'      |                                              \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[0.846017] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<SamplePoint> QueryPathTimeObstacleSamplePoints(const std::vector<STBoundaryPoint>&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[0.846291] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:138:66:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kstboundarypoint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[0.846377] (cpp_pubsub) StderrLine: {'line': b'  138 | QueryPathTimeObstacleSamplePoints(\x1b[01;35m\x1b[Kconst vector<STBoundaryPoint>& stboundarypoint\x1b[m\x1b[K)\n'}
+[0.846450] (cpp_pubsub) StderrLine: {'line': b'      |                                   \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.901799] (-) TimerEvent: {}
+[1.002188] (-) TimerEvent: {}
+[1.102546] (-) TimerEvent: {}
+[1.202925] (-) TimerEvent: {}
+[1.303294] (-) TimerEvent: {}
+[1.403669] (-) TimerEvent: {}
+[1.504062] (-) TimerEvent: {}
+[1.604444] (-) TimerEvent: {}
+[1.704966] (-) TimerEvent: {}
+[1.805332] (-) TimerEvent: {}
+[1.905745] (-) TimerEvent: {}
+[2.006289] (-) TimerEvent: {}
+[2.106764] (-) TimerEvent: {}
+[2.207162] (-) TimerEvent: {}
+[2.307561] (-) TimerEvent: {}
+[2.408096] (-) TimerEvent: {}
+[2.508507] (-) TimerEvent: {}
+[2.608903] (-) TimerEvent: {}
+[2.611513] (cpp_pubsub) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libcpp_pubsub.so\x1b[0m\n'}
+[2.709063] (-) TimerEvent: {}
+[2.730389] (cpp_pubsub) StdoutLine: {'line': b'[ 74%] Built target cpp_pubsub\n'}
+[2.809205] (-) TimerEvent: {}
+[2.909551] (-) TimerEvent: {}
+[3.009903] (-) TimerEvent: {}
+[3.110535] (-) TimerEvent: {}
+[3.210906] (-) TimerEvent: {}
+[3.311296] (-) TimerEvent: {}
+[3.411675] (-) TimerEvent: {}
+[3.512054] (-) TimerEvent: {}
+[3.612444] (-) TimerEvent: {}
+[3.713130] (-) TimerEvent: {}
+[3.813549] (-) TimerEvent: {}
+[3.913968] (-) TimerEvent: {}
+[4.014971] (-) TimerEvent: {}
+[4.083422] (cpp_pubsub) StdoutLine: {'line': b'[ 77%] \x1b[32m\x1b[1mLinking CXX executable planner\x1b[0m\n'}
+[4.115196] (-) TimerEvent: {}
+[4.215799] (-) TimerEvent: {}
+[4.287707] (cpp_pubsub) StdoutLine: {'line': b'[100%] Built target planner\n'}
+[4.297063] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[4.315950] (-) TimerEvent: {}
+[4.340247] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'install'}
+[4.351063] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/planner_ws/build/cpp_pubsub'], 'cwd': '/root/planner_ws/build/cpp_pubsub', 'env': OrderedDict([('HOSTNAME', '44664d8c3ea7'), ('GIT_ASKPASS', '/root/.vscode-server/bin/b380da4ef1ee00e224a15c1d4d9793e27c2b6302/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/root/planner_ws/install/cpp_pubsub/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/root/.vscode-server/bin/b380da4ef1ee00e224a15c1d4d9793e27c2b6302/bin/helpers/browser.sh'), ('HOME', '/root'), ('TERM_PROGRAM_VERSION', '1.79.0'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-74b31f8a-e159-44e4-bc80-9da7f7fd8091.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/b380da4ef1ee00e224a15c1d4d9793e27c2b6302/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/b380da4ef1ee00e224a15c1d4d9793e27c2b6302/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('COLCON_PREFIX_PATH', '/root/planner_ws/install'), ('ROS_DISTRO', 'foxy'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-6c138ddc-56ac-4c91-9ecd-514541b9e14e.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/root/.vscode-server/bin/b380da4ef1ee00e224a15c1d4d9793e27c2b6302/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-6c138ddc-56ac-4c91-9ecd-514541b9e14e.sock","/tmp/.X11-unix/X11","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':11'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-7677d3e828.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-6c138ddc-56ac-4c91-9ecd-514541b9e14e.sock'), ('AMENT_PREFIX_PATH', '/root/planner_ws/install/cpp_pubsub:/opt/ros/foxy'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X11'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/root/planner_ws/build/cpp_pubsub'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/planner_ws/install/cpp_pubsub:/opt/ros/foxy')]), 'shell': False}
+[4.357612] (cpp_pubsub) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.358411] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /root/planner_ws/install/cpp_pubsub/include\n'}
+[4.358590] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/STBoundaryPoint.hpp\n'}
+[4.358743] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/cartesian_frenet_converter.hpp\n'}
+[4.358878] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/collisionchecker.hpp\n'}
+[4.358999] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/latpath1d.hpp\n'}
+[4.359120] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/end_condition_sampler.hpp\n'}
+[4.359229] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /root/planner_ws/install/cpp_pubsub/include/constans.hpp\n'}
+[4.359356] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/trajectory_evaluator.hpp\n'}
+[4.359489] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/obstacle.hpp\n'}
+[4.359630] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/path_time_graph.hpp\n'}
+[4.359754] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/liner_interpolation.hpp\n'}
+[4.359877] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/Trajectory1dGenerator.hpp\n'}
+[4.360000] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/lonspeed1d.hpp\n'}
+[4.360132] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/matplotlibcpp.h\n'}
+[4.360272] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/obs.hpp\n'}
+[4.360396] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/referenceline.hpp\n'}
+[4.360524] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/manager.hpp\n'}
+[4.360657] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/plotfigure.hpp\n'}
+[4.360805] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/pathpoint.hpp\n'}
+[4.361288] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/constraint_checker1d.hpp\n'}
+[4.361703] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/feasible_region.hpp\n'}
+[4.362079] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/path_matcher.hpp\n'}
+[4.362217] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/SLPoint.hpp\n'}
+[4.362347] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/test.hpp\n'}
+[4.362495] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/STpoint.hpp\n'}
+[4.362658] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/TrajectoryPoint.hpp\n'}
+[4.363030] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/environment/library_path.sh\n'}
+[4.363171] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/environment/library_path.dsv\n'}
+[4.363248] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /root/planner_ws/install/cpp_pubsub/lib/libcpp_pubsub.so\n'}
+[4.363315] (cpp_pubsub) StdoutLine: {'line': b'-- Set runtime path of "/root/planner_ws/install/cpp_pubsub/lib/libcpp_pubsub.so" to ""\n'}
+[4.363380] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /root/planner_ws/install/cpp_pubsub/lib/cpp_pubsub/planner\n'}
+[4.363445] (cpp_pubsub) StdoutLine: {'line': b'-- Set runtime path of "/root/planner_ws/install/cpp_pubsub/lib/cpp_pubsub/planner" to ""\n'}
+[4.363725] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /root/planner_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub\n'}
+[4.363860] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /root/planner_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub\n'}
+[4.363990] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh\n'}
+[4.364165] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv\n'}
+[4.365569] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh\n'}
+[4.365706] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv\n'}
+[4.365826] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash\n'}
+[4.365946] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh\n'}
+[4.366065] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh\n'}
+[4.366189] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv\n'}
+[4.366309] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv\n'}
+[4.366431] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /root/planner_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub\n'}
+[4.367119] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[4.367274] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[4.367407] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[4.367530] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake\n'}
+[4.367653] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake\n'}
+[4.367772] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml\n'}
+[4.367893] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[4.416087] (-) TimerEvent: {}
+[4.443508] (cpp_pubsub) JobEnded: {'identifier': 'cpp_pubsub', 'rc': 0}
+[4.444878] (-) EventReactorShutdown: {}

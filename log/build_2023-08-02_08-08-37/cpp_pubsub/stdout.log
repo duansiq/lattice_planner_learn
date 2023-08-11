@@ -1,0 +1,4 @@
+[35m[1mScanning dependencies of target cpp_pubsub[0m
+[35m[1mScanning dependencies of target planner[0m
+[  3%] [32mBuilding CXX object CMakeFiles/cpp_pubsub.dir/src/end_condition_sampler.cpp.o[0m
+[  6%] [32mBuilding CXX object CMakeFiles/planner.dir/src/end_condition_sampler.cpp.o[0m

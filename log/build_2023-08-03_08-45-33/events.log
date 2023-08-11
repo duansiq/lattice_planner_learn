@@ -1,0 +1,182 @@
+[0.000000] (-) TimerEvent: {}
+[0.000714] (cpp_pubsub) JobQueued: {'identifier': 'cpp_pubsub', 'dependencies': OrderedDict()}
+[0.001223] (cpp_pubsub) JobStarted: {'identifier': 'cpp_pubsub'}
+[0.024830] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'cmake'}
+[0.026949] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'build'}
+[0.031339] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/planner_ws/build/cpp_pubsub', '--', '-j12', '-l12'], 'cwd': '/root/planner_ws/build/cpp_pubsub', 'env': OrderedDict([('HOSTNAME', '44664d8c3ea7'), ('GIT_ASKPASS', '/root/.vscode-server/bin/b380da4ef1ee00e224a15c1d4d9793e27c2b6302/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/root/planner_ws/install/cpp_pubsub/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/root/.vscode-server/bin/b380da4ef1ee00e224a15c1d4d9793e27c2b6302/bin/helpers/browser.sh'), ('HOME', '/root'), ('TERM_PROGRAM_VERSION', '1.79.0'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-74b31f8a-e159-44e4-bc80-9da7f7fd8091.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/b380da4ef1ee00e224a15c1d4d9793e27c2b6302/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/b380da4ef1ee00e224a15c1d4d9793e27c2b6302/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('COLCON_PREFIX_PATH', '/root/planner_ws/install'), ('ROS_DISTRO', 'foxy'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-6c138ddc-56ac-4c91-9ecd-514541b9e14e.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/root/.vscode-server/bin/b380da4ef1ee00e224a15c1d4d9793e27c2b6302/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-6c138ddc-56ac-4c91-9ecd-514541b9e14e.sock","/tmp/.X11-unix/X11","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':11'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-7677d3e828.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-6c138ddc-56ac-4c91-9ecd-514541b9e14e.sock'), ('AMENT_PREFIX_PATH', '/root/planner_ws/install/cpp_pubsub:/opt/ros/foxy'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X11'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/root/planner_ws/build/cpp_pubsub'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/planner_ws/install/cpp_pubsub:/opt/ros/foxy')]), 'shell': False}
+[0.087059] (cpp_pubsub) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target cpp_pubsub\x1b[0m\n'}
+[0.094647] (cpp_pubsub) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target planner\x1b[0m\n'}
+[0.099484] (-) TimerEvent: {}
+[0.128655] (cpp_pubsub) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding CXX object CMakeFiles/cpp_pubsub.dir/src/collisionchecker.cpp.o\x1b[0m\n'}
+[0.129062] (cpp_pubsub) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding CXX object CMakeFiles/cpp_pubsub.dir/src/path_time_graph.cpp.o\x1b[0m\n'}
+[0.129441] (cpp_pubsub) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding CXX object CMakeFiles/cpp_pubsub.dir/src/feasible_region.cpp.o\x1b[0m\n'}
+[0.129864] (cpp_pubsub) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/cpp_pubsub.dir/src/manager.cpp.o\x1b[0m\n'}
+[0.130043] (cpp_pubsub) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/cpp_pubsub.dir/src/end_condition_sampler.cpp.o\x1b[0m\n'}
+[0.130598] (cpp_pubsub) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/cpp_pubsub.dir/src/trajectory_evaluator.cpp.o\x1b[0m\n'}
+[0.131596] (cpp_pubsub) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/cpp_pubsub.dir/src/constraint_checker1d.cpp.o\x1b[0m\n'}
+[0.143954] (cpp_pubsub) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/planner.dir/src/trajectory_evaluator.cpp.o\x1b[0m\n'}
+[0.149329] (cpp_pubsub) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/planner.dir/src/publisher.cpp.o\x1b[0m\n'}
+[0.151065] (cpp_pubsub) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/planner.dir/src/manager.cpp.o\x1b[0m\n'}
+[0.157355] (cpp_pubsub) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/planner.dir/src/constraint_checker1d.cpp.o\x1b[0m\n'}
+[0.164100] (cpp_pubsub) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/planner.dir/src/collisionchecker.cpp.o\x1b[0m\n'}
+[0.199693] (-) TimerEvent: {}
+[0.300884] (-) TimerEvent: {}
+[0.401482] (-) TimerEvent: {}
+[0.503544] (-) TimerEvent: {}
+[0.511906] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/collisionchecker.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool Collision_Checker::InCollision(const std::vector<std::vector<double> >&, const LATpath&, double, double, const std::array<double, 3>&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[0.512404] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/collisionchecker.cpp:19:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kpointnum\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[0.512568] (cpp_pubsub) StderrLine: {'line': b'   19 |             int \x1b[01;35m\x1b[Kpointnum\x1b[m\x1b[K = 30;\n'}
+[0.512764] (cpp_pubsub) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[0.512905] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/collisionchecker.cpp:5:74:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kobs_length\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[0.513034] (cpp_pubsub) StderrLine: {'line': b'    5 |                                     const double obs_width, \x1b[01;35m\x1b[Kconst double obs_length\x1b[m\x1b[K, const std::array<double, 3> &init_s)\n'}
+[0.513245] (cpp_pubsub) StderrLine: {'line': b'      |                                                             \x1b[01;35m\x1b[K~~~~~~~~~~~~~^~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.541877] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid PathTimeGraph::Init(const std::vector<std::vector<double> >&, const std::vector<PathPoint>&, double, double, double, double, const std::array<double, 3>&, const std::array<double, 3>&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[0.542210] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:21:27:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<std::vector<double> >::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[0.542466] (cpp_pubsub) StderrLine: {'line': b'   21 |         for (int i = 0; \x1b[01;35m\x1b[Ki < dynamic_obstacle_sl.size()\x1b[m\x1b[K; i++)\n'}
+[0.542604] (cpp_pubsub) StderrLine: {'line': b'      |                         \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.548773] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:5:102:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kreferenceline\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[0.549103] (cpp_pubsub) StderrLine: {'line': b'    5 | void PathTimeGraph::Init(const vector<vector<double>> &dynamic_obstacle_sl, \x1b[01;35m\x1b[Kconst vector<PathPoint> &referenceline\x1b[m\x1b[K,\n'}
+[0.549236] (cpp_pubsub) StderrLine: {'line': b'      |                                                                             \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.549335] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:7:70:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kinit_d\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[0.549426] (cpp_pubsub) StderrLine: {'line': b'    7 |                          const double t_end, \x1b[01;35m\x1b[Kconst array<double, 3> &init_d\x1b[m\x1b[K,const array<double, 3> &init_s)\n'}
+[0.549548] (cpp_pubsub) StderrLine: {'line': b'      |                                              \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[0.603695] (-) TimerEvent: {}
+[0.616440] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/collisionchecker.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool Collision_Checker::InCollision(const std::vector<std::vector<double> >&, const LATpath&, double, double, const std::array<double, 3>&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[0.616779] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/collisionchecker.cpp:19:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kpointnum\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[0.616930] (cpp_pubsub) StderrLine: {'line': b'   19 |             int \x1b[01;35m\x1b[Kpointnum\x1b[m\x1b[K = 30;\n'}
+[0.617013] (cpp_pubsub) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[0.617155] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/collisionchecker.cpp:5:74:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kobs_length\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[0.617439] (cpp_pubsub) StderrLine: {'line': b'    5 |                                     const double obs_width, \x1b[01;35m\x1b[Kconst double obs_length\x1b[m\x1b[K, const std::array<double, 3> &init_s)\n'}
+[0.617593] (cpp_pubsub) StderrLine: {'line': b'      |                                                             \x1b[01;35m\x1b[K~~~~~~~~~~~~~^~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.630917] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/trajectory_evaluator.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Trajectory_Evaluator::TrajectoryEvaluator(const std::array<double, 3>&, const std::vector<LONspeed>&, const std::vector<LATpath>&, const std::vector<PathPoint>&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[0.631268] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/trajectory_evaluator.cpp:9:34:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Klon_trajectories\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[0.631446] (cpp_pubsub) StderrLine: {'line': b'    9 |     \x1b[01;35m\x1b[Kconst std::vector<LONspeed> &lon_trajectories\x1b[m\x1b[K,\n'}
+[0.631554] (cpp_pubsub) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.631629] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/trajectory_evaluator.cpp:11:35:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kreference_line\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[0.631704] (cpp_pubsub) StderrLine: {'line': b'   11 |     \x1b[01;35m\x1b[Kconst std::vector<PathPoint> &reference_line\x1b[m\x1b[K)\n'}
+[0.631775] (cpp_pubsub) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.633968] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/trajectory_evaluator.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kdouble Trajectory_Evaluator::LatComfortCost(const std::vector<double>&, const LATpath&) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[0.634295] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/trajectory_evaluator.cpp:44:60:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Klat_trajectory\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[0.634410] (cpp_pubsub) StderrLine: {'line': b'   44 |                                             \x1b[01;35m\x1b[Kconst LATpath &lat_trajectory\x1b[m\x1b[K) const\n'}
+[0.634529] (cpp_pubsub) StderrLine: {'line': b'      |                                             \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.634912] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/trajectory_evaluator.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kdouble Trajectory_Evaluator::LatOffsetCost(const LATpath&, const std::vector<double>&) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[0.635081] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/trajectory_evaluator.cpp:62:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Klat_trajectory\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[0.635161] (cpp_pubsub) StderrLine: {'line': b'   62 |     \x1b[01;35m\x1b[Kconst LATpath &lat_trajectory\x1b[m\x1b[K,\n'}
+[0.635228] (cpp_pubsub) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.643251] (cpp_pubsub) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/planner.dir/src/end_condition_sampler.cpp.o\x1b[0m\n'}
+[0.652033] (cpp_pubsub) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/planner.dir/src/feasible_region.cpp.o\x1b[0m\n'}
+[0.703877] (-) TimerEvent: {}
+[0.704402] (cpp_pubsub) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/planner.dir/src/path_time_graph.cpp.o\x1b[0m\n'}
+[0.715751] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/trajectory_evaluator.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Trajectory_Evaluator::TrajectoryEvaluator(const std::array<double, 3>&, const std::vector<LONspeed>&, const std::vector<LATpath>&, const std::vector<PathPoint>&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[0.716221] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/trajectory_evaluator.cpp:9:34:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Klon_trajectories\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[0.716355] (cpp_pubsub) StderrLine: {'line': b'    9 |     \x1b[01;35m\x1b[Kconst std::vector<LONspeed> &lon_trajectories\x1b[m\x1b[K,\n'}
+[0.716448] (cpp_pubsub) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.716584] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/trajectory_evaluator.cpp:11:35:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kreference_line\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[0.716675] (cpp_pubsub) StderrLine: {'line': b'   11 |     \x1b[01;35m\x1b[Kconst std::vector<PathPoint> &reference_line\x1b[m\x1b[K)\n'}
+[0.716760] (cpp_pubsub) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.721998] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/trajectory_evaluator.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kdouble Trajectory_Evaluator::LatComfortCost(const std::vector<double>&, const LATpath&) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[0.722450] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/trajectory_evaluator.cpp:44:60:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Klat_trajectory\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[0.722977] (cpp_pubsub) StderrLine: {'line': b'   44 |                                             \x1b[01;35m\x1b[Kconst LATpath &lat_trajectory\x1b[m\x1b[K) const\n'}
+[0.723146] (cpp_pubsub) StderrLine: {'line': b'      |                                             \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.724970] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/trajectory_evaluator.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kdouble Trajectory_Evaluator::LatOffsetCost(const LATpath&, const std::vector<double>&) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[0.725431] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/trajectory_evaluator.cpp:62:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Klat_trajectory\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[0.725646] (cpp_pubsub) StderrLine: {'line': b'   62 |     \x1b[01;35m\x1b[Kconst LATpath &lat_trajectory\x1b[m\x1b[K,\n'}
+[0.725877] (cpp_pubsub) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.775019] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<std::pair<std::vector<double>, double> > EndConditionSampler::SampleLonEndConditionsForLaneChange(const std::vector<STBoundaryPoint>&) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[0.775388] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:118:132:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconstants\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kconstans\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[0.775515] (cpp_pubsub) StderrLine: {'line': b'  118 |     vector<SamplePoint> sample_points = QueryPathTimeObstacleSamplePoints(stboundarypoint , constans.FLAGS_vehicle_config_length , \x1b[01;31m\x1b[Kconstants\x1b[m\x1b[K.FLAGS_trajectory_sample_s_num);\n'}
+[0.775624] (cpp_pubsub) StderrLine: {'line': b'      |                                                                                                                                    \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[0.775731] (cpp_pubsub) StderrLine: {'line': b'      |                                                                                                                                    \x1b[32m\x1b[Kconstans\x1b[m\x1b[K\n'}
+[0.776173] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:121:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconst struct SamplePoint\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kpath_time_point\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.776355] (cpp_pubsub) StderrLine: {'line': b'  121 |         if (sample_point.\x1b[01;31m\x1b[Kpath_time_point\x1b[m\x1b[K.t < constans.FLAGS_polynomial_minimal_param)\n'}
+[0.776431] (cpp_pubsub) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.776684] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:125:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconst struct SamplePoint\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kpath_time_point\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.776814] (cpp_pubsub) StderrLine: {'line': b'  125 |         double s = sample_point.\x1b[01;31m\x1b[Kpath_time_point\x1b[m\x1b[K.s;\n'}
+[0.776889] (cpp_pubsub) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.777092] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:127:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconst struct SamplePoint\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kpath_time_point\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.777183] (cpp_pubsub) StderrLine: {'line': b'  127 |         double t = sample_point.\x1b[01;31m\x1b[Kpath_time_point\x1b[m\x1b[K.t;\n'}
+[0.777263] (cpp_pubsub) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.778632] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<SamplePoint> QueryPathTimeObstacleSamplePoints(const std::vector<STBoundaryPoint>&, double, double)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[0.778868] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:162:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Ks_gap\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[0.778953] (cpp_pubsub) StderrLine: {'line': b'  162 |             double \x1b[01;35m\x1b[Ks_gap\x1b[m\x1b[K = (s_upper - s_lower) / sample_s_num;\n'}
+[0.779031] (cpp_pubsub) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[0.804026] (-) TimerEvent: {}
+[0.904574] (-) TimerEvent: {}
+[0.909561] (cpp_pubsub) StderrLine: {'line': b'make[2]: *** [CMakeFiles/cpp_pubsub.dir/build.make:206: CMakeFiles/cpp_pubsub.dir/src/end_condition_sampler.cpp.o] Error 1\n'}
+[0.910033] (cpp_pubsub) StderrLine: {'line': b'make[2]: *** Waiting for unfinished jobs....\n'}
+[1.004744] (-) TimerEvent: {}
+[1.027534] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid PathTimeGraph::Init(const std::vector<std::vector<double> >&, const std::vector<PathPoint>&, double, double, double, double, const std::array<double, 3>&, const std::array<double, 3>&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.028368] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:21:27:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<std::vector<double> >::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[1.028678] (cpp_pubsub) StderrLine: {'line': b'   21 |         for (int i = 0; \x1b[01;35m\x1b[Ki < dynamic_obstacle_sl.size()\x1b[m\x1b[K; i++)\n'}
+[1.028922] (cpp_pubsub) StderrLine: {'line': b'      |                         \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.031893] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:5:102:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kreferenceline\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[1.032253] (cpp_pubsub) StderrLine: {'line': b'    5 | void PathTimeGraph::Init(const vector<vector<double>> &dynamic_obstacle_sl, \x1b[01;35m\x1b[Kconst vector<PathPoint> &referenceline\x1b[m\x1b[K,\n'}
+[1.032467] (cpp_pubsub) StderrLine: {'line': b'      |                                                                             \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.032590] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:7:70:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kinit_d\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[1.032678] (cpp_pubsub) StderrLine: {'line': b'    7 |                          const double t_end, \x1b[01;35m\x1b[Kconst array<double, 3> &init_d\x1b[m\x1b[K,const array<double, 3> &init_s)\n'}
+[1.032796] (cpp_pubsub) StderrLine: {'line': b'      |                                              \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[1.061773] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<std::pair<std::vector<double>, double> > EndConditionSampler::SampleLonEndConditionsForLaneChange(const std::vector<STBoundaryPoint>&) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.062009] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:118:132:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconstants\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kconstans\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.062071] (cpp_pubsub) StderrLine: {'line': b'  118 |     vector<SamplePoint> sample_points = QueryPathTimeObstacleSamplePoints(stboundarypoint , constans.FLAGS_vehicle_config_length , \x1b[01;31m\x1b[Kconstants\x1b[m\x1b[K.FLAGS_trajectory_sample_s_num);\n'}
+[1.062125] (cpp_pubsub) StderrLine: {'line': b'      |                                                                                                                                    \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.062177] (cpp_pubsub) StderrLine: {'line': b'      |                                                                                                                                    \x1b[32m\x1b[Kconstans\x1b[m\x1b[K\n'}
+[1.062430] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:121:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconst struct SamplePoint\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kpath_time_point\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.062500] (cpp_pubsub) StderrLine: {'line': b'  121 |         if (sample_point.\x1b[01;31m\x1b[Kpath_time_point\x1b[m\x1b[K.t < constans.FLAGS_polynomial_minimal_param)\n'}
+[1.062552] (cpp_pubsub) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.062612] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:125:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconst struct SamplePoint\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kpath_time_point\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.062679] (cpp_pubsub) StderrLine: {'line': b'  125 |         double s = sample_point.\x1b[01;31m\x1b[Kpath_time_point\x1b[m\x1b[K.s;\n'}
+[1.062743] (cpp_pubsub) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.062795] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:127:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconst struct SamplePoint\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kpath_time_point\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.062846] (cpp_pubsub) StderrLine: {'line': b'  127 |         double t = sample_point.\x1b[01;31m\x1b[Kpath_time_point\x1b[m\x1b[K.t;\n'}
+[1.062897] (cpp_pubsub) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.063440] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<SamplePoint> QueryPathTimeObstacleSamplePoints(const std::vector<STBoundaryPoint>&, double, double)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.063560] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:162:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Ks_gap\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[1.063614] (cpp_pubsub) StderrLine: {'line': b'  162 |             double \x1b[01;35m\x1b[Ks_gap\x1b[m\x1b[K = (s_upper - s_lower) / sample_s_num;\n'}
+[1.063688] (cpp_pubsub) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.104930] (-) TimerEvent: {}
+[1.147007] (cpp_pubsub) StderrLine: {'line': b'make[2]: *** [CMakeFiles/planner.dir/build.make:219: CMakeFiles/planner.dir/src/end_condition_sampler.cpp.o] Error 1\n'}
+[1.147397] (cpp_pubsub) StderrLine: {'line': b'make[2]: *** Waiting for unfinished jobs....\n'}
+[1.205167] (-) TimerEvent: {}
+[1.305713] (-) TimerEvent: {}
+[1.406380] (-) TimerEvent: {}
+[1.506867] (-) TimerEvent: {}
+[1.607357] (-) TimerEvent: {}
+[1.707979] (-) TimerEvent: {}
+[1.808562] (-) TimerEvent: {}
+[1.909238] (-) TimerEvent: {}
+[2.009857] (-) TimerEvent: {}
+[2.110324] (-) TimerEvent: {}
+[2.210743] (-) TimerEvent: {}
+[2.311181] (-) TimerEvent: {}
+[2.411822] (-) TimerEvent: {}
+[2.512231] (-) TimerEvent: {}
+[2.612639] (-) TimerEvent: {}
+[2.713047] (-) TimerEvent: {}
+[2.813449] (-) TimerEvent: {}
+[2.913874] (-) TimerEvent: {}
+[2.996971] (cpp_pubsub) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/cpp_pubsub.dir/all] Error 2\n'}
+[2.997206] (cpp_pubsub) StderrLine: {'line': b'make[1]: *** Waiting for unfinished jobs....\n'}
+[3.014062] (-) TimerEvent: {}
+[3.114509] (-) TimerEvent: {}
+[3.214962] (-) TimerEvent: {}
+[3.315440] (-) TimerEvent: {}
+[3.415842] (-) TimerEvent: {}
+[3.516261] (-) TimerEvent: {}
+[3.616734] (-) TimerEvent: {}
+[3.717149] (-) TimerEvent: {}
+[3.817700] (-) TimerEvent: {}
+[3.918570] (-) TimerEvent: {}
+[4.019092] (-) TimerEvent: {}
+[4.119665] (-) TimerEvent: {}
+[4.220173] (-) TimerEvent: {}
+[4.320751] (-) TimerEvent: {}
+[4.421183] (-) TimerEvent: {}
+[4.521658] (-) TimerEvent: {}
+[4.622311] (-) TimerEvent: {}
+[4.722864] (-) TimerEvent: {}
+[4.759073] (cpp_pubsub) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/planner.dir/all] Error 2\n'}
+[4.759520] (cpp_pubsub) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[4.762826] (cpp_pubsub) CommandEnded: {'returncode': 2}
+[4.823480] (-) TimerEvent: {}
+[4.840381] (cpp_pubsub) JobEnded: {'identifier': 'cpp_pubsub', 'rc': 2}
+[4.851790] (-) EventReactorShutdown: {}

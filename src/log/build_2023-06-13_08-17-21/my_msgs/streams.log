@@ -1,0 +1,44 @@
+[0.021s] Invoking command in '/root/planner_ws/src/build/my_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /root/planner_ws/src/my_msgs -DCMAKE_INSTALL_PREFIX=/root/planner_ws/src/install/my_msgs
+[0.069s] -- The C compiler identification is GNU 9.4.0
+[0.116s] -- The CXX compiler identification is GNU 9.4.0
+[0.119s] -- Check for working C compiler: /usr/bin/cc
+[0.172s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.173s] -- Detecting C compiler ABI info
+[0.227s] -- Detecting C compiler ABI info - done
+[0.236s] -- Detecting C compile features
+[0.236s] -- Detecting C compile features - done
+[0.238s] -- Check for working CXX compiler: /usr/bin/c++
+[0.301s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.302s] -- Detecting CXX compiler ABI info
+[0.365s] -- Detecting CXX compiler ABI info - done
+[0.374s] -- Detecting CXX compile features
+[0.374s] -- Detecting CXX compile features - done
+[0.376s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.395s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.395s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.550s] -- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)
+[0.579s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.585s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.654s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.680s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.747s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.794s] CMake Error at CMakeLists.txt:21 (find_package):
+[0.795s]   By not providing "Findpoint_msgs.cmake" in CMAKE_MODULE_PATH this project
+[0.795s]   has asked CMake to find a package configuration file provided by
+[0.795s]   "point_msgs", but CMake did not find one.
+[0.795s] 
+[0.795s]   Could not find a package configuration file provided by "point_msgs" with
+[0.795s]   any of the following names:
+[0.795s] 
+[0.795s]     point_msgsConfig.cmake
+[0.795s]     point_msgs-config.cmake
+[0.795s] 
+[0.795s]   Add the installation prefix of "point_msgs" to CMAKE_PREFIX_PATH or set
+[0.795s]   "point_msgs_DIR" to a directory containing one of the above files.  If
+[0.795s]   "point_msgs" provides a separate development package or SDK, be sure it has
+[0.796s]   been installed.
+[0.796s] 
+[0.796s] 
+[0.796s] -- Configuring incomplete, errors occurred!
+[0.796s] See also "/root/planner_ws/src/build/my_msgs/CMakeFiles/CMakeOutput.log".
+[0.802s] Invoked command in '/root/planner_ws/src/build/my_msgs' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /root/planner_ws/src/my_msgs -DCMAKE_INSTALL_PREFIX=/root/planner_ws/src/install/my_msgs

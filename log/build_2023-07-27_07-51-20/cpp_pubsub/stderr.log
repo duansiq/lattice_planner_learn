@@ -1,0 +1,35 @@
+[01m[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:[m[K In member function ‘[01m[Kdouble FeasibleRegion::SUpper(double) const[m[K’:
+[01m[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:24:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+   24 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:22:44:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kt[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   22 | double FeasibleRegion::SUpper([01;35m[Kconst double t[m[K) const
+      |                               [01;35m[K~~~~~~~~~~~~~^[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:[m[K In member function ‘[01m[Kdouble FeasibleRegion::SLower(double) const[m[K’:
+[01m[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:28:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+   28 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:26:44:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kt[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   26 | double FeasibleRegion::SLower([01;35m[Kconst double t[m[K) const
+      |                               [01;35m[K~~~~~~~~~~~~~^[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:[m[K In member function ‘[01m[Kdouble FeasibleRegion::VUpper(double) const[m[K’:
+[01m[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:32:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+   32 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:30:44:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kt[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   30 | double FeasibleRegion::VUpper([01;35m[Kconst double t[m[K) const
+      |                               [01;35m[K~~~~~~~~~~~~~^[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:[m[K In member function ‘[01m[Kdouble FeasibleRegion::VLower(double) const[m[K’:
+[01m[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:36:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+   36 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:34:44:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kt[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   34 | double FeasibleRegion::VLower([01;35m[Kconst double t[m[K) const
+      |                               [01;35m[K~~~~~~~~~~~~~^[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:[m[K In member function ‘[01m[Kdouble FeasibleRegion::TLower(double) const[m[K’:
+[01m[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:40:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+   40 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:38:44:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ks[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   38 | double FeasibleRegion::TLower([01;35m[Kconst double s[m[K) const
+      |                               [01;35m[K~~~~~~~~~~~~~^[m[K

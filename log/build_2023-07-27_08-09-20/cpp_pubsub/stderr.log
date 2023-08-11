@@ -1,0 +1,66 @@
+[01m[K/root/planner_ws/src/cpp_pubsub/src/collisionchecker.cpp:[m[K In member function ‘[01m[Kbool Collision_Checker::InCollision(const std::vector<std::vector<double> >&, const LATpath&, double, double, const std::array<double, 3>&)[m[K’:
+[01m[K/root/planner_ws/src/cpp_pubsub/src/collisionchecker.cpp:19:17:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kpointnum[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   19 |             int [01;35m[Kpointnum[m[K = 30;
+      |                 [01;35m[K^~~~~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/collisionchecker.cpp:5:74:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kobs_length[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+    5 |                                     const double obs_width, [01;35m[Kconst double obs_length[m[K, const std::array<double, 3> &init_s)
+      |                                                             [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:[m[K In member function ‘[01m[Kstd::vector<std::pair<std::vector<double>, double> > EndConditionSampler::SampleLonEndConditionsForStopping(double) const[m[K’:
+[01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:92:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+   92 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:90:69:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kref_stop_point[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   90 | EndConditionSampler::SampleLonEndConditionsForStopping([01;35m[Kconst double ref_stop_point[m[K) const
+      |                                                        [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:[m[K In member function ‘[01m[Kstd::vector<std::pair<std::vector<double>, double> > EndConditionSampler::SampleLonEndConditionsForLaneChange() const[m[K’:
+[01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:97:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+   97 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/trajectory_evaluator.cpp:[m[K In member function ‘[01m[Kvoid Trajectory_Evaluator::TrajectoryEvaluator(const std::array<double, 3>&, const std::vector<LONspeed>&, const std::vector<LATpath>&, const std::vector<PathPoint>&)[m[K’:
+[01m[K/root/planner_ws/src/cpp_pubsub/src/trajectory_evaluator.cpp:9:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Klon_trajectories[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+    9 |     [01;35m[Kconst std::vector<LONspeed> &lon_trajectories[m[K,
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/trajectory_evaluator.cpp:11:35:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreference_line[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   11 |     [01;35m[Kconst std::vector<PathPoint> &reference_line[m[K)
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/trajectory_evaluator.cpp:[m[K In member function ‘[01m[Kdouble Trajectory_Evaluator::LatComfortCost(const std::vector<double>&, const LATpath&) const[m[K’:
+[01m[K/root/planner_ws/src/cpp_pubsub/src/trajectory_evaluator.cpp:44:60:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Klat_trajectory[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   44 |                                             [01;35m[Kconst LATpath &lat_trajectory[m[K) const
+      |                                             [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/trajectory_evaluator.cpp:[m[K In member function ‘[01m[Kdouble Trajectory_Evaluator::LatOffsetCost(const LATpath&, const std::vector<double>&) const[m[K’:
+[01m[K/root/planner_ws/src/cpp_pubsub/src/trajectory_evaluator.cpp:62:20:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Klat_trajectory[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   62 |     [01;35m[Kconst LATpath &lat_trajectory[m[K,
+      |     [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/trajectory_evaluator.cpp:[m[K In member function ‘[01m[Kvoid Trajectory_Evaluator::TrajectoryEvaluator(const std::array<double, 3>&, const std::vector<LONspeed>&, const std::vector<LATpath>&, const std::vector<PathPoint>&)[m[K’:
+[01m[K/root/planner_ws/src/cpp_pubsub/src/trajectory_evaluator.cpp:9:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Klon_trajectories[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+    9 |     [01;35m[Kconst std::vector<LONspeed> &lon_trajectories[m[K,
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/trajectory_evaluator.cpp:11:35:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreference_line[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   11 |     [01;35m[Kconst std::vector<PathPoint> &reference_line[m[K)
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/trajectory_evaluator.cpp:[m[K In member function ‘[01m[Kdouble Trajectory_Evaluator::LatComfortCost(const std::vector<double>&, const LATpath&) const[m[K’:
+[01m[K/root/planner_ws/src/cpp_pubsub/src/trajectory_evaluator.cpp:44:60:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Klat_trajectory[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   44 |                                             [01;35m[Kconst LATpath &lat_trajectory[m[K) const
+      |                                             [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/trajectory_evaluator.cpp:[m[K In member function ‘[01m[Kdouble Trajectory_Evaluator::LatOffsetCost(const LATpath&, const std::vector<double>&) const[m[K’:
+[01m[K/root/planner_ws/src/cpp_pubsub/src/trajectory_evaluator.cpp:62:20:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Klat_trajectory[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   62 |     [01;35m[Kconst LATpath &lat_trajectory[m[K,
+      |     [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/collisionchecker.cpp:[m[K In member function ‘[01m[Kbool Collision_Checker::InCollision(const std::vector<std::vector<double> >&, const LATpath&, double, double, const std::array<double, 3>&)[m[K’:
+[01m[K/root/planner_ws/src/cpp_pubsub/src/collisionchecker.cpp:19:17:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kpointnum[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   19 |             int [01;35m[Kpointnum[m[K = 30;
+      |                 [01;35m[K^~~~~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/collisionchecker.cpp:5:74:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kobs_length[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+    5 |                                     const double obs_width, [01;35m[Kconst double obs_length[m[K, const std::array<double, 3> &init_s)
+      |                                                             [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:[m[K In member function ‘[01m[Kstd::vector<std::pair<std::vector<double>, double> > EndConditionSampler::SampleLonEndConditionsForStopping(double) const[m[K’:
+[01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:92:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+   92 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:90:69:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kref_stop_point[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   90 | EndConditionSampler::SampleLonEndConditionsForStopping([01;35m[Kconst double ref_stop_point[m[K) const
+      |                                                        [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:[m[K In member function ‘[01m[Kstd::vector<std::pair<std::vector<double>, double> > EndConditionSampler::SampleLonEndConditionsForLaneChange() const[m[K’:
+[01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:97:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+   97 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K

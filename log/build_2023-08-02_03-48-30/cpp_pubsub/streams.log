@@ -1,0 +1,149 @@
+[0.022s] Invoking command in '/root/planner_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /root/planner_ws/build/cpp_pubsub -- -j12 -l12
+[0.042s] -- Found ament_cmake_auto: 0.9.11 (/opt/ros/foxy/share/ament_cmake_auto/cmake)
+[0.060s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.306s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.309s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.432s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.473s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.474s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.708s] -- Configuring done
+[0.724s] -- Generating done
+[0.725s] -- Build files have been written to: /root/planner_ws/build/cpp_pubsub
+[0.747s] [35m[1mScanning dependencies of target cpp_pubsub[0m
+[0.747s] [35m[1mScanning dependencies of target planner[0m
+[0.776s] [  9%] [32mBuilding CXX object CMakeFiles/cpp_pubsub.dir/src/obstacle.cpp.o[0m
+[0.776s] [  9%] [32mBuilding CXX object CMakeFiles/cpp_pubsub.dir/src/end_condition_sampler.cpp.o[0m
+[0.776s] [  9%] [32mBuilding CXX object CMakeFiles/cpp_pubsub.dir/src/manager.cpp.o[0m
+[0.776s] [ 12%] [32mBuilding CXX object CMakeFiles/cpp_pubsub.dir/src/path_time_graph.cpp.o[0m
+[0.780s] [ 22%] [32mBuilding CXX object CMakeFiles/planner.dir/src/publisher.cpp.o[0m
+[0.780s] [ 22%] [32mBuilding CXX object CMakeFiles/planner.dir/src/manager.cpp.o[0m
+[0.780s] [ 22%] [32mBuilding CXX object CMakeFiles/planner.dir/src/obstacle.cpp.o[0m
+[0.784s] [ 25%] [32mBuilding CXX object CMakeFiles/planner.dir/src/end_condition_sampler.cpp.o[0m
+[0.785s] [ 29%] [32mBuilding CXX object CMakeFiles/planner.dir/src/path_time_graph.cpp.o[0m
+[0.786s] In file included from [01m[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:1[m[K:
+[0.787s] [01m[K/root/planner_ws/src/cpp_pubsub/include/path_time_graph.hpp:11:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kvector[m[K’ has not been declared
+[0.787s]    11 |     void Init([01;31m[Kvector[m[K<vector<double>>& obstacle );
+[0.787s]       |               [01;31m[K^~~~~~[m[K
+[0.787s] [01m[K/root/planner_ws/src/cpp_pubsub/include/path_time_graph.hpp:11:21:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before ‘[01m[K<[m[K’ token
+[0.787s]    11 |     void Init(vector[01;31m[K<[m[Kvector<double>>& obstacle );
+[0.787s]       |                     [01;31m[K^[m[K
+[0.787s] [01m[K/root/planner_ws/src/cpp_pubsub/include/path_time_graph.hpp:14:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kvector[m[K’ does not name a type
+[0.788s]    14 |     [01;31m[Kvector[m[K<PathPoint> referenceline_points_;
+[0.788s]       |     [01;31m[K^~~~~~[m[K
+[0.788s] make[2]: *** [CMakeFiles/cpp_pubsub.dir/build.make:232: CMakeFiles/cpp_pubsub.dir/src/path_time_graph.cpp.o] Error 1
+[0.788s] make[2]: *** Waiting for unfinished jobs....
+[0.794s] In file included from [01m[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:1[m[K:
+[0.794s] [01m[K/root/planner_ws/src/cpp_pubsub/include/path_time_graph.hpp:11:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kvector[m[K’ has not been declared
+[0.794s]    11 |     void Init([01;31m[Kvector[m[K<vector<double>>& obstacle );
+[0.794s]       |               [01;31m[K^~~~~~[m[K
+[0.794s] [01m[K/root/planner_ws/src/cpp_pubsub/include/path_time_graph.hpp:11:21:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before ‘[01m[K<[m[K’ token
+[0.794s]    11 |     void Init(vector[01;31m[K<[m[Kvector<double>>& obstacle );
+[0.794s]       |                     [01;31m[K^[m[K
+[0.794s] [01m[K/root/planner_ws/src/cpp_pubsub/include/path_time_graph.hpp:14:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kvector[m[K’ does not name a type
+[0.794s]    14 |     [01;31m[Kvector[m[K<PathPoint> referenceline_points_;
+[0.795s]       |     [01;31m[K^~~~~~[m[K
+[0.795s] make[2]: *** [CMakeFiles/planner.dir/build.make:245: CMakeFiles/planner.dir/src/path_time_graph.cpp.o] Error 1
+[0.795s] make[2]: *** Waiting for unfinished jobs....
+[1.055s] In file included from [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:1[m[K:
+[1.055s] [01m[K/root/planner_ws/src/cpp_pubsub/include/end_condition_sampler.hpp:[m[K In member function ‘[01m[Kvoid EndConditionSampler::Init(const std::array<double, 3>&, const std::array<double, 3>&)[m[K’:
+[1.055s] [01m[K/root/planner_ws/src/cpp_pubsub/include/end_condition_sampler.hpp:27:28:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KPathTimeGraph::Init()[m[K’
+[1.055s]    27 |         pathtimegraph.Init([01;31m[K)[m[K;
+[1.055s]       |                            [01;31m[K^[m[K
+[1.055s] In file included from [01m[K/root/planner_ws/src/cpp_pubsub/include/end_condition_sampler.hpp:8[m[K,
+[1.055s]                  from [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:1[m[K:
+[1.056s] [01m[K/root/planner_ws/src/cpp_pubsub/include/path_time_graph.hpp:11:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid PathTimeGraph::Init(std::vector<std::vector<double> >&)[m[K’
+[1.056s]    11 |     void [01;36m[KInit[m[K(vector<vector<double>>& obstacle );
+[1.056s]       |          [01;36m[K^~~~[m[K
+[1.056s] [01m[K/root/planner_ws/src/cpp_pubsub/include/path_time_graph.hpp:11:10:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[1.056s] In file included from [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:1[m[K:
+[1.057s] [01m[K/root/planner_ws/src/cpp_pubsub/include/end_condition_sampler.hpp:[m[K In member function ‘[01m[Kvoid EndConditionSampler::Init(const std::array<double, 3>&, const std::array<double, 3>&)[m[K’:
+[1.057s] [01m[K/root/planner_ws/src/cpp_pubsub/include/end_condition_sampler.hpp:27:28:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KPathTimeGraph::Init()[m[K’
+[1.057s]    27 |         pathtimegraph.Init([01;31m[K)[m[K;
+[1.057s]       |                            [01;31m[K^[m[K
+[1.057s] In file included from [01m[K/root/planner_ws/src/cpp_pubsub/include/end_condition_sampler.hpp:8[m[K,
+[1.057s]                  from [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:1[m[K:
+[1.057s] [01m[K/root/planner_ws/src/cpp_pubsub/include/path_time_graph.hpp:11:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid PathTimeGraph::Init(std::vector<std::vector<double> >&)[m[K’
+[1.058s]    11 |     void [01;36m[KInit[m[K(vector<vector<double>>& obstacle );
+[1.058s]       |          [01;36m[K^~~~[m[K
+[1.058s] [01m[K/root/planner_ws/src/cpp_pubsub/include/path_time_graph.hpp:11:10:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[1.068s] [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:[m[K In member function ‘[01m[Kstd::vector<std::pair<std::vector<double>, double> > EndConditionSampler::SampleLonEndConditionsForLaneChange(int) const[m[K’:
+[1.068s] [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:115:41:[m[K [01;31m[Kerror: [m[K‘[01m[KQueryPathTimeObstacleSamplePoints[m[K’ was not declared in this scope
+[1.069s]   115 |     vector<SamplePoint> sample_points = [01;31m[KQueryPathTimeObstacleSamplePoints[m[K();
+[1.069s]       |                                         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.069s] [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:[m[K In member function ‘[01m[Kstd::vector<std::pair<std::vector<double>, double> > EndConditionSampler::SampleLonEndConditionsForLaneChange(int) const[m[K’:
+[1.069s] [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:115:41:[m[K [01;31m[Kerror: [m[K‘[01m[KQueryPathTimeObstacleSamplePoints[m[K’ was not declared in this scope
+[1.070s]   115 |     vector<SamplePoint> sample_points = [01;31m[KQueryPathTimeObstacleSamplePoints[m[K();
+[1.070s]       |                                         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.070s] [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:112:68:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KLC_mode[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[1.070s]   112 | EndConditionSampler::SampleLonEndConditionsForLaneChange([01;35m[Kconst int LC_mode[m[K) const
+[1.070s]       |                                                          [01;35m[K~~~~~~~~~~^~~~~~~[m[K
+[1.070s] [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:[m[K At global scope:
+[1.070s] [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:136:1:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kstd::vector<SamplePoint> EndConditionSampler::QueryPathTimeObstacleSamplePoints() const[m[K’
+[1.070s]   136 | [01;31m[KEndConditionSampler[m[K::QueryPathTimeObstacleSamplePoints() const
+[1.070s]       | [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.070s] [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:136:1:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kstd::vector<SamplePoint> EndConditionSampler::QueryPathTimeObstacleSamplePoints() const[m[K’
+[1.070s] In file included from [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:1[m[K:
+[1.071s] [01m[K/root/planner_ws/src/cpp_pubsub/include/end_condition_sampler.hpp:14:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass EndConditionSampler[m[K’ defined here
+[1.071s]    14 | class [01;36m[KEndConditionSampler[m[K
+[1.071s]       |       [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.071s] [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:112:68:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KLC_mode[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[1.071s]   112 | EndConditionSampler::SampleLonEndConditionsForLaneChange([01;35m[Kconst int LC_mode[m[K) const
+[1.071s]       |                                                          [01;35m[K~~~~~~~~~~^~~~~~~[m[K
+[1.071s] [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:[m[K At global scope:
+[1.071s] [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:136:1:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kstd::vector<SamplePoint> EndConditionSampler::QueryPathTimeObstacleSamplePoints() const[m[K’
+[1.071s]   136 | [01;31m[KEndConditionSampler[m[K::QueryPathTimeObstacleSamplePoints() const
+[1.071s]       | [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.071s] [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:136:1:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kstd::vector<SamplePoint> EndConditionSampler::QueryPathTimeObstacleSamplePoints() const[m[K’
+[1.071s] In file included from [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:1[m[K:
+[1.072s] [01m[K/root/planner_ws/src/cpp_pubsub/include/end_condition_sampler.hpp:14:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass EndConditionSampler[m[K’ defined here
+[1.072s]    14 | class [01;36m[KEndConditionSampler[m[K
+[1.072s]       |       [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.140s] make[2]: *** [CMakeFiles/planner.dir/build.make:219: CMakeFiles/planner.dir/src/end_condition_sampler.cpp.o] Error 1
+[1.148s] make[2]: *** [CMakeFiles/cpp_pubsub.dir/build.make:206: CMakeFiles/cpp_pubsub.dir/src/end_condition_sampler.cpp.o] Error 1
+[2.139s] In file included from [01m[K/root/planner_ws/src/cpp_pubsub/include/manager.hpp:24[m[K,
+[2.139s]                  from [01m[K/root/planner_ws/src/cpp_pubsub/src/publisher.cpp:10[m[K:
+[2.139s] [01m[K/root/planner_ws/src/cpp_pubsub/include/end_condition_sampler.hpp:[m[K In member function ‘[01m[Kvoid EndConditionSampler::Init(const std::array<double, 3>&, const std::array<double, 3>&)[m[K’:
+[2.140s] [01m[K/root/planner_ws/src/cpp_pubsub/include/end_condition_sampler.hpp:27:28:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KPathTimeGraph::Init()[m[K’
+[2.140s]    27 |         pathtimegraph.Init([01;31m[K)[m[K;
+[2.140s]       |                            [01;31m[K^[m[K
+[2.140s] In file included from [01m[K/root/planner_ws/src/cpp_pubsub/include/end_condition_sampler.hpp:8[m[K,
+[2.140s]                  from [01m[K/root/planner_ws/src/cpp_pubsub/include/manager.hpp:24[m[K,
+[2.140s]                  from [01m[K/root/planner_ws/src/cpp_pubsub/src/publisher.cpp:10[m[K:
+[2.140s] [01m[K/root/planner_ws/src/cpp_pubsub/include/path_time_graph.hpp:11:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid PathTimeGraph::Init(std::vector<std::vector<double, std::allocator<double> > >&)[m[K’
+[2.140s]    11 |     void [01;36m[KInit[m[K(vector<vector<double>>& obstacle );
+[2.140s]       |          [01;36m[K^~~~[m[K
+[2.140s] [01m[K/root/planner_ws/src/cpp_pubsub/include/path_time_graph.hpp:11:10:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[2.164s] In file included from [01m[K/root/planner_ws/src/cpp_pubsub/include/manager.hpp:24[m[K,
+[2.165s]                  from [01m[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:1[m[K:
+[2.165s] [01m[K/root/planner_ws/src/cpp_pubsub/include/end_condition_sampler.hpp:[m[K In member function ‘[01m[Kvoid EndConditionSampler::Init(const std::array<double, 3>&, const std::array<double, 3>&)[m[K’:
+[2.165s] [01m[K/root/planner_ws/src/cpp_pubsub/include/end_condition_sampler.hpp:27:28:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KPathTimeGraph::Init()[m[K’
+[2.165s]    27 |         pathtimegraph.Init([01;31m[K)[m[K;
+[2.165s]       |                            [01;31m[K^[m[K
+[2.165s] In file included from [01m[K/root/planner_ws/src/cpp_pubsub/include/end_condition_sampler.hpp:8[m[K,
+[2.165s]                  from [01m[K/root/planner_ws/src/cpp_pubsub/include/manager.hpp:24[m[K,
+[2.165s]                  from [01m[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:1[m[K:
+[2.165s] [01m[K/root/planner_ws/src/cpp_pubsub/include/path_time_graph.hpp:11:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid PathTimeGraph::Init(std::vector<std::vector<double, std::allocator<double> > >&)[m[K’
+[2.165s]    11 |     void [01;36m[KInit[m[K(vector<vector<double>>& obstacle );
+[2.165s]       |          [01;36m[K^~~~[m[K
+[2.165s] [01m[K/root/planner_ws/src/cpp_pubsub/include/path_time_graph.hpp:11:10:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[2.170s] In file included from [01m[K/root/planner_ws/src/cpp_pubsub/include/manager.hpp:24[m[K,
+[2.171s]                  from [01m[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:1[m[K:
+[2.171s] [01m[K/root/planner_ws/src/cpp_pubsub/include/end_condition_sampler.hpp:[m[K In member function ‘[01m[Kvoid EndConditionSampler::Init(const std::array<double, 3>&, const std::array<double, 3>&)[m[K’:
+[2.171s] [01m[K/root/planner_ws/src/cpp_pubsub/include/end_condition_sampler.hpp:27:28:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KPathTimeGraph::Init()[m[K’
+[2.171s]    27 |         pathtimegraph.Init([01;31m[K)[m[K;
+[2.171s]       |                            [01;31m[K^[m[K
+[2.171s] In file included from [01m[K/root/planner_ws/src/cpp_pubsub/include/end_condition_sampler.hpp:8[m[K,
+[2.171s]                  from [01m[K/root/planner_ws/src/cpp_pubsub/include/manager.hpp:24[m[K,
+[2.171s]                  from [01m[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:1[m[K:
+[2.171s] [01m[K/root/planner_ws/src/cpp_pubsub/include/path_time_graph.hpp:11:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid PathTimeGraph::Init(std::vector<std::vector<double, std::allocator<double> > >&)[m[K’
+[2.171s]    11 |     void [01;36m[KInit[m[K(vector<vector<double>>& obstacle );
+[2.171s]       |          [01;36m[K^~~~[m[K
+[2.171s] [01m[K/root/planner_ws/src/cpp_pubsub/include/path_time_graph.hpp:11:10:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[2.674s] make[2]: *** [CMakeFiles/planner.dir/build.make:89: CMakeFiles/planner.dir/src/manager.cpp.o] Error 1
+[2.686s] make[2]: *** [CMakeFiles/cpp_pubsub.dir/build.make:76: CMakeFiles/cpp_pubsub.dir/src/manager.cpp.o] Error 1
+[2.686s] make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/cpp_pubsub.dir/all] Error 2
+[2.686s] make[1]: *** Waiting for unfinished jobs....
+[3.243s] make[2]: *** [CMakeFiles/planner.dir/build.make:63: CMakeFiles/planner.dir/src/publisher.cpp.o] Error 1
+[3.244s] make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/planner.dir/all] Error 2
+[3.244s] make: *** [Makefile:141: all] Error 2
+[3.246s] Invoked command in '/root/planner_ws/build/cpp_pubsub' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /root/planner_ws/build/cpp_pubsub -- -j12 -l12

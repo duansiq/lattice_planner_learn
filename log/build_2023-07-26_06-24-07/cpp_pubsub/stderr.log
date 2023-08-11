@@ -1,0 +1,66 @@
+[01m[K/root/planner_ws/src/cpp_pubsub/src/cartesian_frenet_converter.cpp:[m[K In static member function ‘[01m[Kstatic void Cartesian_Frenet_Converter::frenet_to_cartesian(double, double, double, double, double, double, const std::array<double, 3>&, const std::array<double, 3>&, double*, double*, double*, double*, double*, double*)[m[K’:
+[01m[K/root/planner_ws/src/cpp_pubsub/src/cartesian_frenet_converter.cpp:72:18:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krs[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   72 |     [01;35m[Kconst double rs[m[K, const double rx, const double ry, const double rtheta,
+      |     [01;35m[K~~~~~~~~~~~~~^~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/trajectory_evaluator.cpp:[m[K In member function ‘[01m[Kvoid Trajectory_Evaluator::TrajectoryEvaluator(const std::array<double, 3>&, const std::vector<LONspeed>&, const std::vector<LATpath>&, const std::vector<PathPoint>&)[m[K’:
+[01m[K/root/planner_ws/src/cpp_pubsub/src/trajectory_evaluator.cpp:9:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Klon_trajectories[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+    9 |     [01;35m[Kconst std::vector<LONspeed> &lon_trajectories[m[K,
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/trajectory_evaluator.cpp:11:35:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreference_line[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   11 |     [01;35m[Kconst std::vector<PathPoint> &reference_line[m[K)
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/trajectory_evaluator.cpp:[m[K In member function ‘[01m[Kdouble Trajectory_Evaluator::LatComfortCost(const std::vector<double>&, const LATpath&) const[m[K’:
+[01m[K/root/planner_ws/src/cpp_pubsub/src/trajectory_evaluator.cpp:44:60:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Klat_trajectory[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   44 |                                             [01;35m[Kconst LATpath &lat_trajectory[m[K) const
+      |                                             [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/trajectory_evaluator.cpp:[m[K In member function ‘[01m[Kdouble Trajectory_Evaluator::LatOffsetCost(const LATpath&, const std::vector<double>&) const[m[K’:
+[01m[K/root/planner_ws/src/cpp_pubsub/src/trajectory_evaluator.cpp:62:20:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Klat_trajectory[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   62 |     [01;35m[Kconst LATpath &lat_trajectory[m[K,
+      |     [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/Trajectory1dGenerator.cpp:[m[K In member function ‘[01m[Kvoid Trajectory1dGenerator::GenerateLongitudinalTrajectoryBundle(double, std::vector<LONspeed>&)[m[K’:
+[01m[K/root/planner_ws/src/cpp_pubsub/src/Trajectory1dGenerator.cpp:64:73:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktargetspeed[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   64 | void Trajectory1dGenerator::GenerateLongitudinalTrajectoryBundle([01;35m[Kdouble targetspeed[m[K,
+      |                                                                  [01;35m[K~~~~~~~^~~~~~~~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/Trajectory1dGenerator.cpp:65:84:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kptr_lon_trajectory_bundle[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   65 |                                                                  [01;35m[Kvector<LONspeed> &ptr_lon_trajectory_bundle[m[K)
+      |                                                                  [01;35m[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/collisionchecker.cpp:[m[K In member function ‘[01m[Kbool Collision_Checker::InCollision(const std::vector<std::vector<double> >&, const LATpath&, double, double, const std::array<double, 3>&)[m[K’:
+[01m[K/root/planner_ws/src/cpp_pubsub/src/collisionchecker.cpp:19:17:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kpointnum[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   19 |             int [01;35m[Kpointnum[m[K = 30;
+      |                 [01;35m[K^~~~~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/collisionchecker.cpp:5:74:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kobs_length[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+    5 |                                     const double obs_width, [01;35m[Kconst double obs_length[m[K, const std::array<double, 3> &init_s)
+      |                                                             [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/cartesian_frenet_converter.cpp:[m[K In static member function ‘[01m[Kstatic void Cartesian_Frenet_Converter::frenet_to_cartesian(double, double, double, double, double, double, const std::array<double, 3>&, const std::array<double, 3>&, double*, double*, double*, double*, double*, double*)[m[K’:
+[01m[K/root/planner_ws/src/cpp_pubsub/src/cartesian_frenet_converter.cpp:72:18:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krs[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   72 |     [01;35m[Kconst double rs[m[K, const double rx, const double ry, const double rtheta,
+      |     [01;35m[K~~~~~~~~~~~~~^~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/trajectory_evaluator.cpp:[m[K In member function ‘[01m[Kvoid Trajectory_Evaluator::TrajectoryEvaluator(const std::array<double, 3>&, const std::vector<LONspeed>&, const std::vector<LATpath>&, const std::vector<PathPoint>&)[m[K’:
+[01m[K/root/planner_ws/src/cpp_pubsub/src/trajectory_evaluator.cpp:9:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Klon_trajectories[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+    9 |     [01;35m[Kconst std::vector<LONspeed> &lon_trajectories[m[K,
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/trajectory_evaluator.cpp:11:35:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreference_line[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   11 |     [01;35m[Kconst std::vector<PathPoint> &reference_line[m[K)
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/trajectory_evaluator.cpp:[m[K In member function ‘[01m[Kdouble Trajectory_Evaluator::LatComfortCost(const std::vector<double>&, const LATpath&) const[m[K’:
+[01m[K/root/planner_ws/src/cpp_pubsub/src/trajectory_evaluator.cpp:44:60:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Klat_trajectory[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   44 |                                             [01;35m[Kconst LATpath &lat_trajectory[m[K) const
+      |                                             [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/trajectory_evaluator.cpp:[m[K In member function ‘[01m[Kdouble Trajectory_Evaluator::LatOffsetCost(const LATpath&, const std::vector<double>&) const[m[K’:
+[01m[K/root/planner_ws/src/cpp_pubsub/src/trajectory_evaluator.cpp:62:20:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Klat_trajectory[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   62 |     [01;35m[Kconst LATpath &lat_trajectory[m[K,
+      |     [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/Trajectory1dGenerator.cpp:[m[K In member function ‘[01m[Kvoid Trajectory1dGenerator::GenerateLongitudinalTrajectoryBundle(double, std::vector<LONspeed>&)[m[K’:
+[01m[K/root/planner_ws/src/cpp_pubsub/src/Trajectory1dGenerator.cpp:64:73:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktargetspeed[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   64 | void Trajectory1dGenerator::GenerateLongitudinalTrajectoryBundle([01;35m[Kdouble targetspeed[m[K,
+      |                                                                  [01;35m[K~~~~~~~^~~~~~~~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/Trajectory1dGenerator.cpp:65:84:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kptr_lon_trajectory_bundle[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   65 |                                                                  [01;35m[Kvector<LONspeed> &ptr_lon_trajectory_bundle[m[K)
+      |                                                                  [01;35m[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/collisionchecker.cpp:[m[K In member function ‘[01m[Kbool Collision_Checker::InCollision(const std::vector<std::vector<double> >&, const LATpath&, double, double, const std::array<double, 3>&)[m[K’:
+[01m[K/root/planner_ws/src/cpp_pubsub/src/collisionchecker.cpp:19:17:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kpointnum[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   19 |             int [01;35m[Kpointnum[m[K = 30;
+      |                 [01;35m[K^~~~~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/collisionchecker.cpp:5:74:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kobs_length[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+    5 |                                     const double obs_width, [01;35m[Kconst double obs_length[m[K, const std::array<double, 3> &init_s)
+      |                                                             [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~[m[K

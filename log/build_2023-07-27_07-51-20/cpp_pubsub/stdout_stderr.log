@@ -1,0 +1,98 @@
+-- Found ament_cmake_auto: 0.9.11 (/opt/ros/foxy/share/ament_cmake_auto/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /root/planner_ws/build/cpp_pubsub
+[35m[1mScanning dependencies of target planner[0m
+[ 48%] Built target cpp_pubsub
+[ 51%] [32mBuilding CXX object CMakeFiles/planner.dir/src/feasible_region.cpp.o[0m
+[01m[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:[m[K In member function ‘[01m[Kdouble FeasibleRegion::SUpper(double) const[m[K’:
+[01m[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:24:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+   24 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:22:44:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kt[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   22 | double FeasibleRegion::SUpper([01;35m[Kconst double t[m[K) const
+      |                               [01;35m[K~~~~~~~~~~~~~^[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:[m[K In member function ‘[01m[Kdouble FeasibleRegion::SLower(double) const[m[K’:
+[01m[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:28:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+   28 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:26:44:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kt[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   26 | double FeasibleRegion::SLower([01;35m[Kconst double t[m[K) const
+      |                               [01;35m[K~~~~~~~~~~~~~^[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:[m[K In member function ‘[01m[Kdouble FeasibleRegion::VUpper(double) const[m[K’:
+[01m[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:32:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+   32 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:30:44:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kt[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   30 | double FeasibleRegion::VUpper([01;35m[Kconst double t[m[K) const
+      |                               [01;35m[K~~~~~~~~~~~~~^[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:[m[K In member function ‘[01m[Kdouble FeasibleRegion::VLower(double) const[m[K’:
+[01m[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:36:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+   36 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:34:44:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kt[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   34 | double FeasibleRegion::VLower([01;35m[Kconst double t[m[K) const
+      |                               [01;35m[K~~~~~~~~~~~~~^[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:[m[K In member function ‘[01m[Kdouble FeasibleRegion::TLower(double) const[m[K’:
+[01m[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:40:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+   40 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:38:44:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ks[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   38 | double FeasibleRegion::TLower([01;35m[Kconst double s[m[K) const
+      |                               [01;35m[K~~~~~~~~~~~~~^[m[K
+[ 55%] [32m[1mLinking CXX executable planner[0m
+[100%] Built target planner
+-- Install configuration: ""
+-- Up-to-date: /root/planner_ws/install/cpp_pubsub/include
+-- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/cartesian_frenet_converter.hpp
+-- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/collisionchecker.hpp
+-- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/latpath1d.hpp
+-- Installing: /root/planner_ws/install/cpp_pubsub/include/end_condition_sampler.hpp
+-- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/constans.hpp
+-- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/trajectory_evaluator.hpp
+-- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/obstacle.hpp
+-- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/liner_interpolation.hpp
+-- Installing: /root/planner_ws/install/cpp_pubsub/include/Trajectory1dGenerator.hpp
+-- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/lonspeed1d.hpp
+-- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/matplotlibcpp.h
+-- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/referenceline.hpp
+-- Installing: /root/planner_ws/install/cpp_pubsub/include/manager.hpp
+-- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/plotfigure.hpp
+-- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/pathpoint.hpp
+-- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/constraint_checker1d.hpp
+-- Installing: /root/planner_ws/install/cpp_pubsub/include/feasible_region.hpp
+-- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/path_matcher.hpp
+-- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/SLPoint.hpp
+-- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/test.hpp
+-- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/STpoint.hpp
+-- Up-to-date: /root/planner_ws/install/cpp_pubsub/include/TrajectoryPoint.hpp
+-- Up-to-date: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/environment/library_path.sh
+-- Installing: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/environment/library_path.dsv
+-- Installing: /root/planner_ws/install/cpp_pubsub/lib/libcpp_pubsub.so
+-- Set runtime path of "/root/planner_ws/install/cpp_pubsub/lib/libcpp_pubsub.so" to ""
+-- Installing: /root/planner_ws/install/cpp_pubsub/lib/cpp_pubsub/planner
+-- Set runtime path of "/root/planner_ws/install/cpp_pubsub/lib/cpp_pubsub/planner" to ""
+-- Up-to-date: /root/planner_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+-- Installing: /root/planner_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+-- Up-to-date: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+-- Installing: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+-- Up-to-date: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+-- Installing: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+-- Up-to-date: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+-- Up-to-date: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+-- Up-to-date: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+-- Installing: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+-- Installing: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+-- Up-to-date: /root/planner_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+-- Up-to-date: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+-- Up-to-date: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+-- Up-to-date: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml

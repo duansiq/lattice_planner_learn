@@ -1,0 +1,46 @@
+[0.019s] Invoking command in '/root/planner_ws/src/build/lattice_planner': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /root/planner_ws/src/lattice_planner -DCMAKE_INSTALL_PREFIX=/root/planner_ws/src/install/lattice_planner
+[0.067s] -- The C compiler identification is GNU 9.4.0
+[0.111s] -- The CXX compiler identification is GNU 9.4.0
+[0.114s] -- Check for working C compiler: /usr/bin/cc
+[0.169s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.170s] -- Detecting C compiler ABI info
+[0.229s] -- Detecting C compiler ABI info - done
+[0.237s] -- Detecting C compile features
+[0.237s] -- Detecting C compile features - done
+[0.239s] -- Check for working CXX compiler: /usr/bin/c++
+[0.299s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.300s] -- Detecting CXX compiler ABI info
+[0.361s] -- Detecting CXX compiler ABI info - done
+[0.370s] -- Detecting CXX compile features
+[0.371s] -- Detecting CXX compile features - done
+[0.373s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.392s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.392s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.533s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.595s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.596s] -- Added test 'lint_cmake' to check CMake code style
+[0.597s] -- Added test 'xmllint' to check XML markup files
+[0.599s] -- Configuring done
+[0.602s] -- Generating done
+[0.603s] -- Build files have been written to: /root/planner_ws/src/build/lattice_planner
+[0.607s] Invoked command in '/root/planner_ws/src/build/lattice_planner' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /root/planner_ws/src/lattice_planner -DCMAKE_INSTALL_PREFIX=/root/planner_ws/src/install/lattice_planner
+[0.610s] Invoking command in '/root/planner_ws/src/build/lattice_planner': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /root/planner_ws/src/build/lattice_planner -- -j12 -l12
+[0.642s] Invoked command in '/root/planner_ws/src/build/lattice_planner' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /root/planner_ws/src/build/lattice_planner -- -j12 -l12
+[0.669s] Invoking command in '/root/planner_ws/src/build/lattice_planner': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /root/planner_ws/src/build/lattice_planner
+[0.675s] -- Install configuration: ""
+[0.675s] -- Installing: /root/planner_ws/src/install/lattice_planner/share/ament_index/resource_index/package_run_dependencies/lattice_planner
+[0.676s] -- Installing: /root/planner_ws/src/install/lattice_planner/share/ament_index/resource_index/parent_prefix_path/lattice_planner
+[0.676s] -- Installing: /root/planner_ws/src/install/lattice_planner/share/lattice_planner/environment/ament_prefix_path.sh
+[0.676s] -- Installing: /root/planner_ws/src/install/lattice_planner/share/lattice_planner/environment/ament_prefix_path.dsv
+[0.676s] -- Installing: /root/planner_ws/src/install/lattice_planner/share/lattice_planner/environment/path.sh
+[0.677s] -- Installing: /root/planner_ws/src/install/lattice_planner/share/lattice_planner/environment/path.dsv
+[0.677s] -- Installing: /root/planner_ws/src/install/lattice_planner/share/lattice_planner/local_setup.bash
+[0.677s] -- Installing: /root/planner_ws/src/install/lattice_planner/share/lattice_planner/local_setup.sh
+[0.677s] -- Installing: /root/planner_ws/src/install/lattice_planner/share/lattice_planner/local_setup.zsh
+[0.677s] -- Installing: /root/planner_ws/src/install/lattice_planner/share/lattice_planner/local_setup.dsv
+[0.677s] -- Installing: /root/planner_ws/src/install/lattice_planner/share/lattice_planner/package.dsv
+[0.678s] -- Installing: /root/planner_ws/src/install/lattice_planner/share/ament_index/resource_index/packages/lattice_planner
+[0.678s] -- Installing: /root/planner_ws/src/install/lattice_planner/share/lattice_planner/cmake/lattice_plannerConfig.cmake
+[0.678s] -- Installing: /root/planner_ws/src/install/lattice_planner/share/lattice_planner/cmake/lattice_plannerConfig-version.cmake
+[0.678s] -- Installing: /root/planner_ws/src/install/lattice_planner/share/lattice_planner/package.xml
+[0.680s] Invoked command in '/root/planner_ws/src/build/lattice_planner' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /root/planner_ws/src/build/lattice_planner

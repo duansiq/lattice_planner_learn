@@ -1,0 +1,48 @@
+[0.041s] Invoking command in '/root/planner_ws/src/build/lattice_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /root/planner_ws/src/build/lattice_planner -- -j12 -l12
+[0.061s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.084s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.242s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.300s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.307s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.384s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.417s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.514s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.590s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.592s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.594s] -- Looking for pthread.h
+[0.677s] -- Looking for pthread.h - found
+[0.677s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.759s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.759s] -- Looking for pthread_create in pthreads
+[0.838s] -- Looking for pthread_create in pthreads - not found
+[0.838s] -- Looking for pthread_create in pthread
+[0.914s] -- Looking for pthread_create in pthread - found
+[0.915s] -- Found Threads: TRUE  
+[1.073s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.148s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.150s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.150s] -- Configured cppcheck include dirs: 
+[1.150s] -- Configured cppcheck exclude dirs and/or files: 
+[1.152s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.152s] -- Configured cpplint exclude dirs and/or files: 
+[1.152s] -- Added test 'lint_cmake' to check CMake code style
+[1.154s] -- Added test 'uncrustify' to check C / C++ code style
+[1.154s] -- Configured uncrustify additional arguments: 
+[1.155s] -- Added test 'xmllint' to check XML markup files
+[1.159s] -- Configuring done
+[1.160s] CMake Error at CMakeLists.txt:25 (add_executable):
+[1.161s]   Cannot find source file:
+[1.161s] 
+[1.161s]     src/main_function.cpp
+[1.161s] 
+[1.161s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+[1.161s]   .hpp .hxx .in .txx
+[1.161s] 
+[1.161s] 
+[1.161s] CMake Error at CMakeLists.txt:25 (add_executable):
+[1.162s]   No SOURCES given to target: main_function
+[1.162s] 
+[1.162s] 
+[1.162s] CMake Generate step failed.  Build files cannot be regenerated correctly.
+[1.167s] make: *** [Makefile:222: cmake_check_build_system] Error 1
+[1.170s] Invoked command in '/root/planner_ws/src/build/lattice_planner' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /root/planner_ws/src/build/lattice_planner -- -j12 -l12

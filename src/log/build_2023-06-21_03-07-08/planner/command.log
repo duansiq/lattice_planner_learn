@@ -1,0 +1,1 @@
+Invoking command in '/root/planner_ws/src/build/planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /root/planner_ws/src/planner -DCMAKE_INSTALL_PREFIX=/root/planner_ws/src/install/planner

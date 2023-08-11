@@ -1,0 +1,22 @@
+[35m[1mScanning dependencies of target cpp_pubsub[0m
+[35m[1mScanning dependencies of target planner[0m
+[  3%] [32mBuilding CXX object CMakeFiles/cpp_pubsub.dir/src/manager.cpp.o[0m
+[  6%] [32mBuilding CXX object CMakeFiles/cpp_pubsub.dir/src/obstacle.cpp.o[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/planner.dir/src/publisher.cpp.o[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/planner.dir/src/manager.cpp.o[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/planner.dir/src/obstacle.cpp.o[0m
+[01m[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:[m[K In member function ‘[01m[Kvoid Manage_Planner::planner()[m[K’:
+[01m[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:114:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Obstacle[m[K’ has no member named ‘[01m[Kget_obs[m[K’
+  114 |     obs_static_gcs = obstacle.[01;31m[Kget_obs[m[K();
+      |                               [01;31m[K^~~~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:[m[K In member function ‘[01m[Kvoid Manage_Planner::planner()[m[K’:
+[01m[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:114:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Obstacle[m[K’ has no member named ‘[01m[Kget_obs[m[K’
+  114 |     obs_static_gcs = obstacle.[01;31m[Kget_obs[m[K();
+      |                               [01;31m[K^~~~~~~[m[K
+make[2]: *** [CMakeFiles/cpp_pubsub.dir/build.make:76: CMakeFiles/cpp_pubsub.dir/src/manager.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/cpp_pubsub.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/planner.dir/build.make:89: CMakeFiles/planner.dir/src/manager.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/planner.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

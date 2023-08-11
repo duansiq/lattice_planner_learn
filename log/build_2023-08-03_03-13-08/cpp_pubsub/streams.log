@@ -1,0 +1,95 @@
+[0.028s] Invoking command in '/root/planner_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /root/planner_ws/build/cpp_pubsub -- -j12 -l12
+[0.061s] [35m[1mScanning dependencies of target cpp_pubsub[0m
+[0.061s] [35m[1mScanning dependencies of target planner[0m
+[0.092s] [  6%] [32mBuilding CXX object CMakeFiles/cpp_pubsub.dir/src/manager.cpp.o[0m
+[0.092s] [  6%] [32mBuilding CXX object CMakeFiles/cpp_pubsub.dir/src/path_time_graph.cpp.o[0m
+[0.093s] [  9%] [32mBuilding CXX object CMakeFiles/cpp_pubsub.dir/src/end_condition_sampler.cpp.o[0m
+[0.094s] [ 12%] [32mBuilding CXX object CMakeFiles/planner.dir/src/manager.cpp.o[0m
+[0.094s] [ 16%] [32mBuilding CXX object CMakeFiles/planner.dir/src/publisher.cpp.o[0m
+[0.095s] [ 19%] [32mBuilding CXX object CMakeFiles/planner.dir/src/end_condition_sampler.cpp.o[0m
+[0.095s] [ 22%] [32mBuilding CXX object CMakeFiles/planner.dir/src/path_time_graph.cpp.o[0m
+[0.286s] [01m[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:[m[K In member function ‘[01m[Kvoid PathTimeGraph::Init(const std::vector<std::vector<double> >&, const std::vector<PathPoint>&, double, double, double, double, const std::array<double, 3>&)[m[K’:
+[0.286s] [01m[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:20:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<double> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[0.286s]    20 |         for (int i = 0; [01;35m[Ki < dynamic_obstacle_sl.size()[m[K; i++)
+[0.286s]       |                         [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.286s] [01m[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:24:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kobs_heading[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[0.286s]    24 |             double [01;35m[Kobs_heading[m[K = dynamic_obstacle_sl[i][2];
+[0.286s]       |                    [01;35m[K^~~~~~~~~~~[m[K
+[0.286s] [01m[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:25:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kobs_velocity[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[0.286s]    25 |             double [01;35m[Kobs_velocity[m[K = dynamic_obstacle_sl[i][3];
+[0.287s]       |                    [01;35m[K^~~~~~~~~~~~[m[K
+[0.287s] [01m[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:105:23:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K-Wunused-value[m[K]
+[0.287s]   105 |                 [01;35m[Kst.su == predicte_s[m[K;
+[0.287s]       |                 [01;35m[K~~~~~~^~~~~~~~~~~~~[m[K
+[0.288s] [01m[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:118:23:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K-Wunused-value[m[K]
+[0.288s]   118 |                 [01;35m[Kst.sl == predicte_s[m[K;
+[0.288s]       |                 [01;35m[K~~~~~~^~~~~~~~~~~~~[m[K
+[0.288s] [01m[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:5:102:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreferenceline[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.288s]     5 | void PathTimeGraph::Init(const vector<vector<double>> &dynamic_obstacle_sl, [01;35m[Kconst vector<PathPoint> &referenceline[m[K,
+[0.288s]       |                                                                             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[0.288s] [01m[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:7:70:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kinit_d[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.288s]     7 |                          const double t_end, [01;35m[Kconst array<double, 3> &init_d[m[K)
+[0.288s]       |                                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[0.290s] [01m[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:[m[K In member function ‘[01m[Kvoid PathTimeGraph::Init(const std::vector<std::vector<double> >&, const std::vector<PathPoint>&, double, double, double, double, const std::array<double, 3>&)[m[K’:
+[0.291s] [01m[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:20:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<double> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[0.291s]    20 |         for (int i = 0; [01;35m[Ki < dynamic_obstacle_sl.size()[m[K; i++)
+[0.291s]       |                         [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.291s] [01m[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:24:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kobs_heading[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[0.291s]    24 |             double [01;35m[Kobs_heading[m[K = dynamic_obstacle_sl[i][2];
+[0.291s]       |                    [01;35m[K^~~~~~~~~~~[m[K
+[0.291s] [01m[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:25:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kobs_velocity[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[0.291s]    25 |             double [01;35m[Kobs_velocity[m[K = dynamic_obstacle_sl[i][3];
+[0.291s]       |                    [01;35m[K^~~~~~~~~~~~[m[K
+[0.292s] [01m[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:105:23:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K-Wunused-value[m[K]
+[0.292s]   105 |                 [01;35m[Kst.su == predicte_s[m[K;
+[0.292s]       |                 [01;35m[K~~~~~~^~~~~~~~~~~~~[m[K
+[0.293s] [01m[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:118:23:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K-Wunused-value[m[K]
+[0.293s]   118 |                 [01;35m[Kst.sl == predicte_s[m[K;
+[0.293s]       |                 [01;35m[K~~~~~~^~~~~~~~~~~~~[m[K
+[0.293s] [01m[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:5:102:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreferenceline[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.293s]     5 | void PathTimeGraph::Init(const vector<vector<double>> &dynamic_obstacle_sl, [01;35m[Kconst vector<PathPoint> &referenceline[m[K,
+[0.293s]       |                                                                             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[0.293s] [01m[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:7:70:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kinit_d[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.293s]     7 |                          const double t_end, [01;35m[Kconst array<double, 3> &init_d[m[K)
+[0.293s]       |                                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[0.349s] [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:[m[K In member function ‘[01m[Kstd::vector<std::pair<std::vector<double>, double> > EndConditionSampler::SampleLonEndConditionsForLaneChange(const std::vector<STBoundaryPoint>&) const[m[K’:
+[0.349s] [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:118:75:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kconst[m[K’
+[0.350s]   118 |     vector<SamplePoint> sample_points = QueryPathTimeObstacleSamplePoints([01;31m[Kconst[m[K vector<STBoundaryPoint>& stboundarypoint);
+[0.350s]       |                                                                           [01;31m[K^~~~~[m[K
+[0.350s] [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:115:89:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kstboundarypoint[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.350s]   115 | EndConditionSampler::SampleLonEndConditionsForLaneChange([01;35m[Kconst vector<STBoundaryPoint>& stboundarypoint[m[K) const
+[0.350s]       |                                                          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+[0.351s] [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:[m[K In function ‘[01m[Kstd::vector<SamplePoint> QueryPathTimeObstacleSamplePoints(const std::vector<STBoundaryPoint>&)[m[K’:
+[0.351s] [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:139:66:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kstboundarypoint[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.351s]   139 | QueryPathTimeObstacleSamplePoints([01;35m[Kconst vector<STBoundaryPoint>& stboundarypoint[m[K)
+[0.351s]       |                                   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+[0.360s] [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:[m[K In member function ‘[01m[Kstd::vector<std::pair<std::vector<double>, double> > EndConditionSampler::SampleLonEndConditionsForLaneChange(const std::vector<STBoundaryPoint>&) const[m[K’:
+[0.360s] [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:118:75:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kconst[m[K’
+[0.360s]   118 |     vector<SamplePoint> sample_points = QueryPathTimeObstacleSamplePoints([01;31m[Kconst[m[K vector<STBoundaryPoint>& stboundarypoint);
+[0.361s]       |                                                                           [01;31m[K^~~~~[m[K
+[0.361s] [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:115:89:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kstboundarypoint[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.361s]   115 | EndConditionSampler::SampleLonEndConditionsForLaneChange([01;35m[Kconst vector<STBoundaryPoint>& stboundarypoint[m[K) const
+[0.361s]       |                                                          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+[0.362s] [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:[m[K In function ‘[01m[Kstd::vector<SamplePoint> QueryPathTimeObstacleSamplePoints(const std::vector<STBoundaryPoint>&)[m[K’:
+[0.362s] [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:139:66:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kstboundarypoint[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.362s]   139 | QueryPathTimeObstacleSamplePoints([01;35m[Kconst vector<STBoundaryPoint>& stboundarypoint[m[K)
+[0.362s]       |                                   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+[0.424s] make[2]: *** [CMakeFiles/cpp_pubsub.dir/build.make:206: CMakeFiles/cpp_pubsub.dir/src/end_condition_sampler.cpp.o] Error 1
+[0.425s] make[2]: *** Waiting for unfinished jobs....
+[0.438s] make[2]: *** [CMakeFiles/planner.dir/build.make:219: CMakeFiles/planner.dir/src/end_condition_sampler.cpp.o] Error 1
+[0.438s] make[2]: *** Waiting for unfinished jobs....
+[1.478s] [01m[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:[m[K In member function ‘[01m[Kvoid Manage_Planner::planner()[m[K’:
+[1.479s] [01m[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:200:86:[m[K [01;31m[Kerror: [m[K‘[01m[KLC_mode[m[K’ was not declared in this scope
+[1.479s]   200 |         lon_end_conditions = endconditionsampler.SampleLonEndConditionsForLaneChange([01;31m[KLC_mode[m[K);
+[1.479s]       |                                                                                      [01;31m[K^~~~~~~[m[K
+[1.491s] [01m[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:[m[K In member function ‘[01m[Kvoid Manage_Planner::planner()[m[K’:
+[1.491s] [01m[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:200:86:[m[K [01;31m[Kerror: [m[K‘[01m[KLC_mode[m[K’ was not declared in this scope
+[1.491s]   200 |         lon_end_conditions = endconditionsampler.SampleLonEndConditionsForLaneChange([01;31m[KLC_mode[m[K);
+[1.491s]       |                                                                                      [01;31m[K^~~~~~~[m[K
+[1.894s] make[2]: *** [CMakeFiles/cpp_pubsub.dir/build.make:76: CMakeFiles/cpp_pubsub.dir/src/manager.cpp.o] Error 1
+[1.894s] make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/cpp_pubsub.dir/all] Error 2
+[1.894s] make[1]: *** Waiting for unfinished jobs....
+[1.922s] make[2]: *** [CMakeFiles/planner.dir/build.make:89: CMakeFiles/planner.dir/src/manager.cpp.o] Error 1
+[3.481s] make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/planner.dir/all] Error 2
+[3.481s] make: *** [Makefile:141: all] Error 2
+[3.483s] Invoked command in '/root/planner_ws/build/cpp_pubsub' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /root/planner_ws/build/cpp_pubsub -- -j12 -l12

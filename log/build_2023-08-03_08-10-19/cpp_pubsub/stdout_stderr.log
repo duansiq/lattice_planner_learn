@@ -1,0 +1,67 @@
+[35m[1mScanning dependencies of target cpp_pubsub[0m
+[35m[1mScanning dependencies of target planner[0m
+[  9%] [32mBuilding CXX object CMakeFiles/cpp_pubsub.dir/src/end_condition_sampler.cpp.o[0m
+[  9%] [32mBuilding CXX object CMakeFiles/cpp_pubsub.dir/src/path_time_graph.cpp.o[0m
+[  9%] [32mBuilding CXX object CMakeFiles/cpp_pubsub.dir/src/manager.cpp.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/planner.dir/src/publisher.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/planner.dir/src/end_condition_sampler.cpp.o[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/planner.dir/src/manager.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/planner.dir/src/path_time_graph.cpp.o[0m
+[01m[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:[m[K In member function ‘[01m[Kvoid PathTimeGraph::Init(const std::vector<std::vector<double> >&, const std::vector<PathPoint>&, double, double, double, double, const std::array<double, 3>&, const std::array<double, 3>&)[m[K’:
+[01m[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:21:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<double> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+   21 |         for (int i = 0; [01;35m[Ki < dynamic_obstacle_sl.size()[m[K; i++)
+      |                         [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:5:102:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreferenceline[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+    5 | void PathTimeGraph::Init(const vector<vector<double>> &dynamic_obstacle_sl, [01;35m[Kconst vector<PathPoint> &referenceline[m[K,
+      |                                                                             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:7:70:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kinit_d[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+    7 |                          const double t_end, [01;35m[Kconst array<double, 3> &init_d[m[K,const array<double, 3> &init_s)
+      |                                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:[m[K In member function ‘[01m[Kvoid PathTimeGraph::Init(const std::vector<std::vector<double> >&, const std::vector<PathPoint>&, double, double, double, double, const std::array<double, 3>&, const std::array<double, 3>&)[m[K’:
+[01m[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:21:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<double> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+   21 |         for (int i = 0; [01;35m[Ki < dynamic_obstacle_sl.size()[m[K; i++)
+      |                         [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:5:102:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreferenceline[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+    5 | void PathTimeGraph::Init(const vector<vector<double>> &dynamic_obstacle_sl, [01;35m[Kconst vector<PathPoint> &referenceline[m[K,
+      |                                                                             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:7:70:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kinit_d[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+    7 |                          const double t_end, [01;35m[Kconst array<double, 3> &init_d[m[K,const array<double, 3> &init_s)
+      |                                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:[m[K In member function ‘[01m[Kstd::vector<std::pair<std::vector<double>, double> > EndConditionSampler::SampleLonEndConditionsForLaneChange(const std::vector<STBoundaryPoint>&) const[m[K’:
+[01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:117:90:[m[K [01;31m[Kerror: [m[Kpassing ‘[01m[Kconst EndConditionSampler[m[K’ as ‘[01m[Kthis[m[K’ argument discards qualifiers [[01;31m[K-fpermissive[m[K]
+  117 |     vector<SamplePoint> sample_points = QueryPathTimeObstacleSamplePoints(stboundarypoint[01;31m[K)[m[K;
+      |                                                                                          [01;31m[K^[m[K
+In file included from [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:1[m[K:
+[01m[K/root/planner_ws/src/cpp_pubsub/include/end_condition_sampler.hpp:45:5:[m[K [01;36m[Knote: [m[K  in call to ‘[01m[Kstd::vector<SamplePoint> EndConditionSampler::QueryPathTimeObstacleSamplePoints(const std::vector<STBoundaryPoint>&)[m[K’
+   45 |     [01;36m[KQueryPathTimeObstacleSamplePoints[m[K(const vector<STBoundaryPoint> &stboundarypoint);
+      |     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:[m[K In member function ‘[01m[Kstd::vector<SamplePoint> EndConditionSampler::QueryPathTimeObstacleSamplePoints(const std::vector<STBoundaryPoint>&)[m[K’:
+[01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:155:12:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+  155 |         if([01;31m[K)[m[K
+      |            [01;31m[K^[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:156:5:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K}[m[K’ token
+  156 |     [01;31m[K}[m[K
+      |     [01;31m[K^[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:[m[K In member function ‘[01m[Kstd::vector<std::pair<std::vector<double>, double> > EndConditionSampler::SampleLonEndConditionsForLaneChange(const std::vector<STBoundaryPoint>&) const[m[K’:
+[01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:117:90:[m[K [01;31m[Kerror: [m[Kpassing ‘[01m[Kconst EndConditionSampler[m[K’ as ‘[01m[Kthis[m[K’ argument discards qualifiers [[01;31m[K-fpermissive[m[K]
+  117 |     vector<SamplePoint> sample_points = QueryPathTimeObstacleSamplePoints(stboundarypoint[01;31m[K)[m[K;
+      |                                                                                          [01;31m[K^[m[K
+In file included from [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:1[m[K:
+[01m[K/root/planner_ws/src/cpp_pubsub/include/end_condition_sampler.hpp:45:5:[m[K [01;36m[Knote: [m[K  in call to ‘[01m[Kstd::vector<SamplePoint> EndConditionSampler::QueryPathTimeObstacleSamplePoints(const std::vector<STBoundaryPoint>&)[m[K’
+   45 |     [01;36m[KQueryPathTimeObstacleSamplePoints[m[K(const vector<STBoundaryPoint> &stboundarypoint);
+      |     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:[m[K In member function ‘[01m[Kstd::vector<SamplePoint> EndConditionSampler::QueryPathTimeObstacleSamplePoints(const std::vector<STBoundaryPoint>&)[m[K’:
+[01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:155:12:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+  155 |         if([01;31m[K)[m[K
+      |            [01;31m[K^[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:156:5:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K}[m[K’ token
+  156 |     [01;31m[K}[m[K
+      |     [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/planner.dir/build.make:219: CMakeFiles/planner.dir/src/end_condition_sampler.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/cpp_pubsub.dir/build.make:206: CMakeFiles/cpp_pubsub.dir/src/end_condition_sampler.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/cpp_pubsub.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/planner.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

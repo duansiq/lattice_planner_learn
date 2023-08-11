@@ -1,0 +1,107 @@
+[35m[1mScanning dependencies of target cpp_pubsub[0m
+[35m[1mScanning dependencies of target planner[0m
+[  9%] [32mBuilding CXX object CMakeFiles/cpp_pubsub.dir/src/path_time_graph.cpp.o[0m
+[  9%] [32mBuilding CXX object CMakeFiles/cpp_pubsub.dir/src/manager.cpp.o[0m
+[  9%] [32mBuilding CXX object CMakeFiles/cpp_pubsub.dir/src/end_condition_sampler.cpp.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/planner.dir/src/publisher.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/planner.dir/src/manager.cpp.o[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/planner.dir/src/path_time_graph.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/planner.dir/src/end_condition_sampler.cpp.o[0m
+[01m[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:[m[K In member function ‘[01m[Kvoid PathTimeGraph::Init(const std::vector<std::vector<double> >&, const std::vector<PathPoint>&, double, double, double, double, const std::array<double, 3>&)[m[K’:
+[01m[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:12:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kobs_l[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   12 |         double [01;35m[Kobs_l[m[K = dy_obs[1];
+      |                [01;35m[K^~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:13:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kobs_s[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   13 |         double [01;35m[Kobs_s[m[K = dy_obs[0];
+      |                [01;35m[K^~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:5:102:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreferenceline[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+    5 | void PathTimeGraph::Init(const vector<vector<double>> &dynamic_obstacle_sl, [01;35m[Kconst vector<PathPoint> &referenceline[m[K,
+      |                                                                             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:6:39:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ks_start[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+    6 |                          [01;35m[Kconst double s_start[m[K, const double s_end, const double t_start,
+      |                          [01;35m[K~~~~~~~~~~~~~^~~~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:6:61:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ks_end[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+    6 |                          const double s_start, [01;35m[Kconst double s_end[m[K, const double t_start,
+      |                                                [01;35m[K~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:6:81:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kt_start[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+    6 |                          const double s_start, const double s_end, [01;35m[Kconst double t_start[m[K,
+      |                                                                    [01;35m[K~~~~~~~~~~~~~^~~~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:7:39:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kt_end[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+    7 |                          [01;35m[Kconst double t_end[m[K, const array<double, 3> &init_d)
+      |                          [01;35m[K~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:7:70:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kinit_d[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+    7 |                          const double t_end, [01;35m[Kconst array<double, 3> &init_d[m[K)
+      |                                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:[m[K In member function ‘[01m[Kvoid PathTimeGraph::Init(const std::vector<std::vector<double> >&, const std::vector<PathPoint>&, double, double, double, double, const std::array<double, 3>&)[m[K’:
+[01m[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:12:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kobs_l[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   12 |         double [01;35m[Kobs_l[m[K = dy_obs[1];
+      |                [01;35m[K^~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:13:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kobs_s[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   13 |         double [01;35m[Kobs_s[m[K = dy_obs[0];
+      |                [01;35m[K^~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:5:102:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreferenceline[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+    5 | void PathTimeGraph::Init(const vector<vector<double>> &dynamic_obstacle_sl, [01;35m[Kconst vector<PathPoint> &referenceline[m[K,
+      |                                                                             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:6:39:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ks_start[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+    6 |                          [01;35m[Kconst double s_start[m[K, const double s_end, const double t_start,
+      |                          [01;35m[K~~~~~~~~~~~~~^~~~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:6:61:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ks_end[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+    6 |                          const double s_start, [01;35m[Kconst double s_end[m[K, const double t_start,
+      |                                                [01;35m[K~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:6:81:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kt_start[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+    6 |                          const double s_start, const double s_end, [01;35m[Kconst double t_start[m[K,
+      |                                                                    [01;35m[K~~~~~~~~~~~~~^~~~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:7:39:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kt_end[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+    7 |                          [01;35m[Kconst double t_end[m[K, const array<double, 3> &init_d)
+      |                          [01;35m[K~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/path_time_graph.cpp:7:70:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kinit_d[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+    7 |                          const double t_end, [01;35m[Kconst array<double, 3> &init_d[m[K)
+      |                                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:[m[K In member function ‘[01m[Kstd::vector<std::pair<std::vector<double>, double> > EndConditionSampler::SampleLonEndConditionsForLaneChange(int) const[m[K’:
+[01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:115:41:[m[K [01;31m[Kerror: [m[K‘[01m[KQueryPathTimeObstacleSamplePoints[m[K’ was not declared in this scope
+  115 |     vector<SamplePoint> sample_points = [01;31m[KQueryPathTimeObstacleSamplePoints[m[K();
+      |                                         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:112:68:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KLC_mode[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  112 | EndConditionSampler::SampleLonEndConditionsForLaneChange([01;35m[Kconst int LC_mode[m[K) const
+      |                                                          [01;35m[K~~~~~~~~~~^~~~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:[m[K At global scope:
+[01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:136:1:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kstd::vector<SamplePoint> EndConditionSampler::QueryPathTimeObstacleSamplePoints() const[m[K’
+  136 | [01;31m[KEndConditionSampler[m[K::QueryPathTimeObstacleSamplePoints() const
+      | [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:136:1:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kstd::vector<SamplePoint> EndConditionSampler::QueryPathTimeObstacleSamplePoints() const[m[K’
+In file included from [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:1[m[K:
+[01m[K/root/planner_ws/src/cpp_pubsub/include/end_condition_sampler.hpp:14:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass EndConditionSampler[m[K’ defined here
+   14 | class [01;36m[KEndConditionSampler[m[K
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:[m[K In member function ‘[01m[Kstd::vector<std::pair<std::vector<double>, double> > EndConditionSampler::SampleLonEndConditionsForLaneChange(int) const[m[K’:
+[01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:115:41:[m[K [01;31m[Kerror: [m[K‘[01m[KQueryPathTimeObstacleSamplePoints[m[K’ was not declared in this scope
+  115 |     vector<SamplePoint> sample_points = [01;31m[KQueryPathTimeObstacleSamplePoints[m[K();
+      |                                         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:112:68:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KLC_mode[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  112 | EndConditionSampler::SampleLonEndConditionsForLaneChange([01;35m[Kconst int LC_mode[m[K) const
+      |                                                          [01;35m[K~~~~~~~~~~^~~~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:[m[K At global scope:
+[01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:136:1:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kstd::vector<SamplePoint> EndConditionSampler::QueryPathTimeObstacleSamplePoints() const[m[K’
+  136 | [01;31m[KEndConditionSampler[m[K::QueryPathTimeObstacleSamplePoints() const
+      | [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:136:1:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kstd::vector<SamplePoint> EndConditionSampler::QueryPathTimeObstacleSamplePoints() const[m[K’
+In file included from [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:1[m[K:
+[01m[K/root/planner_ws/src/cpp_pubsub/include/end_condition_sampler.hpp:14:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass EndConditionSampler[m[K’ defined here
+   14 | class [01;36m[KEndConditionSampler[m[K
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/cpp_pubsub.dir/build.make:206: CMakeFiles/cpp_pubsub.dir/src/end_condition_sampler.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/planner.dir/build.make:219: CMakeFiles/planner.dir/src/end_condition_sampler.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+[01m[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:[m[K In member function ‘[01m[Kvoid Manage_Planner::planner()[m[K’:
+[01m[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:194:85:[m[K [01;35m[Kwarning: [m[K‘[01m[KLC_mode[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+  194 |         lon_end_conditions = [01;35m[Kendconditionsampler.SampleLonEndConditionsForLaneChange(LC_mode)[m[K;
+      |                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:[m[K In member function ‘[01m[Kvoid Manage_Planner::planner()[m[K’:
+[01m[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:194:85:[m[K [01;35m[Kwarning: [m[K‘[01m[KLC_mode[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+  194 |         lon_end_conditions = [01;35m[Kendconditionsampler.SampleLonEndConditionsForLaneChange(LC_mode)[m[K;
+      |                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/cpp_pubsub.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/planner.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

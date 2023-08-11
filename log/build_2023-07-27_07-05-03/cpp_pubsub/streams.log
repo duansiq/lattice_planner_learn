@@ -1,0 +1,51 @@
+[0.023s] Invoking command in '/root/planner_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /root/planner_ws/build/cpp_pubsub -- -j12 -l12
+[0.059s] [35m[1mScanning dependencies of target cpp_pubsub[0m
+[0.073s] [  3%] [32mBuilding CXX object CMakeFiles/cpp_pubsub.dir/src/feasible_region.cpp.o[0m
+[0.078s] [ 53%] Built target planner
+[0.174s] [01m[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:[m[K In constructor ‘[01m[KFeasibleRegion::FeasibleRegion(const std::array<double, 3>&)[m[K’:
+[0.174s] [01m[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:6:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kv[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[0.174s]     6 |     double [01;35m[Kv[m[K = init_s[1];
+[0.174s]       |            [01;35m[K^[m[K
+[0.174s] [01m[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:[m[K At global scope:
+[0.174s] [01m[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:12:33:[m[K [01;31m[Kerror: [m[Kdefinition of implicitly-declared ‘[01m[KFeasibleRegion::~FeasibleRegion()[m[K’
+[0.174s]    12 | FeasibleRegion::~FeasibleRegion([01;31m[K)[m[K
+[0.174s]       |                                 [01;31m[K^[m[K
+[0.174s] [01m[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:[m[K In member function ‘[01m[Kdouble FeasibleRegion::SUpper(double) const[m[K’:
+[0.174s] [01m[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:17:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+[0.174s]    17 | [01;35m[K}[m[K
+[0.174s]       | [01;35m[K^[m[K
+[0.174s] [01m[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:15:44:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kt[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.174s]    15 | double FeasibleRegion::SUpper([01;35m[Kconst double t[m[K) const
+[0.175s]       |                               [01;35m[K~~~~~~~~~~~~~^[m[K
+[0.175s] [01m[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:[m[K In member function ‘[01m[Kdouble FeasibleRegion::SLower(double) const[m[K’:
+[0.175s] [01m[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:21:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+[0.175s]    21 | [01;35m[K}[m[K
+[0.175s]       | [01;35m[K^[m[K
+[0.175s] [01m[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:19:44:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kt[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.175s]    19 | double FeasibleRegion::SLower([01;35m[Kconst double t[m[K) const
+[0.175s]       |                               [01;35m[K~~~~~~~~~~~~~^[m[K
+[0.175s] [01m[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:[m[K In member function ‘[01m[Kdouble FeasibleRegion::VUpper(double) const[m[K’:
+[0.175s] [01m[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:25:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+[0.175s]    25 | [01;35m[K}[m[K
+[0.175s]       | [01;35m[K^[m[K
+[0.175s] [01m[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:23:44:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kt[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.176s]    23 | double FeasibleRegion::VUpper([01;35m[Kconst double t[m[K) const
+[0.176s]       |                               [01;35m[K~~~~~~~~~~~~~^[m[K
+[0.176s] [01m[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:[m[K In member function ‘[01m[Kdouble FeasibleRegion::VLower(double) const[m[K’:
+[0.176s] [01m[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:29:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+[0.176s]    29 | [01;35m[K}[m[K
+[0.176s]       | [01;35m[K^[m[K
+[0.176s] [01m[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:27:44:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kt[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.176s]    27 | double FeasibleRegion::VLower([01;35m[Kconst double t[m[K) const
+[0.176s]       |                               [01;35m[K~~~~~~~~~~~~~^[m[K
+[0.176s] [01m[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:[m[K In member function ‘[01m[Kdouble FeasibleRegion::TLower(double) const[m[K’:
+[0.176s] [01m[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:33:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+[0.176s]    33 | [01;35m[K}[m[K
+[0.176s]       | [01;35m[K^[m[K
+[0.176s] [01m[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:31:44:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ks[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.176s]    31 | double FeasibleRegion::TLower([01;35m[Kconst double s[m[K) const
+[0.176s]       |                               [01;35m[K~~~~~~~~~~~~~^[m[K
+[0.198s] make[2]: *** [CMakeFiles/cpp_pubsub.dir/build.make:219: CMakeFiles/cpp_pubsub.dir/src/feasible_region.cpp.o] Error 1
+[0.199s] make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/cpp_pubsub.dir/all] Error 2
+[0.199s] make: *** [Makefile:141: all] Error 2
+[0.201s] Invoked command in '/root/planner_ws/build/cpp_pubsub' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /root/planner_ws/build/cpp_pubsub -- -j12 -l12

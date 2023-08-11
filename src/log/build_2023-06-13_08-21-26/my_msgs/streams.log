@@ -1,0 +1,20 @@
+[0.023s] Invoking command in '/root/planner_ws/src/build/my_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /root/planner_ws/src/my_msgs -DCMAKE_INSTALL_PREFIX=/root/planner_ws/src/install/my_msgs
+[0.034s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.051s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.181s] -- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)
+[0.196s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.198s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.308s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.340s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[0.371s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.382s] CMake Error at /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):
+[0.382s]   rosidl_generate_interfaces() the passed file 'msg/Referenceline.msg'
+[0.382s]   doesn't exist relative to the CMAKE_CURRENT_SOURCE_DIR
+[0.383s]   '/root/planner_ws/src/my_msgs'
+[0.383s] Call Stack (most recent call first):
+[0.383s]   CMakeLists.txt:23 (rosidl_generate_interfaces)
+[0.383s] 
+[0.383s] 
+[0.383s] -- Configuring incomplete, errors occurred!
+[0.383s] See also "/root/planner_ws/src/build/my_msgs/CMakeFiles/CMakeOutput.log".
+[0.389s] Invoked command in '/root/planner_ws/src/build/my_msgs' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /root/planner_ws/src/my_msgs -DCMAKE_INSTALL_PREFIX=/root/planner_ws/src/install/my_msgs

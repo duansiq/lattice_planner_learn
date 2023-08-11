@@ -1,0 +1,567 @@
+[0.020s] Invoking command in '/root/planner_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /root/planner_ws/build/cpp_pubsub -- -j12 -l12
+[0.051s] [35m[1mScanning dependencies of target cpp_pubsub[0m
+[0.051s] [35m[1mScanning dependencies of target planner[0m
+[0.074s] [  3%] [32mBuilding CXX object CMakeFiles/cpp_pubsub.dir/src/manager.cpp.o[0m
+[0.074s] [  7%] [32mBuilding CXX object CMakeFiles/cpp_pubsub.dir/src/end_condition_sampler.cpp.o[0m
+[0.074s] [ 10%] [32mBuilding CXX object CMakeFiles/cpp_pubsub.dir/src/Trajectory1dGenerator.cpp.o[0m
+[0.080s] [ 21%] [32mBuilding CXX object CMakeFiles/planner.dir/src/end_condition_sampler.cpp.o[0m
+[0.080s] [ 21%] [32mBuilding CXX object CMakeFiles/planner.dir/src/publisher.cpp.o[0m
+[0.080s] [ 21%] [32mBuilding CXX object CMakeFiles/planner.dir/src/manager.cpp.o[0m
+[0.080s] [ 25%] [32mBuilding CXX object CMakeFiles/planner.dir/src/Trajectory1dGenerator.cpp.o[0m
+[0.294s] [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:[m[K In member function ‘[01m[Kstd::vector<std::pair<std::vector<double>, double> > EndConditionSampler::SampleLonEndConditionsForCruising(double) const[m[K’:
+[0.294s] [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:41:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+[0.295s]    41 | [01;35m[K}[m[K
+[0.295s]       | [01;35m[K^[m[K
+[0.295s] [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:[m[K In member function ‘[01m[Kstd::vector<std::pair<std::vector<double>, double> > EndConditionSampler::SampleLonEndConditionsForStopping(double) const[m[K’:
+[0.295s] [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:46:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+[0.295s]    46 | [01;35m[K}[m[K
+[0.295s]       | [01;35m[K^[m[K
+[0.295s] [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:44:69:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kref_stop_point[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.295s]    44 | EndConditionSampler::SampleLonEndConditionsForStopping([01;35m[Kconst double ref_stop_point[m[K) const
+[0.295s]       |                                                        [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[0.295s] [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:[m[K In member function ‘[01m[Kstd::vector<std::pair<std::vector<double>, double> > EndConditionSampler::SampleLonEndConditionsForLaneChange() const[m[K’:
+[0.296s] [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:51:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+[0.296s]    51 | [01;35m[K}[m[K
+[0.296s]       | [01;35m[K^[m[K
+[0.301s] [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:[m[K In member function ‘[01m[Kstd::vector<std::pair<std::vector<double>, double> > EndConditionSampler::SampleLonEndConditionsForCruising(double) const[m[K’:
+[0.301s] [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:41:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+[0.302s]    41 | [01;35m[K}[m[K
+[0.302s]       | [01;35m[K^[m[K
+[0.302s] [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:[m[K In member function ‘[01m[Kstd::vector<std::pair<std::vector<double>, double> > EndConditionSampler::SampleLonEndConditionsForStopping(double) const[m[K’:
+[0.302s] [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:46:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+[0.302s]    46 | [01;35m[K}[m[K
+[0.302s]       | [01;35m[K^[m[K
+[0.302s] [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:44:69:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kref_stop_point[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.302s]    44 | EndConditionSampler::SampleLonEndConditionsForStopping([01;35m[Kconst double ref_stop_point[m[K) const
+[0.302s]       |                                                        [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[0.303s] [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:[m[K In member function ‘[01m[Kstd::vector<std::pair<std::vector<double>, double> > EndConditionSampler::SampleLonEndConditionsForLaneChange() const[m[K’:
+[0.303s] [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:51:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+[0.303s]    51 | [01;35m[K}[m[K
+[0.303s]       | [01;35m[K^[m[K
+[0.345s] In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/c++allocator.h:33[m[K,
+[0.346s]                  from [01m[K/usr/include/c++/9/bits/allocator.h:46[m[K,
+[0.346s]                  from [01m[K/usr/include/c++/9/string:41[m[K,
+[0.346s]                  from [01m[K/usr/include/c++/9/stdexcept:39[m[K,
+[0.346s]                  from [01m[K/usr/include/c++/9/array:39[m[K,
+[0.346s]                  from [01m[K/root/planner_ws/src/cpp_pubsub/include/end_condition_sampler.hpp:3[m[K,
+[0.346s]                  from [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:1[m[K:
+[0.346s] /usr/include/c++/9/ext/new_allocator.h: In instantiation of ‘[01m[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = std::pair<std::vector<double>, double>; _Args = {std::array<double, 3>&, const double&}; _Tp = std::pair<std::vector<double>, double>][m[K’:
+[0.346s] [01m[K/usr/include/c++/9/bits/alloc_traits.h:483:4:[m[K   required from ‘[01m[Kstatic void std::allocator_traits<std::allocator<_CharT> >::construct(std::allocator_traits<std::allocator<_CharT> >::allocator_type&, _Up*, _Args&& ...) [with _Up = std::pair<std::vector<double>, double>; _Args = {std::array<double, 3>&, const double&}; _Tp = std::pair<std::vector<double>, double>; std::allocator_traits<std::allocator<_CharT> >::allocator_type = std::allocator<std::pair<std::vector<double>, double> >][m[K’
+[0.346s] [01m[K/usr/include/c++/9/bits/vector.tcc:115:30:[m[K   required from ‘[01m[Kvoid std::vector<_Tp, _Alloc>::emplace_back(_Args&& ...) [with _Args = {std::array<double, 3>&, const double&}; _Tp = std::pair<std::vector<double>, double>; _Alloc = std::allocator<std::pair<std::vector<double>, double> >][m[K’
+[0.347s] [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:38:59:[m[K   required from here
+[0.347s] [01m[K/usr/include/c++/9/ext/new_allocator.h:146:4:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kstd::pair<std::vector<double>, double>::pair(std::array<double, 3>&, const double&)[m[K’
+[0.347s]   146 |  { [01;31m[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)[m[K; }
+[0.347s]       |    [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.347s] In file included from [01m[K/usr/include/c++/9/utility:70[m[K,
+[0.347s]                  from [01m[K/usr/include/c++/9/array:38[m[K,
+[0.347s]                  from [01m[K/root/planner_ws/src/cpp_pubsub/include/end_condition_sampler.hpp:3[m[K,
+[0.347s]                  from [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:1[m[K:
+[0.347s] [01m[K/usr/include/c++/9/bits/stl_pair.h:436:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ... _Args1, long unsigned int ..._Indexes1, class ... _Args2, long unsigned int ..._Indexes2> std::pair<_T1, _T2>::pair(std::tuple<_Args1 ...>&, std::tuple<_Args2 ...>&, std::_Index_tuple<_Indexes1 ...>, std::_Index_tuple<_Indexes2 ...>)[m[K’
+[0.347s]   436 |         [01;36m[Kpair[m[K(tuple<_Args1...>&, tuple<_Args2...>&,
+[0.347s]       |         [01;36m[K^~~~[m[K
+[0.348s] [01m[K/usr/include/c++/9/bits/stl_pair.h:436:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[0.348s] In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/c++allocator.h:33[m[K,
+[0.348s]                  from [01m[K/usr/include/c++/9/bits/allocator.h:46[m[K,
+[0.348s]                  from [01m[K/usr/include/c++/9/string:41[m[K,
+[0.348s]                  from [01m[K/usr/include/c++/9/stdexcept:39[m[K,
+[0.348s]                  from [01m[K/usr/include/c++/9/array:39[m[K,
+[0.348s]                  from [01m[K/root/planner_ws/src/cpp_pubsub/include/end_condition_sampler.hpp:3[m[K,
+[0.348s]                  from [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:1[m[K:
+[0.348s] [01m[K/usr/include/c++/9/ext/new_allocator.h:146:4:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::array<double, 3>[m[K’ is not derived from ‘[01m[Kstd::tuple<_Tps ...>[m[K’
+[0.348s]   146 |  { [01;36m[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)[m[K; }
+[0.349s]       |    [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.349s] In file included from [01m[K/usr/include/c++/9/utility:70[m[K,
+[0.349s]                  from [01m[K/usr/include/c++/9/array:38[m[K,
+[0.349s]                  from [01m[K/root/planner_ws/src/cpp_pubsub/include/end_condition_sampler.hpp:3[m[K,
+[0.349s]                  from [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:1[m[K:
+[0.349s] [01m[K/usr/include/c++/9/bits/stl_pair.h:375:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ... _Args1, class ... _Args2> std::pair<_T1, _T2>::pair(std::piecewise_construct_t, std::tuple<_Args1 ...>, std::tuple<_Args2 ...>)[m[K’
+[0.349s]   375 |         [01;36m[Kpair[m[K(piecewise_construct_t, tuple<_Args1...>, tuple<_Args2...>);
+[0.349s]       |         [01;36m[K^~~~[m[K
+[0.349s] [01m[K/usr/include/c++/9/bits/stl_pair.h:375:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[0.349s] In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/c++allocator.h:33[m[K,
+[0.349s]                  from [01m[K/usr/include/c++/9/bits/allocator.h:46[m[K,
+[0.350s]                  from [01m[K/usr/include/c++/9/string:41[m[K,
+[0.350s]                  from [01m[K/usr/include/c++/9/stdexcept:39[m[K,
+[0.350s]                  from [01m[K/usr/include/c++/9/array:39[m[K,
+[0.350s]                  from [01m[K/root/planner_ws/src/cpp_pubsub/include/end_condition_sampler.hpp:3[m[K,
+[0.350s]                  from [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:1[m[K:
+[0.350s] [01m[K/usr/include/c++/9/ext/new_allocator.h:146:4:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::tuple<_Tps ...>[m[K’ and ‘[01m[Kdouble[m[K’
+[0.350s]   146 |  { [01;36m[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)[m[K; }
+[0.350s]       |    [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.350s] In file included from [01m[K/usr/include/c++/9/utility:70[m[K,
+[0.350s]                  from [01m[K/usr/include/c++/9/array:38[m[K,
+[0.350s]                  from [01m[K/root/planner_ws/src/cpp_pubsub/include/end_condition_sampler.hpp:3[m[K,
+[0.351s]                  from [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:1[m[K:
+[0.351s] [01m[K/usr/include/c++/9/bits/stl_pair.h:370:21:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _U1, class _U2, typename std::enable_if<(std::_PCC<((! std::is_same<std::vector<double>, _U1>::value) || (! std::is_same<double, _U2>::value)), std::vector<double>, double>::_MoveConstructiblePair<_U1, _U2>() && (! std::_PCC<((! std::is_same<std::vector<double>, _U1>::value) || (! std::is_same<double, _U2>::value)), std::vector<double>, double>::_ImplicitlyMoveConvertiblePair<_U1, _U2>())), bool>::type <anonymous> > constexpr std::pair<_T1, _T2>::pair(std::pair<_U1, _U2>&&)[m[K’
+[0.351s]   370 |  explicit constexpr [01;36m[Kpair[m[K(pair<_U1, _U2>&& __p)
+[0.351s]       |                     [01;36m[K^~~~[m[K
+[0.351s] [01m[K/usr/include/c++/9/bits/stl_pair.h:370:21:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[0.351s] In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/c++allocator.h:33[m[K,
+[0.351s]                  from [01m[K/usr/include/c++/9/bits/allocator.h:46[m[K,
+[0.351s]                  from [01m[K/usr/include/c++/9/string:41[m[K,
+[0.351s]                  from [01m[K/usr/include/c++/9/stdexcept:39[m[K,
+[0.351s]                  from [01m[K/usr/include/c++/9/array:39[m[K,
+[0.351s]                  from [01m[K/root/planner_ws/src/cpp_pubsub/include/end_condition_sampler.hpp:3[m[K,
+[0.352s]                  from [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:1[m[K:
+[0.352s] [01m[K/usr/include/c++/9/ext/new_allocator.h:146:4:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::array<double, 3>[m[K’ is not derived from ‘[01m[Kstd::pair<_T1, _T2>[m[K’
+[0.352s]   146 |  { [01;36m[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)[m[K; }
+[0.352s]       |    [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.352s] In file included from [01m[K/usr/include/c++/9/utility:70[m[K,
+[0.352s]                  from [01m[K/usr/include/c++/9/array:38[m[K,
+[0.352s]                  from [01m[K/root/planner_ws/src/cpp_pubsub/include/end_condition_sampler.hpp:3[m[K,
+[0.352s]                  from [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:1[m[K:
+[0.352s] [01m[K/usr/include/c++/9/bits/stl_pair.h:360:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _U1, class _U2, typename std::enable_if<(std::_PCC<((! std::is_same<std::vector<double>, _U1>::value) || (! std::is_same<double, _U2>::value)), std::vector<double>, double>::_MoveConstructiblePair<_U1, _U2>() && std::_PCC<((! std::is_same<std::vector<double>, _U1>::value) || (! std::is_same<double, _U2>::value)), std::vector<double>, double>::_ImplicitlyMoveConvertiblePair<_U1, _U2>()), bool>::type <anonymous> > constexpr std::pair<_T1, _T2>::pair(std::pair<_U1, _U2>&&)[m[K’
+[0.353s]   360 |  constexpr [01;36m[Kpair[m[K(pair<_U1, _U2>&& __p)
+[0.353s]       |            [01;36m[K^~~~[m[K
+[0.353s] [01m[K/usr/include/c++/9/bits/stl_pair.h:360:12:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[0.353s] In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/c++allocator.h:33[m[K,
+[0.353s]                  from [01m[K/usr/include/c++/9/bits/allocator.h:46[m[K,
+[0.353s]                  from [01m[K/usr/include/c++/9/string:41[m[K,
+[0.353s]                  from [01m[K/usr/include/c++/9/stdexcept:39[m[K,
+[0.353s]                  from [01m[K/usr/include/c++/9/array:39[m[K,
+[0.353s]                  from [01m[K/root/planner_ws/src/cpp_pubsub/include/end_condition_sampler.hpp:3[m[K,
+[0.353s]                  from [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:1[m[K:
+[0.353s] [01m[K/usr/include/c++/9/ext/new_allocator.h:146:4:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::array<double, 3>[m[K’ is not derived from ‘[01m[Kstd::pair<_T1, _T2>[m[K’
+[0.354s]   146 |  { [01;36m[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)[m[K; }
+[0.354s]       |    [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.354s] In file included from [01m[K/usr/include/c++/9/utility:70[m[K,
+[0.354s]                  from [01m[K/usr/include/c++/9/array:38[m[K,
+[0.355s]                  from [01m[K/root/planner_ws/src/cpp_pubsub/include/end_condition_sampler.hpp:3[m[K,
+[0.355s]                  from [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:1[m[K:
+[0.355s] [01m[K/usr/include/c++/9/bits/stl_pair.h:350:21:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _U1, class _U2, typename std::enable_if<(_MoveConstructiblePair<_U1, _U2>() && (! _ImplicitlyMoveConvertiblePair<_U1, _U2>())), bool>::type <anonymous> > constexpr std::pair<_T1, _T2>::pair(_U1&&, _U2&&)[m[K’
+[0.356s]   350 |  explicit constexpr [01;36m[Kpair[m[K(_U1&& __x, _U2&& __y)
+[0.356s]       |                     [01;36m[K^~~~[m[K
+[0.356s] [01m[K/usr/include/c++/9/bits/stl_pair.h:350:21:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[0.356s] [01m[K/usr/include/c++/9/bits/stl_pair.h:349:38:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, bool>[m[K’
+[0.357s]   349 |                          bool>::type=[01;31m[Kfalse[m[K>
+[0.357s]       |                                      [01;31m[K^~~~~[m[K
+[0.357s] [01m[K/usr/include/c++/9/bits/stl_pair.h:341:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _U1, class _U2, typename std::enable_if<(_MoveConstructiblePair<_U1, _U2>() && _ImplicitlyMoveConvertiblePair<_U1, _U2>()), bool>::type <anonymous> > constexpr std::pair<_T1, _T2>::pair(_U1&&, _U2&&)[m[K’
+[0.357s]   341 |  constexpr [01;36m[Kpair[m[K(_U1&& __x, _U2&& __y)
+[0.358s]       |            [01;36m[K^~~~[m[K
+[0.358s] [01m[K/usr/include/c++/9/bits/stl_pair.h:341:12:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[0.359s] [01m[K/usr/include/c++/9/bits/stl_pair.h:340:38:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, bool>[m[K’
+[0.359s]   340 |                          bool>::type=[01;31m[Ktrue[m[K>
+[0.359s]       |                                      [01;31m[K^~~~[m[K
+[0.359s] [01m[K/usr/include/c++/9/bits/stl_pair.h:332:17:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _U2, typename std::enable_if<_CopyMovePair<false, std::vector<double, std::allocator<double> >, _U2>(), bool>::type <anonymous> > std::pair<_T1, _T2>::pair(const _T1&, _U2&&)[m[K’
+[0.359s]   332 |        explicit [01;36m[Kpair[m[K(const _T1& __x, _U2&& __y)
+[0.359s]       |                 [01;36m[K^~~~[m[K
+[0.359s] [01m[K/usr/include/c++/9/bits/stl_pair.h:332:17:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[0.359s] [01m[K/usr/include/c++/9/bits/stl_pair.h:331:38:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, bool>[m[K’
+[0.359s]   331 |                          bool>::type=[01;31m[Kfalse[m[K>
+[0.360s]       |                                      [01;31m[K^~~~~[m[K
+[0.360s] [01m[K/usr/include/c++/9/bits/stl_pair.h:325:18:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _U2, typename std::enable_if<_CopyMovePair<true, std::vector<double, std::allocator<double> >, _U2>(), bool>::type <anonymous> > constexpr std::pair<_T1, _T2>::pair(const _T1&, _U2&&)[m[K’
+[0.360s]   325 |        constexpr [01;36m[Kpair[m[K(const _T1& __x, _U2&& __y)
+[0.360s]       |                  [01;36m[K^~~~[m[K
+[0.360s] [01m[K/usr/include/c++/9/bits/stl_pair.h:325:18:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[0.360s] In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/c++allocator.h:33[m[K,
+[0.360s]                  from [01m[K/usr/include/c++/9/bits/allocator.h:46[m[K,
+[0.360s]                  from [01m[K/usr/include/c++/9/string:41[m[K,
+[0.360s]                  from [01m[K/usr/include/c++/9/stdexcept:39[m[K,
+[0.360s]                  from [01m[K/usr/include/c++/9/array:39[m[K,
+[0.360s]                  from [01m[K/root/planner_ws/src/cpp_pubsub/include/end_condition_sampler.hpp:3[m[K,
+[0.361s]                  from [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:1[m[K:
+[0.361s] [01m[K/usr/include/c++/9/ext/new_allocator.h:146:4:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Kstd::forward<std::array<double, 3>&>((* & __args#0))[m[K’ (type ‘[01m[Kstd::array<double, 3>[m[K’) to type ‘[01m[Kconst std::vector<double>&[m[K’
+[0.361s]   146 |  { [01;36m[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)[m[K; }
+[0.361s]       |    [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.361s] In file included from [01m[K/usr/include/c++/9/utility:70[m[K,
+[0.361s]                  from [01m[K/usr/include/c++/9/array:38[m[K,
+[0.361s]                  from [01m[K/root/planner_ws/src/cpp_pubsub/include/end_condition_sampler.hpp:3[m[K,
+[0.361s]                  from [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:1[m[K:
+[0.361s] [01m[K/usr/include/c++/9/bits/stl_pair.h:318:27:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _U1, typename std::enable_if<_MoveCopyPair<false, _U1, double>(), bool>::type <anonymous> > constexpr std::pair<_T1, _T2>::pair(_U1&&, const _T2&)[m[K’
+[0.362s]   318 |        explicit constexpr [01;36m[Kpair[m[K(_U1&& __x, const _T2& __y)
+[0.362s]       |                           [01;36m[K^~~~[m[K
+[0.362s] [01m[K/usr/include/c++/9/bits/stl_pair.h:318:27:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[0.362s] [01m[K/usr/include/c++/9/bits/stl_pair.h:317:38:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, bool>[m[K’
+[0.362s]   317 |                          bool>::type=[01;31m[Kfalse[m[K>
+[0.362s]       |                                      [01;31m[K^~~~~[m[K
+[0.362s] [01m[K/usr/include/c++/9/bits/stl_pair.h:311:18:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _U1, typename std::enable_if<_MoveCopyPair<true, _U1, double>(), bool>::type <anonymous> > constexpr std::pair<_T1, _T2>::pair(_U1&&, const _T2&)[m[K’
+[0.362s]   311 |        constexpr [01;36m[Kpair[m[K(_U1&& __x, const _T2& __y)
+[0.362s]       |                  [01;36m[K^~~~[m[K
+[0.362s] [01m[K/usr/include/c++/9/bits/stl_pair.h:311:18:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[0.363s] [01m[K/usr/include/c++/9/bits/stl_pair.h:310:38:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, bool>[m[K’
+[0.363s]   310 |                          bool>::type=[01;31m[Ktrue[m[K>
+[0.363s]       |                                      [01;31m[K^~~~[m[K
+[0.363s] [01m[K/usr/include/c++/9/bits/stl_pair.h:304:17:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::pair<_T1, _T2>::pair(std::pair<_T1, _T2>&&) [with _T1 = std::vector<double>; _T2 = double][m[K’
+[0.363s]   304 |       constexpr [01;36m[Kpair[m[K(pair&&) = default;
+[0.363s]       |                 [01;36m[K^~~~[m[K
+[0.363s] [01m[K/usr/include/c++/9/bits/stl_pair.h:304:17:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+[0.363s] [01m[K/usr/include/c++/9/bits/stl_pair.h:303:17:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::pair<_T1, _T2>::pair(const std::pair<_T1, _T2>&) [with _T1 = std::vector<double>; _T2 = double][m[K’
+[0.363s]   303 |       constexpr [01;36m[Kpair[m[K(const pair&) = default;
+[0.363s]       |                 [01;36m[K^~~~[m[K
+[0.364s] [01m[K/usr/include/c++/9/bits/stl_pair.h:303:17:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+[0.364s] [01m[K/usr/include/c++/9/bits/stl_pair.h:300:21:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _U1, class _U2, typename std::enable_if<(std::_PCC<((! std::is_same<std::vector<double>, _U1>::value) || (! std::is_same<double, _U2>::value)), std::vector<double>, double>::_ConstructiblePair<_U1, _U2>() && (! std::_PCC<((! std::is_same<std::vector<double>, _U1>::value) || (! std::is_same<double, _U2>::value)), std::vector<double>, double>::_ImplicitlyConvertiblePair<_U1, _U2>())), bool>::type <anonymous> > constexpr std::pair<_T1, _T2>::pair(const std::pair<_U1, _U2>&)[m[K’
+[0.364s]   300 |  explicit constexpr [01;36m[Kpair[m[K(const pair<_U1, _U2>& __p)
+[0.365s]       |                     [01;36m[K^~~~[m[K
+[0.365s] [01m[K/usr/include/c++/9/bits/stl_pair.h:300:21:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[0.365s] In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/c++allocator.h:33[m[K,
+[0.365s]                  from [01m[K/usr/include/c++/9/bits/allocator.h:46[m[K,
+[0.365s]                  from [01m[K/usr/include/c++/9/string:41[m[K,
+[0.366s]                  from [01m[K/usr/include/c++/9/stdexcept:39[m[K,
+[0.366s]                  from [01m[K/usr/include/c++/9/array:39[m[K,
+[0.366s]                  from [01m[K/root/planner_ws/src/cpp_pubsub/include/end_condition_sampler.hpp:3[m[K,
+[0.366s]                  from [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:1[m[K:
+[0.366s] [01m[K/usr/include/c++/9/ext/new_allocator.h:146:4:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::array<double, 3>[m[K’ is not derived from ‘[01m[Kconst std::pair<_T1, _T2>[m[K’
+[0.366s]   146 |  { [01;36m[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)[m[K; }
+[0.366s]       |    [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.366s] In file included from [01m[K/usr/include/c++/9/utility:70[m[K,
+[0.366s]                  from [01m[K/usr/include/c++/9/array:38[m[K,
+[0.366s]                  from [01m[K/root/planner_ws/src/cpp_pubsub/include/end_condition_sampler.hpp:3[m[K,
+[0.367s]                  from [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:1[m[K:
+[0.367s] [01m[K/usr/include/c++/9/bits/stl_pair.h:291:19:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _U1, class _U2, typename std::enable_if<(std::_PCC<((! std::is_same<std::vector<double>, _U1>::value) || (! std::is_same<double, _U2>::value)), std::vector<double>, double>::_ConstructiblePair<_U1, _U2>() && std::_PCC<((! std::is_same<std::vector<double>, _U1>::value) || (! std::is_same<double, _U2>::value)), std::vector<double>, double>::_ImplicitlyConvertiblePair<_U1, _U2>()), bool>::type <anonymous> > constexpr std::pair<_T1, _T2>::pair(const std::pair<_U1, _U2>&)[m[K’
+[0.367s]   291 |         constexpr [01;36m[Kpair[m[K(const pair<_U1, _U2>& __p)
+[0.367s]       |                   [01;36m[K^~~~[m[K
+[0.367s] [01m[K/usr/include/c++/9/bits/stl_pair.h:291:19:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[0.367s] In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/c++allocator.h:33[m[K,
+[0.367s]                  from [01m[K/usr/include/c++/9/bits/allocator.h:46[m[K,
+[0.368s]                  from [01m[K/usr/include/c++/9/string:41[m[K,
+[0.368s]                  from [01m[K/usr/include/c++/9/stdexcept:39[m[K,
+[0.368s]                  from [01m[K/usr/include/c++/9/array:39[m[K,
+[0.368s]                  from [01m[K/root/planner_ws/src/cpp_pubsub/include/end_condition_sampler.hpp:3[m[K,
+[0.368s]                  from [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:1[m[K:
+[0.368s] [01m[K/usr/include/c++/9/ext/new_allocator.h:146:4:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::array<double, 3>[m[K’ is not derived from ‘[01m[Kconst std::pair<_T1, _T2>[m[K’
+[0.368s]   146 |  { [01;36m[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)[m[K; }
+[0.368s]       |    [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.368s] In file included from [01m[K/usr/include/c++/9/utility:70[m[K,
+[0.368s]                  from [01m[K/usr/include/c++/9/array:38[m[K,
+[0.368s]                  from [01m[K/root/planner_ws/src/cpp_pubsub/include/end_condition_sampler.hpp:3[m[K,
+[0.368s]                  from [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:1[m[K:
+[0.368s] [01m[K/usr/include/c++/9/bits/stl_pair.h:269:26:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _U1, class _U2, typename std::enable_if<(_ConstructiblePair<_U1, _U2>() && (! _ImplicitlyConvertiblePair<_U1, _U2>())), bool>::type <anonymous> > constexpr std::pair<_T1, _T2>::pair(const _T1&, const _T2&)[m[K’
+[0.368s]   269 |       explicit constexpr [01;36m[Kpair[m[K(const _T1& __a, const _T2& __b)
+[0.368s]       |                          [01;36m[K^~~~[m[K
+[0.369s] [01m[K/usr/include/c++/9/bits/stl_pair.h:269:26:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[0.369s] [01m[K/usr/include/c++/9/bits/stl_pair.h:268:38:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, bool>[m[K’
+[0.369s]   268 |                          bool>::type=[01;31m[Kfalse[m[K>
+[0.369s]       |                                      [01;31m[K^~~~~[m[K
+[0.369s] [01m[K/usr/include/c++/9/bits/stl_pair.h:260:17:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _U1, class _U2, typename std::enable_if<(_ConstructiblePair<_U1, _U2>() && _ImplicitlyConvertiblePair<_U1, _U2>()), bool>::type <anonymous> > constexpr std::pair<_T1, _T2>::pair(const _T1&, const _T2&)[m[K’
+[0.369s]   260 |       constexpr [01;36m[Kpair[m[K(const _T1& __a, const _T2& __b)
+[0.369s]       |                 [01;36m[K^~~~[m[K
+[0.369s] [01m[K/usr/include/c++/9/bits/stl_pair.h:260:17:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[0.370s] In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/c++allocator.h:33[m[K,
+[0.370s]                  from [01m[K/usr/include/c++/9/bits/allocator.h:46[m[K,
+[0.370s]                  from [01m[K/usr/include/c++/9/string:41[m[K,
+[0.370s]                  from [01m[K/usr/include/c++/9/stdexcept:39[m[K,
+[0.370s]                  from [01m[K/usr/include/c++/9/array:39[m[K,
+[0.370s]                  from [01m[K/root/planner_ws/src/cpp_pubsub/include/end_condition_sampler.hpp:3[m[K,
+[0.370s]                  from [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:1[m[K:
+[0.370s] [01m[K/usr/include/c++/9/ext/new_allocator.h:146:4:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Kstd::forward<std::array<double, 3>&>((* & __args#0))[m[K’ (type ‘[01m[Kstd::array<double, 3>[m[K’) to type ‘[01m[Kconst std::vector<double>&[m[K’
+[0.370s]   146 |  { [01;36m[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)[m[K; }
+[0.370s]       |    [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.370s] In file included from [01m[K/usr/include/c++/9/utility:70[m[K,
+[0.370s]                  from [01m[K/usr/include/c++/9/array:38[m[K,
+[0.370s]                  from [01m[K/root/planner_ws/src/cpp_pubsub/include/end_condition_sampler.hpp:3[m[K,
+[0.370s]                  from [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:1[m[K:
+[0.371s] [01m[K/usr/include/c++/9/bits/stl_pair.h:242:26:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _U1, class _U2, typename std::enable_if<std::__and_<std::is_default_constructible<_Tp>, std::is_default_constructible<_U2>, std::__not_<std::__and_<std::__is_implicitly_default_constructible<_U1>, std::__is_implicitly_default_constructible<_U2> > > >::value, bool>::type <anonymous> > constexpr std::pair<_T1, _T2>::pair()[m[K’
+[0.371s]   242 |       explicit constexpr [01;36m[Kpair[m[K()
+[0.371s]       |                          [01;36m[K^~~~[m[K
+[0.371s] [01m[K/usr/include/c++/9/bits/stl_pair.h:242:26:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[0.371s] In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/c++allocator.h:33[m[K,
+[0.371s]                  from [01m[K/usr/include/c++/9/bits/allocator.h:46[m[K,
+[0.372s]                  from [01m[K/usr/include/c++/9/string:41[m[K,
+[0.372s]                  from [01m[K/usr/include/c++/9/stdexcept:39[m[K,
+[0.372s]                  from [01m[K/usr/include/c++/9/array:39[m[K,
+[0.372s]                  from [01m[K/root/planner_ws/src/cpp_pubsub/include/end_condition_sampler.hpp:3[m[K,
+[0.372s]                  from [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:1[m[K:
+[0.372s] [01m[K/usr/include/c++/9/ext/new_allocator.h:146:4:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[0.373s]   146 |  { [01;36m[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)[m[K; }
+[0.373s]       |    [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.373s] In file included from [01m[K/usr/include/c++/9/utility:70[m[K,
+[0.373s]                  from [01m[K/usr/include/c++/9/array:38[m[K,
+[0.373s]                  from [01m[K/root/planner_ws/src/cpp_pubsub/include/end_condition_sampler.hpp:3[m[K,
+[0.373s]                  from [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:1[m[K:
+[0.373s] [01m[K/usr/include/c++/9/bits/stl_pair.h:229:26:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _U1, class _U2, typename std::enable_if<std::__and_<std::__is_implicitly_default_constructible<_U1>, std::__is_implicitly_default_constructible<_U2> >::value, bool>::type <anonymous> > constexpr std::pair<_T1, _T2>::pair()[m[K’
+[0.373s]   229 |       _GLIBCXX_CONSTEXPR [01;36m[Kpair[m[K()
+[0.374s]       |                          [01;36m[K^~~~[m[K
+[0.374s] [01m[K/usr/include/c++/9/bits/stl_pair.h:229:26:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[0.374s] In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/c++allocator.h:33[m[K,
+[0.374s]                  from [01m[K/usr/include/c++/9/bits/allocator.h:46[m[K,
+[0.374s]                  from [01m[K/usr/include/c++/9/string:41[m[K,
+[0.374s]                  from [01m[K/usr/include/c++/9/stdexcept:39[m[K,
+[0.374s]                  from [01m[K/usr/include/c++/9/array:39[m[K,
+[0.374s]                  from [01m[K/root/planner_ws/src/cpp_pubsub/include/end_condition_sampler.hpp:3[m[K,
+[0.374s]                  from [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:1[m[K:
+[0.374s] [01m[K/usr/include/c++/9/ext/new_allocator.h:146:4:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[0.375s]   146 |  { [01;36m[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)[m[K; }
+[0.375s]       |    [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.375s] In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/c++allocator.h:33[m[K,
+[0.375s]                  from [01m[K/usr/include/c++/9/bits/allocator.h:46[m[K,
+[0.375s]                  from [01m[K/usr/include/c++/9/string:41[m[K,
+[0.375s]                  from [01m[K/usr/include/c++/9/stdexcept:39[m[K,
+[0.375s]                  from [01m[K/usr/include/c++/9/array:39[m[K,
+[0.375s]                  from [01m[K/root/planner_ws/src/cpp_pubsub/include/end_condition_sampler.hpp:3[m[K,
+[0.375s]                  from [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:1[m[K:
+[0.376s] /usr/include/c++/9/ext/new_allocator.h: In instantiation of ‘[01m[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = std::pair<std::vector<double>, double>; _Args = {std::array<double, 3>&, const double&}; _Tp = std::pair<std::vector<double>, double>][m[K’:
+[0.376s] [01m[K/usr/include/c++/9/bits/alloc_traits.h:483:4:[m[K   required from ‘[01m[Kstatic void std::allocator_traits<std::allocator<_CharT> >::construct(std::allocator_traits<std::allocator<_CharT> >::allocator_type&, _Up*, _Args&& ...) [with _Up = std::pair<std::vector<double>, double>; _Args = {std::array<double, 3>&, const double&}; _Tp = std::pair<std::vector<double>, double>; std::allocator_traits<std::allocator<_CharT> >::allocator_type = std::allocator<std::pair<std::vector<double>, double> >][m[K’
+[0.376s] [01m[K/usr/include/c++/9/bits/vector.tcc:115:30:[m[K   required from ‘[01m[Kvoid std::vector<_Tp, _Alloc>::emplace_back(_Args&& ...) [with _Args = {std::array<double, 3>&, const double&}; _Tp = std::pair<std::vector<double>, double>; _Alloc = std::allocator<std::pair<std::vector<double>, double> >][m[K’
+[0.376s] [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:38:59:[m[K   required from here
+[0.376s] [01m[K/usr/include/c++/9/ext/new_allocator.h:146:4:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kstd::pair<std::vector<double>, double>::pair(std::array<double, 3>&, const double&)[m[K’
+[0.376s]   146 |  { [01;31m[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)[m[K; }
+[0.376s]       |    [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.376s] In file included from [01m[K/usr/include/c++/9/utility:70[m[K,
+[0.376s]                  from [01m[K/usr/include/c++/9/array:38[m[K,
+[0.376s]                  from [01m[K/root/planner_ws/src/cpp_pubsub/include/end_condition_sampler.hpp:3[m[K,
+[0.376s]                  from [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:1[m[K:
+[0.377s] [01m[K/usr/include/c++/9/bits/stl_pair.h:436:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ... _Args1, long unsigned int ..._Indexes1, class ... _Args2, long unsigned int ..._Indexes2> std::pair<_T1, _T2>::pair(std::tuple<_Args1 ...>&, std::tuple<_Args2 ...>&, std::_Index_tuple<_Indexes1 ...>, std::_Index_tuple<_Indexes2 ...>)[m[K’
+[0.377s]   436 |         [01;36m[Kpair[m[K(tuple<_Args1...>&, tuple<_Args2...>&,
+[0.377s]       |         [01;36m[K^~~~[m[K
+[0.377s] [01m[K/usr/include/c++/9/bits/stl_pair.h:436:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[0.377s] In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/c++allocator.h:33[m[K,
+[0.377s]                  from [01m[K/usr/include/c++/9/bits/allocator.h:46[m[K,
+[0.377s]                  from [01m[K/usr/include/c++/9/string:41[m[K,
+[0.377s]                  from [01m[K/usr/include/c++/9/stdexcept:39[m[K,
+[0.377s]                  from [01m[K/usr/include/c++/9/array:39[m[K,
+[0.377s]                  from [01m[K/root/planner_ws/src/cpp_pubsub/include/end_condition_sampler.hpp:3[m[K,
+[0.378s]                  from [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:1[m[K:
+[0.378s] [01m[K/usr/include/c++/9/ext/new_allocator.h:146:4:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::array<double, 3>[m[K’ is not derived from ‘[01m[Kstd::tuple<_Tps ...>[m[K’
+[0.378s]   146 |  { [01;36m[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)[m[K; }
+[0.378s]       |    [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.378s] In file included from [01m[K/usr/include/c++/9/utility:70[m[K,
+[0.378s]                  from [01m[K/usr/include/c++/9/array:38[m[K,
+[0.378s]                  from [01m[K/root/planner_ws/src/cpp_pubsub/include/end_condition_sampler.hpp:3[m[K,
+[0.378s]                  from [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:1[m[K:
+[0.378s] [01m[K/usr/include/c++/9/bits/stl_pair.h:375:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ... _Args1, class ... _Args2> std::pair<_T1, _T2>::pair(std::piecewise_construct_t, std::tuple<_Args1 ...>, std::tuple<_Args2 ...>)[m[K’
+[0.378s]   375 |         [01;36m[Kpair[m[K(piecewise_construct_t, tuple<_Args1...>, tuple<_Args2...>);
+[0.378s]       |         [01;36m[K^~~~[m[K
+[0.379s] [01m[K/usr/include/c++/9/bits/stl_pair.h:375:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[0.379s] In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/c++allocator.h:33[m[K,
+[0.379s]                  from [01m[K/usr/include/c++/9/bits/allocator.h:46[m[K,
+[0.379s]                  from [01m[K/usr/include/c++/9/string:41[m[K,
+[0.379s]                  from [01m[K/usr/include/c++/9/stdexcept:39[m[K,
+[0.379s]                  from [01m[K/usr/include/c++/9/array:39[m[K,
+[0.379s]                  from [01m[K/root/planner_ws/src/cpp_pubsub/include/end_condition_sampler.hpp:3[m[K,
+[0.379s]                  from [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:1[m[K:
+[0.379s] [01m[K/usr/include/c++/9/ext/new_allocator.h:146:4:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::tuple<_Tps ...>[m[K’ and ‘[01m[Kdouble[m[K’
+[0.379s]   146 |  { [01;36m[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)[m[K; }
+[0.379s]       |    [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.380s] In file included from [01m[K/usr/include/c++/9/utility:70[m[K,
+[0.380s]                  from [01m[K/usr/include/c++/9/array:38[m[K,
+[0.380s]                  from [01m[K/root/planner_ws/src/cpp_pubsub/include/end_condition_sampler.hpp:3[m[K,
+[0.380s]                  from [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:1[m[K:
+[0.380s] [01m[K/usr/include/c++/9/bits/stl_pair.h:370:21:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _U1, class _U2, typename std::enable_if<(std::_PCC<((! std::is_same<std::vector<double>, _U1>::value) || (! std::is_same<double, _U2>::value)), std::vector<double>, double>::_MoveConstructiblePair<_U1, _U2>() && (! std::_PCC<((! std::is_same<std::vector<double>, _U1>::value) || (! std::is_same<double, _U2>::value)), std::vector<double>, double>::_ImplicitlyMoveConvertiblePair<_U1, _U2>())), bool>::type <anonymous> > constexpr std::pair<_T1, _T2>::pair(std::pair<_U1, _U2>&&)[m[K’
+[0.380s]   370 |  explicit constexpr [01;36m[Kpair[m[K(pair<_U1, _U2>&& __p)
+[0.380s]       |                     [01;36m[K^~~~[m[K
+[0.380s] [01m[K/usr/include/c++/9/bits/stl_pair.h:370:21:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[0.380s] In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/c++allocator.h:33[m[K,
+[0.380s]                  from [01m[K/usr/include/c++/9/bits/allocator.h:46[m[K,
+[0.381s]                  from [01m[K/usr/include/c++/9/string:41[m[K,
+[0.381s]                  from [01m[K/usr/include/c++/9/stdexcept:39[m[K,
+[0.381s]                  from [01m[K/usr/include/c++/9/array:39[m[K,
+[0.381s]                  from [01m[K/root/planner_ws/src/cpp_pubsub/include/end_condition_sampler.hpp:3[m[K,
+[0.381s]                  from [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:1[m[K:
+[0.381s] [01m[K/usr/include/c++/9/ext/new_allocator.h:146:4:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::array<double, 3>[m[K’ is not derived from ‘[01m[Kstd::pair<_T1, _T2>[m[K’
+[0.381s]   146 |  { [01;36m[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)[m[K; }
+[0.381s]       |    [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.381s] In file included from [01m[K/usr/include/c++/9/utility:70[m[K,
+[0.381s]                  from [01m[K/usr/include/c++/9/array:38[m[K,
+[0.381s]                  from [01m[K/root/planner_ws/src/cpp_pubsub/include/end_condition_sampler.hpp:3[m[K,
+[0.381s]                  from [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:1[m[K:
+[0.382s] [01m[K/usr/include/c++/9/bits/stl_pair.h:360:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _U1, class _U2, typename std::enable_if<(std::_PCC<((! std::is_same<std::vector<double>, _U1>::value) || (! std::is_same<double, _U2>::value)), std::vector<double>, double>::_MoveConstructiblePair<_U1, _U2>() && std::_PCC<((! std::is_same<std::vector<double>, _U1>::value) || (! std::is_same<double, _U2>::value)), std::vector<double>, double>::_ImplicitlyMoveConvertiblePair<_U1, _U2>()), bool>::type <anonymous> > constexpr std::pair<_T1, _T2>::pair(std::pair<_U1, _U2>&&)[m[K’
+[0.382s]   360 |  constexpr [01;36m[Kpair[m[K(pair<_U1, _U2>&& __p)
+[0.382s]       |            [01;36m[K^~~~[m[K
+[0.382s] [01m[K/usr/include/c++/9/bits/stl_pair.h:360:12:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[0.382s] In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/c++allocator.h:33[m[K,
+[0.382s]                  from [01m[K/usr/include/c++/9/bits/allocator.h:46[m[K,
+[0.382s]                  from [01m[K/usr/include/c++/9/string:41[m[K,
+[0.382s]                  from [01m[K/usr/include/c++/9/stdexcept:39[m[K,
+[0.382s]                  from [01m[K/usr/include/c++/9/array:39[m[K,
+[0.382s]                  from [01m[K/root/planner_ws/src/cpp_pubsub/include/end_condition_sampler.hpp:3[m[K,
+[0.382s]                  from [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:1[m[K:
+[0.382s] [01m[K/usr/include/c++/9/ext/new_allocator.h:146:4:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::array<double, 3>[m[K’ is not derived from ‘[01m[Kstd::pair<_T1, _T2>[m[K’
+[0.383s]   146 |  { [01;36m[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)[m[K; }
+[0.383s]       |    [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.383s] In file included from [01m[K/usr/include/c++/9/utility:70[m[K,
+[0.383s]                  from [01m[K/usr/include/c++/9/array:38[m[K,
+[0.383s]                  from [01m[K/root/planner_ws/src/cpp_pubsub/include/end_condition_sampler.hpp:3[m[K,
+[0.383s]                  from [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:1[m[K:
+[0.383s] [01m[K/usr/include/c++/9/bits/stl_pair.h:350:21:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _U1, class _U2, typename std::enable_if<(_MoveConstructiblePair<_U1, _U2>() && (! _ImplicitlyMoveConvertiblePair<_U1, _U2>())), bool>::type <anonymous> > constexpr std::pair<_T1, _T2>::pair(_U1&&, _U2&&)[m[K’
+[0.383s]   350 |  explicit constexpr [01;36m[Kpair[m[K(_U1&& __x, _U2&& __y)
+[0.384s]       |                     [01;36m[K^~~~[m[K
+[0.384s] [01m[K/usr/include/c++/9/bits/stl_pair.h:350:21:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[0.384s] [01m[K/usr/include/c++/9/bits/stl_pair.h:349:38:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, bool>[m[K’
+[0.384s]   349 |                          bool>::type=[01;31m[Kfalse[m[K>
+[0.384s]       |                                      [01;31m[K^~~~~[m[K
+[0.384s] [01m[K/usr/include/c++/9/bits/stl_pair.h:341:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _U1, class _U2, typename std::enable_if<(_MoveConstructiblePair<_U1, _U2>() && _ImplicitlyMoveConvertiblePair<_U1, _U2>()), bool>::type <anonymous> > constexpr std::pair<_T1, _T2>::pair(_U1&&, _U2&&)[m[K’
+[0.384s]   341 |  constexpr [01;36m[Kpair[m[K(_U1&& __x, _U2&& __y)
+[0.384s]       |            [01;36m[K^~~~[m[K
+[0.384s] [01m[K/usr/include/c++/9/bits/stl_pair.h:341:12:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[0.385s] [01m[K/usr/include/c++/9/bits/stl_pair.h:340:38:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, bool>[m[K’
+[0.385s]   340 |                          bool>::type=[01;31m[Ktrue[m[K>
+[0.385s]       |                                      [01;31m[K^~~~[m[K
+[0.385s] [01m[K/usr/include/c++/9/bits/stl_pair.h:332:17:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _U2, typename std::enable_if<_CopyMovePair<false, std::vector<double, std::allocator<double> >, _U2>(), bool>::type <anonymous> > std::pair<_T1, _T2>::pair(const _T1&, _U2&&)[m[K’
+[0.385s]   332 |        explicit [01;36m[Kpair[m[K(const _T1& __x, _U2&& __y)
+[0.385s]       |                 [01;36m[K^~~~[m[K
+[0.385s] [01m[K/usr/include/c++/9/bits/stl_pair.h:332:17:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[0.385s] [01m[K/usr/include/c++/9/bits/stl_pair.h:331:38:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, bool>[m[K’
+[0.386s]   331 |                          bool>::type=[01;31m[Kfalse[m[K>
+[0.386s]       |                                      [01;31m[K^~~~~[m[K
+[0.386s] [01m[K/usr/include/c++/9/bits/stl_pair.h:325:18:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _U2, typename std::enable_if<_CopyMovePair<true, std::vector<double, std::allocator<double> >, _U2>(), bool>::type <anonymous> > constexpr std::pair<_T1, _T2>::pair(const _T1&, _U2&&)[m[K’
+[0.386s]   325 |        constexpr [01;36m[Kpair[m[K(const _T1& __x, _U2&& __y)
+[0.386s]       |                  [01;36m[K^~~~[m[K
+[0.386s] [01m[K/usr/include/c++/9/bits/stl_pair.h:325:18:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[0.386s] In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/c++allocator.h:33[m[K,
+[0.386s]                  from [01m[K/usr/include/c++/9/bits/allocator.h:46[m[K,
+[0.386s]                  from [01m[K/usr/include/c++/9/string:41[m[K,
+[0.386s]                  from [01m[K/usr/include/c++/9/stdexcept:39[m[K,
+[0.386s]                  from [01m[K/usr/include/c++/9/array:39[m[K,
+[0.387s]                  from [01m[K/root/planner_ws/src/cpp_pubsub/include/end_condition_sampler.hpp:3[m[K,
+[0.387s]                  from [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:1[m[K:
+[0.387s] [01m[K/usr/include/c++/9/ext/new_allocator.h:146:4:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Kstd::forward<std::array<double, 3>&>((* & __args#0))[m[K’ (type ‘[01m[Kstd::array<double, 3>[m[K’) to type ‘[01m[Kconst std::vector<double>&[m[K’
+[0.387s]   146 |  { [01;36m[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)[m[K; }
+[0.387s]       |    [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.387s] In file included from [01m[K/usr/include/c++/9/utility:70[m[K,
+[0.387s]                  from [01m[K/usr/include/c++/9/array:38[m[K,
+[0.387s]                  from [01m[K/root/planner_ws/src/cpp_pubsub/include/end_condition_sampler.hpp:3[m[K,
+[0.387s]                  from [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:1[m[K:
+[0.388s] [01m[K/usr/include/c++/9/bits/stl_pair.h:318:27:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _U1, typename std::enable_if<_MoveCopyPair<false, _U1, double>(), bool>::type <anonymous> > constexpr std::pair<_T1, _T2>::pair(_U1&&, const _T2&)[m[K’
+[0.388s]   318 |        explicit constexpr [01;36m[Kpair[m[K(_U1&& __x, const _T2& __y)
+[0.388s]       |                           [01;36m[K^~~~[m[K
+[0.388s] [01m[K/usr/include/c++/9/bits/stl_pair.h:318:27:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[0.388s] [01m[K/usr/include/c++/9/bits/stl_pair.h:317:38:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, bool>[m[K’
+[0.388s]   317 |                          bool>::type=[01;31m[Kfalse[m[K>
+[0.388s]       |                                      [01;31m[K^~~~~[m[K
+[0.388s] [01m[K/usr/include/c++/9/bits/stl_pair.h:311:18:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _U1, typename std::enable_if<_MoveCopyPair<true, _U1, double>(), bool>::type <anonymous> > constexpr std::pair<_T1, _T2>::pair(_U1&&, const _T2&)[m[K’
+[0.389s]   311 |        constexpr [01;36m[Kpair[m[K(_U1&& __x, const _T2& __y)
+[0.389s]       |                  [01;36m[K^~~~[m[K
+[0.389s] [01m[K/usr/include/c++/9/bits/stl_pair.h:311:18:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[0.390s] [01m[K/usr/include/c++/9/bits/stl_pair.h:310:38:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, bool>[m[K’
+[0.390s]   310 |                          bool>::type=[01;31m[Ktrue[m[K>
+[0.390s]       |                                      [01;31m[K^~~~[m[K
+[0.390s] [01m[K/usr/include/c++/9/bits/stl_pair.h:304:17:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::pair<_T1, _T2>::pair(std::pair<_T1, _T2>&&) [with _T1 = std::vector<double>; _T2 = double][m[K’
+[0.390s]   304 |       constexpr [01;36m[Kpair[m[K(pair&&) = default;
+[0.390s]       |                 [01;36m[K^~~~[m[K
+[0.390s] [01m[K/usr/include/c++/9/bits/stl_pair.h:304:17:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+[0.390s] [01m[K/usr/include/c++/9/bits/stl_pair.h:303:17:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::pair<_T1, _T2>::pair(const std::pair<_T1, _T2>&) [with _T1 = std::vector<double>; _T2 = double][m[K’
+[0.391s]   303 |       constexpr [01;36m[Kpair[m[K(const pair&) = default;
+[0.391s]       |                 [01;36m[K^~~~[m[K
+[0.391s] [01m[K/usr/include/c++/9/bits/stl_pair.h:303:17:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+[0.391s] [01m[K/usr/include/c++/9/bits/stl_pair.h:300:21:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _U1, class _U2, typename std::enable_if<(std::_PCC<((! std::is_same<std::vector<double>, _U1>::value) || (! std::is_same<double, _U2>::value)), std::vector<double>, double>::_ConstructiblePair<_U1, _U2>() && (! std::_PCC<((! std::is_same<std::vector<double>, _U1>::value) || (! std::is_same<double, _U2>::value)), std::vector<double>, double>::_ImplicitlyConvertiblePair<_U1, _U2>())), bool>::type <anonymous> > constexpr std::pair<_T1, _T2>::pair(const std::pair<_U1, _U2>&)[m[K’
+[0.391s]   300 |  explicit constexpr [01;36m[Kpair[m[K(const pair<_U1, _U2>& __p)
+[0.391s]       |                     [01;36m[K^~~~[m[K
+[0.391s] [01m[K/usr/include/c++/9/bits/stl_pair.h:300:21:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[0.392s] In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/c++allocator.h:33[m[K,
+[0.392s]                  from [01m[K/usr/include/c++/9/bits/allocator.h:46[m[K,
+[0.392s]                  from [01m[K/usr/include/c++/9/string:41[m[K,
+[0.392s]                  from [01m[K/usr/include/c++/9/stdexcept:39[m[K,
+[0.392s]                  from [01m[K/usr/include/c++/9/array:39[m[K,
+[0.392s]                  from [01m[K/root/planner_ws/src/cpp_pubsub/include/end_condition_sampler.hpp:3[m[K,
+[0.392s]                  from [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:1[m[K:
+[0.392s] [01m[K/usr/include/c++/9/ext/new_allocator.h:146:4:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::array<double, 3>[m[K’ is not derived from ‘[01m[Kconst std::pair<_T1, _T2>[m[K’
+[0.392s]   146 |  { [01;36m[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)[m[K; }
+[0.392s]       |    [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.393s] In file included from [01m[K/usr/include/c++/9/utility:70[m[K,
+[0.393s]                  from [01m[K/usr/include/c++/9/array:38[m[K,
+[0.393s]                  from [01m[K/root/planner_ws/src/cpp_pubsub/include/end_condition_sampler.hpp:3[m[K,
+[0.393s]                  from [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:1[m[K:
+[0.393s] [01m[K/usr/include/c++/9/bits/stl_pair.h:291:19:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _U1, class _U2, typename std::enable_if<(std::_PCC<((! std::is_same<std::vector<double>, _U1>::value) || (! std::is_same<double, _U2>::value)), std::vector<double>, double>::_ConstructiblePair<_U1, _U2>() && std::_PCC<((! std::is_same<std::vector<double>, _U1>::value) || (! std::is_same<double, _U2>::value)), std::vector<double>, double>::_ImplicitlyConvertiblePair<_U1, _U2>()), bool>::type <anonymous> > constexpr std::pair<_T1, _T2>::pair(const std::pair<_U1, _U2>&)[m[K’
+[0.393s]   291 |         constexpr [01;36m[Kpair[m[K(const pair<_U1, _U2>& __p)
+[0.393s]       |                   [01;36m[K^~~~[m[K
+[0.394s] [01m[K/usr/include/c++/9/bits/stl_pair.h:291:19:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[0.394s] In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/c++allocator.h:33[m[K,
+[0.394s]                  from [01m[K/usr/include/c++/9/bits/allocator.h:46[m[K,
+[0.394s]                  from [01m[K/usr/include/c++/9/string:41[m[K,
+[0.394s]                  from [01m[K/usr/include/c++/9/stdexcept:39[m[K,
+[0.394s]                  from [01m[K/usr/include/c++/9/array:39[m[K,
+[0.394s]                  from [01m[K/root/planner_ws/src/cpp_pubsub/include/end_condition_sampler.hpp:3[m[K,
+[0.394s]                  from [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:1[m[K:
+[0.394s] [01m[K/usr/include/c++/9/ext/new_allocator.h:146:4:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::array<double, 3>[m[K’ is not derived from ‘[01m[Kconst std::pair<_T1, _T2>[m[K’
+[0.395s]   146 |  { [01;36m[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)[m[K; }
+[0.395s]       |    [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.395s] In file included from [01m[K/usr/include/c++/9/utility:70[m[K,
+[0.395s]                  from [01m[K/usr/include/c++/9/array:38[m[K,
+[0.395s]                  from [01m[K/root/planner_ws/src/cpp_pubsub/include/end_condition_sampler.hpp:3[m[K,
+[0.395s]                  from [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:1[m[K:
+[0.395s] [01m[K/usr/include/c++/9/bits/stl_pair.h:269:26:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _U1, class _U2, typename std::enable_if<(_ConstructiblePair<_U1, _U2>() && (! _ImplicitlyConvertiblePair<_U1, _U2>())), bool>::type <anonymous> > constexpr std::pair<_T1, _T2>::pair(const _T1&, const _T2&)[m[K’
+[0.395s]   269 |       explicit constexpr [01;36m[Kpair[m[K(const _T1& __a, const _T2& __b)
+[0.395s]       |                          [01;36m[K^~~~[m[K
+[0.395s] [01m[K/usr/include/c++/9/bits/stl_pair.h:269:26:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[0.395s] [01m[K/usr/include/c++/9/bits/stl_pair.h:268:38:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, bool>[m[K’
+[0.395s]   268 |                          bool>::type=[01;31m[Kfalse[m[K>
+[0.395s]       |                                      [01;31m[K^~~~~[m[K
+[0.395s] [01m[K/usr/include/c++/9/bits/stl_pair.h:260:17:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _U1, class _U2, typename std::enable_if<(_ConstructiblePair<_U1, _U2>() && _ImplicitlyConvertiblePair<_U1, _U2>()), bool>::type <anonymous> > constexpr std::pair<_T1, _T2>::pair(const _T1&, const _T2&)[m[K’
+[0.395s]   260 |       constexpr [01;36m[Kpair[m[K(const _T1& __a, const _T2& __b)
+[0.396s]       |                 [01;36m[K^~~~[m[K
+[0.396s] [01m[K/usr/include/c++/9/bits/stl_pair.h:260:17:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[0.396s] In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/c++allocator.h:33[m[K,
+[0.396s]                  from [01m[K/usr/include/c++/9/bits/allocator.h:46[m[K,
+[0.396s]                  from [01m[K/usr/include/c++/9/string:41[m[K,
+[0.396s]                  from [01m[K/usr/include/c++/9/stdexcept:39[m[K,
+[0.396s]                  from [01m[K/usr/include/c++/9/array:39[m[K,
+[0.396s]                  from [01m[K/root/planner_ws/src/cpp_pubsub/include/end_condition_sampler.hpp:3[m[K,
+[0.396s]                  from [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:1[m[K:
+[0.396s] [01m[K/usr/include/c++/9/ext/new_allocator.h:146:4:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Kstd::forward<std::array<double, 3>&>((* & __args#0))[m[K’ (type ‘[01m[Kstd::array<double, 3>[m[K’) to type ‘[01m[Kconst std::vector<double>&[m[K’
+[0.396s]   146 |  { [01;36m[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)[m[K; }
+[0.396s]       |    [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.396s] In file included from [01m[K/usr/include/c++/9/utility:70[m[K,
+[0.396s]                  from [01m[K/usr/include/c++/9/array:38[m[K,
+[0.396s]                  from [01m[K/root/planner_ws/src/cpp_pubsub/include/end_condition_sampler.hpp:3[m[K,
+[0.396s]                  from [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:1[m[K:
+[0.396s] [01m[K/usr/include/c++/9/bits/stl_pair.h:242:26:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _U1, class _U2, typename std::enable_if<std::__and_<std::is_default_constructible<_Tp>, std::is_default_constructible<_U2>, std::__not_<std::__and_<std::__is_implicitly_default_constructible<_U1>, std::__is_implicitly_default_constructible<_U2> > > >::value, bool>::type <anonymous> > constexpr std::pair<_T1, _T2>::pair()[m[K’
+[0.396s]   242 |       explicit constexpr [01;36m[Kpair[m[K()
+[0.397s]       |                          [01;36m[K^~~~[m[K
+[0.397s] [01m[K/usr/include/c++/9/bits/stl_pair.h:242:26:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[0.397s] In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/c++allocator.h:33[m[K,
+[0.397s]                  from [01m[K/usr/include/c++/9/bits/allocator.h:46[m[K,
+[0.397s]                  from [01m[K/usr/include/c++/9/string:41[m[K,
+[0.397s]                  from [01m[K/usr/include/c++/9/stdexcept:39[m[K,
+[0.397s]                  from [01m[K/usr/include/c++/9/array:39[m[K,
+[0.397s]                  from [01m[K/root/planner_ws/src/cpp_pubsub/include/end_condition_sampler.hpp:3[m[K,
+[0.397s]                  from [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:1[m[K:
+[0.397s] [01m[K/usr/include/c++/9/ext/new_allocator.h:146:4:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[0.397s]   146 |  { [01;36m[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)[m[K; }
+[0.397s]       |    [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.397s] In file included from [01m[K/usr/include/c++/9/utility:70[m[K,
+[0.398s]                  from [01m[K/usr/include/c++/9/array:38[m[K,
+[0.398s]                  from [01m[K/root/planner_ws/src/cpp_pubsub/include/end_condition_sampler.hpp:3[m[K,
+[0.398s]                  from [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:1[m[K:
+[0.398s] [01m[K/usr/include/c++/9/bits/stl_pair.h:229:26:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _U1, class _U2, typename std::enable_if<std::__and_<std::__is_implicitly_default_constructible<_U1>, std::__is_implicitly_default_constructible<_U2> >::value, bool>::type <anonymous> > constexpr std::pair<_T1, _T2>::pair()[m[K’
+[0.398s]   229 |       _GLIBCXX_CONSTEXPR [01;36m[Kpair[m[K()
+[0.398s]       |                          [01;36m[K^~~~[m[K
+[0.398s] [01m[K/usr/include/c++/9/bits/stl_pair.h:229:26:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[0.398s] In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/c++allocator.h:33[m[K,
+[0.398s]                  from [01m[K/usr/include/c++/9/bits/allocator.h:46[m[K,
+[0.398s]                  from [01m[K/usr/include/c++/9/string:41[m[K,
+[0.398s]                  from [01m[K/usr/include/c++/9/stdexcept:39[m[K,
+[0.399s]                  from [01m[K/usr/include/c++/9/array:39[m[K,
+[0.399s]                  from [01m[K/root/planner_ws/src/cpp_pubsub/include/end_condition_sampler.hpp:3[m[K,
+[0.399s]                  from [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:1[m[K:
+[0.399s] [01m[K/usr/include/c++/9/ext/new_allocator.h:146:4:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[0.399s]   146 |  { [01;36m[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)[m[K; }
+[0.399s]       |    [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.399s] make[2]: *** [CMakeFiles/cpp_pubsub.dir/build.make:206: CMakeFiles/cpp_pubsub.dir/src/end_condition_sampler.cpp.o] Error 1
+[0.399s] make[2]: *** Waiting for unfinished jobs....
+[0.399s] make[2]: *** [CMakeFiles/planner.dir/build.make:219: CMakeFiles/planner.dir/src/end_condition_sampler.cpp.o] Error 1
+[0.399s] make[2]: *** Waiting for unfinished jobs....
+[0.460s] [01m[K/root/planner_ws/src/cpp_pubsub/src/Trajectory1dGenerator.cpp:[m[K In member function ‘[01m[Kvoid Trajectory1dGenerator::GenerateLongitudinalTrajectoryBundle(double, std::vector<LONspeed>&)[m[K’:
+[0.460s] [01m[K/root/planner_ws/src/cpp_pubsub/src/Trajectory1dGenerator.cpp:64:73:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktargetspeed[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.460s]    64 | void Trajectory1dGenerator::GenerateLongitudinalTrajectoryBundle([01;35m[Kdouble targetspeed[m[K,
+[0.460s]       |                                                                  [01;35m[K~~~~~~~^~~~~~~~~~~[m[K
+[0.460s] [01m[K/root/planner_ws/src/cpp_pubsub/src/Trajectory1dGenerator.cpp:65:84:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kptr_lon_trajectory_bundle[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.460s]    65 |                                                                  [01;35m[Kvector<LONspeed> &ptr_lon_trajectory_bundle[m[K)
+[0.460s]       |                                                                  [01;35m[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.463s] [01m[K/root/planner_ws/src/cpp_pubsub/src/Trajectory1dGenerator.cpp:[m[K In member function ‘[01m[Kvoid Trajectory1dGenerator::GenerateLongitudinalTrajectoryBundle(double, std::vector<LONspeed>&)[m[K’:
+[0.463s] [01m[K/root/planner_ws/src/cpp_pubsub/src/Trajectory1dGenerator.cpp:64:73:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktargetspeed[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.463s]    64 | void Trajectory1dGenerator::GenerateLongitudinalTrajectoryBundle([01;35m[Kdouble targetspeed[m[K,
+[0.463s]       |                                                                  [01;35m[K~~~~~~~^~~~~~~~~~~[m[K
+[0.464s] [01m[K/root/planner_ws/src/cpp_pubsub/src/Trajectory1dGenerator.cpp:65:84:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kptr_lon_trajectory_bundle[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.464s]    65 |                                                                  [01;35m[Kvector<LONspeed> &ptr_lon_trajectory_bundle[m[K)
+[0.465s]       |                                                                  [01;35m[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.500s] [01m[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:[m[K In member function ‘[01m[Kvoid Manage_Planner::planner()[m[K’:
+[1.500s] [01m[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:197:42:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kstd::vector<std::pair<std::vector<double, std::allocator<double> >, double> > lon_end_conditions[m[K’
+[1.500s]   197 |     vector<pair<vector<double>, double>> [01;31m[Klon_end_conditions[m[K;
+[1.500s]       |                                          [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[1.501s] [01m[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:165:42:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::vector<std::pair<std::vector<double, std::allocator<double> >, double> > lon_end_conditions[m[K’ previously declared here
+[1.501s]   165 |     vector<pair<vector<double>, double>> [01;36m[Klon_end_conditions[m[K;
+[1.501s]       |                                          [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[1.518s] [01m[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:[m[K In member function ‘[01m[Kvoid Manage_Planner::planner()[m[K’:
+[1.518s] [01m[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:197:42:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kstd::vector<std::pair<std::vector<double, std::allocator<double> >, double> > lon_end_conditions[m[K’
+[1.518s]   197 |     vector<pair<vector<double>, double>> [01;31m[Klon_end_conditions[m[K;
+[1.518s]       |                                          [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[1.518s] [01m[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:165:42:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::vector<std::pair<std::vector<double, std::allocator<double> >, double> > lon_end_conditions[m[K’ previously declared here
+[1.518s]   165 |     vector<pair<vector<double>, double>> [01;36m[Klon_end_conditions[m[K;
+[1.518s]       |                                          [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[1.935s] make[2]: *** [CMakeFiles/cpp_pubsub.dir/build.make:76: CMakeFiles/cpp_pubsub.dir/src/manager.cpp.o] Error 1
+[1.935s] make[2]: *** [CMakeFiles/planner.dir/build.make:89: CMakeFiles/planner.dir/src/manager.cpp.o] Error 1
+[1.935s] make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/cpp_pubsub.dir/all] Error 2
+[1.935s] make[1]: *** Waiting for unfinished jobs....
+[3.451s] make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/planner.dir/all] Error 2
+[3.451s] make: *** [Makefile:141: all] Error 2
+[3.454s] Invoked command in '/root/planner_ws/build/cpp_pubsub' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /root/planner_ws/build/cpp_pubsub -- -j12 -l12

@@ -1,0 +1,176 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake_auto: 0.9.11 (/opt/ros/foxy/share/ament_cmake_auto/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /opt/ros/foxy/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /root/planner_ws/build/cpp_pubsub
+[35m[1mScanning dependencies of target planner[0m
+[35m[1mScanning dependencies of target cpp_pubsub[0m
+[  8%] [32mBuilding CXX object CMakeFiles/cpp_pubsub.dir/src/test.cpp.o[0m
+[  8%] [32mBuilding CXX object CMakeFiles/cpp_pubsub.dir/src/manager.cpp.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/cpp_pubsub.dir/src/referenceline.cpp.o[0m
+[ 24%] [32mBuilding CXX object CMakeFiles/cpp_pubsub.dir/src/obstacle.cpp.o[0m
+[ 24%] [32mBuilding CXX object CMakeFiles/cpp_pubsub.dir/src/Trajectory1dGenerator.cpp.o[0m
+[ 24%] [32mBuilding CXX object CMakeFiles/cpp_pubsub.dir/src/cartesian_frenet_converter.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/cpp_pubsub.dir/src/path_matcher.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/cpp_pubsub.dir/src/liner_interpolation.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/cpp_pubsub.dir/src/trajectory_evaluator.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/planner.dir/src/publisher.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/cpp_pubsub.dir/src/constraint_checker1d.cpp.o[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/cpp_pubsub.dir/src/collisionchecker.cpp.o[0m
+[01m[K/root/planner_ws/src/cpp_pubsub/src/cartesian_frenet_converter.cpp:[m[K In static member function ‘[01m[Kstatic void Cartesian_Frenet_Converter::frenet_to_cartesian(double, double, double, double, double, double, const std::array<double, 3>&, const std::array<double, 3>&, double*, double*, double*, double*, double*, double*)[m[K’:
+[01m[K/root/planner_ws/src/cpp_pubsub/src/cartesian_frenet_converter.cpp:72:18:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krs[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   72 |     [01;35m[Kconst double rs[m[K, const double rx, const double ry, const double rtheta,
+      |     [01;35m[K~~~~~~~~~~~~~^~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/trajectory_evaluator.cpp:[m[K In member function ‘[01m[Kvoid Trajectory_Evaluator::TrajectoryEvaluator(const std::array<double, 3>&, const std::vector<LONspeed>&, const std::vector<LATpath>&, const std::vector<PathPoint>&)[m[K’:
+[01m[K/root/planner_ws/src/cpp_pubsub/src/trajectory_evaluator.cpp:9:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Klon_trajectories[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+    9 |     [01;35m[Kconst std::vector<LONspeed> &lon_trajectories[m[K,
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/trajectory_evaluator.cpp:11:35:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreference_line[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   11 |     [01;35m[Kconst std::vector<PathPoint> &reference_line[m[K)
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/trajectory_evaluator.cpp:[m[K In member function ‘[01m[Kdouble Trajectory_Evaluator::LatComfortCost(const std::vector<double>&, const LATpath&) const[m[K’:
+[01m[K/root/planner_ws/src/cpp_pubsub/src/trajectory_evaluator.cpp:44:60:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Klat_trajectory[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   44 |                                             [01;35m[Kconst LATpath &lat_trajectory[m[K) const
+      |                                             [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/trajectory_evaluator.cpp:[m[K In member function ‘[01m[Kdouble Trajectory_Evaluator::LatOffsetCost(const LATpath&, const std::vector<double>&) const[m[K’:
+[01m[K/root/planner_ws/src/cpp_pubsub/src/trajectory_evaluator.cpp:62:20:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Klat_trajectory[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   62 |     [01;35m[Kconst LATpath &lat_trajectory[m[K,
+      |     [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[ 52%] [32mBuilding CXX object CMakeFiles/planner.dir/src/test.cpp.o[0m
+[ 56%] [32mBuilding CXX object CMakeFiles/planner.dir/src/manager.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/planner.dir/src/referenceline.cpp.o[0m
+[01m[K/root/planner_ws/src/cpp_pubsub/src/Trajectory1dGenerator.cpp:[m[K In member function ‘[01m[Kvoid Trajectory1dGenerator::GenerateLongitudinalTrajectoryBundle(double, std::vector<LONspeed>&)[m[K’:
+[01m[K/root/planner_ws/src/cpp_pubsub/src/Trajectory1dGenerator.cpp:64:73:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktargetspeed[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   64 | void Trajectory1dGenerator::GenerateLongitudinalTrajectoryBundle([01;35m[Kdouble targetspeed[m[K,
+      |                                                                  [01;35m[K~~~~~~~^~~~~~~~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/Trajectory1dGenerator.cpp:65:84:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kptr_lon_trajectory_bundle[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   65 |                                                                  [01;35m[Kvector<LONspeed> &ptr_lon_trajectory_bundle[m[K)
+      |                                                                  [01;35m[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/collisionchecker.cpp:[m[K In member function ‘[01m[Kbool Collision_Checker::InCollision(const std::vector<std::vector<double> >&, const LATpath&, double, double, const std::array<double, 3>&)[m[K’:
+[01m[K/root/planner_ws/src/cpp_pubsub/src/collisionchecker.cpp:19:17:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kpointnum[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   19 |             int [01;35m[Kpointnum[m[K = 30;
+      |                 [01;35m[K^~~~~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/collisionchecker.cpp:5:74:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kobs_length[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+    5 |                                     const double obs_width, [01;35m[Kconst double obs_length[m[K, const std::array<double, 3> &init_s)
+      |                                                             [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[ 64%] [32mBuilding CXX object CMakeFiles/planner.dir/src/cartesian_frenet_converter.cpp.o[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/planner.dir/src/path_matcher.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/planner.dir/src/Trajectory1dGenerator.cpp.o[0m
+[ 76%] [32mBuilding CXX object CMakeFiles/planner.dir/src/liner_interpolation.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/planner.dir/src/obstacle.cpp.o[0m
+[ 84%] [32mBuilding CXX object CMakeFiles/planner.dir/src/trajectory_evaluator.cpp.o[0m
+[01m[K/root/planner_ws/src/cpp_pubsub/src/cartesian_frenet_converter.cpp:[m[K In static member function ‘[01m[Kstatic void Cartesian_Frenet_Converter::frenet_to_cartesian(double, double, double, double, double, double, const std::array<double, 3>&, const std::array<double, 3>&, double*, double*, double*, double*, double*, double*)[m[K’:
+[01m[K/root/planner_ws/src/cpp_pubsub/src/cartesian_frenet_converter.cpp:72:18:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krs[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   72 |     [01;35m[Kconst double rs[m[K, const double rx, const double ry, const double rtheta,
+      |     [01;35m[K~~~~~~~~~~~~~^~[m[K
+[ 88%] [32mBuilding CXX object CMakeFiles/planner.dir/src/constraint_checker1d.cpp.o[0m
+[01m[K/root/planner_ws/src/cpp_pubsub/src/trajectory_evaluator.cpp:[m[K In member function ‘[01m[Kvoid Trajectory_Evaluator::TrajectoryEvaluator(const std::array<double, 3>&, const std::vector<LONspeed>&, const std::vector<LATpath>&, const std::vector<PathPoint>&)[m[K’:
+[01m[K/root/planner_ws/src/cpp_pubsub/src/trajectory_evaluator.cpp:9:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Klon_trajectories[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+    9 |     [01;35m[Kconst std::vector<LONspeed> &lon_trajectories[m[K,
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/trajectory_evaluator.cpp:11:35:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreference_line[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   11 |     [01;35m[Kconst std::vector<PathPoint> &reference_line[m[K)
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/trajectory_evaluator.cpp:[m[K In member function ‘[01m[Kdouble Trajectory_Evaluator::LatComfortCost(const std::vector<double>&, const LATpath&) const[m[K’:
+[01m[K/root/planner_ws/src/cpp_pubsub/src/trajectory_evaluator.cpp:44:60:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Klat_trajectory[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   44 |                                             [01;35m[Kconst LATpath &lat_trajectory[m[K) const
+      |                                             [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/trajectory_evaluator.cpp:[m[K In member function ‘[01m[Kdouble Trajectory_Evaluator::LatOffsetCost(const LATpath&, const std::vector<double>&) const[m[K’:
+[01m[K/root/planner_ws/src/cpp_pubsub/src/trajectory_evaluator.cpp:62:20:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Klat_trajectory[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   62 |     [01;35m[Kconst LATpath &lat_trajectory[m[K,
+      |     [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[ 92%] [32mBuilding CXX object CMakeFiles/planner.dir/src/collisionchecker.cpp.o[0m
+[01m[K/root/planner_ws/src/cpp_pubsub/src/Trajectory1dGenerator.cpp:[m[K In member function ‘[01m[Kvoid Trajectory1dGenerator::GenerateLongitudinalTrajectoryBundle(double, std::vector<LONspeed>&)[m[K’:
+[01m[K/root/planner_ws/src/cpp_pubsub/src/Trajectory1dGenerator.cpp:64:73:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktargetspeed[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   64 | void Trajectory1dGenerator::GenerateLongitudinalTrajectoryBundle([01;35m[Kdouble targetspeed[m[K,
+      |                                                                  [01;35m[K~~~~~~~^~~~~~~~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/Trajectory1dGenerator.cpp:65:84:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kptr_lon_trajectory_bundle[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   65 |                                                                  [01;35m[Kvector<LONspeed> &ptr_lon_trajectory_bundle[m[K)
+      |                                                                  [01;35m[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/collisionchecker.cpp:[m[K In member function ‘[01m[Kbool Collision_Checker::InCollision(const std::vector<std::vector<double> >&, const LATpath&, double, double, const std::array<double, 3>&)[m[K’:
+[01m[K/root/planner_ws/src/cpp_pubsub/src/collisionchecker.cpp:19:17:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kpointnum[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   19 |             int [01;35m[Kpointnum[m[K = 30;
+      |                 [01;35m[K^~~~~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/collisionchecker.cpp:5:74:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kobs_length[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+    5 |                                     const double obs_width, [01;35m[Kconst double obs_length[m[K, const std::array<double, 3> &init_s)
+      |                                                             [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[ 96%] [32m[1mLinking CXX shared library libcpp_pubsub.so[0m
+[ 96%] Built target cpp_pubsub
+[100%] [32m[1mLinking CXX executable planner[0m
+[100%] Built target planner
+-- Install configuration: ""
+-- Installing: /root/planner_ws/install/cpp_pubsub/include
+-- Installing: /root/planner_ws/install/cpp_pubsub/include/cartesian_frenet_converter.hpp
+-- Installing: /root/planner_ws/install/cpp_pubsub/include/collisionchecker.hpp
+-- Installing: /root/planner_ws/install/cpp_pubsub/include/latpath1d.hpp
+-- Installing: /root/planner_ws/install/cpp_pubsub/include/constans.hpp
+-- Installing: /root/planner_ws/install/cpp_pubsub/include/trajectory_evaluator.hpp
+-- Installing: /root/planner_ws/install/cpp_pubsub/include/obstacle.hpp
+-- Installing: /root/planner_ws/install/cpp_pubsub/include/liner_interpolation.hpp
+-- Installing: /root/planner_ws/install/cpp_pubsub/include/Trajectory1dGenerator.hpp
+-- Installing: /root/planner_ws/install/cpp_pubsub/include/lonspeed1d.hpp
+-- Installing: /root/planner_ws/install/cpp_pubsub/include/matplotlibcpp.h
+-- Installing: /root/planner_ws/install/cpp_pubsub/include/referenceline.hpp
+-- Installing: /root/planner_ws/install/cpp_pubsub/include/manager.hpp
+-- Installing: /root/planner_ws/install/cpp_pubsub/include/plotfigure.hpp
+-- Installing: /root/planner_ws/install/cpp_pubsub/include/pathpoint.hpp
+-- Installing: /root/planner_ws/install/cpp_pubsub/include/constraint_checker1d.hpp
+-- Installing: /root/planner_ws/install/cpp_pubsub/include/path_matcher.hpp
+-- Installing: /root/planner_ws/install/cpp_pubsub/include/SLPoint.hpp
+-- Installing: /root/planner_ws/install/cpp_pubsub/include/test.hpp
+-- Installing: /root/planner_ws/install/cpp_pubsub/include/TrajectoryPoint.hpp
+-- Installing: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/environment/library_path.sh
+-- Installing: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/environment/library_path.dsv
+-- Installing: /root/planner_ws/install/cpp_pubsub/lib/libcpp_pubsub.so
+-- Set runtime path of "/root/planner_ws/install/cpp_pubsub/lib/libcpp_pubsub.so" to ""
+-- Installing: /root/planner_ws/install/cpp_pubsub/lib/cpp_pubsub/planner
+-- Set runtime path of "/root/planner_ws/install/cpp_pubsub/lib/cpp_pubsub/planner" to ""
+-- Installing: /root/planner_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+-- Installing: /root/planner_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+-- Installing: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+-- Installing: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+-- Installing: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+-- Installing: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+-- Installing: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+-- Installing: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+-- Installing: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+-- Installing: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+-- Installing: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+-- Installing: /root/planner_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+-- Installing: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+-- Installing: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+-- Installing: /root/planner_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml

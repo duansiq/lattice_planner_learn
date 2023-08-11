@@ -1,0 +1,36 @@
+[0.028s] Invoking command in '/root/planner_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /root/planner_ws/build/cpp_pubsub -- -j12 -l12
+[0.087s] [  3%] [32mBuilding CXX object CMakeFiles/cpp_pubsub.dir/src/end_condition_sampler.cpp.o[0m
+[0.088s] [  6%] [32mBuilding CXX object CMakeFiles/planner.dir/src/end_condition_sampler.cpp.o[0m
+[0.335s] [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:[m[K In member function ‘[01m[Kstd::vector<std::pair<std::vector<double>, double> > EndConditionSampler::SampleLonEndConditionsForLaneChange(int) const[m[K’:
+[0.335s] [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:112:68:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KLC_mode[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.335s]   112 | EndConditionSampler::SampleLonEndConditionsForLaneChange([01;35m[Kconst int LC_mode[m[K) const
+[0.335s]       |                                                          [01;35m[K~~~~~~~~~~^~~~~~~[m[K
+[0.336s] [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:[m[K At global scope:
+[0.336s] [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:136:1:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kstd::vector<SamplePoint> EndConditionSampler::QueryPathTimeObstacleSamplePoints() const[m[K’
+[0.336s]   136 | [01;31m[KEndConditionSampler[m[K::QueryPathTimeObstacleSamplePoints() const
+[0.336s]       | [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[0.336s] [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:136:1:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kstd::vector<SamplePoint> EndConditionSampler::QueryPathTimeObstacleSamplePoints() const[m[K’
+[0.336s] In file included from [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:1[m[K:
+[0.336s] [01m[K/root/planner_ws/src/cpp_pubsub/include/end_condition_sampler.hpp:14:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass EndConditionSampler[m[K’ defined here
+[0.336s]    14 | class [01;36m[KEndConditionSampler[m[K
+[0.336s]       |       [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[0.337s] [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:[m[K In member function ‘[01m[Kstd::vector<std::pair<std::vector<double>, double> > EndConditionSampler::SampleLonEndConditionsForLaneChange(int) const[m[K’:
+[0.337s] [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:112:68:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KLC_mode[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.337s]   112 | EndConditionSampler::SampleLonEndConditionsForLaneChange([01;35m[Kconst int LC_mode[m[K) const
+[0.337s]       |                                                          [01;35m[K~~~~~~~~~~^~~~~~~[m[K
+[0.337s] [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:[m[K At global scope:
+[0.337s] [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:136:1:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kstd::vector<SamplePoint> EndConditionSampler::QueryPathTimeObstacleSamplePoints() const[m[K’
+[0.337s]   136 | [01;31m[KEndConditionSampler[m[K::QueryPathTimeObstacleSamplePoints() const
+[0.337s]       | [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[0.338s] [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:136:1:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kstd::vector<SamplePoint> EndConditionSampler::QueryPathTimeObstacleSamplePoints() const[m[K’
+[0.338s] In file included from [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:1[m[K:
+[0.338s] [01m[K/root/planner_ws/src/cpp_pubsub/include/end_condition_sampler.hpp:14:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass EndConditionSampler[m[K’ defined here
+[0.338s]    14 | class [01;36m[KEndConditionSampler[m[K
+[0.338s]       |       [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[0.403s] make[2]: *** [CMakeFiles/planner.dir/build.make:219: CMakeFiles/planner.dir/src/end_condition_sampler.cpp.o] Error 1
+[0.403s] make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/planner.dir/all] Error 2
+[0.403s] make[1]: *** Waiting for unfinished jobs....
+[0.404s] make[2]: *** [CMakeFiles/cpp_pubsub.dir/build.make:206: CMakeFiles/cpp_pubsub.dir/src/end_condition_sampler.cpp.o] Error 1
+[0.404s] make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/cpp_pubsub.dir/all] Error 2
+[0.404s] make: *** [Makefile:141: all] Error 2
+[0.407s] Invoked command in '/root/planner_ws/build/cpp_pubsub' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /root/planner_ws/build/cpp_pubsub -- -j12 -l12

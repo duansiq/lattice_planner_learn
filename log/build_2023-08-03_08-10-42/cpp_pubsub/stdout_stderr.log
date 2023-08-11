@@ -1,0 +1,26 @@
+[35m[1mScanning dependencies of target cpp_pubsub[0m
+[35m[1mScanning dependencies of target planner[0m
+[  3%] [32mBuilding CXX object CMakeFiles/cpp_pubsub.dir/src/end_condition_sampler.cpp.o[0m
+[  6%] [32mBuilding CXX object CMakeFiles/planner.dir/src/end_condition_sampler.cpp.o[0m
+[01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:[m[K In member function ‘[01m[Kstd::vector<std::pair<std::vector<double>, double> > EndConditionSampler::SampleLonEndConditionsForLaneChange(const std::vector<STBoundaryPoint>&) const[m[K’:
+[01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:117:90:[m[K [01;31m[Kerror: [m[Kpassing ‘[01m[Kconst EndConditionSampler[m[K’ as ‘[01m[Kthis[m[K’ argument discards qualifiers [[01;31m[K-fpermissive[m[K]
+  117 |     vector<SamplePoint> sample_points = QueryPathTimeObstacleSamplePoints(stboundarypoint[01;31m[K)[m[K;
+      |                                                                                          [01;31m[K^[m[K
+In file included from [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:1[m[K:
+[01m[K/root/planner_ws/src/cpp_pubsub/include/end_condition_sampler.hpp:45:5:[m[K [01;36m[Knote: [m[K  in call to ‘[01m[Kstd::vector<SamplePoint> EndConditionSampler::QueryPathTimeObstacleSamplePoints(const std::vector<STBoundaryPoint>&)[m[K’
+   45 |     [01;36m[KQueryPathTimeObstacleSamplePoints[m[K(const vector<STBoundaryPoint> &stboundarypoint);
+      |     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:[m[K In member function ‘[01m[Kstd::vector<std::pair<std::vector<double>, double> > EndConditionSampler::SampleLonEndConditionsForLaneChange(const std::vector<STBoundaryPoint>&) const[m[K’:
+[01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:117:90:[m[K [01;31m[Kerror: [m[Kpassing ‘[01m[Kconst EndConditionSampler[m[K’ as ‘[01m[Kthis[m[K’ argument discards qualifiers [[01;31m[K-fpermissive[m[K]
+  117 |     vector<SamplePoint> sample_points = QueryPathTimeObstacleSamplePoints(stboundarypoint[01;31m[K)[m[K;
+      |                                                                                          [01;31m[K^[m[K
+In file included from [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:1[m[K:
+[01m[K/root/planner_ws/src/cpp_pubsub/include/end_condition_sampler.hpp:45:5:[m[K [01;36m[Knote: [m[K  in call to ‘[01m[Kstd::vector<SamplePoint> EndConditionSampler::QueryPathTimeObstacleSamplePoints(const std::vector<STBoundaryPoint>&)[m[K’
+   45 |     [01;36m[KQueryPathTimeObstacleSamplePoints[m[K(const vector<STBoundaryPoint> &stboundarypoint);
+      |     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/cpp_pubsub.dir/build.make:206: CMakeFiles/cpp_pubsub.dir/src/end_condition_sampler.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/cpp_pubsub.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/planner.dir/build.make:219: CMakeFiles/planner.dir/src/end_condition_sampler.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/planner.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,6 @@
+Invoking command in '/root/planner_ws/src/build/my_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /root/planner_ws/src/my_msgs -DCMAKE_INSTALL_PREFIX=/root/planner_ws/src/install/my_msgs
+Invoked command in '/root/planner_ws/src/build/my_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /root/planner_ws/src/my_msgs -DCMAKE_INSTALL_PREFIX=/root/planner_ws/src/install/my_msgs
+Invoking command in '/root/planner_ws/src/build/my_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /root/planner_ws/src/build/my_msgs -- -j12 -l12
+Invoked command in '/root/planner_ws/src/build/my_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /root/planner_ws/src/build/my_msgs -- -j12 -l12
+Invoking command in '/root/planner_ws/src/build/my_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /root/planner_ws/src/build/my_msgs
+Invoked command in '/root/planner_ws/src/build/my_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /root/planner_ws/src/build/my_msgs

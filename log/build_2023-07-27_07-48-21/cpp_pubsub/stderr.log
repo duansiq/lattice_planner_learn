@@ -1,0 +1,77 @@
+[01m[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:[m[K In member function ‘[01m[Kdouble FeasibleRegion::SUpper(double) const[m[K’:
+[01m[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:24:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+   24 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:22:44:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kt[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   22 | double FeasibleRegion::SUpper([01;35m[Kconst double t[m[K) const
+      |                               [01;35m[K~~~~~~~~~~~~~^[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:[m[K In member function ‘[01m[Kdouble FeasibleRegion::SLower(double) const[m[K’:
+[01m[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:28:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+   28 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:26:44:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kt[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   26 | double FeasibleRegion::SLower([01;35m[Kconst double t[m[K) const
+      |                               [01;35m[K~~~~~~~~~~~~~^[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:[m[K In member function ‘[01m[Kdouble FeasibleRegion::VUpper(double) const[m[K’:
+[01m[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:32:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+   32 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:30:44:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kt[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   30 | double FeasibleRegion::VUpper([01;35m[Kconst double t[m[K) const
+      |                               [01;35m[K~~~~~~~~~~~~~^[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:[m[K In member function ‘[01m[Kdouble FeasibleRegion::VLower(double) const[m[K’:
+[01m[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:36:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+   36 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:34:44:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kt[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   34 | double FeasibleRegion::VLower([01;35m[Kconst double t[m[K) const
+      |                               [01;35m[K~~~~~~~~~~~~~^[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:[m[K In member function ‘[01m[Kdouble FeasibleRegion::TLower(double) const[m[K’:
+[01m[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:40:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+   40 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/feasible_region.cpp:38:44:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ks[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   38 | double FeasibleRegion::TLower([01;35m[Kconst double s[m[K) const
+      |                               [01;35m[K~~~~~~~~~~~~~^[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:[m[K In member function ‘[01m[Kstd::vector<std::pair<std::vector<double>, double> > EndConditionSampler::SampleLonEndConditionsForStopping(double) const[m[K’:
+[01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:47:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+   47 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:45:69:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kref_stop_point[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   45 | EndConditionSampler::SampleLonEndConditionsForStopping([01;35m[Kconst double ref_stop_point[m[K) const
+      |                                                        [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:[m[K In member function ‘[01m[Kstd::vector<std::pair<std::vector<double>, double> > EndConditionSampler::SampleLonEndConditionsForLaneChange() const[m[K’:
+[01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:52:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+   52 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:[m[K In member function ‘[01m[Kstd::vector<std::pair<std::vector<double>, double> > EndConditionSampler::SampleLonEndConditionsForStopping(double) const[m[K’:
+[01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:47:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+   47 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:45:69:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kref_stop_point[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   45 | EndConditionSampler::SampleLonEndConditionsForStopping([01;35m[Kconst double ref_stop_point[m[K) const
+      |                                                        [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:[m[K In member function ‘[01m[Kstd::vector<std::pair<std::vector<double>, double> > EndConditionSampler::SampleLonEndConditionsForLaneChange() const[m[K’:
+[01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:52:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+   52 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/Trajectory1dGenerator.cpp:[m[K In member function ‘[01m[Kvoid Trajectory1dGenerator::GenerateLongitudinalTrajectoryBundle(double, std::vector<LONspeed>&)[m[K’:
+[01m[K/root/planner_ws/src/cpp_pubsub/src/Trajectory1dGenerator.cpp:64:73:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktargetspeed[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   64 | void Trajectory1dGenerator::GenerateLongitudinalTrajectoryBundle([01;35m[Kdouble targetspeed[m[K,
+      |                                                                  [01;35m[K~~~~~~~^~~~~~~~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/Trajectory1dGenerator.cpp:65:84:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kptr_lon_trajectory_bundle[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   65 |                                                                  [01;35m[Kvector<LONspeed> &ptr_lon_trajectory_bundle[m[K)
+      |                                                                  [01;35m[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/Trajectory1dGenerator.cpp:[m[K In member function ‘[01m[Kvoid Trajectory1dGenerator::GenerateLongitudinalTrajectoryBundle(double, std::vector<LONspeed>&)[m[K’:
+[01m[K/root/planner_ws/src/cpp_pubsub/src/Trajectory1dGenerator.cpp:64:73:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktargetspeed[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   64 | void Trajectory1dGenerator::GenerateLongitudinalTrajectoryBundle([01;35m[Kdouble targetspeed[m[K,
+      |                                                                  [01;35m[K~~~~~~~^~~~~~~~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/Trajectory1dGenerator.cpp:65:84:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kptr_lon_trajectory_bundle[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   65 |                                                                  [01;35m[Kvector<LONspeed> &ptr_lon_trajectory_bundle[m[K)
+      |                                                                  [01;35m[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+/usr/bin/ld: CMakeFiles/planner.dir/src/manager.cpp.o: in function `EndConditionSampler::Init(std::array<double, 3ul> const&, std::array<double, 3ul> const&)':
+manager.cpp:(.text._ZN19EndConditionSampler4InitERKSt5arrayIdLm3EES3_[_ZN19EndConditionSampler4InitERKSt5arrayIdLm3EES3_]+0x77): undefined reference to `FeasibleRegion::Init(std::array<double, 3ul> const&)'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/planner.dir/build.make:321: planner] Error 1
+make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/planner.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,31 @@
+[01m[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:[m[K In member function ‘[01m[Kstd::vector<PathPoint> Manage_Planner::ToDiscretizedReferenceLine(const std::vector<PathPoint>&, const TrajectoryPoint&)[m[K’:
+[01m[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:9:123:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kplanning_init_point[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+    9 | vector<PathPoint> Manage_Planner::ToDiscretizedReferenceLine(const vector<PathPoint> &ref_points , [01;35m[Kconst TrajectoryPoint& planning_init_point[m[K)
+      |                                                                                                    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:[m[K In member function ‘[01m[Kvoid Manage_Planner::planner()[m[K’:
+[01m[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:77:88:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KManage_Planner::ToDiscretizedReferenceLine(std::vector<PathPoint>)[m[K’
+   77 |     referenceline_points = ToDiscretizedReferenceLine(referenceline.get_referenceline()[01;31m[K)[m[K;
+      |                                                                                        [01;31m[K^[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:9:19:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<PathPoint> Manage_Planner::ToDiscretizedReferenceLine(const std::vector<PathPoint>&, const TrajectoryPoint&)[m[K’
+    9 | vector<PathPoint> [01;36m[KManage_Planner[m[K::ToDiscretizedReferenceLine(const vector<PathPoint> &ref_points , const TrajectoryPoint& planning_init_point)
+      |                   [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:9:19:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[01m[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:[m[K In member function ‘[01m[Kstd::vector<PathPoint> Manage_Planner::ToDiscretizedReferenceLine(const std::vector<PathPoint>&, const TrajectoryPoint&)[m[K’:
+[01m[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:9:123:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kplanning_init_point[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+    9 | vector<PathPoint> Manage_Planner::ToDiscretizedReferenceLine(const vector<PathPoint> &ref_points , [01;35m[Kconst TrajectoryPoint& planning_init_point[m[K)
+      |                                                                                                    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:[m[K In member function ‘[01m[Kvoid Manage_Planner::planner()[m[K’:
+[01m[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:77:88:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KManage_Planner::ToDiscretizedReferenceLine(std::vector<PathPoint>)[m[K’
+   77 |     referenceline_points = ToDiscretizedReferenceLine(referenceline.get_referenceline()[01;31m[K)[m[K;
+      |                                                                                        [01;31m[K^[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:9:19:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<PathPoint> Manage_Planner::ToDiscretizedReferenceLine(const std::vector<PathPoint>&, const TrajectoryPoint&)[m[K’
+    9 | vector<PathPoint> [01;36m[KManage_Planner[m[K::ToDiscretizedReferenceLine(const vector<PathPoint> &ref_points , const TrajectoryPoint& planning_init_point)
+      |                   [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:9:19:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+make[2]: *** [CMakeFiles/planner.dir/build.make:89: CMakeFiles/planner.dir/src/manager.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/cpp_pubsub.dir/build.make:76: CMakeFiles/cpp_pubsub.dir/src/manager.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/cpp_pubsub.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/planner.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

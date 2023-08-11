@@ -1,0 +1,28 @@
+[01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:[m[K In function ‘[01m[Kstd::vector<SamplePoint> QueryPathTimeObstacleSamplePoints(const std::vector<STBoundaryPoint>&, double, double, double)[m[K’:
+[01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:165:29:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Ksamplepoint[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+  165 |                 SamplePoint [01;35m[Ksamplepoint[m[K;
+      |                             [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:158:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kv[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  158 |             double [01;35m[Kv[m[K;
+      |                    [01;35m[K^[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:142:69:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcruise_speed[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  142 |                                   double sample_s_num, [01;35m[Kconst double cruise_speed[m[K)
+      |                                                        [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:[m[K In function ‘[01m[Kstd::vector<SamplePoint> QueryPathTimeObstacleSamplePoints(const std::vector<STBoundaryPoint>&, double, double, double)[m[K’:
+[01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:165:29:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Ksamplepoint[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+  165 |                 SamplePoint [01;35m[Ksamplepoint[m[K;
+      |                             [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:158:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kv[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  158 |             double [01;35m[Kv[m[K;
+      |                    [01;35m[K^[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:142:69:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcruise_speed[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  142 |                                   double sample_s_num, [01;35m[Kconst double cruise_speed[m[K)
+      |                                                        [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:[m[K In member function ‘[01m[Kvoid Manage_Planner::planner()[m[K’:
+[01m[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:214:85:[m[K [01;35m[Kwarning: [m[K‘[01m[Kv_upper[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+  214 |         lon_end_conditions = [01;35m[Kendconditionsampler.SampleLonEndConditionsForLaneChange(STboundarypoint ,v_upper)[m[K;
+      |                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:[m[K In member function ‘[01m[Kvoid Manage_Planner::planner()[m[K’:
+[01m[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:214:85:[m[K [01;35m[Kwarning: [m[K‘[01m[Kv_upper[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+  214 |         lon_end_conditions = [01;35m[Kendconditionsampler.SampleLonEndConditionsForLaneChange(STboundarypoint ,v_upper)[m[K;
+      |                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K

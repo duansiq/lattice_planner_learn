@@ -1,0 +1,54 @@
+[35m[1mScanning dependencies of target cpp_pubsub[0m
+[35m[1mScanning dependencies of target planner[0m
+[  3%] [32mBuilding CXX object CMakeFiles/cpp_pubsub.dir/src/end_condition_sampler.cpp.o[0m
+[  6%] [32mBuilding CXX object CMakeFiles/cpp_pubsub.dir/src/manager.cpp.o[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/planner.dir/src/manager.cpp.o[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/planner.dir/src/publisher.cpp.o[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/planner.dir/src/end_condition_sampler.cpp.o[0m
+[01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:[m[K In member function ‘[01m[Kstd::vector<std::pair<std::vector<double>, double> > EndConditionSampler::SampleLonEndConditionsForLaneChange(int) const[m[K’:
+[01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:115:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+  115 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:112:68:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KLC_mode[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  112 | EndConditionSampler::SampleLonEndConditionsForLaneChange([01;35m[Kconst int LC_mode[m[K) const
+      |                                                          [01;35m[K~~~~~~~~~~^~~~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:[m[K In member function ‘[01m[Kstd::vector<std::pair<std::vector<double>, double> > EndConditionSampler::SampleLonEndConditionsForLaneChange(int) const[m[K’:
+[01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:115:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+  115 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:112:68:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KLC_mode[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  112 | EndConditionSampler::SampleLonEndConditionsForLaneChange([01;35m[Kconst int LC_mode[m[K) const
+      |                                                          [01;35m[K~~~~~~~~~~^~~~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:[m[K In member function ‘[01m[Kvoid Manage_Planner::planner()[m[K’:
+[01m[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:191:86:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KEndConditionSampler::SampleLonEndConditionsForLaneChange()[m[K’
+  191 |         lon_end_conditions = endconditionsampler.SampleLonEndConditionsForLaneChange([01;31m[K)[m[K;
+      |                                                                                      [01;31m[K^[m[K
+In file included from [01m[K/root/planner_ws/src/cpp_pubsub/include/manager.hpp:24[m[K,
+                 from [01m[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:1[m[K:
+[01m[K/root/planner_ws/src/cpp_pubsub/include/end_condition_sampler.hpp:38:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<std::pair<std::vector<double, std::allocator<double> >, double> > EndConditionSampler::SampleLonEndConditionsForLaneChange(int) const[m[K’
+   38 |     [01;36m[KSampleLonEndConditionsForLaneChange[m[K(const int LC_mode) const;
+      |     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/include/end_condition_sampler.hpp:38:5:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[01m[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:183:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KLC_mode[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  183 |         int [01;35m[KLC_mode[m[K;
+      |             [01;35m[K^~~~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:[m[K In member function ‘[01m[Kvoid Manage_Planner::planner()[m[K’:
+[01m[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:191:86:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KEndConditionSampler::SampleLonEndConditionsForLaneChange()[m[K’
+  191 |         lon_end_conditions = endconditionsampler.SampleLonEndConditionsForLaneChange([01;31m[K)[m[K;
+      |                                                                                      [01;31m[K^[m[K
+In file included from [01m[K/root/planner_ws/src/cpp_pubsub/include/manager.hpp:24[m[K,
+                 from [01m[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:1[m[K:
+[01m[K/root/planner_ws/src/cpp_pubsub/include/end_condition_sampler.hpp:38:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<std::pair<std::vector<double, std::allocator<double> >, double> > EndConditionSampler::SampleLonEndConditionsForLaneChange(int) const[m[K’
+   38 |     [01;36m[KSampleLonEndConditionsForLaneChange[m[K(const int LC_mode) const;
+      |     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/root/planner_ws/src/cpp_pubsub/include/end_condition_sampler.hpp:38:5:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[01m[K/root/planner_ws/src/cpp_pubsub/src/manager.cpp:183:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KLC_mode[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  183 |         int [01;35m[KLC_mode[m[K;
+      |             [01;35m[K^~~~~~~[m[K
+make[2]: *** [CMakeFiles/cpp_pubsub.dir/build.make:76: CMakeFiles/cpp_pubsub.dir/src/manager.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/cpp_pubsub.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/planner.dir/build.make:89: CMakeFiles/planner.dir/src/manager.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/planner.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,16 @@
+[0.038s] Invoking command in '/root/planner_ws/src/build/planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /root/planner_ws/src/build/planner -- -j12 -l12
+[0.056s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.078s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.249s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.289s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.292s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.416s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.470s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.473s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.744s] -- Configuring done
+[0.756s] -- Generating done
+[0.758s] -- Build files have been written to: /root/planner_ws/src/build/planner
+[0.785s] [35m[1mScanning dependencies of target plan[0m
+[0.813s] [ 50%] [32mBuilding CXX object CMakeFiles/plan.dir/src/lattice_planner.cpp.o[0m
+[3.882s] [100%] [32m[1mLinking CXX executable plan[0m
+[4.023s] [100%] Built target plan

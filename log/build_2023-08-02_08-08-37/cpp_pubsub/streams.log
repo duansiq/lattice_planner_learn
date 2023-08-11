@@ -1,0 +1,44 @@
+[0.023s] Invoking command in '/root/planner_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /root/planner_ws/build/cpp_pubsub -- -j12 -l12
+[0.062s] [35m[1mScanning dependencies of target cpp_pubsub[0m
+[0.064s] [35m[1mScanning dependencies of target planner[0m
+[0.082s] [  3%] [32mBuilding CXX object CMakeFiles/cpp_pubsub.dir/src/end_condition_sampler.cpp.o[0m
+[0.086s] [  6%] [32mBuilding CXX object CMakeFiles/planner.dir/src/end_condition_sampler.cpp.o[0m
+[0.271s] [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:[m[K In member function ‘[01m[Kstd::vector<std::pair<std::vector<double>, double> > EndConditionSampler::SampleLonEndConditionsForLaneChange(int) const[m[K’:
+[0.271s] [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:115:41:[m[K [01;31m[Kerror: [m[K‘[01m[KQueryPathTimeObstacleSamplePoints[m[K’ was not declared in this scope
+[0.271s]   115 |     vector<SamplePoint> sample_points = [01;31m[KQueryPathTimeObstacleSamplePoints[m[K();
+[0.271s]       |                                         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.271s] [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:112:68:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KLC_mode[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.271s]   112 | EndConditionSampler::SampleLonEndConditionsForLaneChange([01;35m[Kconst int LC_mode[m[K) const
+[0.272s]       |                                                          [01;35m[K~~~~~~~~~~^~~~~~~[m[K
+[0.272s] [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:[m[K At global scope:
+[0.272s] [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:136:1:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kstd::vector<SamplePoint> EndConditionSampler::QueryPathTimeObstacleSamplePoints() const[m[K’
+[0.272s]   136 | [01;31m[KEndConditionSampler[m[K::QueryPathTimeObstacleSamplePoints() const
+[0.272s]       | [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[0.272s] [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:136:1:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kstd::vector<SamplePoint> EndConditionSampler::QueryPathTimeObstacleSamplePoints() const[m[K’
+[0.272s] In file included from [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:1[m[K:
+[0.272s] [01m[K/root/planner_ws/src/cpp_pubsub/include/end_condition_sampler.hpp:14:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass EndConditionSampler[m[K’ defined here
+[0.272s]    14 | class [01;36m[KEndConditionSampler[m[K
+[0.272s]       |       [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[0.278s] [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:[m[K In member function ‘[01m[Kstd::vector<std::pair<std::vector<double>, double> > EndConditionSampler::SampleLonEndConditionsForLaneChange(int) const[m[K’:
+[0.279s] [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:115:41:[m[K [01;31m[Kerror: [m[K‘[01m[KQueryPathTimeObstacleSamplePoints[m[K’ was not declared in this scope
+[0.279s]   115 |     vector<SamplePoint> sample_points = [01;31m[KQueryPathTimeObstacleSamplePoints[m[K();
+[0.279s]       |                                         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.279s] [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:112:68:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KLC_mode[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.279s]   112 | EndConditionSampler::SampleLonEndConditionsForLaneChange([01;35m[Kconst int LC_mode[m[K) const
+[0.279s]       |                                                          [01;35m[K~~~~~~~~~~^~~~~~~[m[K
+[0.280s] [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:[m[K At global scope:
+[0.280s] [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:136:1:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kstd::vector<SamplePoint> EndConditionSampler::QueryPathTimeObstacleSamplePoints() const[m[K’
+[0.280s]   136 | [01;31m[KEndConditionSampler[m[K::QueryPathTimeObstacleSamplePoints() const
+[0.280s]       | [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[0.280s] [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:136:1:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kstd::vector<SamplePoint> EndConditionSampler::QueryPathTimeObstacleSamplePoints() const[m[K’
+[0.280s] In file included from [01m[K/root/planner_ws/src/cpp_pubsub/src/end_condition_sampler.cpp:1[m[K:
+[0.280s] [01m[K/root/planner_ws/src/cpp_pubsub/include/end_condition_sampler.hpp:14:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass EndConditionSampler[m[K’ defined here
+[0.280s]    14 | class [01;36m[KEndConditionSampler[m[K
+[0.280s]       |       [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[0.324s] make[2]: *** [CMakeFiles/cpp_pubsub.dir/build.make:206: CMakeFiles/cpp_pubsub.dir/src/end_condition_sampler.cpp.o] Error 1
+[0.324s] make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/cpp_pubsub.dir/all] Error 2
+[0.324s] make[1]: *** Waiting for unfinished jobs....
+[0.333s] make[2]: *** [CMakeFiles/planner.dir/build.make:219: CMakeFiles/planner.dir/src/end_condition_sampler.cpp.o] Error 1
+[0.334s] make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/planner.dir/all] Error 2
+[0.334s] make: *** [Makefile:141: all] Error 2
+[0.336s] Invoked command in '/root/planner_ws/build/cpp_pubsub' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /root/planner_ws/build/cpp_pubsub -- -j12 -l12
